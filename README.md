@@ -43,6 +43,7 @@
 ```
 
 > **FR** - L'IA construit et opere. Mr-Aurevo-X apporte les idees, casse / teste, et valide.
+>
 > **EN** - Cursor AI builds & operates. Mr-Aurevo-X brings ideas, stress-tests, and the green light.
 
 ---
@@ -210,6 +211,7 @@ Lab/
 <div align="center">
 
 > **FR** - Lien social + coups de pouce volontaires (la vitrine publique reste gratuite).
+>
 > **EN** - Social link + optional tips (the public vitrine stays free).
 
 <br/>
