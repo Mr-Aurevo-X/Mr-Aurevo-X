@@ -56,8 +56,9 @@ jobs:
           # Bust GitHub Camo cache in profile README whenever cards change.
           V=$(git rev-parse --short HEAD)
           if [ -f README.md ]; then
+            # Use # delimiter — | would clash with (stats|streak) alternation.
             sed -i -E \
-              "s|(https://raw\\.githubusercontent\\.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/github-(stats|streak)\\.svg)\\?v=[A-Za-z0-9]+|\\1?v=${V}|g" \
+              "s#(https://raw\\.githubusercontent\\.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/github-(stats|streak)\\.svg)\\?v=[A-Za-z0-9]+#\\1?v=${V}#g" \
               README.md
             git add README.md
           fi
