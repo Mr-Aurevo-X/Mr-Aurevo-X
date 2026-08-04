@@ -4,7 +4,7 @@
 
 **AI-run workshop** — Cursor builds · Human QA · Windows factory
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/hero-boot.svg?v=shell1" alt="Boot console scrolling" width="100%"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/hero-boot.svg?v=6b39a50" alt="Boot console scrolling" width="100%"/>
 
 <br/>
 
@@ -23,8 +23,16 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/console-build.svg?v=shell1" alt="Cursor AI build console" width="49%"/>
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/console-qa.svg?v=shell1" alt="Human QA console" width="49%"/>
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/console-build.svg?v=camofix1" alt="Cursor AI build console" width="100%"/>
+    </td>
+    <td width="50%" align="center">
+      <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/console-qa.svg?v=camofix1" alt="Human QA console" width="100%"/>
+    </td>
+  </tr>
+</table>
 
 </div>
 
@@ -43,7 +51,7 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/console-net.svg?v=shell1" alt="Network ticker console" width="100%"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/console-net.svg?v=camofix1" alt="Network ticker console" width="100%"/>
 
 </div>
 
