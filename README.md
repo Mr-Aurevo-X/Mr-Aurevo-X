@@ -51,15 +51,15 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/console-queue.svg?v=workshop-live" alt="Build queue" width="100%"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/edcbd3b/assets/console-queue.svg?v=edcbd3b" alt="Build queue" width="100%"/>
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/console-pulse.svg?v=workshop-live" alt="Commit pulse" width="100%"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/edcbd3b/assets/console-pulse.svg?v=edcbd3b" alt="Commit pulse" width="100%"/>
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/console-who.svg?v=workshop-live" alt="Who runs this dialogue" width="100%"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/edcbd3b/assets/console-who.svg?v=edcbd3b" alt="Who runs this dialogue" width="100%"/>
 
 </div>
 
