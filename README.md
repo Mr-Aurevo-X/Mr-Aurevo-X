@@ -80,7 +80,7 @@
 /workshop
 ├── atelier/     L'Atelier Windows · PC Command (+30 tools)   [private]
 ├── salon/       Game launcher + X titles · forks              [private]
-├── lab/         R&D · prototypes · third-party workspaces     [private]
+├── lab/         Lab launcher + R&D · prototypes · workspaces  [private]
 └── vitrine/     7 public desktop tools                        [public]
 ```
 
@@ -133,8 +133,11 @@ Game/
 
 ### lab · R&D / prototypes
 
+Hub **Lab** · `Lancer.cmd` · `Lab.exe` · `launcher.py`
+
 ```text
 Lab/
+├── Lancer.cmd · Lab.exe    ★ Lab launcher  (private)
 ├── Privacy / OSINT         Track · IdentityReset · Auto-Dox
 ├── Perf / réseau           Opti · RoadWay-X · Ram Cleaner
 ├── Jeux (tiers)            MelonLoader (LavaGang) · cheat-engine (Dark Byte)
