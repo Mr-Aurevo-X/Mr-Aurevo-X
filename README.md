@@ -189,8 +189,8 @@ Lab/
 ├── Opti/               optimiseur PC gaming
 ├── RoadWay-X/          moniteur trafic réseau local
 ├── Ram Cleaner/        conseiller RAM (ConfirmGate)
-├── IdentityReset/      audit privacy / reset identité (lab · VM)
-└── Auto-Dox/           auto-audit privacy local
+├── IdentityReset/      reset empreinte machine (MAC · HWID · lab)
+└── Auto-Dox/           self-dox OSINT (pseudos · fuites · IP)
 ```
 
 `private · AI-built · human-tested`
