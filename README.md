@@ -137,13 +137,10 @@ L'Atelier Windows/
 ├── config/                 CertView · EnvEditor · FontManager · HotkeyList
 ├── media/                  Capture · ColorPicker · ImgBatch · WallpaperPick
 ├── productivity/           ClipBoard
-├── util/                   PassGen · RepoRadar · TextLab
-│
-├── Mapping/                tournées (perso · hors catalogue hub)
-└── (vitrine)               QrMake public → Git Vitrine Public\QrMake
+└── util/                   PassGen · RepoRadar · TextLab
 ```
 
-`private · AI-built · human-tested` — sauf QrMake (public)
+`private · AI-built · human-tested`
 
 <a id="salon"></a>
 ### 🎮 Salon · Game hub
@@ -173,7 +170,7 @@ Game/
 │
 └── tools
     ├── GameChangelog/      patch notes Steam
-    └── PreviewCars/        viewer JSON véhicules GTA (Cherax)
+    └── PreviewCars/        viewer JSON véhicules GTA
 ```
 
 `private · AI-built · human-tested`
@@ -193,9 +190,7 @@ Lab/
 ├── RoadWay-X/          moniteur trafic réseau local
 ├── Ram Cleaner/        conseiller RAM (ConfirmGate)
 ├── IdentityReset/      audit privacy / reset identité (lab · VM)
-├── Auto-Dox/           auto-audit privacy local
-│
-└── DiscordBots/        bots expérimentaux (hors scan launcher)
+└── Auto-Dox/           auto-audit privacy local
 ```
 
 `private · AI-built · human-tested`
@@ -207,7 +202,6 @@ Lab/
 <div align="center">
 
 <img src="https://github-readme-stats-one-bice.vercel.app/api?username=Mr-Aurevo-X&show_icons=true&theme=radical&hide_border=true&bg_color=050807&title_color=39ff14&icon_color=00f0ff&text_color=b7ffe0&ring_color=39ff14" height="165" alt="GitHub stats"/>
-<img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=Mr-Aurevo-X&layout=compact&theme=radical&hide_border=true&bg_color=050807&title_color=00f0ff&text_color=b7ffe0" height="165" alt="Top languages"/>
 
 <br/>
 
@@ -215,9 +209,21 @@ Lab/
 
 <br/>
 
+<!-- Real atelier stack (most repos are private — public top-langs would falsely show ~100% Python) -->
+<p>
+  <img src="https://img.shields.io/badge/Python-050807?style=for-the-badge&logo=python&logoColor=39ff14" alt="Python"/>
+  <img src="https://img.shields.io/badge/PowerShell-050807?style=for-the-badge&logo=powershell&logoColor=00f0ff" alt="PowerShell"/>
+  <img src="https://img.shields.io/badge/JavaScript-050807?style=for-the-badge&logo=javascript&logoColor=39ff14" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/HTML5-050807?style=for-the-badge&logo=html5&logoColor=00f0ff" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-050807?style=for-the-badge&logo=css3&logoColor=39ff14" alt="CSS3"/>
+  <img src="https://img.shields.io/badge/Windows-050807?style=for-the-badge&logo=windows&logoColor=00f0ff" alt="Windows"/>
+</p>
+
 <!-- contribution snake — works without auth -->
 <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake" width="100%"/>
 
+<sub>Telemetry publique limitée — l’atelier est surtout privé. Stack réelle = badges ci-dessus (pas un top-langs GitHub).</sub>
+<br/>
 <sub>Si le snake n’apparaît pas encore : le workflow GitHub Actions le génère au prochain run.</sub>
 
 </div>
