@@ -59,7 +59,7 @@
 
 ## featured · public vitrine
 
-**7 outils desktop · 100 % local · 100 % gratuit · `.exe` sans installation**  
+**7 outils desktop · gratuits · locaux (sauf DeviseConvert : taux BCE + cache offline) · `.exe` sans installation**  
 `public · AI-built · human-tested` · SoT `Dev Central Tree\Git Vitrine Public\`
 
 | Outil | Rôle | Lien |
