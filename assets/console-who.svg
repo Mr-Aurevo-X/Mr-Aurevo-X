@@ -128,7 +128,7 @@
       <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.70;0.71;1" dur="96s" repeatCount="indefinite"/>
     </text>
     <text x="100" y="114" fill="#7ec8ff">
-      Separate from Auto-Dox. Credit MelonLoader/CE as third-party only.
+      Separate from Auto-Dox. Keep Lab blurbs accurate and distinct.
       <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.73;0.74;1" dur="96s" repeatCount="indefinite"/>
     </text>
     <text x="36" y="146" fill="#39ff14">
