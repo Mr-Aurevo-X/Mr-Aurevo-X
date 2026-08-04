@@ -2,23 +2,17 @@
 
 <!-- ███████╗  AI-OPERATED WORKSHOP  ███████╗ -->
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/banner.svg" alt="Mr-Aurevo-X — AI-RUN WORKSHOP" width="100%"/>
+<img src="./assets/banner.png" alt="Mr-Aurevo-X — AI-RUN WORKSHOP" width="100%"/>
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/typing.svg" alt="Built by Cursor AI · Ideas & QA by Mr-Aurevo-X" width="900"/>
+<img src="./assets/typing.png" alt="Built by Cursor AI · Ideas & QA by Mr-Aurevo-X" width="900"/>
 
 <br/><br/>
 
-```text
-╔══════════════════════════════════════════════════════════════╗
-║  ⚡  ATELIER STATUS · ONLINE                                 ║
-║  🤖  OPERATOR ........ Cursor AI                             ║
-║  🧠  HUMAN ........... Mr-Aurevo-X (ideas + tests)           ║
-║  🏭  MODE ............ AI-OPERATED WORKSHOP                  ║
-║  📦  OUTPUT .......... Windows tools · cleaners · audits     ║
-╚══════════════════════════════════════════════════════════════╝
-```
+<img src="./assets/status-card.png" alt="Atelier status: ONLINE — Cursor AI operator, Mr-Aurevo-X human QA" width="900"/>
+
+<br/><br/>
 
 [![GitHub followers](https://img.shields.io/github/followers/Mr-Aurevo-X?style=for-the-badge&logo=github&logoColor=39ff14&color=050807&labelColor=071410)](https://github.com/Mr-Aurevo-X)
 [![Profile views](https://komarev.com/ghpvc/?username=Mr-Aurevo-X&style=for-the-badge&color=00f0ff&label=VISITORS)](https://github.com/Mr-Aurevo-X)
@@ -28,7 +22,7 @@
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/ai-core.svg" alt="Ownership matrix: Cursor AI builds, human QA" width="900"/>
+<img src="./assets/ai-core.png" alt="Ownership matrix: Cursor AI builds, human QA" width="900"/>
 
 </div>
 
@@ -90,8 +84,8 @@ WinCleaner · WinAudit · DiskMap · FastFind · ColorPicker · Mapping · + enc
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Mr-Aurevo-X&show_icons=true&theme=radical&hide_border=true&bg_color=050807&title_color=39ff14&icon_color=00f0ff&text_color=b7ffe0&ring_color=39ff14" height="165" alt="GitHub stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mr-Aurevo-X&layout=compact&theme=radical&hide_border=true&bg_color=050807&title_color=00f0ff&text_color=b7ffe0" height="165" alt="Top languages"/>
+<img src="https://github-readme-stats-one-bice.vercel.app/api?username=Mr-Aurevo-X&show_icons=true&theme=radical&hide_border=true&bg_color=050807&title_color=39ff14&icon_color=00f0ff&text_color=b7ffe0&ring_color=39ff14" height="165" alt="GitHub stats"/>
+<img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=Mr-Aurevo-X&layout=compact&theme=radical&hide_border=true&bg_color=050807&title_color=00f0ff&text_color=b7ffe0" height="165" alt="Top languages"/>
 
 <br/>
 
@@ -128,21 +122,18 @@ WinCleaner · WinAudit · DiskMap · FastFind · ColorPicker · Mapping · + enc
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="28"/> Manifesto
 
-```text
-┌─────────────────────────────────────────────────────────────┐
-│  THIS PROFILE IS A TERMINAL.                                │
-│  The workshop is AI-operated.                               │
-│  Mr-Aurevo-X brings the spark — Cursor forges the steel.    │
-│                                                             │
-│  FR : Idées humaines. Code machine. Tests sur vrai PC.      │
-│  EN : Human ideas. Machine code. Real-device QA.             │
-└─────────────────────────────────────────────────────────────┘
-```
+<div align="center">
+
+<img src="./assets/manifesto-card.png" alt="Manifesto: AI-operated workshop — human ideas, machine code, real-device QA" width="900"/>
+
+</div>
+
+<br/>
 
 <div align="center">
 
-**⚡ Built by Cursor AI · Ideas & QA by the human (Mr-Aurevo-X)**  
-**🏭 AI-operated workshop — not a portfolio of vibes, a factory of tools.**
+**Built by Cursor AI · Ideas & QA by the human (Mr-Aurevo-X)**  
+**AI-operated workshop — not a portfolio of vibes, a factory of tools.**
 
 <br/>
 
