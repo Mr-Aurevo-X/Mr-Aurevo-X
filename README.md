@@ -47,7 +47,7 @@
 | 🤖 AI CORE | 👤 HUMAN LAYER |
 |:--|:--|
 | Writes the repos | Owns the *why* |
-| Maintains Suite tools | Breaks things on purpose |
+| Maintains Atelier / Lab / Salon | Breaks things on purpose |
 | Ships cleaners & audits | QA / real PC validation |
 | Keeps GitHub synced | Final go / no-go |
 
@@ -70,7 +70,7 @@ Mise à jour non garantie · Launch via `.bat` (pythonw) · Copyright © 2026 Mr
 
 ### 🪟 L’Atelier Windows — PC Command
 **Hub Windows + arsenal d’outils desktop** · voir [arborescence ↓](#atelier)  
-WinCleaner · WinAudit · DiskMap · + 30 outils…
+WinCleaner · WinAudit · DiskMap · Trad-X · + 30 outils…
 
 `private · AI-built · human-tested`
 
@@ -78,29 +78,17 @@ WinCleaner · WinAudit · DiskMap · + 30 outils…
 
 ### 🎮 Salon — Game hub
 **Lanceur de jeux** sous `Game\` · voir [arborescence ↓](#salon)  
-Incremental-X · Factory-X · Empire-X · forks idle · + outils jeu
+Incremental-X · Factory-X · Empire-X · forks idle · GameChangelog · PreviewCars
 
 `private · AI-built · human-tested`
 
 <br/>
 
 ### 🧪 Lab — R&D / prototypes
-**Atelier expérimental** (OSINT, perf, privacy, réseau) · voir [arborescence ↓](#lab)  
-Track · Opti · RoadWay-X · Ram Cleaner · IdentityReset · Auto-Dox
+**Atelier expérimental** (OSINT, perf, privacy, réseau, reverse) · voir [arborescence ↓](#lab)  
+Track · Opti · RoadWay-X · Ram Cleaner · IdentityReset · Auto-Dox · LuaClean · ProtAudit · …
 
 `private · AI-built · human-tested`
-
-<br/>
-
-### 🧹 Cleaners & recovery (siblings)
-Hors hubs — repos à la racine Dev Central Tree
-
-| Project | Role | Vibe |
-|:--|:--|:--|
-| **[LuaClean](https://github.com/Mr-Aurevo-X/LuaClean)** | Lua obfuscation → readable Lua | deobfuscate / polish |
-| **[JsonClean](https://github.com/Mr-Aurevo-X/JsonClean)** | Encoded / wrapped JSON cascade | unwrap · decode · clean |
-| **[ProtAudit](https://github.com/Mr-Aurevo-X/ProtAudit)** | Protocol / PE triage & recover | audit · detect · recover |
-| **[DllClean](https://github.com/Mr-Aurevo-X/DllClean)** | DLL → exports · disasm · pseudo-C | reverse-friendly output |
 
 </div>
 
@@ -115,7 +103,8 @@ Hors hubs — repos à la racine Dev Central Tree
 ### 🪟 L’Atelier Windows · PC Command
 
 SoT : `L'Atelier Windows\` · hub **PC Command** (`MrAurevoX-Launcher`) · admin UAC requis  
-Chaque dossier outil = repo `github.com/Mr-Aurevo-X/<name>` · day-to-day via `Lancer.cmd`
+Chaque outil = dossier plat + repo `github.com/Mr-Aurevo-X/<name>` · day-to-day via `Lancer.cmd`  
+(groupes ci-dessous = catégories hub, pas des sous-dossiers disque)
 
 ```text
 L'Atelier Windows/
@@ -128,16 +117,16 @@ L'Atelier Windows/
 │   ├── WinAudit/           audit heuristique local (lecture seule)
 │   └── DiskMap/            carte disque · gros fichiers · doublons
 │
-├── system/                 AudioDevice · FocusBlock · MonitorInfo · PowerPlan
+├── system                  AudioDevice · FocusBlock · MonitorInfo · PowerPlan
 │                           PrintQueue · ProcessGuard · RestorePoint · ShellKit
 │                           StartupX · SysInspect · UninstX · UserSessions
-├── network/                NetAdmin · NetMap · WifiKey
-├── files/                  FileGuard · HashCheck · InboxSort · LinkKit
+├── network                 NetAdmin · NetMap · WifiKey
+├── files                   FileGuard · HashCheck · InboxSort · LinkKit
 │                           PdfKit · Renamer · ZipTools
-├── config/                 CertView · EnvEditor · FontManager · HotkeyList
-├── media/                  Capture · ColorPicker · ImgBatch · WallpaperPick
-├── productivity/           ClipBoard
-└── util/                   PassGen · RepoRadar · TextLab
+├── config                  CertView · EnvEditor · FontManager · HotkeyList
+├── media                   Capture · ColorPicker · ImgBatch · WallpaperPick
+├── productivity            ClipBoard
+└── tools                   PassGen · RepoRadar · TextLab · Trad-X
 ```
 
 `private · AI-built · human-tested`
@@ -185,12 +174,22 @@ Lancement : `Lancer.cmd` / `Lab.exe`
 Lab/
 ├── launcher.py · Lancer.cmd · Lab.exe   ★ Lab hub  (private)
 │
-├── Track/              OSINT défensif (tél · email · domaine · IP)
-├── Opti/               optimiseur PC gaming
-├── RoadWay-X/          moniteur trafic réseau local
-├── Ram Cleaner/        conseiller RAM (ConfirmGate)
-├── IdentityReset/      reset empreinte machine (MAC · HWID · lab)
-└── Auto-Dox/           self-dox OSINT (pseudos · fuites · IP)
+├── ★ Privacy / OSINT
+│   ├── Track/              OSINT défensif (tél · email · domaine · IP)
+│   ├── IdentityReset/      reset empreinte machine (MAC · HWID · lab/VM)
+│   └── Auto-Dox/           self-dox OSINT (pseudos · fuites · IP · consent)
+│
+├── ★ Perf / réseau
+│   ├── Opti/               optimiseur PC gaming
+│   ├── RoadWay-X/          moniteur trafic réseau local
+│   └── Ram Cleaner/        conseiller RAM (ConfirmGate)
+│
+└── ★ Reverse / recovery
+    ├── LuaClean/           .lua / .luac → script relisible
+    ├── DllClean/           DLL → exports · disasm · pseudo-C
+    ├── JsonClean/          unwrap Base64 / hex / JWT → JSON
+    ├── ProtAudit/          audit PE (packers · VM · UPX · Inno)
+    └── LuaObfuscator/      CrackTest — obfuscation Lua (lab)
 ```
 
 `private · AI-built · human-tested`
