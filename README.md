@@ -203,11 +203,12 @@ Lab/
 
 <div align="center">
 
-<img src="./assets/github-stats.svg" height="165" alt="GitHub stats"/>
+<!-- Absolute raw URLs + ?v= bust GitHub Camo (relative ./assets kept serving cached placeholders). -->
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/github-stats.svg?v=c3350a9" height="165" alt="GitHub stats"/>
 
 <br/>
 
-<img src="./assets/github-streak.svg" alt="Streak"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/github-streak.svg?v=c3350a9" alt="Streak"/>
 
 <br/>
 
@@ -224,9 +225,7 @@ Lab/
 <!-- contribution snake — public graph; enable “Include private contributions on my profile” for private days -->
 <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake" width="100%"/>
 
-<sub>Stats / streak = SVG générés en CI (compte aussi le privé si le secret `STATS_GH_TOKEN` est configuré). Stack réelle = badges (pas un top-langs GitHub).</sub>
-<br/>
-<sub>Setup privé : Actions secret `STATS_GH_TOKEN` + workflow *Update telemetry cards* · Snake : option profil « Include private contributions ».</sub>
+<sub>Stats / streak = SVG CI (privé inclus) · stack = badges (pas top-langs).</sub>
 
 </div>
 

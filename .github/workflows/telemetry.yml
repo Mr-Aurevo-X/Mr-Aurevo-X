@@ -53,6 +53,14 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Bust GitHub Camo cache in profile README whenever cards change.
+          V=$(git rev-parse --short HEAD)
+          if [ -f README.md ]; then
+            sed -i -E \
+              "s|(https://raw\\.githubusercontent\\.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/github-(stats|streak)\\.svg)\\?v=[A-Za-z0-9]+|\\1?v=${V}|g" \
+              README.md
+            git add README.md
+          fi
           git add assets/github-stats.svg assets/github-streak.svg
           if git diff --staged --quiet; then
             echo "No telemetry card changes."
