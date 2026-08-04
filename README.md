@@ -84,8 +84,8 @@ Incremental-X · Factory-X · Empire-X · forks idle · + outils jeu
 
 <br/>
 
-### 🧪 Lab — hors Suite / hors Salon
-**Hub lab** (OSINT, perf, privacy, réseau) · voir [arborescence ↓](#lab)  
+### 🧪 Lab — R&D / prototypes
+**Atelier expérimental** (OSINT, perf, privacy, réseau) · voir [arborescence ↓](#lab)  
 Track · Opti · RoadWay-X · Ram Cleaner · IdentityReset · Auto-Dox
 
 `private · AI-built · human-tested`
@@ -176,9 +176,9 @@ Game/
 `private · AI-built · human-tested`
 
 <a id="lab"></a>
-### 🧪 Lab · hors Suite
+### 🧪 Lab · R&D / prototypes
 
-SoT : `Lab\` · hub pour outils **hors** L’Atelier Windows et **hors** Salon  
+SoT : `Lab\` · hub d’**atelier expérimental** · R&D, prototypes & utilities  
 Lancement : `Lancer.cmd` / `Lab.exe`
 
 ```text
