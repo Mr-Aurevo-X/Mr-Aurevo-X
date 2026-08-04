@@ -38,7 +38,7 @@ jobs:
           card: stats
           path: assets/github-stats.svg
           token: ${{ secrets.STATS_GH_TOKEN }}
-          options: username=Mr-Aurevo-X&show_icons=true&hide_border=true&bg_color=050807&title_color=39ff14&icon_color=00f0ff&text_color=b7ffe0&ring_color=39ff14&count_private=true&include_all_commits=true
+          options: username=Mr-Aurevo-X&show_icons=true&hide_rank=true&hide_border=true&bg_color=050807&title_color=39ff14&icon_color=00f0ff&text_color=b7ffe0&ring_color=39ff14&count_private=true&include_all_commits=true
 
       - name: Generate streak card
         if: steps.token.outputs.ready == 'true'
