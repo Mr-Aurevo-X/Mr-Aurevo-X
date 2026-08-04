@@ -68,15 +68,32 @@ Mise à jour non garantie · Launch via `.bat` (pythonw) · Copyright © 2026 Mr
 
 <br/>
 
-### 🪟 Suite — L’Atelier Windows
-**PC Command hub + arsenal d’outils Windows desktop**  
-WinCleaner · WinAudit · DiskMap · FastFind · ColorPicker · Mapping · + encore…
+### 🪟 L’Atelier Windows — PC Command
+**Hub Windows + arsenal d’outils desktop** · voir [arborescence ↓](#atelier)  
+WinCleaner · WinAudit · DiskMap · + 30 outils…
 
 `private · AI-built · human-tested`
 
 <br/>
 
-### 🧹 Cleaners & recovery lab
+### 🎮 Salon — Game hub
+**Lanceur de jeux** sous `Game\` · voir [arborescence ↓](#salon)  
+Incremental-X · Factory-X · Empire-X · forks idle · + outils jeu
+
+`private · AI-built · human-tested`
+
+<br/>
+
+### 🧪 Lab — hors Suite / hors Salon
+**Hub lab** (OSINT, perf, privacy, réseau) · voir [arborescence ↓](#lab)  
+Track · Opti · RoadWay-X · Ram Cleaner · IdentityReset · Auto-Dox
+
+`private · AI-built · human-tested`
+
+<br/>
+
+### 🧹 Cleaners & recovery (siblings)
+Hors hubs — repos à la racine Dev Central Tree
 
 | Project | Role | Vibe |
 |:--|:--|:--|
@@ -86,6 +103,102 @@ WinCleaner · WinAudit · DiskMap · FastFind · ColorPicker · Mapping · + enc
 | **[DllClean](https://github.com/Mr-Aurevo-X/DllClean)** | DLL → exports · disasm · pseudo-C | reverse-friendly output |
 
 </div>
+
+---
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/World%20Map.png" width="28"/> Arborescence · workshop map
+
+> SoT local : `Dev Central Tree\` — trois hubs (PC Command / Salon / Lab) + satellites git.  
+> Sauf **QrMake** (public), l’essentiel des outils est **privé**.
+
+<a id="atelier"></a>
+### 🪟 L’Atelier Windows · PC Command
+
+SoT : `L'Atelier Windows\` · hub **PC Command** (`MrAurevoX-Launcher`) · admin UAC requis  
+Chaque dossier outil = repo `github.com/Mr-Aurevo-X/<name>` · day-to-day via `Lancer.cmd`
+
+```text
+L'Atelier Windows/
+├── MrAurevoX-Launcher/     ★ PC Command hub  (private)
+├── MrAurevoX-UI/           kit UI partagé
+├── MrAurevoX-Releases/     packaging / portable
+│
+├── ★ Flagships
+│   ├── WinCleaner/         nettoyage · caches · traces · debloat
+│   ├── WinAudit/           audit heuristique local (lecture seule)
+│   └── DiskMap/            carte disque · gros fichiers · doublons
+│
+├── system/                 AudioDevice · FocusBlock · MonitorInfo · PowerPlan
+│                           PrintQueue · ProcessGuard · RestorePoint · ShellKit
+│                           StartupX · SysInspect · UninstX · UserSessions
+├── network/                NetAdmin · NetMap · WifiKey
+├── files/                  FileGuard · HashCheck · InboxSort · LinkKit
+│                           PdfKit · Renamer · ZipTools
+├── config/                 CertView · EnvEditor · FontManager · HotkeyList
+├── media/                  Capture · ColorPicker · ImgBatch · WallpaperPick
+├── productivity/           ClipBoard
+├── util/                   PassGen · RepoRadar · TextLab
+│
+├── Mapping/                tournées (perso · hors catalogue hub)
+└── (vitrine)               QrMake public → Git Vitrine Public\QrMake
+```
+
+`private · AI-built · human-tested` — sauf QrMake (public)
+
+<a id="salon"></a>
+### 🎮 Salon · Game hub
+
+SoT : `Game\` · hub **Salon** (`Game\Salon\`) scanne les jeux frères  
+Lancement : `Lancer.cmd` / `Salon.exe` · préfère `Lancer.cmd` puis portable
+
+```text
+Game/
+├── Salon/                  ★ game launcher  (private)
+│
+├── ★ Original X (dev)
+│   ├── Incremental-X/      idle multi-couches · scène 3D
+│   ├── Factory-X/          usine / belts / throughput
+│   ├── Empire-X/           empire spatial · flottes AFK
+│   ├── Colony-X/           survie jour/nuit
+│   ├── Deck-X/             roguelike deckbuilder
+│   ├── Battler-X/          auto-battler idle
+│   ├── Tower-X/            tower defense + idle
+│   ├── Puzzle-X/           grille lights-out
+│   └── Story-X/            clicker narratif
+│
+├── forks (perso / local)
+│   ├── Antimatter-X/ · Evolve-X/ · Negentropy-X/ · Level13-X/
+│   ├── IdleAnt-X/ · IdleSpace-X/ · ProgressKnight-X/
+│   ├── IndustryIdle-X/ · Flopsed-X/ · Inert-X/ · TowerOfTime-X/
+│
+└── tools
+    ├── GameChangelog/      patch notes Steam
+    └── PreviewCars/        viewer JSON véhicules GTA (Cherax)
+```
+
+`private · AI-built · human-tested`
+
+<a id="lab"></a>
+### 🧪 Lab · hors Suite
+
+SoT : `Lab\` · hub pour outils **hors** L’Atelier Windows et **hors** Salon  
+Lancement : `Lancer.cmd` / `Lab.exe`
+
+```text
+Lab/
+├── launcher.py · Lancer.cmd · Lab.exe   ★ Lab hub  (private)
+│
+├── Track/              OSINT défensif (tél · email · domaine · IP)
+├── Opti/               optimiseur PC gaming
+├── RoadWay-X/          moniteur trafic réseau local
+├── Ram Cleaner/        conseiller RAM (ConfirmGate)
+├── IdentityReset/      audit privacy / reset identité (lab · VM)
+├── Auto-Dox/           auto-audit privacy local
+│
+└── DiscordBots/        bots expérimentaux (hors scan launcher)
+```
+
+`private · AI-built · human-tested`
 
 ---
 
