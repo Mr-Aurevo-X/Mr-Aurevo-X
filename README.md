@@ -59,12 +59,21 @@
 
 <div align="center">
 
-### ⬛ QrMake — Public vitrine
-**Générateur de QR codes multi-payloads · 100 % local · 100 % gratuit**  
-Texte · URL · Wi‑Fi · vCard · Email · Tel · SMS · Geo · Event · WhatsApp · Brut  
-Mise à jour non garantie · Launch via `.bat` (pythonw) · Copyright © 2026 Mr-Aurevo-X
+### ⬛ Vitrine publique — Public showcase
+**7 outils desktop · 100 % local · 100 % gratuit · `.exe` sans installation**  
+Windows · fenêtré · mise à jour GitHub optionnelle (non garantie) · © 2026 Mr-Aurevo-X
 
-**[github.com/Mr-Aurevo-X/QrMake](https://github.com/Mr-Aurevo-X/QrMake)** · `public · AI-built · human-tested` · SoT `Dev Central Tree\Git Vitrine Public\QrMake`
+| Outil | Rôle | Lien |
+|:--|:--|:--|
+| **QrMake** | QR multi-payloads (Texte · URL · Wi-Fi · vCard · …) | [repo](https://github.com/Mr-Aurevo-X/QrMake) · [⬇️](https://github.com/Mr-Aurevo-X/QrMake/releases/latest) |
+| **UnitConvert** | Convertisseur d’unités (local : longueur, masse, °, aire, volume, data, vitesse, temps) | [repo](https://github.com/Mr-Aurevo-X/UnitConvert) · [⬇️](https://github.com/Mr-Aurevo-X/UnitConvert/releases/latest) |
+| **DeviseConvert** | Devises — taux **BCE en direct** + cache hors-ligne | [repo](https://github.com/Mr-Aurevo-X/DeviseConvert) · [⬇️](https://github.com/Mr-Aurevo-X/DeviseConvert/releases/latest) |
+| **EpochClock** | Timestamp Unix ↔ date locale/UTC · Now · relatif | [repo](https://github.com/Mr-Aurevo-X/EpochClock) · [⬇️](https://github.com/Mr-Aurevo-X/EpochClock/releases/latest) |
+| **StopwatchPlus** | Chrono + tours · minuteries/alarmes · Pomodoro 25/5 | [repo](https://github.com/Mr-Aurevo-X/StopwatchPlus) · [⬇️](https://github.com/Mr-Aurevo-X/StopwatchPlus/releases/latest) |
+| **MetaStrip** | Nettoyeur de métadonnées d’images (EXIF/GPS/XMP) | [repo](https://github.com/Mr-Aurevo-X/MetaStrip) · [⬇️](https://github.com/Mr-Aurevo-X/MetaStrip/releases/latest) |
+| **QrBatch** | QR codes en lot (liste/CSV) → PNG + ZIP | [repo](https://github.com/Mr-Aurevo-X/QrBatch) · [⬇️](https://github.com/Mr-Aurevo-X/QrBatch/releases/latest) |
+
+`public · AI-built · human-tested` · SoT `Dev Central Tree\Git Vitrine Public\`
 
 <br/>
 
@@ -236,8 +245,8 @@ Lab/
 
 <div align="center">
 
-> **FR** — Lien social + coups de pouce volontaires (QrMake reste gratuit).  
-> **EN** — Social link + optional tips (QrMake stays free).
+> **FR** — Lien social + coups de pouce volontaires (la vitrine publique reste gratuite).  
+> **EN** — Social link + optional tips (the public vitrine stays free).
 
 <br/>
 
