@@ -2,11 +2,11 @@
 
 <!-- ███████╗  AI-OPERATED WORKSHOP  ███████╗ -->
 
-<img src="assets/banner.svg" alt="Mr-Aurevo-X — AI-RUN WORKSHOP" width="100%"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/banner.svg" alt="Mr-Aurevo-X — AI-RUN WORKSHOP" width="100%"/>
 
 <br/>
 
-<img src="assets/typing.svg" alt="Built by Cursor AI · Ideas & QA by Mr-Aurevo-X" width="900"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/typing.svg" alt="Built by Cursor AI · Ideas & QA by Mr-Aurevo-X" width="900"/>
 
 <br/><br/>
 
@@ -28,7 +28,7 @@
 
 <br/>
 
-<img src="assets/ai-core.svg" alt="Ownership matrix: Cursor AI builds, human QA" width="900"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/ai-core.svg" alt="Ownership matrix: Cursor AI builds, human QA" width="900"/>
 
 </div>
 
