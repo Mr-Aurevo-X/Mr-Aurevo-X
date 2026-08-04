@@ -4,19 +4,26 @@
     <pattern id="s" width="3" height="3" patternUnits="userSpaceOnUse">
       <rect width="3" height="1" fill="#39ff14" opacity="0.05"/>
     </pattern>
-    <clipPath id="b0"><rect x="28" y="-14" height="18" width="0"><animate attributeName="width" values="0;0;360;360;0" keyTimes="0;0.00;0.06;0.88;1" dur="11s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="b1"><rect x="28" y="4" height="18" width="0"><animate attributeName="width" values="0;0;340;340;0" keyTimes="0;0.06;0.12;0.88;1" dur="11s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="b2"><rect x="28" y="22" height="18" width="0"><animate attributeName="width" values="0;0;320;320;0" keyTimes="0;0.12;0.18;0.88;1" dur="11s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="b3"><rect x="28" y="40" height="18" width="0"><animate attributeName="width" values="0;0;300;300;0" keyTimes="0;0.18;0.24;0.88;1" dur="11s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="b4"><rect x="28" y="58" height="18" width="0"><animate attributeName="width" values="0;0;380;380;0" keyTimes="0;0.24;0.30;0.88;1" dur="11s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="b5"><rect x="28" y="76" height="18" width="0"><animate attributeName="width" values="0;0;360;360;0" keyTimes="0;0.30;0.36;0.88;1" dur="11s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="b6"><rect x="28" y="94" height="18" width="0"><animate attributeName="width" values="0;0;280;280;0" keyTimes="0;0.36;0.42;0.88;1" dur="11s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="b7"><rect x="28" y="112" height="18" width="0"><animate attributeName="width" values="0;0;360;360;0" keyTimes="0;0.42;0.48;0.88;1" dur="11s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="b8"><rect x="28" y="130" height="18" width="0"><animate attributeName="width" values="0;0;260;260;0" keyTimes="0;0.48;0.54;0.88;1" dur="11s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="b9"><rect x="28" y="148" height="18" width="0"><animate attributeName="width" values="0;0;340;340;0" keyTimes="0;0.54;0.60;0.88;1" dur="11s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="b10"><rect x="28" y="166" height="18" width="0"><animate attributeName="width" values="0;0;120;120;0" keyTimes="0;0.60;0.64;0.88;1" dur="11s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="b11"><rect x="28" y="184" height="18" width="0"><animate attributeName="width" values="0;0;320;320;0" keyTimes="0;0.64;0.72;0.88;1" dur="11s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="b12"><rect x="28" y="202" height="18" width="0"><animate attributeName="width" values="0;0;140;140;0" keyTimes="0;0.72;0.78;0.88;1" dur="11s" repeatCount="indefinite"/></rect></clipPath>
+    <!-- Full panel width clips; ~24s cycle; ~1s type-in each -->
+    <clipPath id="b0"><rect x="28" y="-14" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.00;0.045;0.90;1" dur="24s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="b1"><rect x="28" y="4" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.04;0.085;0.90;1" dur="24s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="b2"><rect x="28" y="22" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.08;0.125;0.90;1" dur="24s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="b3"><rect x="28" y="40" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.12;0.165;0.90;1" dur="24s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="b4"><rect x="28" y="58" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.16;0.205;0.90;1" dur="24s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="b5"><rect x="28" y="76" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.20;0.245;0.90;1" dur="24s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="b6"><rect x="28" y="94" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.24;0.285;0.90;1" dur="24s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="b7"><rect x="28" y="112" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.28;0.325;0.90;1" dur="24s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="b8"><rect x="28" y="130" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.32;0.365;0.90;1" dur="24s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="b9"><rect x="28" y="148" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.36;0.405;0.90;1" dur="24s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="b10"><rect x="28" y="166" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.40;0.445;0.90;1" dur="24s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="b11"><rect x="28" y="184" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.44;0.485;0.90;1" dur="24s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="b12"><rect x="28" y="202" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.48;0.525;0.90;1" dur="24s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="b13"><rect x="28" y="220" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.52;0.565;0.90;1" dur="24s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="b14"><rect x="28" y="238" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.56;0.605;0.90;1" dur="24s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="b15"><rect x="28" y="256" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.60;0.645;0.90;1" dur="24s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="b16"><rect x="28" y="274" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.64;0.685;0.90;1" dur="24s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="b17"><rect x="28" y="292" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.68;0.725;0.90;1" dur="24s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="b18"><rect x="28" y="310" height="18" width="0"><animate attributeName="width" values="0;0;160;160;0" keyTimes="0;0.72;0.76;0.90;1" dur="24s" repeatCount="indefinite"/></rect></clipPath>
   </defs>
   <rect width="540" height="280" rx="12" fill="#050807" stroke="#1f4d32"/>
   <circle cx="28" cy="22" r="4" fill="#ff5f56"/>
@@ -27,20 +34,29 @@
   <rect x="16" y="40" width="508" height="220" rx="4" fill="url(#s)"/>
   <g clip-path="url(#c)" font-family="Consolas, monospace" font-size="12" fill="#39ff14">
     <g>
+      <!-- set A · atelier compile -->
       <text x="28" y="0" clip-path="url(#b0)">$ cursor compile host/ --release</text>
       <text x="28" y="18" fill="#00f0ff" clip-path="url(#b1)">compiling WinCleaner ... done</text>
       <text x="28" y="36" fill="#00f0ff" clip-path="url(#b2)">compiling DiskMap ... done</text>
-      <text x="28" y="54" fill="#00f0ff" clip-path="url(#b3)">compiling Trad-X ... done</text>
-      <text x="28" y="72" clip-path="url(#b4)">$ refactor ui/vendor/pc-command-kit</text>
-      <text x="28" y="90" fill="#9dffc2" clip-path="url(#b5)">patched 14 modules | synced SoT</text>
-      <text x="28" y="108" clip-path="url(#b6)">$ git push origin HEAD</text>
-      <text x="28" y="126" fill="#00f0ff" clip-path="url(#b7)">84 private | 2 public | clean tree</text>
-      <text x="28" y="144" clip-path="url(#b8)">$ ship --await human-qa</text>
-      <text x="28" y="162" fill="#6aff9a" clip-path="url(#b9)">queued | stress-test on real PC</text>
-      <text x="28" y="180" clip-path="url(#b10)">$ status</text>
-      <text x="28" y="198" fill="#39ff14" clip-path="url(#b11)">BUILD_OK | waiting signature</text>
-      <text x="28" y="216" fill="#00f0ff" clip-path="url(#b12)">cursor@<tspan fill="#39ff14"><animate attributeName="opacity" values="1;0;1" dur="0.75s" begin="8.5s" repeatCount="indefinite"/>_</tspan></text>
-      <animateTransform attributeName="transform" type="translate" values="0 40;0 -120;0 40" keyTimes="0;0.85;1" dur="11s" repeatCount="indefinite"/>
+      <text x="28" y="54" fill="#00f0ff" clip-path="url(#b3)">compiling FastFind ... done</text>
+      <text x="28" y="72" fill="#00f0ff" clip-path="url(#b4)">compiling Trad-X ... done</text>
+      <!-- set B · SoT sync -->
+      <text x="28" y="90" clip-path="url(#b5)">$ refactor ui/vendor/pc-command-kit</text>
+      <text x="28" y="108" fill="#9dffc2" clip-path="url(#b6)">patched 14 modules | synced SoT</text>
+      <text x="28" y="126" clip-path="url(#b7)">$ sync DevTree --unit ui-kit</text>
+      <text x="28" y="144" fill="#9dffc2" clip-path="url(#b8)">vendors OK | no symlink mode</text>
+      <!-- set C · vitrine + ship -->
+      <text x="28" y="162" clip-path="url(#b9)">$ ship vitrine QrMake MetaStrip</text>
+      <text x="28" y="180" fill="#00f0ff" clip-path="url(#b10)">DeviseConvert BCE rates + offline cache</text>
+      <text x="28" y="198" fill="#00f0ff" clip-path="url(#b11)">EpochClock StopwatchPlus QrBatch OK</text>
+      <text x="28" y="216" clip-path="url(#b12)">$ git push origin HEAD</text>
+      <text x="28" y="234" fill="#00f0ff" clip-path="url(#b13)">84 private | 7 public | clean tree</text>
+      <text x="28" y="252" clip-path="url(#b14)">$ ship --await human-qa</text>
+      <text x="28" y="270" fill="#6aff9a" clip-path="url(#b15)">queued | stress-test on real PC</text>
+      <text x="28" y="288" clip-path="url(#b16)">$ status</text>
+      <text x="28" y="306" fill="#39ff14" clip-path="url(#b17)">BUILD_OK | waiting signature</text>
+      <text x="28" y="324" fill="#00f0ff" clip-path="url(#b18)">cursor@<tspan fill="#39ff14"><animate attributeName="opacity" values="1;0;1" dur="0.85s" begin="18s" repeatCount="indefinite"/>_</tspan></text>
+      <animateTransform attributeName="transform" type="translate" values="0 50;0 50;0 -200;0 -200" keyTimes="0;0.06;0.88;1" dur="24s" repeatCount="indefinite"/>
     </g>
   </g>
 </svg>
