@@ -47,11 +47,19 @@
 
 ---
 
-## network feed · (simulated)
+## workshop live
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/6a54dfc/assets/console-net.svg?v=6a54dfc" alt="Network ticker console" width="100%"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/console-queue.svg?v=workshop-live" alt="Build queue" width="100%"/>
+
+<br/><br/>
+
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/console-pulse.svg?v=workshop-live" alt="Commit pulse" width="100%"/>
+
+<br/><br/>
+
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/console-who.svg?v=workshop-live" alt="Who runs this dialogue" width="100%"/>
 
 </div>
 
