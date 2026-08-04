@@ -59,7 +59,7 @@
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/edcbd3b/assets/console-who.svg?v=edcbd3b" alt="Who runs this dialogue" width="100%"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/2e6242f/assets/console-who.svg?v=2e6242f" alt="Session dialogue: human prompt, AI work, confirm, ship" width="100%"/>
 
 </div>
 
