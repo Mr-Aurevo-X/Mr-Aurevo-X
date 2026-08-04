@@ -20,7 +20,7 @@
 
     <!-- SCENE A: WinCleaner -->
     <text x="36" y="70" fill="#00f0ff">
-      human&gt; Add a Traces tab to WinCleaner.
+      Mr-Aurevo-X&gt; Add a Traces tab to WinCleaner.
       <animate attributeName="opacity" values="0;1;1;0;0;0" keyTimes="0;0.01;0.32;0.333;0.34;1" dur="96s" repeatCount="indefinite"/>
     </text>
     <text x="100" y="92" fill="#7ec8ff">
@@ -48,7 +48,7 @@
       <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.19;0.20;0.32;0.333;1" dur="96s" repeatCount="indefinite"/>
     </text>
     <text x="36" y="244" fill="#00f0ff">
-      human&gt; Yes. Also break icon-cache race on Win11, then retest.
+      Mr-Aurevo-X&gt; Yes. Also break icon-cache race on Win11, then retest.
       <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.22;0.23;0.32;0.333;1" dur="96s" repeatCount="indefinite"/>
     </text>
     <text x="36" y="276" fill="#39ff14">
@@ -60,7 +60,7 @@
       <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.27;0.28;0.32;0.333;1" dur="96s" repeatCount="indefinite"/>
     </text>
     <text x="36" y="330" fill="#00f0ff">
-      human&gt; GREEN LIGHT -- ship.
+      Mr-Aurevo-X&gt; GREEN LIGHT -- ship.
       <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.29;0.30;0.32;0.333;1" dur="96s" repeatCount="indefinite"/>
     </text>
     <text x="36" y="362" fill="#39ff14">
@@ -70,7 +70,7 @@
 
     <!-- SCENE B: QrMake -->
     <text x="36" y="70" fill="#00f0ff">
-      human&gt; Ship Wi-Fi + vCard payloads in QrMake. Local PNG export only.
+      Mr-Aurevo-X&gt; Ship Wi-Fi + vCard payloads in QrMake. Local PNG export only.
       <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.34;0.35;0.65;0.66;1" dur="96s" repeatCount="indefinite"/>
     </text>
     <text x="100" y="92" fill="#7ec8ff">
@@ -98,7 +98,7 @@
       <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.53;0.54;0.65;0.66;1" dur="96s" repeatCount="indefinite"/>
     </text>
     <text x="36" y="244" fill="#00f0ff">
-      human&gt; Tag it. Then I smoke-test QR with phone camera.
+      Mr-Aurevo-X&gt; Tag it. Then I smoke-test QR with phone camera.
       <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.56;0.57;0.65;0.66;1" dur="96s" repeatCount="indefinite"/>
     </text>
     <text x="36" y="276" fill="#39ff14">
@@ -110,7 +110,7 @@
       <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.61;0.62;0.65;0.66;1" dur="96s" repeatCount="indefinite"/>
     </text>
     <text x="36" y="330" fill="#00f0ff">
-      human&gt; Scanned OK on Android + iOS. SHIP.
+      Mr-Aurevo-X&gt; Scanned OK on Android + iOS. SHIP.
       <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.625;0.63;0.65;0.66;1" dur="96s" repeatCount="indefinite"/>
     </text>
     <text x="36" y="362" fill="#39ff14">
@@ -120,7 +120,7 @@
 
     <!-- SCENE C: Lab -->
     <text x="36" y="70" fill="#00f0ff">
-      human&gt; Lab tool: reset machine fingerprint on disposable VM.
+      Mr-Aurevo-X&gt; Lab tool: reset machine fingerprint on disposable VM.
       <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.67;0.68;1" dur="96s" repeatCount="indefinite"/>
     </text>
     <text x="100" y="92" fill="#7ec8ff">
@@ -148,7 +148,7 @@
       <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.86;0.87;1" dur="96s" repeatCount="indefinite"/>
     </text>
     <text x="36" y="244" fill="#00f0ff">
-      human&gt; Yes, double gate. I will break it on a Hyper-V snapshot.
+      Mr-Aurevo-X&gt; Yes, double gate. I will break it on a Hyper-V snapshot.
       <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.89;0.90;1" dur="96s" repeatCount="indefinite"/>
     </text>
     <text x="36" y="276" fill="#39ff14">
@@ -160,7 +160,7 @@
       <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.94;0.945;1" dur="96s" repeatCount="indefinite"/>
     </text>
     <text x="36" y="330" fill="#00f0ff">
-      human&gt; Broke restore once -- you fixed it. GREEN -- ship Lab only.
+      Mr-Aurevo-X&gt; Broke restore once -- you fixed it. GREEN -- ship Lab only.
       <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.955;0.96;1" dur="96s" repeatCount="indefinite"/>
     </text>
     <text x="36" y="362" fill="#39ff14">
@@ -169,5 +169,5 @@
     </text>
   </g>
 
-  <text x="36" y="415" fill="#4d7a5c" font-family="Consolas, monospace" font-size="11">simulated crafted sessions -- not live chat | detailed human prompts · AI work · confirm · ship</text>
+  <text x="36" y="415" fill="#4d7a5c" font-family="Consolas, monospace" font-size="11">simulated crafted sessions -- not live chat | detailed Mr-Aurevo-X prompts Â· AI work Â· confirm Â· ship</text>
 </svg>

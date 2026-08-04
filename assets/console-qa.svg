@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="540" height="280" viewBox="0 0 540 280" role="img" aria-label="Human QA console">
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="280" viewBox="0 0 540 280" role="img" aria-label="Mr-Aurevo-X QA console">
   <defs>
     <clipPath id="c2"><rect x="16" y="40" width="508" height="220" rx="4"/></clipPath>
     <pattern id="s2" width="3" height="3" patternUnits="userSpaceOnUse">
@@ -29,7 +29,7 @@
   <circle cx="28" cy="22" r="4" fill="#ff5f56"/>
   <circle cx="44" cy="22" r="4" fill="#ffbd2e"/>
   <circle cx="60" cy="22" r="4" fill="#27c93f"/>
-  <text x="80" y="26" fill="#00f0ff" font-family="Consolas, monospace" font-size="12">human@mr-aurevo-x -- qa_session</text>
+  <text x="80" y="26" fill="#00f0ff" font-family="Consolas, monospace" font-size="12">Mr-Aurevo-X@workshop -- qa_session</text>
   <rect x="16" y="40" width="508" height="220" rx="4" fill="#020403"/>
   <rect x="16" y="40" width="508" height="220" rx="4" fill="url(#s2)"/>
   <g clip-path="url(#c2)" font-family="Consolas, monospace" font-size="12" fill="#00f0ff">
@@ -55,7 +55,7 @@
       <text x="28" y="270" fill="#39ff14" clip-path="url(#q15)">GREEN LIGHT | ship authorized</text>
       <text x="28" y="288" clip-path="url(#q16)">$ whoami</text>
       <text x="28" y="306" fill="#00f0ff" clip-path="url(#q17)">ideas | QA | vision -- not the coder</text>
-      <text x="28" y="324" fill="#00f0ff" clip-path="url(#q18)">human@<tspan fill="#39ff14"><animate attributeName="opacity" values="1;0;1" dur="0.85s" begin="20s" repeatCount="indefinite"/>_</tspan></text>
+      <text x="28" y="324" fill="#00f0ff" clip-path="url(#q18)">Mr-Aurevo-X><tspan fill="#39ff14"><animate attributeName="opacity" values="1;0;1" dur="0.85s" begin="20s" repeatCount="indefinite"/>_</tspan></text>
       <animateTransform attributeName="transform" type="translate" values="0 50;0 50;0 -200;0 -200" keyTimes="0;0.06;0.88;1" dur="26s" repeatCount="indefinite"/>
     </g>
   </g>
