@@ -13,7 +13,7 @@
   <rect x="20" y="44" width="1060" height="96" rx="4" fill="#020403"/>
   <g clip-path="url(#t)" font-family="Consolas, monospace" font-size="13">
     <text y="70" fill="#39ff14">
-      <tspan x="1100">14:32:01 atelier | github push OK | 14:32:08 lab IdentityReset dry-run | 14:32:15 salon launch Incremental-X | 14:32:22 qrmake export wifi.png | 14:32:30 deviseconvert BCE refresh | 14:32:38 metast rip EXIF batch | 14:32:45 telemetry refresh private | 14:32:52 human QA GREEN | 14:33:05 cursor idle -- awaiting idea | 14:33:18 vitrine UnitConvert ship | </tspan>
+      <tspan x="1100">14:32:01 atelier | github push OK | 14:32:08 lab IdentityReset dry-run | 14:32:15 salon launch Incremental-X | 14:32:22 qrmake export wifi.png | 14:32:30 deviseconvert BCE refresh | 14:32:38 metastrip EXIF batch | 14:32:45 telemetry refresh private | 14:32:52 human QA GREEN | 14:33:05 cursor idle -- awaiting idea | 14:33:18 vitrine UnitConvert ship | </tspan>
       <animate attributeName="x" from="1100" to="-3200" dur="36s" repeatCount="indefinite"/>
     </text>
     <g>
