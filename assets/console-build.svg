@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="280" viewBox="0 0 540 280" role="img" aria-label="Cursor AI build console">
+  <defs>
+    <clipPath id="c"><rect x="16" y="40" width="508" height="220" rx="4"/></clipPath>
+    <pattern id="s" width="3" height="3" patternUnits="userSpaceOnUse">
+      <rect width="3" height="1" fill="#39ff14" opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="540" height="280" rx="12" fill="#050807" stroke="#1f4d32"/>
+  <circle cx="28" cy="22" r="4" fill="#ff5f56"/>
+  <circle cx="44" cy="22" r="4" fill="#ffbd2e"/>
+  <circle cx="60" cy="22" r="4" fill="#27c93f"/>
+  <text x="80" y="26" fill="#39ff14" font-family="Consolas, monospace" font-size="12">cursor@ai  build_session</text>
+  <rect x="16" y="40" width="508" height="220" rx="4" fill="#020403"/>
+  <rect x="16" y="40" width="508" height="220" rx="4" fill="url(#s)"/>
+  <g clip-path="url(#c)" font-family="Consolas, monospace" font-size="12" fill="#39ff14">
+    <g>
+      <text x="28" y="0">$ cursor compile host/ --release</text>
+      <text x="28" y="18" fill="#00f0ff">compiling WinCleaner & done</text>
+      <text x="28" y="36" fill="#00f0ff">compiling DiskMap & done</text>
+      <text x="28" y="54" fill="#00f0ff">compiling Trad-X & done</text>
+      <text x="28" y="72">$ refactor ui/vendor/pc-command-kit</text>
+      <text x="28" y="90" fill="#9dffc2">patched 14 modules � synced SoT</text>
+      <text x="28" y="108">$ git push origin HEAD</text>
+      <text x="28" y="126" fill="#00f0ff">84 private � 2 public � clean tree</text>
+      <text x="28" y="144">$ ship --await human-qa</text>
+      <text x="28" y="162" fill="#6aff9a">queued � stress-test on real PC&</text>
+      <text x="28" y="180">$ status</text>
+      <text x="28" y="198" fill="#39ff14">BUILD_OK � waiting signature</text>
+      <text x="28" y="216" fill="#00f0ff">cursor@_</text>
+      <animateTransform attributeName="transform" type="translate" values="0 40;0 -120;0 40" keyTimes="0;0.85;1" dur="11s" repeatCount="indefinite"/>
+    </g>
+  </g>
+</svg>

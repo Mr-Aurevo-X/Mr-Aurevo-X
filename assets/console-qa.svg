@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="280" viewBox="0 0 540 280" role="img" aria-label="Human QA console">
+  <defs>
+    <clipPath id="c2"><rect x="16" y="40" width="508" height="220" rx="4"/></clipPath>
+    <pattern id="s2" width="3" height="3" patternUnits="userSpaceOnUse">
+      <rect width="3" height="1" fill="#00f0ff" opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="540" height="280" rx="12" fill="#050807" stroke="#1a4a55"/>
+  <circle cx="28" cy="22" r="4" fill="#ff5f56"/>
+  <circle cx="44" cy="22" r="4" fill="#ffbd2e"/>
+  <circle cx="60" cy="22" r="4" fill="#27c93f"/>
+  <text x="80" y="26" fill="#00f0ff" font-family="Consolas, monospace" font-size="12">human@mr-aurevo-x  qa_session</text>
+  <rect x="16" y="40" width="508" height="220" rx="4" fill="#020403"/>
+  <rect x="16" y="40" width="508" height="220" rx="4" fill="url(#s2)"/>
+  <g clip-path="url(#c2)" font-family="Consolas, monospace" font-size="12" fill="#00f0ff">
+    <g>
+      <text x="28" y="0">$ idea inject "cleaner traces v2"</text>
+      <text x="28" y="18" fill="#39ff14">accepted � AI scaffolding&</text>
+      <text x="28" y="36">$ break --on purpose WinAudit</text>
+      <text x="28" y="54" fill="#ffb86c">FOUND edge case � icon cache race</text>
+      <text x="28" y="72">$ report --to cursor</text>
+      <text x="28" y="90" fill="#9dffc2">patch inbound � retest&</text>
+      <text x="28" y="108">$ validate QrMake payloads</text>
+      <text x="28" y="126" fill="#39ff14">wifi � vcard � geo � ok</text>
+      <text x="28" y="144">$ go-nogo</text>
+      <text x="28" y="162" fill="#39ff14">GREEN LIGHT � ship authorized</text>
+      <text x="28" y="180">$ whoami</text>
+      <text x="28" y="198" fill="#00f0ff">ideas � QA � vision  not the coder</text>
+      <text x="28" y="216" fill="#00f0ff">human@_</text>
+      <animateTransform attributeName="transform" type="translate" values="0 50;0 -110;0 50" keyTimes="0;0.8;1" dur="12s" repeatCount="indefinite"/>
+    </g>
+  </g>
+</svg>
