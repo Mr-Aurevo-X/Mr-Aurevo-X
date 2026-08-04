@@ -232,6 +232,27 @@ Lab/
 
 ---
 
+## Connect · Support
+
+<div align="center">
+
+> **FR** — Lien social + coups de pouce volontaires (QrMake reste gratuit).  
+> **EN** — Social link + optional tips (QrMake stays free).
+
+<br/>
+
+[![Discord](https://img.shields.io/badge/Discord-Mr--Aurevo--X-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=050807)](https://discord.com/users/406891052516114442)
+[![guns.lol](https://img.shields.io/badge/guns.lol-mr__aurevo__x-00f0ff?style=for-the-badge&labelColor=050807&color=071410)](https://guns.lol/mr_aurevo_x)
+
+<br/>
+
+[![PayPal](https://img.shields.io/badge/PayPal-Donate-39ff14?style=for-the-badge&logo=paypal&logoColor=00f0ff&labelColor=050807)](https://www.paypal.com/paypalme/aurevo1)
+[![Revolut](https://img.shields.io/badge/Revolut-mr__aurevo__x-00f0ff?style=for-the-badge&logo=revolut&logoColor=39ff14&labelColor=050807)](https://revolut.me/mr_aurevo_x)
+
+</div>
+
+---
+
 ## 🚀 Manifesto
 
 <div align="center">
