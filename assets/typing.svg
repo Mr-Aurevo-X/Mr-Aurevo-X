@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="60" viewBox="0 0 900 60">
+  <rect width="900" height="60" rx="10" fill="#050807" stroke="#1dff8a" stroke-width="1.5"/>
+  <text x="22" y="38" font-family="Consolas, Monaco, monospace" font-size="20" fill="#39ff14">&gt;_</text>
+  <text x="54" y="38" font-family="Consolas, Monaco, monospace" font-size="20" fill="#dfffee">
+    <tspan>
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.45;0.5;1" dur="12s" repeatCount="indefinite"/>
+      Built by Cursor AI · Ideas &amp; QA by Mr-Aurevo-X
+    </tspan>
+    <tspan>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.45;0.5;0.95;1;1" dur="12s" repeatCount="indefinite"/>
+      Atelier Windows · Suite tools · Cleaners · Audits
+    </tspan>
+  </text>
+  <rect x="860" y="18" width="12" height="24" fill="#00f0ff">
+    <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
+  </rect>
+</svg>
