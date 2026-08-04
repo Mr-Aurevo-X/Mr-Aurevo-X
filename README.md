@@ -1,8 +1,8 @@
-<div align="center">
+﻿<div align="center">
 
 # `>_ mr-aurevo-x@workshop:~`
 
-**AI-run workshop** — Cursor builds · Human QA · Windows factory
+**AI-run workshop** â€” Cursor builds Â· Human QA Â· Windows factory
 
 <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/e339ab8/assets/hero-boot.svg?v=e339ab8" alt="Boot console scrolling" width="100%"/>
 
@@ -13,13 +13,13 @@
 [![Cursor AI](https://img.shields.io/badge/BUILT_BY-CURSOR_AI-39ff14?style=for-the-badge&labelColor=050807&logo=cursor&logoColor=39ff14)](https://cursor.com)
 [![Human QA](https://img.shields.io/badge/IDEAS_%26_QA-MR--AUREVO--X-00f0ff?style=for-the-badge&labelColor=050807)](https://github.com/Mr-Aurevo-X)
 
-`STATUS=ONLINE` · `VITRINE=public` · `ATELIER+SALON+LAB=private` · `MODE=AI_OPERATED`
+`STATUS=ONLINE` Â· `VITRINE=public` Â· `ATELIER+SALON+LAB=private` Â· `MODE=AI_OPERATED`
 
 </div>
 
 ---
 
-## sessions · dual console
+## sessions Â· dual console
 
 <div align="center">
 
@@ -37,13 +37,13 @@
 </div>
 
 ```diff
-+ CURSOR AI ........ architecture · code · refactors · tooling · shipping
-+ MR-AUREVO-X ...... product ideas · real-world testing · QA · vision
-! RULE ............. if it ships, AI wrote it — human signed it off
++ CURSOR AI ........ architecture Â· code Â· refactors Â· tooling Â· shipping
++ MR-AUREVO-X ...... product ideas Â· real-world testing Â· QA Â· vision
+! RULE ............. if it ships, AI wrote it â€” human signed it off
 ```
 
-> **FR** — L’IA construit et opère. L’humain apporte les idées, casse / teste, et valide.  
-> **EN** — Cursor AI builds & operates. The human brings ideas, stress-tests, and the green light.
+> **FR** â€” Lâ€™IA construit et opÃ¨re. Lâ€™humain apporte les idÃ©es, casse / teste, et valide.  
+> **EN** â€” Cursor AI builds & operates. The human brings ideas, stress-tests, and the green light.
 
 ---
 
@@ -59,100 +59,100 @@
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/2e6242f/assets/console-who.svg?v=2e6242f" alt="Session dialogue: human prompt, AI work, confirm, ship" width="100%"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/7c01a66/assets/console-who.svg?v=7c01a66" alt="Session dialogue: human prompt, AI work, confirm, ship" width="100%"/>
 
 </div>
 
 ---
 
-## featured · public vitrine
+## featured Â· public vitrine
 
-**7 outils desktop · gratuits · locaux (sauf DeviseConvert : taux BCE + cache offline) · `.exe` sans installation**  
-`public · AI-built · human-tested` · SoT `Dev Central Tree\Git Vitrine Public\`
+**7 outils desktop Â· gratuits Â· locaux (sauf DeviseConvert : taux BCE + cache offline) Â· `.exe` sans installation**  
+`public Â· AI-built Â· human-tested` Â· SoT `Dev Central Tree\Git Vitrine Public\`
 
-| Outil | Rôle | Lien |
+| Outil | RÃ´le | Lien |
 |:--|:--|:--|
-| **QrMake** | QR multi-payloads | [repo](https://github.com/Mr-Aurevo-X/QrMake) · [⬇️](https://github.com/Mr-Aurevo-X/QrMake/releases/latest) |
-| **UnitConvert** | Convertisseur d’unités | [repo](https://github.com/Mr-Aurevo-X/UnitConvert) · [⬇️](https://github.com/Mr-Aurevo-X/UnitConvert/releases/latest) |
-| **DeviseConvert** | Devises BCE + cache offline | [repo](https://github.com/Mr-Aurevo-X/DeviseConvert) · [⬇️](https://github.com/Mr-Aurevo-X/DeviseConvert/releases/latest) |
-| **EpochClock** | Unix ↔ date locale/UTC | [repo](https://github.com/Mr-Aurevo-X/EpochClock) · [⬇️](https://github.com/Mr-Aurevo-X/EpochClock/releases/latest) |
-| **StopwatchPlus** | Chrono · alarmes · Pomodoro | [repo](https://github.com/Mr-Aurevo-X/StopwatchPlus) · [⬇️](https://github.com/Mr-Aurevo-X/StopwatchPlus/releases/latest) |
-| **MetaStrip** | Strip EXIF/GPS/XMP | [repo](https://github.com/Mr-Aurevo-X/MetaStrip) · [⬇️](https://github.com/Mr-Aurevo-X/MetaStrip/releases/latest) |
-| **QrBatch** | QR en lot → PNG + ZIP | [repo](https://github.com/Mr-Aurevo-X/QrBatch) · [⬇️](https://github.com/Mr-Aurevo-X/QrBatch/releases/latest) |
+| **QrMake** | QR multi-payloads | [repo](https://github.com/Mr-Aurevo-X/QrMake) Â· [â¬‡ï¸](https://github.com/Mr-Aurevo-X/QrMake/releases/latest) |
+| **UnitConvert** | Convertisseur dâ€™unitÃ©s | [repo](https://github.com/Mr-Aurevo-X/UnitConvert) Â· [â¬‡ï¸](https://github.com/Mr-Aurevo-X/UnitConvert/releases/latest) |
+| **DeviseConvert** | Devises BCE + cache offline | [repo](https://github.com/Mr-Aurevo-X/DeviseConvert) Â· [â¬‡ï¸](https://github.com/Mr-Aurevo-X/DeviseConvert/releases/latest) |
+| **EpochClock** | Unix â†” date locale/UTC | [repo](https://github.com/Mr-Aurevo-X/EpochClock) Â· [â¬‡ï¸](https://github.com/Mr-Aurevo-X/EpochClock/releases/latest) |
+| **StopwatchPlus** | Chrono Â· alarmes Â· Pomodoro | [repo](https://github.com/Mr-Aurevo-X/StopwatchPlus) Â· [â¬‡ï¸](https://github.com/Mr-Aurevo-X/StopwatchPlus/releases/latest) |
+| **MetaStrip** | Strip EXIF/GPS/XMP | [repo](https://github.com/Mr-Aurevo-X/MetaStrip) Â· [â¬‡ï¸](https://github.com/Mr-Aurevo-X/MetaStrip/releases/latest) |
+| **QrBatch** | QR en lot â†’ PNG + ZIP | [repo](https://github.com/Mr-Aurevo-X/QrBatch) Â· [â¬‡ï¸](https://github.com/Mr-Aurevo-X/QrBatch/releases/latest) |
 
 ---
 
-## mounts · filesystem
+## mounts Â· filesystem
 
 ```text
 /workshop
-├── atelier/     L'Atelier Windows · PC Command (+30 tools)   [private]
-├── salon/       Game launcher + X titles · forks              [private]
-├── lab/         Lab launcher + R&D · prototypes · workspaces  [private]
-└── vitrine/     7 public desktop tools                        [public]
+â”œâ”€â”€ atelier/     L'Atelier Windows Â· PC Command (+30 tools)   [private]
+â”œâ”€â”€ salon/       Game launcher + X titles Â· forks              [private]
+â”œâ”€â”€ lab/         Lab launcher + R&D Â· prototypes Â· workspaces  [private]
+â””â”€â”€ vitrine/     7 public desktop tools                        [public]
 ```
 
 <details>
-<summary><strong>🗺️ full workshop map · arborescences</strong></summary>
+<summary><strong>ðŸ—ºï¸ full workshop map Â· arborescences</strong></summary>
 
 <a id="atelier"></a>
 
-### atelier · PC Command
+### atelier Â· PC Command
 
-SoT : `L'Atelier Windows\` · hub **PC Command** · admin UAC · `Lancer.cmd`
+SoT : `L'Atelier Windows\` Â· hub **PC Command** Â· admin UAC Â· `Lancer.cmd`
 
 ```text
 L'Atelier Windows/
-├── MrAurevoX-Launcher/     ★ PC Command hub  (private)
-├── MrAurevoX-UI/           kit UI partagé
-├── MrAurevoX-Releases/     packaging / portable
-│
-├── ★ Flagships
-│   ├── WinCleaner/         nettoyage · caches · traces · debloat
-│   ├── WinAudit/           audit heuristique local
-│   └── DiskMap/            carte disque · doublons
-│
-├── system                  AudioDevice · FocusBlock · MonitorInfo · PowerPlan
-│                           PrintQueue · ProcessGuard · RestorePoint · ShellKit
-│                           StartupX · SysInspect · UninstX · UserSessions
-├── network                 NetAdmin · NetMap · WifiKey
-├── files                   FileGuard · HashCheck · InboxSort · LinkKit
-│                           PdfKit · Renamer · ZipTools
-├── config                  CertView · EnvEditor · FontManager · HotkeyList
-├── media                   Capture · ColorPicker · ImgBatch · WallpaperPick
-├── productivity            ClipBoard
-└── tools                   PassGen · RepoRadar · TextLab · Trad-X
+â”œâ”€â”€ MrAurevoX-Launcher/     â˜… PC Command hub  (private)
+â”œâ”€â”€ MrAurevoX-UI/           kit UI partagÃ©
+â”œâ”€â”€ MrAurevoX-Releases/     packaging / portable
+â”‚
+â”œâ”€â”€ â˜… Flagships
+â”‚   â”œâ”€â”€ WinCleaner/         nettoyage Â· caches Â· traces Â· debloat
+â”‚   â”œâ”€â”€ WinAudit/           audit heuristique local
+â”‚   â””â”€â”€ DiskMap/            carte disque Â· doublons
+â”‚
+â”œâ”€â”€ system                  AudioDevice Â· FocusBlock Â· MonitorInfo Â· PowerPlan
+â”‚                           PrintQueue Â· ProcessGuard Â· RestorePoint Â· ShellKit
+â”‚                           StartupX Â· SysInspect Â· UninstX Â· UserSessions
+â”œâ”€â”€ network                 NetAdmin Â· NetMap Â· WifiKey
+â”œâ”€â”€ files                   FileGuard Â· HashCheck Â· InboxSort Â· LinkKit
+â”‚                           PdfKit Â· Renamer Â· ZipTools
+â”œâ”€â”€ config                  CertView Â· EnvEditor Â· FontManager Â· HotkeyList
+â”œâ”€â”€ media                   Capture Â· ColorPicker Â· ImgBatch Â· WallpaperPick
+â”œâ”€â”€ productivity            ClipBoard
+â””â”€â”€ tools                   PassGen Â· RepoRadar Â· TextLab Â· Trad-X
 ```
 
 <a id="salon"></a>
 
-### salon · Game hub
+### salon Â· Game hub
 
 ```text
 Game/
-├── Salon/                  ★ game launcher  (private)
-├── ★ Original X            Incremental-X · Factory-X · Empire-X · Colony-X
-│                           Deck-X · Battler-X · Tower-X · Puzzle-X · Story-X
-├── forks                   Antimatter-X · Evolve-X · Idle* · IndustryIdle-X · …
-└── tools                   GameChangelog · PreviewCars
+â”œâ”€â”€ Salon/                  â˜… game launcher  (private)
+â”œâ”€â”€ â˜… Original X            Incremental-X Â· Factory-X Â· Empire-X Â· Colony-X
+â”‚                           Deck-X Â· Battler-X Â· Tower-X Â· Puzzle-X Â· Story-X
+â”œâ”€â”€ forks                   Antimatter-X Â· Evolve-X Â· Idle* Â· IndustryIdle-X Â· â€¦
+â””â”€â”€ tools                   GameChangelog Â· PreviewCars
 ```
 
 <a id="lab"></a>
 
-### lab · R&D / prototypes
+### lab Â· R&D / prototypes
 
-Hub **Lab** · `Lancer.cmd` · `Lab.exe` · `launcher.py`
+Hub **Lab** Â· `Lancer.cmd` Â· `Lab.exe` Â· `launcher.py`
 
 ```text
 Lab/
-├── Lancer.cmd · Lab.exe    ★ Lab launcher  (private)
-├── Privacy / OSINT         Track · IdentityReset · Auto-Dox
-├── Perf / réseau           Opti · RoadWay-X · Ram Cleaner
-├── Jeux (tiers)            MelonLoader (LavaGang) · cheat-engine (Dark Byte)
-└── Reverse / recovery      LuaClean · DllClean · JsonClean · ProtAudit · LuaObfuscator
+â”œâ”€â”€ Lancer.cmd Â· Lab.exe    â˜… Lab launcher  (private)
+â”œâ”€â”€ Privacy / OSINT         Track Â· IdentityReset Â· Auto-Dox
+â”œâ”€â”€ Perf / rÃ©seau           Opti Â· RoadWay-X Â· Ram Cleaner
+â”œâ”€â”€ Jeux (tiers)            MelonLoader (LavaGang) Â· cheat-engine (Dark Byte)
+â””â”€â”€ Reverse / recovery      LuaClean Â· DllClean Â· JsonClean Â· ProtAudit Â· LuaObfuscator
 ```
 
-Third-party workspaces (not authored here): [LavaGang/MelonLoader](https://github.com/LavaGang/MelonLoader) · [cheat-engine/cheat-engine](https://github.com/cheat-engine/cheat-engine)
+Third-party workspaces (not authored here): [LavaGang/MelonLoader](https://github.com/LavaGang/MelonLoader) Â· [cheat-engine/cheat-engine](https://github.com/cheat-engine/cheat-engine)
 
 </details>
 
@@ -194,12 +194,12 @@ Third-party workspaces (not authored here): [LavaGang/MelonLoader](https://githu
 
 ---
 
-## connect · support
+## connect Â· support
 
 <div align="center">
 
-> **FR** — Lien social + coups de pouce volontaires (la vitrine publique reste gratuite).  
-> **EN** — Social link + optional tips (the public vitrine stays free).
+> **FR** â€” Lien social + coups de pouce volontaires (la vitrine publique reste gratuite).  
+> **EN** â€” Social link + optional tips (the public vitrine stays free).
 
 <br/>
 
@@ -217,11 +217,12 @@ Third-party workspaces (not authored here): [LavaGang/MelonLoader](https://githu
 
 <div align="center">
 
-**Built by Cursor AI · Ideas & QA by the human (Mr-Aurevo-X)**  
-**AI-operated workshop — not a portfolio of vibes, a factory of tools.**
+**Built by Cursor AI Â· Ideas & QA by the human (Mr-Aurevo-X)**  
+**AI-operated workshop â€” not a portfolio of vibes, a factory of tools.**
 
 <br/>
 
 `end_of_transmission // stay curious`
 
 </div>
+
