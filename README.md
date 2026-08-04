@@ -28,7 +28,7 @@
 
 ---
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/High%20Voltage.png" width="28"/> Qui fait quoi · Who runs this
+## ⚡ Qui fait quoi · Who runs this
 
 > **FR** — Ici, le code n’est pas “assisté” par l’IA.  
 > **L’IA construit et opère.** L’humain apporte les idées, casse / teste, et valide.
@@ -55,7 +55,7 @@
 
 ---
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Desktop%20Computer.png" width="28"/> Featured projects · Projets phares
+## 💻 Featured projects · Projets phares
 
 <div align="center">
 
@@ -106,7 +106,7 @@ Hors hubs — repos à la racine Dev Central Tree
 
 ---
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/World%20Map.png" width="28"/> Arborescence · workshop map
+## 🗺️ Arborescence · workshop map
 
 > SoT local : `Dev Central Tree\` — trois hubs (PC Command / Salon / Lab) + satellites git.  
 > Sauf **QrMake** (public), l’essentiel des outils est **privé**.
@@ -197,7 +197,7 @@ Lab/
 
 ---
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Satellite%20Antenna.png" width="28"/> Live telemetry · (public widgets)
+## 📡 Live telemetry · (public widgets)
 
 <div align="center">
 
@@ -230,7 +230,7 @@ Lab/
 
 ---
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Gear.png" width="28"/> Stack · atelier
+## ⚙️ Stack · atelier
 
 <div align="center">
 
@@ -248,7 +248,7 @@ Lab/
 
 ---
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="28"/> Manifesto
+## 🚀 Manifesto
 
 <div align="center">
 
