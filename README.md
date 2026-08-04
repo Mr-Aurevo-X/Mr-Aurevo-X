@@ -4,7 +4,7 @@
 
 **AI-run workshop** — Cursor builds · Human QA · Windows factory
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/6a54dfc/assets/hero-boot.svg?v=6a54dfc" alt="Boot console scrolling" width="100%"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/e339ab8/assets/hero-boot.svg?v=e339ab8" alt="Boot console scrolling" width="100%"/>
 
 <br/>
 
