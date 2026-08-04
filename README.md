@@ -193,6 +193,10 @@ Lab/
 │   ├── RoadWay-X/          moniteur trafic réseau local
 │   └── Ram Cleaner/        conseiller RAM (ConfirmGate)
 │
+├── ★ Jeux (workspaces tiers — pas authored Mr-Aurevo-X)
+│   ├── MelonLoader/        workspace mods DLL (LavaGang MelonLoader)
+│   └── cheat-engine/       copie vendored Cheat Engine (Dark Byte)
+│
 └── ★ Reverse / recovery
     ├── LuaClean/           .lua / .luac → script relisible
     ├── DllClean/           DLL → exports · disasm · pseudo-C
