@@ -21,7 +21,7 @@
   <circle cx="40" cy="32" r="5" fill="#ff5f56"/>
   <circle cx="58" cy="32" r="5" fill="#ffbd2e"/>
   <circle cx="76" cy="32" r="5" fill="#27c93f"/>
-  <text x="100" y="37" fill="#6aff9a" font-family="Consolas, ui-monospace, monospace" font-size="13">root@mr-aurevo-x  boot � workshop_kernel</text>
+  <text x="100" y="37" fill="#6aff9a" font-family="Consolas, ui-monospace, monospace" font-size="13">root@mr-aurevo-x -- boot · workshop_kernel</text>
   <text x="980" y="37" fill="#00f0ff" font-family="Consolas, ui-monospace, monospace" font-size="12">ONLINE</text>
 
   <rect x="24" y="48" width="1052" height="248" rx="6" fill="#020403" stroke="#123222"/>
@@ -31,15 +31,15 @@
     <g>
       <text x="40" y="0" fill="#39ff14">[  OK  ] mount /atelier          PC Command hub</text>
       <text x="40" y="22" fill="#39ff14">[  OK  ] mount /salon            game launcher</text>
-      <text x="40" y="44" fill="#39ff14">[  OK  ] mount /lab               R&amp;D � prototypes</text>
+      <text x="40" y="44" fill="#39ff14">[  OK  ] mount /lab               R&amp;D · prototypes</text>
       <text x="40" y="66" fill="#00f0ff">[ INFO ] operator=Cursor_AI       qa=Mr-Aurevo-X</text>
-      <text x="40" y="88" fill="#9dffc2">[ SYNC ] github private=84        public=QrMake</text>
+      <text x="40" y="88" fill="#9dffc2">[ SYNC ] github private=84        public=vitrine</text>
       <text x="40" y="110" fill="#39ff14">[ EXEC ] build tools --ship --human-signoff</text>
       <text x="40" y="132" fill="#00f0ff">[ LINK ] guns.lol/mr_aurevo_x     discord://user</text>
-      <text x="40" y="154" fill="#6aff9a">[ WAIT ] awaiting next idea from human layer&</text>
+      <text x="40" y="154" fill="#6aff9a">[ WAIT ] awaiting next idea from human layer…</text>
       <text x="40" y="176" fill="#39ff14">[  OK  ] telemetry cards refreshed (private)</text>
-      <text x="40" y="198" fill="#9dffc2">[ DIFF ] +CURSOR_AI  architecture � code � ship</text>
-      <text x="40" y="220" fill="#9dffc2">[ DIFF ] +HUMAN      ideas � break � QA � go/no-go</text>
+      <text x="40" y="198" fill="#9dffc2">[ DIFF ] +CURSOR_AI  architecture · code · ship</text>
+      <text x="40" y="220" fill="#9dffc2">[ DIFF ] +HUMAN      ideas · break · QA · go/no-go</text>
       <text x="40" y="242" fill="#00f0ff">mr-aurevo-x@workshop:~$ <tspan id="cmd">_</tspan></text>
       <animateTransform attributeName="transform" type="translate" from="0 70" to="0 -160" dur="14s" repeatCount="indefinite"/>
     </g>
@@ -49,6 +49,6 @@
     <animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.4s" repeatCount="indefinite"/>
   </rect>
 
-  <text x="40" y="295" fill="#4d7a5c" font-family="Consolas, ui-monospace, monospace" font-size="11">PREVIEW 11 � HACKER MODERN � not live profile</text>
+  <text x="40" y="295" fill="#4d7a5c" font-family="Consolas, ui-monospace, monospace" font-size="11">mr-aurevo-x · hacker modern · AI-operated workshop</text>
   <text x="820" y="295" fill="#39ff14" font-family="Consolas, ui-monospace, monospace" font-size="12">AI-RUN WORKSHOP</text>
 </svg>
