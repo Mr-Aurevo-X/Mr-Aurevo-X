@@ -1,10 +1,10 @@
-﻿<div align="center">
+<div align="center">
 
 # `>_ mr-aurevo-x@workshop:~`
 
 **AI-run workshop** â€” Cursor builds Â· Human QA Â· Windows factory
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/e339ab8/assets/hero-boot.svg?v=e339ab8" alt="Boot console scrolling" width="100%"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/2da292e/assets/hero-boot.svg?v=2da292e" alt="Boot console scrolling" width="100%"/>
 
 <br/>
 
@@ -59,7 +59,7 @@
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/7c01a66/assets/console-who.svg?v=7c01a66" alt="Session dialogue: human prompt, AI work, confirm, ship" width="100%"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/2da292e/assets/console-who.svg?v=2da292e" alt="Session dialogue: human prompt, AI work, confirm, ship" width="100%"/>
 
 </div>
 
