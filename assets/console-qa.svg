@@ -1,62 +1,62 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="540" height="280" viewBox="0 0 540 280" role="img" aria-label="Mr-Aurevo-X QA console">
-  <defs>
-    <clipPath id="c2"><rect x="16" y="40" width="508" height="220" rx="4"/></clipPath>
-    <pattern id="s2" width="3" height="3" patternUnits="userSpaceOnUse">
-      <rect width="3" height="1" fill="#00f0ff" opacity="0.05"/>
-    </pattern>
-    <!-- Full panel width clips; ~26s cycle; ~1s type-in each -->
-    <clipPath id="q0"><rect x="28" y="-14" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.00;0.045;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="q1"><rect x="28" y="4" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.04;0.085;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="q2"><rect x="28" y="22" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.08;0.125;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="q3"><rect x="28" y="40" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.12;0.165;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="q4"><rect x="28" y="58" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.16;0.205;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="q5"><rect x="28" y="76" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.20;0.245;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="q6"><rect x="28" y="94" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.24;0.285;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="q7"><rect x="28" y="112" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.28;0.325;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="q8"><rect x="28" y="130" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.32;0.365;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="q9"><rect x="28" y="148" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.36;0.405;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="q10"><rect x="28" y="166" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.40;0.445;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="q11"><rect x="28" y="184" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.44;0.485;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="q12"><rect x="28" y="202" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.48;0.525;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="q13"><rect x="28" y="220" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.52;0.565;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="q14"><rect x="28" y="238" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.56;0.605;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="q15"><rect x="28" y="256" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.60;0.645;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="q16"><rect x="28" y="274" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.64;0.685;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="q17"><rect x="28" y="292" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.68;0.725;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="q18"><rect x="28" y="310" height="18" width="0"><animate attributeName="width" values="0;0;160;160;0" keyTimes="0;0.72;0.76;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
-  </defs>
-  <rect width="540" height="280" rx="12" fill="#050807" stroke="#1a4a55"/>
-  <circle cx="28" cy="22" r="4" fill="#ff5f56"/>
-  <circle cx="44" cy="22" r="4" fill="#ffbd2e"/>
-  <circle cx="60" cy="22" r="4" fill="#27c93f"/>
-  <text x="80" y="26" fill="#00f0ff" font-family="Consolas, monospace" font-size="12">Mr-Aurevo-X@workshop -- qa_session</text>
-  <rect x="16" y="40" width="508" height="220" rx="4" fill="#020403"/>
-  <rect x="16" y="40" width="508" height="220" rx="4" fill="url(#s2)"/>
-  <g clip-path="url(#c2)" font-family="Consolas, monospace" font-size="12" fill="#00f0ff">
-    <g>
-      <!-- set A · idea + break -->
-      <text x="28" y="0" clip-path="url(#q0)">$ idea inject "cleaner traces v2"</text>
-      <text x="28" y="18" fill="#39ff14" clip-path="url(#q1)">accepted | AI scaffolding</text>
-      <text x="28" y="36" clip-path="url(#q2)">$ break --on purpose WinAudit</text>
-      <text x="28" y="54" fill="#ffb86c" clip-path="url(#q3)">FOUND edge case | icon cache race</text>
-      <text x="28" y="72" clip-path="url(#q4)">$ report --to cursor</text>
-      <text x="28" y="90" fill="#9dffc2" clip-path="url(#q5)">patch inbound | retest queued</text>
-      <!-- set B · vitrine QA -->
-      <text x="28" y="108" clip-path="url(#q6)">$ validate QrMake payloads</text>
-      <text x="28" y="126" fill="#39ff14" clip-path="url(#q7)">wifi | vcard | geo | ok</text>
-      <text x="28" y="144" clip-path="url(#q8)">$ check DeviseConvert offline</text>
-      <text x="28" y="162" fill="#39ff14" clip-path="url(#q9)">BCE live OK | cache fallback OK</text>
-      <text x="28" y="180" clip-path="url(#q10)">$ smoke MetaStrip EXIF strip</text>
-      <text x="28" y="198" fill="#39ff14" clip-path="url(#q11)">GPS gone | XMP gone | pass</text>
-      <!-- set C · atelier + go -->
-      <text x="28" y="216" clip-path="url(#q12)">$ stress PC-Command catalog</text>
-      <text x="28" y="234" fill="#9dffc2" clip-path="url(#q13)">Lancer*.cmd resolve before exe</text>
-      <text x="28" y="252" clip-path="url(#q14)">$ go-nogo</text>
-      <text x="28" y="270" fill="#39ff14" clip-path="url(#q15)">GREEN LIGHT | ship authorized</text>
-      <text x="28" y="288" clip-path="url(#q16)">$ whoami</text>
-      <text x="28" y="306" fill="#00f0ff" clip-path="url(#q17)">ideas | QA | vision -- not the coder</text>
-      <text x="28" y="324" fill="#00f0ff" clip-path="url(#q18)">Mr-Aurevo-X><tspan fill="#39ff14"><animate attributeName="opacity" values="1;0;1" dur="0.85s" begin="20s" repeatCount="indefinite"/>_</tspan></text>
-      <animateTransform attributeName="transform" type="translate" values="0 50;0 50;0 -200;0 -200" keyTimes="0;0.06;0.88;1" dur="26s" repeatCount="indefinite"/>
-    </g>
-  </g>
+ <defs>
+ <clipPath id="c2"><rect x="16" y="40" width="508" height="220" rx="4"/></clipPath>
+ <pattern id="s2" width="3" height="3" patternUnits="userSpaceOnUse">
+ <rect width="3" height="1" fill="#00f0ff" opacity="0.05"/>
+ </pattern>
+ <!-- Full panel width clips; ~26s cycle; ~1s type-in each -->
+ <clipPath id="q0"><rect x="28" y="-14" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.00;0.045;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
+ <clipPath id="q1"><rect x="28" y="4" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.04;0.085;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
+ <clipPath id="q2"><rect x="28" y="22" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.08;0.125;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
+ <clipPath id="q3"><rect x="28" y="40" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.12;0.165;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
+ <clipPath id="q4"><rect x="28" y="58" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.16;0.205;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
+ <clipPath id="q5"><rect x="28" y="76" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.20;0.245;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
+ <clipPath id="q6"><rect x="28" y="94" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.24;0.285;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
+ <clipPath id="q7"><rect x="28" y="112" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.28;0.325;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
+ <clipPath id="q8"><rect x="28" y="130" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.32;0.365;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
+ <clipPath id="q9"><rect x="28" y="148" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.36;0.405;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
+ <clipPath id="q10"><rect x="28" y="166" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.40;0.445;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
+ <clipPath id="q11"><rect x="28" y="184" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.44;0.485;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
+ <clipPath id="q12"><rect x="28" y="202" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.48;0.525;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
+ <clipPath id="q13"><rect x="28" y="220" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.52;0.565;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
+ <clipPath id="q14"><rect x="28" y="238" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.56;0.605;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
+ <clipPath id="q15"><rect x="28" y="256" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.60;0.645;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
+ <clipPath id="q16"><rect x="28" y="274" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.64;0.685;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
+ <clipPath id="q17"><rect x="28" y="292" height="18" width="0"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.68;0.725;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
+ <clipPath id="q18"><rect x="28" y="310" height="18" width="0"><animate attributeName="width" values="0;0;160;160;0" keyTimes="0;0.72;0.76;0.90;1" dur="26s" repeatCount="indefinite"/></rect></clipPath>
+ </defs>
+ <rect width="540" height="280" rx="12" fill="#050807" stroke="#00f0ff"/>
+ <circle cx="28" cy="22" r="4" fill="#ff5f56"/>
+ <circle cx="44" cy="22" r="4" fill="#ffbd2e"/>
+ <circle cx="60" cy="22" r="4" fill="#27c93f"/>
+ <text x="80" y="26" fill="#00f0ff" font-family="Consolas, monospace" font-size="12">Mr-Aurevo-X@workshop -- qa_session</text>
+ <rect x="16" y="40" width="508" height="220" rx="4" fill="#020403"/>
+ <rect x="16" y="40" width="508" height="220" rx="4" fill="url(#s2)"/>
+ <g clip-path="url(#c2)" font-family="Consolas, monospace" font-size="12" fill="#00f0ff">
+ <g>
+ <!-- set A · idea + break -->
+ <text x="28" y="0" clip-path="url(#q0)">$ idea inject "cleaner traces v2"</text>
+ <text x="28" y="18" fill="#00f0ff" clip-path="url(#q1)">accepted | AI scaffolding</text>
+ <text x="28" y="36" clip-path="url(#q2)">$ break --on purpose WinAudit</text>
+ <text x="28" y="54" fill="#ffb86c" clip-path="url(#q3)">FOUND edge case | icon cache race</text>
+ <text x="28" y="72" clip-path="url(#q4)">$ report --to cursor</text>
+ <text x="28" y="90" fill="#7ec8ff" clip-path="url(#q5)">patch inbound | retest queued</text>
+ <!-- set B · vitrine QA -->
+ <text x="28" y="108" clip-path="url(#q6)">$ validate QrMake payloads</text>
+ <text x="28" y="126" fill="#00f0ff" clip-path="url(#q7)">wifi | vcard | geo | ok</text>
+ <text x="28" y="144" clip-path="url(#q8)">$ check DeviseConvert offline</text>
+ <text x="28" y="162" fill="#00f0ff" clip-path="url(#q9)">BCE live OK | cache fallback OK</text>
+ <text x="28" y="180" clip-path="url(#q10)">$ smoke MetaStrip EXIF strip</text>
+ <text x="28" y="198" fill="#00f0ff" clip-path="url(#q11)">GPS gone | XMP gone | pass</text>
+ <!-- set C · atelier + go -->
+ <text x="28" y="216" clip-path="url(#q12)">$ stress PC-Command catalog</text>
+ <text x="28" y="234" fill="#7ec8ff" clip-path="url(#q13)">Lancer*.cmd resolve before exe</text>
+ <text x="28" y="252" clip-path="url(#q14)">$ go-nogo</text>
+ <text x="28" y="270" fill="#00f0ff" clip-path="url(#q15)">GREEN LIGHT | ship authorized</text>
+ <text x="28" y="288" clip-path="url(#q16)">$ whoami</text>
+ <text x="28" y="306" fill="#00f0ff" clip-path="url(#q17)">ideas | QA | vision -- not the coder</text>
+ <text x="28" y="324" fill="#00f0ff" clip-path="url(#q18)">Mr-Aurevo-X><tspan fill="#00f0ff"><animate attributeName="opacity" values="1;0;1" dur="0.85s" begin="20s" repeatCount="indefinite"/>_</tspan></text>
+ <animateTransform attributeName="transform" type="translate" values="0 50;0 50;0 -200;0 -200" keyTimes="0;0.06;0.88;1" dur="26s" repeatCount="indefinite"/>
+ </g>
+ </g>
 </svg>

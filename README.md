@@ -4,7 +4,7 @@
 
 **AI-run workshop - Cursor builds | Mr-Aurevo-X QA | Windows factory**
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/2da292e/assets/hero-boot.svg?v=2da292e" alt="Boot console scrolling" width="100%"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/PENDING/assets/hero-boot.svg?v=PENDING" alt="Boot console scrolling" width="100%"/>
 
 <br/>
 
@@ -13,7 +13,7 @@
 [![Cursor AI](https://img.shields.io/badge/BUILT_BY-CURSOR_AI-39ff14?style=for-the-badge&labelColor=050807&logo=cursor&logoColor=39ff14)](https://cursor.com)
 [![Mr-Aurevo-X QA](https://img.shields.io/badge/IDEAS_%26_QA-MR--AUREVO--X-00f0ff?style=for-the-badge&labelColor=050807)](https://github.com/Mr-Aurevo-X)
 
-`STATUS=ONLINE` | `VITRINE=public` | `ATELIER+SALON+LAB=private` | `MODE=AI_OPERATED`
+`STATUS=ONLINE` | `VITRINE=public` | `ATELIER+SALON+LAB=private` | `MODE=AI_OPERATED` | `COLOR=DUAL_SPLIT`
 
 </div>
 
@@ -26,10 +26,10 @@
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/6a54dfc/assets/console-build.svg?v=6a54dfc" alt="Cursor AI build console" width="100%"/>
+      <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/PENDING/assets/console-build.svg?v=PENDING" alt="Cursor AI build console (green)" width="100%"/>
     </td>
     <td width="50%" align="center">
-      <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/463d080/assets/console-qa.svg?v=463d080" alt="Mr-Aurevo-X QA console" width="100%"/>
+      <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/PENDING/assets/console-qa.svg?v=PENDING" alt="Mr-Aurevo-X QA console (cyan)" width="100%"/>
     </td>
   </tr>
 </table>
@@ -47,19 +47,13 @@
 
 ---
 
-## workshop live
+## workshop floor
+
+Single crafted factory board (dual-split: **BUILD green** / **QA cyan**). Decorative status only -- not live CI, not live chat.
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/edcbd3b/assets/console-queue.svg?v=edcbd3b" alt="Build queue" width="100%"/>
-
-<br/><br/>
-
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/edcbd3b/assets/console-pulse.svg?v=edcbd3b" alt="Commit pulse" width="100%"/>
-
-<br/><br/>
-
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/463d080/assets/console-who.svg?v=463d080" alt="Session dialogue: Mr-Aurevo-X prompt, AI work, confirm, ship" width="100%"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/PENDING/assets/factory-floor.svg?v=PENDING" alt="Workshop factory floor status board" width="100%"/>
 
 </div>
 
@@ -88,7 +82,7 @@
 /workshop
 |-- atelier/     L'Atelier Windows | PC Command (+30 tools)   [private]
 |-- salon/       Game launcher + X titles | forks              [private]
-|-- lab/         Lab launcher + R&D | prototypes | workspaces  [private]
+|-- lab/         Lab launcher + R&D | Discordbots | prototypes [private]
 `-- vitrine/     7 public desktop tools                        [public]
 ```
 
@@ -139,7 +133,7 @@ Game/
 
 <a id="lab"></a>
 
-### lab - R&D / prototypes
+### lab - R&D / prototypes / bots
 
 Hub **Lab** | `Lancer.cmd` | `Lab.exe` | `launcher.py`
 
@@ -149,6 +143,9 @@ Lab/
 |-- Privacy / OSINT         Track | IdentityReset | Auto-Dox
 |-- Perf / reseau           Opti | RoadWay-X | Ram Cleaner
 |-- Reverse / recovery      LuaClean | DllClean | JsonClean | ProtAudit | LuaObfuscator
+`-- DiscordBots/
+    `-- Mr-X-Sentinel/      * Discord bot platform (private)
+                            mod | security | eco | XP | tickets | music | AI
 ```
 
 </details>
@@ -180,12 +177,29 @@ Lab/
 ![Python](https://img.shields.io/badge/-Python-050807?style=for-the-badge&logo=python&logoColor=39ff14)
 ![PowerShell](https://img.shields.io/badge/-PowerShell-050807?style=for-the-badge&logo=powershell&logoColor=00f0ff)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-050807?style=for-the-badge&logo=javascript&logoColor=39ff14)
-![HTML5](https://img.shields.io/badge/-HTML5-050807?style=for-the-badge&logo=html5&logoColor=00f0ff)
-![CSS3](https://img.shields.io/badge/-CSS3-050807?style=for-the-badge&logo=css3&logoColor=39ff14)
-![Windows](https://img.shields.io/badge/-Windows-050807?style=for-the-badge&logo=windows&logoColor=00f0ff)
-![Git](https://img.shields.io/badge/-Git-050807?style=for-the-badge&logo=git&logoColor=39ff14)
+![TypeScript](https://img.shields.io/badge/-TypeScript-050807?style=for-the-badge&logo=typescript&logoColor=00f0ff)
+![HTML5](https://img.shields.io/badge/-HTML5-050807?style=for-the-badge&logo=html5&logoColor=39ff14)
+![CSS3](https://img.shields.io/badge/-CSS3-050807?style=for-the-badge&logo=css3&logoColor=00f0ff)
+![Windows](https://img.shields.io/badge/-Windows-050807?style=for-the-badge&logo=windows&logoColor=39ff14)
+![WebView2](https://img.shields.io/badge/-WebView2-050807?style=for-the-badge&logo=microsoftedge&logoColor=00f0ff)
+![pywebview](https://img.shields.io/badge/-pywebview-050807?style=for-the-badge&logo=python&logoColor=39ff14)
 ![PyInstaller](https://img.shields.io/badge/-PyInstaller-050807?style=for-the-badge&logo=python&logoColor=00f0ff)
-![Cursor](https://img.shields.io/badge/-Cursor_AI-050807?style=for-the-badge&logo=cursor&logoColor=39ff14)
+![Chart.js](https://img.shields.io/badge/-Chart.js-050807?style=for-the-badge&logo=chartdotjs&logoColor=39ff14)
+![Git](https://img.shields.io/badge/-Git-050807?style=for-the-badge&logo=git&logoColor=00f0ff)
+![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-050807?style=for-the-badge&logo=githubactions&logoColor=39ff14)
+![Cursor](https://img.shields.io/badge/-Cursor_AI-050807?style=for-the-badge&logo=cursor&logoColor=00f0ff)
+![Node.js](https://img.shields.io/badge/-Node.js-050807?style=for-the-badge&logo=nodedotjs&logoColor=39ff14)
+![pnpm](https://img.shields.io/badge/-pnpm-050807?style=for-the-badge&logo=pnpm&logoColor=00f0ff)
+![discord.js](https://img.shields.io/badge/-discord.js-050807?style=for-the-badge&logo=discord&logoColor=5865F2)
+![Discord](https://img.shields.io/badge/-Discord_Bots-050807?style=for-the-badge&logo=discord&logoColor=00f0ff)
+![Next.js](https://img.shields.io/badge/-Next.js-050807?style=for-the-badge&logo=nextdotjs&logoColor=39ff14)
+![React](https://img.shields.io/badge/-React-050807?style=for-the-badge&logo=react&logoColor=00f0ff)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-050807?style=for-the-badge&logo=postgresql&logoColor=39ff14)
+![Prisma](https://img.shields.io/badge/-Prisma-050807?style=for-the-badge&logo=prisma&logoColor=00f0ff)
+![Redis](https://img.shields.io/badge/-Redis-050807?style=for-the-badge&logo=redis&logoColor=39ff14)
+![Docker](https://img.shields.io/badge/-Docker-050807?style=for-the-badge&logo=docker&logoColor=00f0ff)
+![FastAPI](https://img.shields.io/badge/-FastAPI-050807?style=for-the-badge&logo=fastapi&logoColor=39ff14)
+![Lavalink](https://img.shields.io/badge/-Lavalink-050807?style=for-the-badge&logo=discord&logoColor=00f0ff)
 
 </div>
 

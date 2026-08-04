@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="420" viewBox="0 0 1100 420" role="img" aria-label="Workshop factory floor crafted status board">
+  <defs>
+    <linearGradient id="floorBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#030605"/>
+      <stop offset="50%" stop-color="#050807"/>
+      <stop offset="100%" stop-color="#030a0c"/>
+    </linearGradient>
+    <linearGradient id="split" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#39ff14"/>
+      <stop offset="100%" stop-color="#00f0ff"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#39ff14" stroke-opacity="0.06"/>
+    </pattern>
+  </defs>
+
+  <rect width="1100" height="420" fill="url(#floorBg)"/>
+  <rect width="1100" height="420" fill="url(#grid)"/>
+  <rect x="12" y="12" width="1076" height="396" rx="14" fill="#050807" stroke="url(#split)" stroke-width="2"/>
+
+  <!-- title bar -->
+  <rect x="24" y="24" width="1052" height="36" rx="6" fill="#020403" stroke="#1a3d2a"/>
+  <text x="40" y="47" fill="#6aff9a" font-family="Consolas, ui-monospace, monospace" font-size="14">workshop floor -- factory status board</text>
+  <text x="780" y="47" fill="#4d7a5c" font-family="Consolas, ui-monospace, monospace" font-size="11">CRAFTED SHOWCASE</text>
+  <text x="930" y="47" fill="#00f0ff" font-family="Consolas, ui-monospace, monospace" font-size="11">NOT LIVE CI</text>
+
+  <!-- LEFT: dual lanes BUILD / QA -->
+  <rect x="24" y="72" width="250" height="300" rx="8" fill="#020403" stroke="#39ff14" stroke-width="1.5"/>
+  <text x="40" y="96" fill="#39ff14" font-family="Consolas, monospace" font-size="13">LANE A -- BUILD</text>
+  <text x="40" y="118" fill="#6aff9a" font-family="Consolas, monospace" font-size="11">Cursor AI</text>
+  <text x="40" y="144" fill="#39ff14" font-family="Consolas, monospace" font-size="12">architecture</text>
+  <text x="40" y="164" fill="#39ff14" font-family="Consolas, monospace" font-size="12">host + ui kits</text>
+  <text x="40" y="184" fill="#39ff14" font-family="Consolas, monospace" font-size="12">packaging / ship</text>
+  <text x="40" y="204" fill="#4d7a5c" font-family="Consolas, monospace" font-size="11">Lancer.cmd first</text>
+  <rect x="40" y="220" width="200" height="6" rx="3" fill="#0a1a12"/>
+  <rect x="40" y="220" width="168" height="6" rx="3" fill="#39ff14">
+    <animate attributeName="width" values="120;200;168;120" dur="8s" repeatCount="indefinite"/>
+  </rect>
+  <text x="40" y="250" fill="#4d7a5c" font-family="Consolas, monospace" font-size="10">throughput (decorative)</text>
+
+  <line x1="40" y1="268" x2="254" y2="268" stroke="#1a3d2a"/>
+
+  <text x="40" y="294" fill="#00f0ff" font-family="Consolas, monospace" font-size="13">LANE B -- QA</text>
+  <text x="40" y="316" fill="#7ec8ff" font-family="Consolas, monospace" font-size="11">Mr-Aurevo-X</text>
+  <text x="40" y="342" fill="#00f0ff" font-family="Consolas, monospace" font-size="12">ideas | break tests</text>
+  <text x="40" y="362" fill="#00f0ff" font-family="Consolas, monospace" font-size="12">sign-off | vision</text>
+
+  <!-- CENTER: mounts + vitrine ticker -->
+  <rect x="286" y="72" width="520" height="300" rx="8" fill="#020403" stroke="#0a3a44" stroke-width="1.5"/>
+  <text x="302" y="96" fill="#00f0ff" font-family="Consolas, monospace" font-size="13">MOUNTS -- Dev Central Tree</text>
+
+  <!-- mount chips -->
+  <rect x="302" y="112" width="110" height="28" rx="4" fill="#071410" stroke="#39ff14"/>
+  <text x="316" y="130" fill="#39ff14" font-family="Consolas, monospace" font-size="11">atelier ON</text>
+  <rect x="422" y="112" width="110" height="28" rx="4" fill="#071410" stroke="#39ff14"/>
+  <text x="440" y="130" fill="#39ff14" font-family="Consolas, monospace" font-size="11">salon ON</text>
+  <rect x="542" y="112" width="110" height="28" rx="4" fill="#071018" stroke="#00f0ff"/>
+  <text x="564" y="130" fill="#00f0ff" font-family="Consolas, monospace" font-size="11">lab ON</text>
+  <rect x="662" y="112" width="120" height="28" rx="4" fill="#071018" stroke="#00f0ff"/>
+  <text x="678" y="130" fill="#00f0ff" font-family="Consolas, monospace" font-size="11">vitrine PUB</text>
+
+  <text x="302" y="168" fill="#6aff9a" font-family="Consolas, monospace" font-size="12">ATELIER  | PC Command hub | +30 tools | UAC</text>
+  <text x="302" y="190" fill="#6aff9a" font-family="Consolas, monospace" font-size="12">SALON    | Game launcher + X titles | forks</text>
+  <text x="302" y="212" fill="#7ec8ff" font-family="Consolas, monospace" font-size="12">LAB      | R&amp;D | Discordbots | prototypes</text>
+  <text x="302" y="234" fill="#7ec8ff" font-family="Consolas, monospace" font-size="12">VITRINE  | 7 public desktop tools | free</text>
+
+  <line x1="302" y1="250" x2="786" y2="250" stroke="#0a3a44"/>
+  <text x="302" y="274" fill="#39ff14" font-family="Consolas, monospace" font-size="12">PUBLIC TICKER</text>
+
+  <!-- scrolling ticker strip -->
+  <clipPath id="tick"><rect x="302" y="286" width="484" height="28" rx="4"/></clipPath>
+  <rect x="302" y="286" width="484" height="28" rx="4" fill="#030605" stroke="#1a3d2a"/>
+  <g clip-path="url(#tick)" font-family="Consolas, monospace" font-size="12" fill="#39ff14">
+    <text x="310" y="305">
+      QrMake  |  UnitConvert  |  DeviseConvert  |  EpochClock  |  StopwatchPlus  |  MetaStrip  |  QrBatch  |  QrMake  |
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-520 0" dur="22s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <text x="302" y="348" fill="#4d7a5c" font-family="Consolas, monospace" font-size="11">rule: if it ships, AI wrote it -- Mr-Aurevo-X signed it off</text>
+  <text x="302" y="368" fill="#4d7a5c" font-family="Consolas, monospace" font-size="11">SoT: Dev Central Tree | Lancer before exe</text>
+
+  <!-- RIGHT: sentinel + connect -->
+  <rect x="818" y="72" width="258" height="300" rx="8" fill="#020403" stroke="#00f0ff" stroke-width="1.5"/>
+  <text x="834" y="96" fill="#00f0ff" font-family="Consolas, monospace" font-size="13">SIGNAL -- LAB</text>
+  <text x="834" y="122" fill="#7ec8ff" font-family="Consolas, monospace" font-size="12">Mr-X-Sentinel</text>
+  <text x="834" y="144" fill="#00f0ff" font-family="Consolas, monospace" font-size="11">Discord bot platform</text>
+  <text x="834" y="166" fill="#4d7a5c" font-family="Consolas, monospace" font-size="11">mod | eco | XP | AI</text>
+  <text x="834" y="186" fill="#4d7a5c" font-family="Consolas, monospace" font-size="11">music | tickets</text>
+  <circle cx="1000" cy="130" r="5" fill="#00f0ff">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="1012" y="134" fill="#00f0ff" font-family="Consolas, monospace" font-size="10">bot</text>
+
+  <line x1="834" y1="206" x2="1056" y2="206" stroke="#0a3a44"/>
+  <text x="834" y="230" fill="#39ff14" font-family="Consolas, monospace" font-size="12">CONNECT</text>
+  <text x="834" y="254" fill="#6aff9a" font-family="Consolas, monospace" font-size="11">Discord user</text>
+  <text x="834" y="274" fill="#6aff9a" font-family="Consolas, monospace" font-size="11">guns.lol</text>
+  <text x="834" y="294" fill="#7ec8ff" font-family="Consolas, monospace" font-size="11">PayPal | Revolut</text>
+
+  <rect x="834" y="318" width="210" height="36" rx="6" fill="#071018" stroke="#39ff14"/>
+  <text x="848" y="340" fill="#39ff14" font-family="Consolas, monospace" font-size="11">FACTORY = ONLINE</text>
+
+  <!-- footer honesty -->
+  <text x="40" y="396" fill="#4d7a5c" font-family="Consolas, monospace" font-size="10">crafted board -- decorative status only | no fake chat | no fake git diffs | dual-split BUILD green / QA cyan</text>
+</svg>

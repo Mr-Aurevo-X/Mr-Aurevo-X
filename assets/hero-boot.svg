@@ -1,84 +1,84 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="460" viewBox="0 0 1100 460" role="img" aria-label="Mr-Aurevo-X workshop boot console">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#030605"/>
-      <stop offset="100%" stop-color="#07140f"/>
-    </linearGradient>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#39ff14"/>
-      <stop offset="100%" stop-color="#00f0ff"/>
-    </linearGradient>
-    <clipPath id="screen">
-      <rect x="24" y="48" width="1052" height="372" rx="6"/>
-    </clipPath>
-    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
-      <rect width="4" height="1" fill="#39ff14" opacity="0.04"/>
-    </pattern>
-    <!-- ~52s cycle · ~2.5s type-in per line · next starts as previous finishes -->
-    <clipPath id="h0"><rect x="40" y="-12" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.000;0.048;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="h1"><rect x="40" y="7" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.042;0.090;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="h2"><rect x="40" y="26" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.084;0.132;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="h3"><rect x="40" y="45" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.126;0.174;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="h4"><rect x="40" y="64" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.168;0.216;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="h5"><rect x="40" y="83" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.210;0.258;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="h6"><rect x="40" y="102" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.252;0.300;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="h7"><rect x="40" y="121" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.294;0.342;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="h8"><rect x="40" y="140" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.336;0.384;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="h9"><rect x="40" y="159" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.378;0.426;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="h10"><rect x="40" y="178" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.420;0.468;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="h11"><rect x="40" y="197" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.462;0.510;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="h12"><rect x="40" y="216" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.504;0.552;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="h13"><rect x="40" y="235" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.546;0.594;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="h14"><rect x="40" y="254" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.588;0.636;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="h15"><rect x="40" y="273" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.630;0.678;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="h16"><rect x="40" y="292" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.672;0.720;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="h17"><rect x="40" y="311" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.714;0.762;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="h18"><rect x="40" y="330" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.756;0.804;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="h19"><rect x="40" y="349" height="18" width="0"><animate attributeName="width" values="0;0;420;420;0" keyTimes="0;0.798;0.830;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
-  </defs>
+ <defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0%" stop-color="#030605"/>
+ <stop offset="100%" stop-color="#07140f"/>
+ </linearGradient>
+ <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0%" stop-color="#39ff14"/>
+ <stop offset="100%" stop-color="#00f0ff"/>
+ </linearGradient>
+ <clipPath id="screen">
+ <rect x="24" y="48" width="1052" height="372" rx="6"/>
+ </clipPath>
+ <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+ <rect width="4" height="1" fill="#39ff14" opacity="0.04"/>
+ </pattern>
+ <!-- ~52s cycle · ~2.5s type-in per line · next starts as previous finishes -->
+ <clipPath id="h0"><rect x="40" y="-12" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.000;0.048;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
+ <clipPath id="h1"><rect x="40" y="7" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.042;0.090;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
+ <clipPath id="h2"><rect x="40" y="26" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.084;0.132;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
+ <clipPath id="h3"><rect x="40" y="45" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.126;0.174;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
+ <clipPath id="h4"><rect x="40" y="64" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.168;0.216;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
+ <clipPath id="h5"><rect x="40" y="83" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.210;0.258;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
+ <clipPath id="h6"><rect x="40" y="102" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.252;0.300;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
+ <clipPath id="h7"><rect x="40" y="121" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.294;0.342;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
+ <clipPath id="h8"><rect x="40" y="140" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.336;0.384;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
+ <clipPath id="h9"><rect x="40" y="159" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.378;0.426;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
+ <clipPath id="h10"><rect x="40" y="178" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.420;0.468;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
+ <clipPath id="h11"><rect x="40" y="197" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.462;0.510;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
+ <clipPath id="h12"><rect x="40" y="216" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.504;0.552;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
+ <clipPath id="h13"><rect x="40" y="235" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.546;0.594;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
+ <clipPath id="h14"><rect x="40" y="254" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.588;0.636;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
+ <clipPath id="h15"><rect x="40" y="273" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.630;0.678;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
+ <clipPath id="h16"><rect x="40" y="292" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.672;0.720;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
+ <clipPath id="h17"><rect x="40" y="311" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.714;0.762;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
+ <clipPath id="h18"><rect x="40" y="330" height="18" width="0"><animate attributeName="width" values="0;0;1020;1020;0" keyTimes="0;0.756;0.804;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
+ <clipPath id="h19"><rect x="40" y="349" height="18" width="0"><animate attributeName="width" values="0;0;420;420;0" keyTimes="0;0.798;0.830;0.90;1" dur="52s" repeatCount="indefinite"/></rect></clipPath>
+ </defs>
 
-  <rect width="1100" height="460" fill="url(#bg)"/>
-  <rect x="12" y="12" width="1076" height="436" rx="14" fill="#050807" stroke="#1a3d2a" stroke-width="2"/>
-  <circle cx="40" cy="32" r="5" fill="#ff5f56"/>
-  <circle cx="58" cy="32" r="5" fill="#ffbd2e"/>
-  <circle cx="76" cy="32" r="5" fill="#27c93f"/>
-  <text x="100" y="37" fill="#6aff9a" font-family="Consolas, ui-monospace, monospace" font-size="13">root@mr-aurevo-x -- boot · workshop_kernel</text>
-  <text x="980" y="37" fill="#00f0ff" font-family="Consolas, ui-monospace, monospace" font-size="12">ONLINE</text>
+ <rect width="1100" height="460" fill="url(#bg)"/>
+ <rect x="12" y="12" width="1076" height="436" rx="14" fill="#050807" stroke="#1a3d2a" stroke-width="2"/>
+ <circle cx="40" cy="32" r="5" fill="#ff5f56"/>
+ <circle cx="58" cy="32" r="5" fill="#ffbd2e"/>
+ <circle cx="76" cy="32" r="5" fill="#27c93f"/>
+ <text x="100" y="37" fill="#6aff9a" font-family="Consolas, ui-monospace, monospace" font-size="13">root@mr-aurevo-x -- boot · workshop_kernel</text>
+ <text x="980" y="37" fill="#00f0ff" font-family="Consolas, ui-monospace, monospace" font-size="12">ONLINE</text>
 
-  <rect x="24" y="48" width="1052" height="372" rx="6" fill="#020403" stroke="#123222"/>
-  <rect x="24" y="48" width="1052" height="372" rx="6" fill="url(#scan)"/>
+ <rect x="24" y="48" width="1052" height="372" rx="6" fill="#020403" stroke="#123222"/>
+ <rect x="24" y="48" width="1052" height="372" rx="6" fill="url(#scan)"/>
 
-  <g clip-path="url(#screen)" font-family="Consolas, ui-monospace, monospace" font-size="13">
-    <g>
-      <text x="40" y="0" fill="#6aff9a" clip-path="url(#h0)">[BOOT ] workshop_kernel · suite 1.3.x · AI-operated</text>
-      <text x="40" y="19" fill="#39ff14" clip-path="url(#h1)">[  OK  ] mount /atelier          PC Command hub (admin)</text>
-      <text x="40" y="38" fill="#9dffc2" clip-path="url(#h2)">[ INFO ]   flagships             WinCleaner · WinAudit · DiskMap</text>
-      <text x="40" y="57" fill="#9dffc2" clip-path="url(#h3)">[ INFO ]   suite tools           FastFind · ColorPicker · Trad-X +</text>
-      <text x="40" y="76" fill="#39ff14" clip-path="url(#h4)">[  OK  ] mount /salon            Incremental-X launcher</text>
-      <text x="40" y="95" fill="#9dffc2" clip-path="url(#h5)">[ INFO ]   games                 X titles · private salon</text>
-      <text x="40" y="114" fill="#39ff14" clip-path="url(#h6)">[  OK  ] mount /lab              R&amp;D · prototypes · dry-run</text>
-      <text x="40" y="133" fill="#00f0ff" clip-path="url(#h7)">[ NOTE ]   lab workspaces         R&amp;D / reverse / privacy only</text>
-      <text x="40" y="152" fill="#39ff14" clip-path="url(#h8)">[  OK  ] mount /vitrine          7 public desktop tools</text>
-      <text x="40" y="171" fill="#00f0ff" clip-path="url(#h9)">[ NOTE ]   DeviseConvert         BCE rates + offline cache</text>
-      <text x="40" y="190" fill="#00f0ff" clip-path="url(#h10)">[ INFO ] operator=Cursor_AI      qa=human Mr-Aurevo-X</text>
-      <text x="40" y="209" fill="#9dffc2" clip-path="url(#h11)">[ SYNC ] SoT inject ui-kit · security · host helpers</text>
-      <text x="40" y="228" fill="#39ff14" clip-path="url(#h12)">[ EXEC ] WinCleaner traces --ship --await human-signoff</text>
-      <text x="40" y="247" fill="#00f0ff" clip-path="url(#h13)">[ BUILD] queue DiskMap · FastFind · ColorPicker</text>
-      <text x="40" y="266" fill="#6aff9a" clip-path="url(#h14)">[ LINK ] guns.lol/mr_aurevo_x · discord://user</text>
-      <text x="40" y="285" fill="#9dffc2" clip-path="url(#h15)">[ TELE ] telemetry cards refreshed (private · no secrets)</text>
-      <text x="40" y="304" fill="#9dffc2" clip-path="url(#h16)">[ DIFF ] +CURSOR_AI  architecture · code · ship</text>
-      <text x="40" y="323" fill="#9dffc2" clip-path="url(#h17)">[ DIFF ] +HUMAN      ideas · break · QA · go/no-go</text>
-      <text x="40" y="342" fill="#6aff9a" clip-path="url(#h18)">[ WAIT ] idle -- next idea from human layer...</text>
-      <text x="40" y="361" fill="#00f0ff" clip-path="url(#h19)">mr-aurevo-x@workshop:~$ <tspan fill="#39ff14"><animate attributeName="opacity" values="1;0;1" dur="1.05s" begin="43s" repeatCount="indefinite"/>_</tspan></text>
-      <!-- soft scroll so later lines stay in view without crushing -->
-      <animateTransform attributeName="transform" type="translate" values="0 62;0 62;0 62;0 -10;0 -10;0 62" keyTimes="0;0.05;0.55;0.82;0.90;1" dur="52s" repeatCount="indefinite"/>
-    </g>
-  </g>
+ <g clip-path="url(#screen)" font-family="Consolas, ui-monospace, monospace" font-size="13">
+ <g>
+ <text x="40" y="0" fill="#6aff9a" clip-path="url(#h0)">[BOOT ] workshop_kernel · suite 1.3.x · AI-operated</text>
+ <text x="40" y="19" fill="#39ff14" clip-path="url(#h1)">[ OK ] mount /atelier PC Command hub (admin)</text>
+ <text x="40" y="38" fill="#9dffc2" clip-path="url(#h2)">[ INFO ] flagships WinCleaner · WinAudit · DiskMap</text>
+ <text x="40" y="57" fill="#9dffc2" clip-path="url(#h3)">[ INFO ] suite tools FastFind · ColorPicker · Trad-X +</text>
+ <text x="40" y="76" fill="#39ff14" clip-path="url(#h4)">[ OK ] mount /salon Incremental-X launcher</text>
+ <text x="40" y="95" fill="#9dffc2" clip-path="url(#h5)">[ INFO ] games X titles · private salon</text>
+ <text x="40" y="114" fill="#39ff14" clip-path="url(#h6)">[ OK ] mount /lab R&amp;D · prototypes · dry-run</text>
+ <text x="40" y="133" fill="#00f0ff" clip-path="url(#h7)">[ NOTE ] lab workspaces R&amp;D / reverse / privacy only</text>
+ <text x="40" y="152" fill="#39ff14" clip-path="url(#h8)">[ OK ] mount /vitrine 7 public desktop tools</text>
+ <text x="40" y="171" fill="#00f0ff" clip-path="url(#h9)">[ NOTE ] DeviseConvert BCE rates + offline cache</text>
+ <text x="40" y="190" fill="#00f0ff" clip-path="url(#h10)">[ INFO ] operator=Cursor_AI qa=human Mr-Aurevo-X</text>
+ <text x="40" y="209" fill="#9dffc2" clip-path="url(#h11)">[ SYNC ] SoT inject ui-kit · security · host helpers</text>
+ <text x="40" y="228" fill="#39ff14" clip-path="url(#h12)">[ EXEC ] WinCleaner traces --ship --await human-signoff</text>
+ <text x="40" y="247" fill="#00f0ff" clip-path="url(#h13)">[ BUILD] queue DiskMap · FastFind · ColorPicker</text>
+ <text x="40" y="266" fill="#6aff9a" clip-path="url(#h14)">[ LINK ] guns.lol/mr_aurevo_x · discord://user</text>
+ <text x="40" y="285" fill="#9dffc2" clip-path="url(#h15)">[ TELE ] telemetry cards refreshed (private · no secrets)</text>
+ <text x="40" y="304" fill="#9dffc2" clip-path="url(#h16)">[ DIFF ] +CURSOR_AI architecture · code · ship</text>
+ <text x="40" y="323" fill="#9dffc2" clip-path="url(#h17)">[ DIFF ] +HUMAN ideas · break · QA · go/no-go</text>
+ <text x="40" y="342" fill="#6aff9a" clip-path="url(#h18)">[ WAIT ] idle -- next idea from human layer...</text>
+ <text x="40" y="361" fill="#00f0ff" clip-path="url(#h19)">mr-aurevo-x@workshop:~$ <tspan fill="#39ff14"><animate attributeName="opacity" values="1;0;1" dur="1.05s" begin="43s" repeatCount="indefinite"/>_</tspan></text>
+ <!-- soft scroll so later lines stay in view without crushing -->
+ <animateTransform attributeName="transform" type="translate" values="0 62;0 62;0 62;0 -10;0 -10;0 62" keyTimes="0;0.05;0.55;0.82;0.90;1" dur="52s" repeatCount="indefinite"/>
+ </g>
+ </g>
 
-  <rect x="24" y="426" width="1052" height="2" fill="url(#g)" opacity="0.7">
-    <animate attributeName="opacity" values="0.3;0.9;0.3" dur="3.6s" repeatCount="indefinite"/>
-  </rect>
+ <rect x="24" y="426" width="1052" height="2" fill="url(#g)" opacity="0.7">
+ <animate attributeName="opacity" values="0.3;0.9;0.3" dur="3.6s" repeatCount="indefinite"/>
+ </rect>
 
-  <text x="40" y="448" fill="#4d7a5c" font-family="Consolas, ui-monospace, monospace" font-size="11">mr-aurevo-x · workshop shell · AI-operated · typewriter boot</text>
-  <text x="820" y="448" fill="#39ff14" font-family="Consolas, ui-monospace, monospace" font-size="12">AI-RUN WORKSHOP</text>
+ <text x="40" y="448" fill="#4d7a5c" font-family="Consolas, ui-monospace, monospace" font-size="11">mr-aurevo-x · workshop shell · AI-operated · typewriter boot</text>
+ <text x="820" y="448" fill="#39ff14" font-family="Consolas, ui-monospace, monospace" font-size="12">AI-RUN WORKSHOP</text>
 </svg>
