@@ -1,0 +1,69 @@
+# Generate static neon stats + streak SVGs (private-capable with STATS_GH_TOKEN).
+# Aggregates only  do not add top-langs / repo lists (would expose private stack).
+# Token lives only in repo Actions secrets  never in README or committed files.
+name: Update telemetry cards
+
+on:
+  schedule:
+    - cron: "15 */8 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Require STATS_GH_TOKEN
+        id: token
+        env:
+          STATS_GH_TOKEN: ${{ secrets.STATS_GH_TOKEN }}
+        run: |
+          if [ -z "$STATS_GH_TOKEN" ]; then
+            echo "::warning::STATS_GH_TOKEN missing — keeping placeholder SVGs (public widgets cannot see private work). Add a PAT as repo secret STATS_GH_TOKEN, then re-run this workflow."
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "STATS_GH_TOKEN present — generating private-capable cards."
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Generate stats card
+        if: steps.token.outputs.ready == 'true'
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          path: assets/github-stats.svg
+          token: ${{ secrets.STATS_GH_TOKEN }}
+          options: >-
+            username=Mr-Aurevo-X&show_icons=true&hide_border=true
+            &bg_color=050807&title_color=39ff14&icon_color=00f0ff
+            &text_color=b7ffe0&ring_color=39ff14
+            &count_private=true&include_all_commits=true
+
+      - name: Generate streak card
+        if: steps.token.outputs.ready == 'true'
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          path: assets/github-streak.svg
+          token: ${{ secrets.STATS_GH_TOKEN }}
+          options: >-
+            user=Mr-Aurevo-X&theme=radical&hide_border=true
+            &background=050807&ring=39ff14&fire=00f0ff
+            &currStreakLabel=39ff14&sideLabels=b7ffe0&dates=b7ffe0
+
+      - name: Commit cards
+        if: steps.token.outputs.ready == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-stats.svg assets/github-streak.svg
+          if git diff --staged --quiet; then
+            echo "No telemetry card changes."
+            exit 0
+          fi
+          git commit -m "chore: refresh telemetry cards [skip ci]"
+          git push
