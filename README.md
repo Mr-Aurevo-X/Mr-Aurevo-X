@@ -59,6 +59,15 @@
 
 <div align="center">
 
+### ⬛ QrMake — Public
+**Générateur de QR codes multi-payloads · 100 % local · 100 % gratuit**  
+Texte · URL · Wi‑Fi · vCard · Email · Tel · SMS · Geo · Event · WhatsApp · Brut  
+Mise à jour non garantie · Copyright © 2026 Mr-Aurevo-X
+
+**[github.com/Mr-Aurevo-X/QrMake](https://github.com/Mr-Aurevo-X/QrMake)** · `public · AI-built · human-tested`
+
+<br/>
+
 ### 🪟 Suite — L’Atelier Windows
 **PC Command hub + arsenal d’outils Windows desktop**  
 WinCleaner · WinAudit · DiskMap · FastFind · ColorPicker · Mapping · + encore…
