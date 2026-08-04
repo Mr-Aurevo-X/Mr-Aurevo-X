@@ -14,6 +14,18 @@
     <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
       <rect width="4" height="1" fill="#39ff14" opacity="0.04"/>
     </pattern>
+    <clipPath id="h0"><rect x="40" y="-16" height="20" width="0"><animate attributeName="width" values="0;0;620;620;0" keyTimes="0;0.00;0.06;0.90;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="h1"><rect x="40" y="6" height="20" width="0"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.06;0.12;0.90;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="h2"><rect x="40" y="28" height="20" width="0"><animate attributeName="width" values="0;0;580;580;0" keyTimes="0;0.12;0.18;0.90;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="h3"><rect x="40" y="50" height="20" width="0"><animate attributeName="width" values="0;0;640;640;0" keyTimes="0;0.18;0.24;0.90;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="h4"><rect x="40" y="72" height="20" width="0"><animate attributeName="width" values="0;0;620;620;0" keyTimes="0;0.24;0.30;0.90;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="h5"><rect x="40" y="94" height="20" width="0"><animate attributeName="width" values="0;0;560;560;0" keyTimes="0;0.30;0.36;0.90;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="h6"><rect x="40" y="116" height="20" width="0"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.36;0.42;0.90;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="h7"><rect x="40" y="138" height="20" width="0"><animate attributeName="width" values="0;0;620;620;0" keyTimes="0;0.42;0.48;0.90;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="h8"><rect x="40" y="160" height="20" width="0"><animate attributeName="width" values="0;0;640;640;0" keyTimes="0;0.48;0.54;0.90;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="h9"><rect x="40" y="182" height="20" width="0"><animate attributeName="width" values="0;0;660;660;0" keyTimes="0;0.54;0.60;0.90;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="h10"><rect x="40" y="204" height="20" width="0"><animate attributeName="width" values="0;0;680;680;0" keyTimes="0;0.60;0.66;0.90;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="h11"><rect x="40" y="226" height="20" width="0"><animate attributeName="width" values="0;0;320;320;0" keyTimes="0;0.66;0.72;0.90;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
   </defs>
 
   <rect width="1100" height="320" fill="url(#bg)"/>
@@ -29,18 +41,18 @@
 
   <g clip-path="url(#screen)" font-family="Consolas, ui-monospace, monospace" font-size="14">
     <g>
-      <text x="40" y="0" fill="#39ff14">[  OK  ] mount /atelier          PC Command hub</text>
-      <text x="40" y="22" fill="#39ff14">[  OK  ] mount /salon            game launcher</text>
-      <text x="40" y="44" fill="#39ff14">[  OK  ] mount /lab               R&amp;D · prototypes</text>
-      <text x="40" y="66" fill="#00f0ff">[ INFO ] operator=Cursor_AI       qa=Mr-Aurevo-X</text>
-      <text x="40" y="88" fill="#9dffc2">[ SYNC ] github private=84        public=vitrine</text>
-      <text x="40" y="110" fill="#39ff14">[ EXEC ] build tools --ship --human-signoff</text>
-      <text x="40" y="132" fill="#00f0ff">[ LINK ] guns.lol/mr_aurevo_x     discord://user</text>
-      <text x="40" y="154" fill="#6aff9a">[ WAIT ] awaiting next idea from human layer…</text>
-      <text x="40" y="176" fill="#39ff14">[  OK  ] telemetry cards refreshed (private)</text>
-      <text x="40" y="198" fill="#9dffc2">[ DIFF ] +CURSOR_AI  architecture · code · ship</text>
-      <text x="40" y="220" fill="#9dffc2">[ DIFF ] +HUMAN      ideas · break · QA · go/no-go</text>
-      <text x="40" y="242" fill="#00f0ff">mr-aurevo-x@workshop:~$ <tspan id="cmd">_</tspan></text>
+      <text x="40" y="0" fill="#39ff14" clip-path="url(#h0)">[  OK  ] mount /atelier          PC Command hub</text>
+      <text x="40" y="22" fill="#39ff14" clip-path="url(#h1)">[  OK  ] mount /salon            game launcher</text>
+      <text x="40" y="44" fill="#39ff14" clip-path="url(#h2)">[  OK  ] mount /lab               R&amp;D · prototypes</text>
+      <text x="40" y="66" fill="#00f0ff" clip-path="url(#h3)">[ INFO ] operator=Cursor_AI       qa=Mr-Aurevo-X</text>
+      <text x="40" y="88" fill="#9dffc2" clip-path="url(#h4)">[ SYNC ] github private=84        public=vitrine</text>
+      <text x="40" y="110" fill="#39ff14" clip-path="url(#h5)">[ EXEC ] build tools --ship --human-signoff</text>
+      <text x="40" y="132" fill="#00f0ff" clip-path="url(#h6)">[ LINK ] guns.lol/mr_aurevo_x     discord://user</text>
+      <text x="40" y="154" fill="#6aff9a" clip-path="url(#h7)">[ WAIT ] awaiting next idea from human layer...</text>
+      <text x="40" y="176" fill="#39ff14" clip-path="url(#h8)">[  OK  ] telemetry cards refreshed (private)</text>
+      <text x="40" y="198" fill="#9dffc2" clip-path="url(#h9)">[ DIFF ] +CURSOR_AI  architecture · code · ship</text>
+      <text x="40" y="220" fill="#9dffc2" clip-path="url(#h10)">[ DIFF ] +HUMAN      ideas · break · QA · go/no-go</text>
+      <text x="40" y="242" fill="#00f0ff" clip-path="url(#h11)">mr-aurevo-x@workshop:~$ <tspan fill="#39ff14"><animate attributeName="opacity" values="1;0;1" dur="0.8s" begin="10s" repeatCount="indefinite"/>_</tspan></text>
       <animateTransform attributeName="transform" type="translate" from="0 70" to="0 -160" dur="14s" repeatCount="indefinite"/>
     </g>
   </g>

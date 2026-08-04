@@ -4,6 +4,19 @@
     <pattern id="s2" width="3" height="3" patternUnits="userSpaceOnUse">
       <rect width="3" height="1" fill="#00f0ff" opacity="0.05"/>
     </pattern>
+    <clipPath id="q0"><rect x="28" y="-14" height="18" width="0"><animate attributeName="width" values="0;0;360;360;0" keyTimes="0;0.00;0.06;0.86;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="q1"><rect x="28" y="4" height="18" width="0"><animate attributeName="width" values="0;0;280;280;0" keyTimes="0;0.06;0.12;0.86;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="q2"><rect x="28" y="22" height="18" width="0"><animate attributeName="width" values="0;0;340;340;0" keyTimes="0;0.12;0.18;0.86;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="q3"><rect x="28" y="40" height="18" width="0"><animate attributeName="width" values="0;0;400;400;0" keyTimes="0;0.18;0.24;0.86;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="q4"><rect x="28" y="58" height="18" width="0"><animate attributeName="width" values="0;0;240;240;0" keyTimes="0;0.24;0.30;0.86;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="q5"><rect x="28" y="76" height="18" width="0"><animate attributeName="width" values="0;0;280;280;0" keyTimes="0;0.30;0.36;0.86;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="q6"><rect x="28" y="94" height="18" width="0"><animate attributeName="width" values="0;0;320;320;0" keyTimes="0;0.36;0.42;0.86;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="q7"><rect x="28" y="112" height="18" width="0"><animate attributeName="width" values="0;0;260;260;0" keyTimes="0;0.42;0.48;0.86;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="q8"><rect x="28" y="130" height="18" width="0"><animate attributeName="width" values="0;0;140;140;0" keyTimes="0;0.48;0.52;0.86;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="q9"><rect x="28" y="148" height="18" width="0"><animate attributeName="width" values="0;0;340;340;0" keyTimes="0;0.52;0.60;0.86;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="q10"><rect x="28" y="166" height="18" width="0"><animate attributeName="width" values="0;0;120;120;0" keyTimes="0;0.60;0.64;0.86;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="q11"><rect x="28" y="184" height="18" width="0"><animate attributeName="width" values="0;0;400;400;0" keyTimes="0;0.64;0.72;0.86;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="q12"><rect x="28" y="202" height="18" width="0"><animate attributeName="width" values="0;0;140;140;0" keyTimes="0;0.72;0.78;0.86;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
   </defs>
   <rect width="540" height="280" rx="12" fill="#050807" stroke="#1a4a55"/>
   <circle cx="28" cy="22" r="4" fill="#ff5f56"/>
@@ -14,19 +27,19 @@
   <rect x="16" y="40" width="508" height="220" rx="4" fill="url(#s2)"/>
   <g clip-path="url(#c2)" font-family="Consolas, monospace" font-size="12" fill="#00f0ff">
     <g>
-      <text x="28" y="0">$ idea inject "cleaner traces v2"</text>
-      <text x="28" y="18" fill="#39ff14">accepted | AI scaffolding</text>
-      <text x="28" y="36">$ break --on purpose WinAudit</text>
-      <text x="28" y="54" fill="#ffb86c">FOUND edge case | icon cache race</text>
-      <text x="28" y="72">$ report --to cursor</text>
-      <text x="28" y="90" fill="#9dffc2">patch inbound | retest</text>
-      <text x="28" y="108">$ validate QrMake payloads</text>
-      <text x="28" y="126" fill="#39ff14">wifi | vcard | geo | ok</text>
-      <text x="28" y="144">$ go-nogo</text>
-      <text x="28" y="162" fill="#39ff14">GREEN LIGHT | ship authorized</text>
-      <text x="28" y="180">$ whoami</text>
-      <text x="28" y="198" fill="#00f0ff">ideas | QA | vision -- not the coder</text>
-      <text x="28" y="216" fill="#00f0ff">human@_</text>
+      <text x="28" y="0" clip-path="url(#q0)">$ idea inject "cleaner traces v2"</text>
+      <text x="28" y="18" fill="#39ff14" clip-path="url(#q1)">accepted | AI scaffolding</text>
+      <text x="28" y="36" clip-path="url(#q2)">$ break --on purpose WinAudit</text>
+      <text x="28" y="54" fill="#ffb86c" clip-path="url(#q3)">FOUND edge case | icon cache race</text>
+      <text x="28" y="72" clip-path="url(#q4)">$ report --to cursor</text>
+      <text x="28" y="90" fill="#9dffc2" clip-path="url(#q5)">patch inbound | retest</text>
+      <text x="28" y="108" clip-path="url(#q6)">$ validate QrMake payloads</text>
+      <text x="28" y="126" fill="#39ff14" clip-path="url(#q7)">wifi | vcard | geo | ok</text>
+      <text x="28" y="144" clip-path="url(#q8)">$ go-nogo</text>
+      <text x="28" y="162" fill="#39ff14" clip-path="url(#q9)">GREEN LIGHT | ship authorized</text>
+      <text x="28" y="180" clip-path="url(#q10)">$ whoami</text>
+      <text x="28" y="198" fill="#00f0ff" clip-path="url(#q11)">ideas | QA | vision -- not the coder</text>
+      <text x="28" y="216" fill="#00f0ff" clip-path="url(#q12)">human@<tspan fill="#39ff14"><animate attributeName="opacity" values="1;0;1" dur="0.75s" begin="9.3s" repeatCount="indefinite"/>_</tspan></text>
       <animateTransform attributeName="transform" type="translate" values="0 50;0 -110;0 50" keyTimes="0;0.8;1" dur="12s" repeatCount="indefinite"/>
     </g>
   </g>
