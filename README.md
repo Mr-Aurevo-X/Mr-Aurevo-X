@@ -13,7 +13,7 @@
 [![Cursor AI](https://img.shields.io/badge/BUILT_BY-CURSOR_AI-39ff14?style=for-the-badge&labelColor=050807&logo=cursor&logoColor=39ff14)](https://cursor.com)
 [![Mr-Aurevo-X QA](https://img.shields.io/badge/IDEAS_%26_QA-MR--AUREVO--X-00f0ff?style=for-the-badge&labelColor=050807)](https://github.com/Mr-Aurevo-X)
 
-`STATUS=ONLINE` | `VITRINE=public` | `ATELIER+SALON+LAB=private` | `MODE=AI_OPERATED` | `COLOR=DUAL_SPLIT`
+`STATUS=ONLINE` | `VITRINE=public` | `PC_COMMAND=5_HUBS` | `ATELIER+SALON+LAB=private` | `MODE=AI_OPERATED` | `COLOR=DUAL_SPLIT`
 
 </div>
 
@@ -81,10 +81,10 @@ Single crafted factory board (dual-split: **BUILD green** / **QA cyan**). Decora
 
 ```text
 /workshop
-|-- atelier/     L'Atelier Windows | PC Command (+30 tools)   [private]
-|-- salon/       Game launcher + X titles | forks              [private]
-|-- lab/         Lab launcher + R&D | Discordbots | prototypes [private]
-`-- vitrine/     7 public desktop tools                        [public]
+|-- atelier/     PC Command | 5 hubs in-hub (Dashboard + modules) [private]
+|-- salon/       Game launcher + X titles | forks                  [private]
+|-- lab/         Lab launcher + R&D | Discordbots | prototypes     [private]
+`-- vitrine/     7 public desktop tools                            [public]
 ```
 
 <details>
@@ -92,31 +92,27 @@ Single crafted factory board (dual-split: **BUILD green** / **QA cyan**). Decora
 
 <a id="atelier"></a>
 
-### atelier - PC Command
+### atelier - PC Command (5 hubs)
 
-SoT : `L'Atelier Windows\` | hub **PC Command** | admin UAC | `Lancer.cmd`
+SoT : `Dev Central Tree\01_Hubs\` | pywebview + WebView2 | UAC admin | lazy DOM | ConfirmGate  
+Ship : `Launch-Hub-*.exe` / `Hubs.zip` via Install-Easy (plus de launcher plat / `PCCommand.exe`)
 
 ```text
-L'Atelier Windows/
-|-- MrAurevoX-Launcher/     * PC Command hub  (private)
-|-- MrAurevoX-UI/           kit UI partage
-|-- MrAurevoX-Releases/     packaging / portable
-|
-|-- * Flagships
-|   |-- WinCleaner/         nettoyage | caches | traces | debloat
-|   |-- WinAudit/           audit heuristique local
-|   `-- DiskMap/            carte disque | doublons
-|
-|-- system                  AudioDevice | FocusBlock | MonitorInfo | PowerPlan
-|                           PrintQueue | ProcessGuard | RestorePoint | ShellKit
-|                           StartupX | SysInspect | UninstX | UserSessions
-|-- network                 NetAdmin | NetMap | WifiKey
-|-- files                   FileGuard | HashCheck | InboxSort | LinkKit
-|                           PdfKit | Renamer | ZipTools
-|-- config                  CertView | EnvEditor | FontManager | HotkeyList
-|-- media                   Capture | ColorPicker | ImgBatch | WallpaperPick
-|-- productivity            ClipBoard
-`-- tools                   PassGen | RepoRadar | TextLab | Trad-X
+01_Hubs/
+|-- Hub-Systeme/        * SystemClean | RamCleaner | ProcessHub | UninstX | SysInspect | ...
+|-- Hub-Reseau/         * NetAdmin | NetMap | RoadWay-X | WifiKey
+|-- Hub-Securite/       * FileGuard | CertView | RepoRadar | WinAudit
+|-- Hub-Dev/            * Lua/Dll/JsonClean | HashCheck | ProtAudit | IdentityReset | EnvEditor
+`-- Hub-Utilitaires/    * UtilKit (+ ShellKit) | MediaKit | Capture | ColorPicker | ...
+
+02_Shared_Infrastructure/
+|-- UI-proprietaire/    pc-command-kit SoT
+|-- SecurityHelpers/    ConfirmGate + security.py
+|-- HostHelpers/        window_chrome | suite_launch
+|-- Install-Easy-Private/  installer (Hubs.zip + Lab + Salon packs)
+`-- MrAurevoX-Releases/ packaging / portable assets
+
+standalones (Lab siblings) : Auto-Dox | Opti (later) | Track
 ```
 
 <a id="salon"></a>
