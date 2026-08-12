@@ -153,11 +153,11 @@ Lab/
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/github-stats.svg?v=e4d27bb" height="165" alt="GitHub stats"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/github-stats.svg?v=6205ef5" height="165" alt="GitHub stats"/>
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/github-streak.svg?v=e4d27bb" alt="Streak"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/github-streak.svg?v=6205ef5" alt="Streak"/>
 
 <br/>
 
