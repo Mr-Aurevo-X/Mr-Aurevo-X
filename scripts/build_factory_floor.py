@@ -282,7 +282,7 @@ Ship : `Launch-Hub-*.exe` / `Hubs.zip` via Install-Easy (plus de launcher plat /
 |-- Install-Easy-Private/  installer (Hubs.zip + Lab + Salon packs)
 `-- MrAurevoX-Releases/ packaging / portable assets
 
-standalones (Lab siblings) : Auto-Dox | Opti (later) | Track
+standalones (Lab siblings) : Opti (later)
 ```
 
 <a id="salon"></a>
@@ -307,7 +307,7 @@ Hub **Lab** | `Lancer.cmd` | `Lab.exe` | `launcher.py`
 ```text
 Lab/
 |-- Lancer.cmd | Lab.exe    * Lab launcher  (private)
-|-- standalones             Track | Opti (later) | Auto-Dox
+|-- standalones             Opti (later)
 `-- DiscordBots/
     `-- Mr-X-Sentinel/      * Discord bot platform (private)
                             mod | security | eco | XP | tickets | music | AI
