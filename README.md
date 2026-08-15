@@ -86,10 +86,10 @@ SoT `Dev Central Tree\Git Vitrine Public\`
 | App | Role | Version | Native | Flatpak |
 |:--|:--|:--|:--|:--|
 | **Crypto Tracker** | local crypto portfolio | 1.2.11 | [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/crypto-tracker-v1.2.11) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/crypto-tracker-v1.2.11) |
-| **Gest Linux Pro** | GTK system toolkit | 1.4.10 | [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/Gest_Linux_Pro-v1.4.10) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/Gest_Linux_Pro-v1.4.10) |
+| **Gest Linux Pro** | GTK system toolkit | 1.4.11 | — (Flatpak only) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/Gest_Linux_Pro-v1.4.11) |
 | **MrAurevoX Kit** | local toolkit (search, hash, EXIF, PDF, QR) | 0.2.6 | [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/MrAurevoX-Kit-v0.2.6) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/MrAurevoX-Kit-v0.2.6) |
 
-Native: tar.gz / zip via [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases) (**Gest : CachyOS uniquement** ; Mint / Ubuntu 22.04 native non supporté pour le moment). Flatpak: `.flatpak` via [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases) (Freedesktop 25.08 / GNOME 49).
+Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases). **Gest : Flatpak uniquement** (plus de native). Flatpak: `.flatpak` via [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases) (Freedesktop 25.08 / GNOME 49).
 
 ---
 
@@ -170,7 +170,7 @@ Sources stay private. Public installables only.
 linux-releases/             * native tar.gz | zip | .deb
 linux-flatpak-releases/     * .flatpak
 |-- Crypto Tracker          1.2.11
-|-- Gest Linux Pro          1.4.10
+|-- Gest Linux Pro          1.4.11
 `-- MrAurevoX Kit           0.2.6
 ```
 
