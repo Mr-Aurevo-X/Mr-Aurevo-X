@@ -48,7 +48,7 @@
  <!-- set C · vitrine WIN + linux ship -->
  <text x="28" y="162" clip-path="url(#b9)">$ ship win QrMake MetaStrip +5</text>
  <text x="28" y="180" fill="#39ff14" clip-path="url(#b10)">DeviseConvert BCE | EpochClock QrBatch OK</text>
- <text x="28" y="198" clip-path="url(#b11)">$ ship linux CryptoTracker GestLinuxPro</text>
+ <text x="28" y="198" clip-path="url(#b11)">$ ship linux Tracker GestLinuxPro Kit</text>
  <text x="28" y="216" fill="#39ff14" clip-path="url(#b12)">native tar.gz | Flatpak .flatpak</text>
  <text x="28" y="234" fill="#39ff14" clip-path="url(#b13)">atelier private | win+linux public</text>
  <text x="28" y="252" clip-path="url(#b14)">$ ship --await human-qa</text>

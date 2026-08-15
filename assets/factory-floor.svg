@@ -68,7 +68,7 @@
   <text x="302" y="212" fill="#6aff9a" font-family="Consolas, monospace" font-size="12">SALON    | Game launcher + X titles</text>
   <text x="302" y="232" fill="#7ec8ff" font-family="Consolas, monospace" font-size="12">LAB      | R&amp;D | Discordbots</text>
   <text x="302" y="252" fill="#7ec8ff" font-family="Consolas, monospace" font-size="12">WIN      | 7 desktop .exe | free</text>
-  <text x="302" y="272" fill="#7ec8ff" font-family="Consolas, monospace" font-size="12">LINUX    | Crypto Tracker | Gest Linux Pro</text>
+  <text x="302" y="272" fill="#7ec8ff" font-family="Consolas, monospace" font-size="12">LINUX    | Crypto Tracker | Gest | Kit</text>
 
   <line x1="302" y1="286" x2="786" y2="286" stroke="#0a3a44"/>
   <text x="302" y="306" fill="#39ff14" font-family="Consolas, monospace" font-size="12">WIN TICKER</text>
@@ -87,7 +87,7 @@
   <rect x="302" y="346" width="484" height="24" rx="4" fill="#030605" stroke="#0a3a44"/>
   <g clip-path="url(#tickLin)" font-family="Consolas, monospace" font-size="12" fill="#00f0ff">
     <text x="310" y="363">
-      Crypto Tracker  |  Gest Linux Pro  |  native + Flatpak  |  Crypto Tracker  |  Gest Linux Pro  |
+      Crypto Tracker  |  Gest Linux Pro  |  MrAurevoX Kit  |  native + Flatpak  |  Crypto Tracker  |
       <animateTransform attributeName="transform" type="translate" from="0 0" to="-420 0" dur="18s" repeatCount="indefinite"/>
     </text>
   </g>

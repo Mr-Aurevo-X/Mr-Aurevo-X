@@ -96,7 +96,7 @@ def factory_svg() -> str:
   <text x="302" y="212" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="12">SALON    | Game launcher + X titles</text>
   <text x="302" y="232" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="12">LAB      | R&amp;D | Discordbots</text>
   <text x="302" y="252" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="12">WIN      | 7 desktop .exe | free</text>
-  <text x="302" y="272" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="12">LINUX    | Crypto Tracker | Gest Linux Pro</text>
+  <text x="302" y="272" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="12">LINUX    | Crypto Tracker | Gest | Kit</text>
 
   <line x1="302" y1="286" x2="786" y2="286" stroke="{STROKE_C}"/>
   <text x="302" y="306" fill="{GREEN}" font-family="Consolas, monospace" font-size="12">WIN TICKER</text>
@@ -115,7 +115,7 @@ def factory_svg() -> str:
   <rect x="302" y="346" width="484" height="24" rx="4" fill="#030605" stroke="{STROKE_C}"/>
   <g clip-path="url(#tickLin)" font-family="Consolas, monospace" font-size="12" fill="{CYAN}">
     <text x="310" y="363">
-      Crypto Tracker  |  Gest Linux Pro  |  native + Flatpak  |  Crypto Tracker  |  Gest Linux Pro  |
+      Crypto Tracker  |  Gest Linux Pro  |  MrAurevoX Kit  |  native + Flatpak  |  Crypto Tracker  |
       <animateTransform attributeName="transform" type="translate" from="0 0" to="-420 0" dur="18s" repeatCount="indefinite"/>
     </text>
   </g>
@@ -166,7 +166,7 @@ README_TEMPLATE = """<div align="center">
 [![Cursor AI](https://img.shields.io/badge/BUILT_BY-CURSOR_AI-39ff14?style=for-the-badge&labelColor=050807&logo=cursor&logoColor=39ff14)](https://cursor.com)
 [![Mr-Aurevo-X QA](https://img.shields.io/badge/IDEAS_%26_QA-MR--AUREVO--X-00f0ff?style=for-the-badge&labelColor=050807)](https://github.com/Mr-Aurevo-X)
 
-`STATUS=ONLINE` | `WIN=7_exe` | `LINUX=2_apps` | `PC_COMMAND=5_HUBS` | `ATELIER+SALON+LAB=private` | `MODE=AI_OPERATED`
+`STATUS=ONLINE` | `WIN=7_exe` | `LINUX=3_apps` | `PC_COMMAND=5_HUBS` | `ATELIER+SALON+LAB=private` | `MODE=AI_OPERATED`
 
 </div>
 
@@ -215,7 +215,7 @@ Single crafted factory board (dual-split: **BUILD green** / **QA cyan**). Decora
 
 ## featured - public vitrine
 
-`WIN=7_exe` | `LINUX=2_apps` | `public` | `AI-built` | `human-tested` | sources stay private
+`WIN=7_exe` | `LINUX=3_apps` | `public` | `AI-built` | `human-tested` | sources stay private
 
 ### windows — 7 desktop tools
 
@@ -232,14 +232,15 @@ SoT `Dev Central Tree\\Git Vitrine Public\\`
 | **MetaStrip** | Strip EXIF/GPS/XMP | [repo](https://github.com/Mr-Aurevo-X/MetaStrip) / [releases](https://github.com/Mr-Aurevo-X/MetaStrip/releases/latest) |
 | **QrBatch** | QR en lot -> PNG + ZIP | [repo](https://github.com/Mr-Aurevo-X/QrBatch) / [releases](https://github.com/Mr-Aurevo-X/QrBatch/releases/latest) |
 
-### linux — 2 apps
+### linux — 3 apps
 
 **Binaries only (no source) | native + Flatpak**
 
-| App | Version | Native | Flatpak |
-|:--|:--|:--|:--|
-| **Crypto Tracker** | 1.2.3 | [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/crypto-tracker-v1.2.3) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/crypto-tracker-v1.2.3) |
-| **Gest Linux Pro** | 1.4.3 | [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/Gest_Linux_Pro-v1.4.3) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/Gest_Linux_Pro-v1.4.3) |
+| App | Role | Version | Native | Flatpak |
+|:--|:--|:--|:--|:--|
+| **Crypto Tracker** | local crypto portfolio | 1.2.11 | [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/crypto-tracker-v1.2.11) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/crypto-tracker-v1.2.11) |
+| **Gest Linux Pro** | GTK system toolkit | 1.4.10 | [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/Gest_Linux_Pro-v1.4.10) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/Gest_Linux_Pro-v1.4.10) |
+| **MrAurevoX Kit** | local toolkit (search, hash, EXIF, PDF, QR) | 0.2.6 | [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/MrAurevoX-Kit-v0.2.6) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/MrAurevoX-Kit-v0.2.6) |
 
 Native: tar.gz / zip / `.deb` via [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases). Flatpak: `.flatpak` via [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases) (Freedesktop 25.08 / GNOME 49).
 
@@ -253,7 +254,7 @@ Native: tar.gz / zip / `.deb` via [linux-releases](https://github.com/Mr-Aurevo-
 |-- salon/       Game launcher + X titles | forks                  [private]
 |-- lab/         Lab launcher + R&D | Discordbots | prototypes     [private]
 |-- vitrine/     7 Windows desktop tools                           [public]
-`-- linux/       Crypto Tracker | Gest Linux Pro                   [public binaries]
+`-- linux/       Crypto Tracker | Gest Linux Pro | MrAurevoX Kit   [public binaries]
 ```
 
 <details>
@@ -321,8 +322,9 @@ Sources stay private. Public installables only.
 ```text
 linux-releases/             * native tar.gz | zip | .deb
 linux-flatpak-releases/     * .flatpak
-|-- Crypto Tracker          1.2.3
-`-- Gest Linux Pro          1.4.3
+|-- Crypto Tracker          1.2.11
+|-- Gest Linux Pro          1.4.10
+`-- MrAurevoX Kit           0.2.6
 ```
 
 </details>
