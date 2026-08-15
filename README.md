@@ -4,7 +4,7 @@
 
 **AI-run workshop - Cursor builds | Mr-Aurevo-X QA | Windows + Linux**
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/5398b95/assets/hero-boot.svg?v=5398b95" alt="Boot console scrolling" width="100%"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/a2476c7/assets/hero-boot.svg?v=a2476c7" alt="Boot console scrolling" width="100%"/>
 
 <br/>
 
@@ -26,10 +26,10 @@
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/5398b95/assets/console-build.svg?v=5398b95" alt="Cursor AI build console (green)" width="100%"/>
+      <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/a2476c7/assets/console-build.svg?v=a2476c7" alt="Cursor AI build console (green)" width="100%"/>
     </td>
     <td width="50%" align="center">
-      <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/5398b95/assets/console-qa.svg?v=5398b95" alt="Mr-Aurevo-X QA console (cyan)" width="100%"/>
+      <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/a2476c7/assets/console-qa.svg?v=a2476c7" alt="Mr-Aurevo-X QA console (cyan)" width="100%"/>
     </td>
   </tr>
 </table>
@@ -54,7 +54,7 @@ Single crafted factory board (dual-split: **BUILD green** / **QA cyan**). Decora
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/5398b95/assets/factory-floor.svg?v=5398b95" alt="Workshop factory floor status board" width="100%"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/a2476c7/assets/factory-floor.svg?v=a2476c7" alt="Workshop factory floor status board" width="100%"/>
 
 </div>
 
