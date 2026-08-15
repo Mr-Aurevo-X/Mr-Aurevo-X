@@ -2,9 +2,9 @@
 
 # `>_ mr-aurevo-x@workshop:~`
 
-**AI-run workshop - Cursor builds | Mr-Aurevo-X QA | Windows factory**
+**AI-run workshop - Cursor builds | Mr-Aurevo-X QA | Windows + Linux**
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/c136a35/assets/hero-boot.svg?v=c136a35" alt="Boot console scrolling" width="100%"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/PENDING/assets/hero-boot.svg?v=PENDING" alt="Boot console scrolling" width="100%"/>
 
 <br/>
 
@@ -13,7 +13,7 @@
 [![Cursor AI](https://img.shields.io/badge/BUILT_BY-CURSOR_AI-39ff14?style=for-the-badge&labelColor=050807&logo=cursor&logoColor=39ff14)](https://cursor.com)
 [![Mr-Aurevo-X QA](https://img.shields.io/badge/IDEAS_%26_QA-MR--AUREVO--X-00f0ff?style=for-the-badge&labelColor=050807)](https://github.com/Mr-Aurevo-X)
 
-`STATUS=ONLINE` | `VITRINE=public` | `PC_COMMAND=5_HUBS` | `ATELIER+SALON+LAB=private` | `MODE=AI_OPERATED` | `COLOR=DUAL_SPLIT`
+`STATUS=ONLINE` | `WIN=7_exe` | `LINUX=2_apps` | `PC_COMMAND=5_HUBS` | `ATELIER+SALON+LAB=private` | `MODE=AI_OPERATED`
 
 </div>
 
@@ -26,10 +26,10 @@
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/c136a35/assets/console-build.svg?v=c136a35" alt="Cursor AI build console (green)" width="100%"/>
+      <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/PENDING/assets/console-build.svg?v=PENDING" alt="Cursor AI build console (green)" width="100%"/>
     </td>
     <td width="50%" align="center">
-      <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/c136a35/assets/console-qa.svg?v=c136a35" alt="Mr-Aurevo-X QA console (cyan)" width="100%"/>
+      <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/PENDING/assets/console-qa.svg?v=PENDING" alt="Mr-Aurevo-X QA console (cyan)" width="100%"/>
     </td>
   </tr>
 </table>
@@ -54,7 +54,7 @@ Single crafted factory board (dual-split: **BUILD green** / **QA cyan**). Decora
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/c136a35/assets/factory-floor.svg?v=c136a35" alt="Workshop factory floor status board" width="100%"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/PENDING/assets/factory-floor.svg?v=PENDING" alt="Workshop factory floor status board" width="100%"/>
 
 </div>
 
@@ -62,8 +62,12 @@ Single crafted factory board (dual-split: **BUILD green** / **QA cyan**). Decora
 
 ## featured - public vitrine
 
-**7 outils desktop | gratuits | locaux (sauf DeviseConvert : taux BCE + cache offline) | `.exe` sans installation**
-`public | AI-built | human-tested` | SoT `Dev Central Tree\Git Vitrine Public\`
+`WIN=7_exe` | `LINUX=2_apps` | `public` | `AI-built` | `human-tested` | sources stay private
+
+### windows — 7 desktop tools
+
+**Gratuits | locaux (sauf DeviseConvert : taux BCE + cache offline) | `.exe` sans installation**
+SoT `Dev Central Tree\Git Vitrine Public\`
 
 | Outil | Role | Lien |
 |:--|:--|:--|
@@ -75,6 +79,17 @@ Single crafted factory board (dual-split: **BUILD green** / **QA cyan**). Decora
 | **MetaStrip** | Strip EXIF/GPS/XMP | [repo](https://github.com/Mr-Aurevo-X/MetaStrip) / [releases](https://github.com/Mr-Aurevo-X/MetaStrip/releases/latest) |
 | **QrBatch** | QR en lot -> PNG + ZIP | [repo](https://github.com/Mr-Aurevo-X/QrBatch) / [releases](https://github.com/Mr-Aurevo-X/QrBatch/releases/latest) |
 
+### linux — 2 apps
+
+**Binaries only (no source) | native + Flatpak**
+
+| App | Version | Native | Flatpak |
+|:--|:--|:--|:--|
+| **Crypto Tracker** | 1.2.3 | [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/crypto-tracker-v1.2.3) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/crypto-tracker-v1.2.3) |
+| **Gest Linux Pro** | 1.4.3 | [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/Gest_Linux_Pro-v1.4.3) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/Gest_Linux_Pro-v1.4.3) |
+
+Native: tar.gz / zip / `.deb` via [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases). Flatpak: `.flatpak` via [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases) (Freedesktop 25.08 / GNOME 49).
+
 ---
 
 ## mounts - filesystem
@@ -84,7 +99,8 @@ Single crafted factory board (dual-split: **BUILD green** / **QA cyan**). Decora
 |-- atelier/     PC Command | 5 hubs in-hub (Dashboard + modules) [private]
 |-- salon/       Game launcher + X titles | forks                  [private]
 |-- lab/         Lab launcher + R&D | Discordbots | prototypes     [private]
-`-- vitrine/     7 public desktop tools                            [public]
+|-- vitrine/     7 Windows desktop tools                           [public]
+`-- linux/       Crypto Tracker | Gest Linux Pro                   [public binaries]
 ```
 
 <details>
@@ -137,12 +153,23 @@ Hub **Lab** | `Lancer.cmd` | `Lab.exe` | `launcher.py`
 ```text
 Lab/
 |-- Lancer.cmd | Lab.exe    * Lab launcher  (private)
-|-- Privacy / OSINT         Track | IdentityReset | Auto-Dox
-|-- Perf / reseau           Opti | RoadWay-X | Ram Cleaner
-|-- Reverse / recovery      LuaClean | DllClean | JsonClean | ProtAudit | LuaObfuscator
+|-- standalones             Track | Opti (later) | Auto-Dox
 `-- DiscordBots/
     `-- Mr-X-Sentinel/      * Discord bot platform (private)
                             mod | security | eco | XP | tickets | music | AI
+```
+
+<a id="linux"></a>
+
+### linux - public binaries
+
+Sources stay private. Public installables only.
+
+```text
+linux-releases/             * native tar.gz | zip | .deb
+linux-flatpak-releases/     * .flatpak
+|-- Crypto Tracker          1.2.3
+`-- Gest Linux Pro          1.4.3
 ```
 
 </details>
@@ -178,6 +205,9 @@ Lab/
 ![HTML5](https://img.shields.io/badge/-HTML5-050807?style=for-the-badge&logo=html5&logoColor=39ff14)
 ![CSS3](https://img.shields.io/badge/-CSS3-050807?style=for-the-badge&logo=css3&logoColor=00f0ff)
 ![Windows](https://img.shields.io/badge/-Windows-050807?style=for-the-badge&logo=windows&logoColor=39ff14)
+![Linux](https://img.shields.io/badge/-Linux-050807?style=for-the-badge&logo=linux&logoColor=00f0ff)
+![GTK](https://img.shields.io/badge/-GTK-050807?style=for-the-badge&logo=gtk&logoColor=39ff14)
+![Flatpak](https://img.shields.io/badge/-Flatpak-050807?style=for-the-badge&logo=flatpak&logoColor=00f0ff)
 ![WebView2](https://img.shields.io/badge/-WebView2-050807?style=for-the-badge&logo=microsoftedge&logoColor=00f0ff)
 ![pywebview](https://img.shields.io/badge/-pywebview-050807?style=for-the-badge&logo=python&logoColor=39ff14)
 ![PyInstaller](https://img.shields.io/badge/-PyInstaller-050807?style=for-the-badge&logo=python&logoColor=00f0ff)

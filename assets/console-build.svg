@@ -35,24 +35,24 @@
  <g clip-path="url(#c)" font-family="Consolas, monospace" font-size="12" fill="#39ff14">
  <g>
  <!-- set A · atelier compile -->
- <text x="28" y="0" clip-path="url(#b0)">$ cursor compile host/ --release</text>
- <text x="28" y="18" fill="#39ff14" clip-path="url(#b1)">compiling WinCleaner ... done</text>
- <text x="28" y="36" fill="#39ff14" clip-path="url(#b2)">compiling DiskMap ... done</text>
- <text x="28" y="54" fill="#39ff14" clip-path="url(#b3)">compiling FastFind ... done</text>
- <text x="28" y="72" fill="#39ff14" clip-path="url(#b4)">compiling Trad-X ... done</text>
+ <text x="28" y="0" clip-path="url(#b0)">$ cursor compile 01_Hubs/ --release</text>
+ <text x="28" y="18" fill="#39ff14" clip-path="url(#b1)">compiling Hub-Systeme ... done</text>
+ <text x="28" y="36" fill="#39ff14" clip-path="url(#b2)">compiling Hub-Reseau ... done</text>
+ <text x="28" y="54" fill="#39ff14" clip-path="url(#b3)">Hub-Securite | Hub-Dev | Utilitaires</text>
+ <text x="28" y="72" fill="#39ff14" clip-path="url(#b4)">5 hubs in-hub | lazy DOM | ConfirmGate</text>
  <!-- set B · SoT sync -->
  <text x="28" y="90" clip-path="url(#b5)">$ refactor ui/vendor/pc-command-kit</text>
- <text x="28" y="108" fill="#6aff9a" clip-path="url(#b6)">patched 14 modules | synced SoT</text>
+ <text x="28" y="108" fill="#6aff9a" clip-path="url(#b6)">patched modules | synced SoT</text>
  <text x="28" y="126" clip-path="url(#b7)">$ sync DevTree --unit ui-kit</text>
  <text x="28" y="144" fill="#6aff9a" clip-path="url(#b8)">vendors OK | no symlink mode</text>
- <!-- set C · vitrine + ship -->
- <text x="28" y="162" clip-path="url(#b9)">$ ship vitrine QrMake MetaStrip</text>
- <text x="28" y="180" fill="#39ff14" clip-path="url(#b10)">DeviseConvert BCE rates + offline cache</text>
- <text x="28" y="198" fill="#39ff14" clip-path="url(#b11)">EpochClock StopwatchPlus QrBatch OK</text>
- <text x="28" y="216" clip-path="url(#b12)">$ git push origin HEAD</text>
- <text x="28" y="234" fill="#39ff14" clip-path="url(#b13)">84 private | 7 public | clean tree</text>
+ <!-- set C · vitrine WIN + linux ship -->
+ <text x="28" y="162" clip-path="url(#b9)">$ ship win QrMake MetaStrip +5</text>
+ <text x="28" y="180" fill="#39ff14" clip-path="url(#b10)">DeviseConvert BCE | EpochClock QrBatch OK</text>
+ <text x="28" y="198" clip-path="url(#b11)">$ ship linux CryptoTracker GestLinuxPro</text>
+ <text x="28" y="216" fill="#39ff14" clip-path="url(#b12)">native tar.gz | Flatpak .flatpak</text>
+ <text x="28" y="234" fill="#39ff14" clip-path="url(#b13)">atelier private | win+linux public</text>
  <text x="28" y="252" clip-path="url(#b14)">$ ship --await human-qa</text>
- <text x="28" y="270" fill="#6aff9a" clip-path="url(#b15)">queued | stress-test on real PC</text>
+ <text x="28" y="270" fill="#6aff9a" clip-path="url(#b15)">queued | stress-test WIN + LIN</text>
  <text x="28" y="288" clip-path="url(#b16)">$ status</text>
  <text x="28" y="306" fill="#39ff14" clip-path="url(#b17)">BUILD_OK | waiting signature</text>
  <text x="28" y="324" fill="#39ff14" clip-path="url(#b18)">cursor@<tspan fill="#39ff14"><animate attributeName="opacity" values="1;0;1" dur="0.85s" begin="18s" repeatCount="indefinite"/>_</tspan></text>

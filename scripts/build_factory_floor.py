@@ -1,5 +1,10 @@
 # -*- coding: utf-8 -*-
-"""Generate factory-floor.svg (dual-split green/cyan) and rewrite README."""
+"""Generate factory-floor.svg (dual-split green/cyan) and rewrite README.
+
+README.md is the SoT for the dual Windows/Linux vitrine. This script must
+emit that same structure (5 hubs + WIN/LIN featured) so a re-run cannot
+regress to the old flat catalogue.
+"""
 from __future__ import annotations
 
 from pathlib import Path
@@ -20,12 +25,12 @@ STROKE_C = "#0a3a44"
 
 
 def factory_svg() -> str:
-    # Dense ops/factory board — honest "crafted showcase", dual-split colors
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="420" viewBox="0 0 1100 420" role="img" aria-label="Workshop factory floor crafted status board">
+    # Dual WIN/LIN factory board — keep in lockstep with assets/factory-floor.svg
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="460" viewBox="0 0 1100 460" role="img" aria-label="Workshop factory floor crafted status board">
   <defs>
     <linearGradient id="floorBg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#030605"/>
-      <stop offset="50%" stop-color="#050807"/>
+      <stop offset="50%" stop-color="{BG}"/>
       <stop offset="100%" stop-color="#030a0c"/>
     </linearGradient>
     <linearGradient id="split" x1="0" y1="0" x2="1" y2="0">
@@ -37,9 +42,9 @@ def factory_svg() -> str:
     </pattern>
   </defs>
 
-  <rect width="1100" height="420" fill="url(#floorBg)"/>
-  <rect width="1100" height="420" fill="url(#grid)"/>
-  <rect x="12" y="12" width="1076" height="396" rx="14" fill="{BG}" stroke="url(#split)" stroke-width="2"/>
+  <rect width="1100" height="460" fill="url(#floorBg)"/>
+  <rect width="1100" height="460" fill="url(#grid)"/>
+  <rect x="12" y="12" width="1076" height="436" rx="14" fill="{BG}" stroke="url(#split)" stroke-width="2"/>
 
   <!-- title bar -->
   <rect x="24" y="24" width="1052" height="36" rx="6" fill="{DEEP}" stroke="{STROKE_G}"/>
@@ -48,7 +53,7 @@ def factory_svg() -> str:
   <text x="930" y="47" fill="{CYAN}" font-family="Consolas, ui-monospace, monospace" font-size="11">NOT LIVE CI</text>
 
   <!-- LEFT: dual lanes BUILD / QA -->
-  <rect x="24" y="72" width="250" height="300" rx="8" fill="{DEEP}" stroke="{GREEN}" stroke-width="1.5"/>
+  <rect x="24" y="72" width="250" height="340" rx="8" fill="{DEEP}" stroke="{GREEN}" stroke-width="1.5"/>
   <text x="40" y="96" fill="{GREEN}" font-family="Consolas, monospace" font-size="13">LANE A -- BUILD</text>
   <text x="40" y="118" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="11">Cursor AI</text>
   <text x="40" y="144" fill="{GREEN}" font-family="Consolas, monospace" font-size="12">architecture</text>
@@ -67,44 +72,59 @@ def factory_svg() -> str:
   <text x="40" y="316" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="11">Mr-Aurevo-X</text>
   <text x="40" y="342" fill="{CYAN}" font-family="Consolas, monospace" font-size="12">ideas | break tests</text>
   <text x="40" y="362" fill="{CYAN}" font-family="Consolas, monospace" font-size="12">sign-off | vision</text>
+  <text x="40" y="386" fill="{MUTED}" font-family="Consolas, monospace" font-size="11">WIN .exe + LIN binaries</text>
 
-  <!-- CENTER: mounts + vitrine ticker -->
-  <rect x="286" y="72" width="520" height="300" rx="8" fill="{DEEP}" stroke="{STROKE_C}" stroke-width="1.5"/>
+  <!-- CENTER: mounts + dual tickers -->
+  <rect x="286" y="72" width="520" height="340" rx="8" fill="{DEEP}" stroke="{STROKE_C}" stroke-width="1.5"/>
   <text x="302" y="96" fill="{CYAN}" font-family="Consolas, monospace" font-size="13">MOUNTS -- Dev Central Tree</text>
 
-  <!-- mount chips -->
-  <rect x="302" y="112" width="110" height="28" rx="4" fill="#071410" stroke="{GREEN}"/>
-  <text x="316" y="130" fill="{GREEN}" font-family="Consolas, monospace" font-size="11">atelier ON</text>
-  <rect x="422" y="112" width="110" height="28" rx="4" fill="#071410" stroke="{GREEN}"/>
-  <text x="440" y="130" fill="{GREEN}" font-family="Consolas, monospace" font-size="11">salon ON</text>
-  <rect x="542" y="112" width="110" height="28" rx="4" fill="#071018" stroke="{CYAN}"/>
-  <text x="564" y="130" fill="{CYAN}" font-family="Consolas, monospace" font-size="11">lab ON</text>
-  <rect x="662" y="112" width="120" height="28" rx="4" fill="#071018" stroke="{CYAN}"/>
-  <text x="678" y="130" fill="{CYAN}" font-family="Consolas, monospace" font-size="11">vitrine PUB</text>
+  <!-- mount chips row 1 -->
+  <rect x="302" y="112" width="110" height="26" rx="4" fill="#071410" stroke="{GREEN}"/>
+  <text x="316" y="129" fill="{GREEN}" font-family="Consolas, monospace" font-size="11">atelier ON</text>
+  <rect x="422" y="112" width="110" height="26" rx="4" fill="#071410" stroke="{GREEN}"/>
+  <text x="440" y="129" fill="{GREEN}" font-family="Consolas, monospace" font-size="11">salon ON</text>
+  <rect x="542" y="112" width="110" height="26" rx="4" fill="#071018" stroke="{CYAN}"/>
+  <text x="564" y="129" fill="{CYAN}" font-family="Consolas, monospace" font-size="11">lab ON</text>
 
-  <text x="302" y="168" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="12">ATELIER  | PC Command hub | +30 tools | UAC</text>
-  <text x="302" y="190" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="12">SALON    | Game launcher + X titles | forks</text>
-  <text x="302" y="212" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="12">LAB      | R&amp;D | Discordbots | prototypes</text>
-  <text x="302" y="234" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="12">VITRINE  | 7 public desktop tools | free</text>
+  <!-- mount chips row 2 -->
+  <rect x="302" y="146" width="150" height="26" rx="4" fill="#071018" stroke="{CYAN}"/>
+  <text x="318" y="163" fill="{CYAN}" font-family="Consolas, monospace" font-size="11">vitrine WIN</text>
+  <rect x="462" y="146" width="150" height="26" rx="4" fill="#071018" stroke="{CYAN}"/>
+  <text x="486" y="163" fill="{CYAN}" font-family="Consolas, monospace" font-size="11">linux PUB</text>
 
-  <line x1="302" y1="250" x2="786" y2="250" stroke="{STROKE_C}"/>
-  <text x="302" y="274" fill="{GREEN}" font-family="Consolas, monospace" font-size="12">PUBLIC TICKER</text>
+  <text x="302" y="192" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="12">ATELIER  | 5 hubs in-hub | UAC</text>
+  <text x="302" y="212" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="12">SALON    | Game launcher + X titles</text>
+  <text x="302" y="232" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="12">LAB      | R&amp;D | Discordbots</text>
+  <text x="302" y="252" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="12">WIN      | 7 desktop .exe | free</text>
+  <text x="302" y="272" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="12">LINUX    | Crypto Tracker | Gest Linux Pro</text>
 
-  <!-- scrolling ticker strip -->
-  <clipPath id="tick"><rect x="302" y="286" width="484" height="28" rx="4"/></clipPath>
-  <rect x="302" y="286" width="484" height="28" rx="4" fill="#030605" stroke="{STROKE_G}"/>
-  <g clip-path="url(#tick)" font-family="Consolas, monospace" font-size="12" fill="{GREEN}">
-    <text x="310" y="305">
+  <line x1="302" y1="286" x2="786" y2="286" stroke="{STROKE_C}"/>
+  <text x="302" y="306" fill="{GREEN}" font-family="Consolas, monospace" font-size="12">WIN TICKER</text>
+  <text x="520" y="306" fill="{CYAN}" font-family="Consolas, monospace" font-size="12">LIN TICKER</text>
+
+  <clipPath id="tickWin"><rect x="302" y="314" width="484" height="24" rx="4"/></clipPath>
+  <rect x="302" y="314" width="484" height="24" rx="4" fill="#030605" stroke="{STROKE_G}"/>
+  <g clip-path="url(#tickWin)" font-family="Consolas, monospace" font-size="12" fill="{GREEN}">
+    <text x="310" y="331">
       QrMake  |  UnitConvert  |  DeviseConvert  |  EpochClock  |  StopwatchPlus  |  MetaStrip  |  QrBatch  |  QrMake  |
       <animateTransform attributeName="transform" type="translate" from="0 0" to="-520 0" dur="22s" repeatCount="indefinite"/>
     </text>
   </g>
 
-  <text x="302" y="348" fill="{MUTED}" font-family="Consolas, monospace" font-size="11">rule: if it ships, AI wrote it -- Mr-Aurevo-X signed it off</text>
-  <text x="302" y="368" fill="{MUTED}" font-family="Consolas, monospace" font-size="11">SoT: Dev Central Tree | Lancer before exe</text>
+  <clipPath id="tickLin"><rect x="302" y="346" width="484" height="24" rx="4"/></clipPath>
+  <rect x="302" y="346" width="484" height="24" rx="4" fill="#030605" stroke="{STROKE_C}"/>
+  <g clip-path="url(#tickLin)" font-family="Consolas, monospace" font-size="12" fill="{CYAN}">
+    <text x="310" y="363">
+      Crypto Tracker  |  Gest Linux Pro  |  native + Flatpak  |  Crypto Tracker  |  Gest Linux Pro  |
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-420 0" dur="18s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <text x="302" y="388" fill="{MUTED}" font-family="Consolas, monospace" font-size="11">rule: if it ships, AI wrote it -- Mr-Aurevo-X signed it off</text>
+  <text x="302" y="404" fill="{MUTED}" font-family="Consolas, monospace" font-size="11">SoT: Dev Central Tree | binaries public | sources private</text>
 
   <!-- RIGHT: sentinel + connect -->
-  <rect x="818" y="72" width="258" height="300" rx="8" fill="{DEEP}" stroke="{CYAN}" stroke-width="1.5"/>
+  <rect x="818" y="72" width="258" height="340" rx="8" fill="{DEEP}" stroke="{CYAN}" stroke-width="1.5"/>
   <text x="834" y="96" fill="{CYAN}" font-family="Consolas, monospace" font-size="13">SIGNAL -- LAB</text>
   <text x="834" y="122" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="12">Mr-X-Sentinel</text>
   <text x="834" y="144" fill="{CYAN}" font-family="Consolas, monospace" font-size="11">Discord bot platform</text>
@@ -121,24 +141,23 @@ def factory_svg() -> str:
   <text x="834" y="274" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="11">guns.lol</text>
   <text x="834" y="294" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="11">PayPal | Revolut</text>
 
-  <rect x="834" y="318" width="210" height="36" rx="6" fill="#071018" stroke="{GREEN}"/>
-  <text x="848" y="340" fill="{GREEN}" font-family="Consolas, monospace" font-size="11">FACTORY = ONLINE</text>
+  <rect x="834" y="330" width="210" height="36" rx="6" fill="#071018" stroke="{GREEN}"/>
+  <text x="848" y="352" fill="{GREEN}" font-family="Consolas, monospace" font-size="11">FACTORY = ONLINE</text>
+  <text x="834" y="390" fill="{MUTED}" font-family="Consolas, monospace" font-size="10">WIN + LIN public</text>
 
   <!-- footer honesty -->
-  <text x="40" y="396" fill="{MUTED}" font-family="Consolas, monospace" font-size="10">crafted board -- decorative status only | no fake chat | no fake git diffs | dual-split BUILD green / QA cyan</text>
+  <text x="40" y="436" fill="{MUTED}" font-family="Consolas, monospace" font-size="10">crafted board -- decorative status only | no fake chat | no fake git diffs | dual-split BUILD green / QA cyan</text>
 </svg>
 '''
 
 
-def write_readme(placeholder_sha: str = "PENDING") -> None:
-    sha = placeholder_sha
-    body = f'''<div align="center">
+README_TEMPLATE = """<div align="center">
 
 # `>_ mr-aurevo-x@workshop:~`
 
-**AI-run workshop - Cursor builds | Mr-Aurevo-X QA | Windows factory**
+**AI-run workshop - Cursor builds | Mr-Aurevo-X QA | Windows + Linux**
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/{sha}/assets/hero-boot.svg?v={sha}" alt="Boot console scrolling" width="100%"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/PENDING/assets/hero-boot.svg?v=PENDING" alt="Boot console scrolling" width="100%"/>
 
 <br/>
 
@@ -147,7 +166,7 @@ def write_readme(placeholder_sha: str = "PENDING") -> None:
 [![Cursor AI](https://img.shields.io/badge/BUILT_BY-CURSOR_AI-39ff14?style=for-the-badge&labelColor=050807&logo=cursor&logoColor=39ff14)](https://cursor.com)
 [![Mr-Aurevo-X QA](https://img.shields.io/badge/IDEAS_%26_QA-MR--AUREVO--X-00f0ff?style=for-the-badge&labelColor=050807)](https://github.com/Mr-Aurevo-X)
 
-`STATUS=ONLINE` | `VITRINE=public` | `ATELIER+SALON+LAB=private` | `MODE=AI_OPERATED` | `COLOR=DUAL_SPLIT`
+`STATUS=ONLINE` | `WIN=7_exe` | `LINUX=2_apps` | `PC_COMMAND=5_HUBS` | `ATELIER+SALON+LAB=private` | `MODE=AI_OPERATED`
 
 </div>
 
@@ -160,10 +179,10 @@ def write_readme(placeholder_sha: str = "PENDING") -> None:
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/{sha}/assets/console-build.svg?v={sha}" alt="Cursor AI build console (green)" width="100%"/>
+      <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/PENDING/assets/console-build.svg?v=PENDING" alt="Cursor AI build console (green)" width="100%"/>
     </td>
     <td width="50%" align="center">
-      <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/{sha}/assets/console-qa.svg?v={sha}" alt="Mr-Aurevo-X QA console (cyan)" width="100%"/>
+      <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/PENDING/assets/console-qa.svg?v=PENDING" alt="Mr-Aurevo-X QA console (cyan)" width="100%"/>
     </td>
   </tr>
 </table>
@@ -177,6 +196,7 @@ def write_readme(placeholder_sha: str = "PENDING") -> None:
 ```
 
 > **FR** - L'IA construit et opere. Mr-Aurevo-X apporte les idees, casse / teste, et valide.
+>
 > **EN** - Cursor AI builds & operates. Mr-Aurevo-X brings ideas, stress-tests, and the green light.
 
 ---
@@ -187,7 +207,7 @@ Single crafted factory board (dual-split: **BUILD green** / **QA cyan**). Decora
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/{sha}/assets/factory-floor.svg?v={sha}" alt="Workshop factory floor status board" width="100%"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/PENDING/assets/factory-floor.svg?v=PENDING" alt="Workshop factory floor status board" width="100%"/>
 
 </div>
 
@@ -195,8 +215,12 @@ Single crafted factory board (dual-split: **BUILD green** / **QA cyan**). Decora
 
 ## featured - public vitrine
 
-**7 outils desktop | gratuits | locaux (sauf DeviseConvert : taux BCE + cache offline) | `.exe` sans installation**
-`public | AI-built | human-tested` | SoT `Dev Central Tree\\Git Vitrine Public\\`
+`WIN=7_exe` | `LINUX=2_apps` | `public` | `AI-built` | `human-tested` | sources stay private
+
+### windows — 7 desktop tools
+
+**Gratuits | locaux (sauf DeviseConvert : taux BCE + cache offline) | `.exe` sans installation**
+SoT `Dev Central Tree\\Git Vitrine Public\\`
 
 | Outil | Role | Lien |
 |:--|:--|:--|
@@ -208,16 +232,28 @@ Single crafted factory board (dual-split: **BUILD green** / **QA cyan**). Decora
 | **MetaStrip** | Strip EXIF/GPS/XMP | [repo](https://github.com/Mr-Aurevo-X/MetaStrip) / [releases](https://github.com/Mr-Aurevo-X/MetaStrip/releases/latest) |
 | **QrBatch** | QR en lot -> PNG + ZIP | [repo](https://github.com/Mr-Aurevo-X/QrBatch) / [releases](https://github.com/Mr-Aurevo-X/QrBatch/releases/latest) |
 
+### linux — 2 apps
+
+**Binaries only (no source) | native + Flatpak**
+
+| App | Version | Native | Flatpak |
+|:--|:--|:--|:--|
+| **Crypto Tracker** | 1.2.3 | [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/crypto-tracker-v1.2.3) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/crypto-tracker-v1.2.3) |
+| **Gest Linux Pro** | 1.4.3 | [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/Gest_Linux_Pro-v1.4.3) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/Gest_Linux_Pro-v1.4.3) |
+
+Native: tar.gz / zip / `.deb` via [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases). Flatpak: `.flatpak` via [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases) (Freedesktop 25.08 / GNOME 49).
+
 ---
 
 ## mounts - filesystem
 
 ```text
 /workshop
-|-- atelier/     L'Atelier Windows | PC Command (+30 tools)   [private]
-|-- salon/       Game launcher + X titles | forks              [private]
-|-- lab/         Lab launcher + R&D | Discordbots | prototypes [private]
-`-- vitrine/     7 public desktop tools                        [public]
+|-- atelier/     PC Command | 5 hubs in-hub (Dashboard + modules) [private]
+|-- salon/       Game launcher + X titles | forks                  [private]
+|-- lab/         Lab launcher + R&D | Discordbots | prototypes     [private]
+|-- vitrine/     7 Windows desktop tools                           [public]
+`-- linux/       Crypto Tracker | Gest Linux Pro                   [public binaries]
 ```
 
 <details>
@@ -225,31 +261,27 @@ Single crafted factory board (dual-split: **BUILD green** / **QA cyan**). Decora
 
 <a id="atelier"></a>
 
-### atelier - PC Command
+### atelier - PC Command (5 hubs)
 
-SoT : `L'Atelier Windows\\` | hub **PC Command** | admin UAC | `Lancer.cmd`
+SoT : `Dev Central Tree\\01_Hubs\\` | pywebview + WebView2 | UAC admin | lazy DOM | ConfirmGate  
+Ship : `Launch-Hub-*.exe` / `Hubs.zip` via Install-Easy (plus de launcher plat / `PCCommand.exe`)
 
 ```text
-L'Atelier Windows/
-|-- MrAurevoX-Launcher/     * PC Command hub  (private)
-|-- MrAurevoX-UI/           kit UI partage
-|-- MrAurevoX-Releases/     packaging / portable
-|
-|-- * Flagships
-|   |-- WinCleaner/         nettoyage | caches | traces | debloat
-|   |-- WinAudit/           audit heuristique local
-|   `-- DiskMap/            carte disque | doublons
-|
-|-- system                  AudioDevice | FocusBlock | MonitorInfo | PowerPlan
-|                           PrintQueue | ProcessGuard | RestorePoint | ShellKit
-|                           StartupX | SysInspect | UninstX | UserSessions
-|-- network                 NetAdmin | NetMap | WifiKey
-|-- files                   FileGuard | HashCheck | InboxSort | LinkKit
-|                           PdfKit | Renamer | ZipTools
-|-- config                  CertView | EnvEditor | FontManager | HotkeyList
-|-- media                   Capture | ColorPicker | ImgBatch | WallpaperPick
-|-- productivity            ClipBoard
-`-- tools                   PassGen | RepoRadar | TextLab | Trad-X
+01_Hubs/
+|-- Hub-Systeme/        * SystemClean | RamCleaner | ProcessHub | UninstX | SysInspect | ...
+|-- Hub-Reseau/         * NetAdmin | NetMap | RoadWay-X | WifiKey
+|-- Hub-Securite/       * FileGuard | CertView | RepoRadar | WinAudit
+|-- Hub-Dev/            * Lua/Dll/JsonClean | HashCheck | ProtAudit | IdentityReset | EnvEditor
+`-- Hub-Utilitaires/    * UtilKit (+ ShellKit) | MediaKit | Capture | ColorPicker | ...
+
+02_Shared_Infrastructure/
+|-- UI-proprietaire/    pc-command-kit SoT
+|-- SecurityHelpers/    ConfirmGate + security.py
+|-- HostHelpers/        window_chrome | suite_launch
+|-- Install-Easy-Private/  installer (Hubs.zip + Lab + Salon packs)
+`-- MrAurevoX-Releases/ packaging / portable assets
+
+standalones (Lab siblings) : Auto-Dox | Opti (later) | Track
 ```
 
 <a id="salon"></a>
@@ -274,12 +306,23 @@ Hub **Lab** | `Lancer.cmd` | `Lab.exe` | `launcher.py`
 ```text
 Lab/
 |-- Lancer.cmd | Lab.exe    * Lab launcher  (private)
-|-- Privacy / OSINT         Track | IdentityReset | Auto-Dox
-|-- Perf / reseau           Opti | RoadWay-X | Ram Cleaner
-|-- Reverse / recovery      LuaClean | DllClean | JsonClean | ProtAudit | LuaObfuscator
+|-- standalones             Track | Opti (later) | Auto-Dox
 `-- DiscordBots/
     `-- Mr-X-Sentinel/      * Discord bot platform (private)
                             mod | security | eco | XP | tickets | music | AI
+```
+
+<a id="linux"></a>
+
+### linux - public binaries
+
+Sources stay private. Public installables only.
+
+```text
+linux-releases/             * native tar.gz | zip | .deb
+linux-flatpak-releases/     * .flatpak
+|-- Crypto Tracker          1.2.3
+`-- Gest Linux Pro          1.4.3
 ```
 
 </details>
@@ -290,15 +333,15 @@ Lab/
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/github-stats.svg?v=bd7c646" height="165" alt="GitHub stats"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/github-stats.svg?v=0ef980b" height="165" alt="GitHub stats"/>
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/github-streak.svg?v=bd7c646" alt="Streak"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/github-streak.svg?v=0ef980b" alt="Streak"/>
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/output/github-contribution-grid-snake-dark.svg?v=30919088429" alt="Contribution snake" width="100%"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/output/github-contribution-grid-snake-dark.svg?v=31233886602" alt="Contribution snake" width="100%"/>
 
 </div>
 
@@ -315,6 +358,9 @@ Lab/
 ![HTML5](https://img.shields.io/badge/-HTML5-050807?style=for-the-badge&logo=html5&logoColor=39ff14)
 ![CSS3](https://img.shields.io/badge/-CSS3-050807?style=for-the-badge&logo=css3&logoColor=00f0ff)
 ![Windows](https://img.shields.io/badge/-Windows-050807?style=for-the-badge&logo=windows&logoColor=39ff14)
+![Linux](https://img.shields.io/badge/-Linux-050807?style=for-the-badge&logo=linux&logoColor=00f0ff)
+![GTK](https://img.shields.io/badge/-GTK-050807?style=for-the-badge&logo=gtk&logoColor=39ff14)
+![Flatpak](https://img.shields.io/badge/-Flatpak-050807?style=for-the-badge&logo=flatpak&logoColor=00f0ff)
 ![WebView2](https://img.shields.io/badge/-WebView2-050807?style=for-the-badge&logo=microsoftedge&logoColor=00f0ff)
 ![pywebview](https://img.shields.io/badge/-pywebview-050807?style=for-the-badge&logo=python&logoColor=39ff14)
 ![PyInstaller](https://img.shields.io/badge/-PyInstaller-050807?style=for-the-badge&logo=python&logoColor=00f0ff)
@@ -344,6 +390,7 @@ Lab/
 <div align="center">
 
 > **FR** - Lien social + coups de pouce volontaires (la vitrine publique reste gratuite).
+>
 > **EN** - Social link + optional tips (the public vitrine stays free).
 
 <br/>
@@ -370,14 +417,20 @@ Lab/
 `end_of_transmission // stay curious`
 
 </div>
-'''
-    README.write_text(body, encoding="utf-8", newline="\n")
+"""
+
+
+def write_readme(placeholder_sha: str = "PENDING") -> None:
+    README.write_text(
+        README_TEMPLATE.replace("PENDING", placeholder_sha),
+        encoding="utf-8",
+        newline="\n",
+    )
 
 
 def main() -> None:
     ASSETS.mkdir(exist_ok=True)
     (ASSETS / "factory-floor.svg").write_text(factory_svg(), encoding="utf-8", newline="\n")
-    # remove obsolete fake triple
     for name in ("console-queue.svg", "console-pulse.svg", "console-who.svg"):
         p = ASSETS / name
         if p.exists():

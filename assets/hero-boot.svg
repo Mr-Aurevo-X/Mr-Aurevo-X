@@ -51,23 +51,23 @@
  <g clip-path="url(#screen)" font-family="Consolas, ui-monospace, monospace" font-size="13">
  <g>
  <text x="40" y="0" fill="#6aff9a" clip-path="url(#h0)">[BOOT ] workshop_kernel · suite 1.3.x · AI-operated</text>
- <text x="40" y="19" fill="#39ff14" clip-path="url(#h1)">[ OK ] mount /atelier PC Command hub (admin)</text>
- <text x="40" y="38" fill="#9dffc2" clip-path="url(#h2)">[ INFO ] flagships WinCleaner · WinAudit · DiskMap</text>
- <text x="40" y="57" fill="#9dffc2" clip-path="url(#h3)">[ INFO ] suite tools FastFind · ColorPicker · Trad-X +</text>
+ <text x="40" y="19" fill="#39ff14" clip-path="url(#h1)">[ OK ] mount /atelier PC Command · 5 hubs in-hub</text>
+ <text x="40" y="38" fill="#9dffc2" clip-path="url(#h2)">[ INFO ] Systeme | Reseau | Securite | Dev | Utilitaires</text>
+ <text x="40" y="57" fill="#9dffc2" clip-path="url(#h3)">[ INFO ] lazy DOM · ConfirmGate · UAC admin</text>
  <text x="40" y="76" fill="#39ff14" clip-path="url(#h4)">[ OK ] mount /salon Incremental-X launcher</text>
  <text x="40" y="95" fill="#9dffc2" clip-path="url(#h5)">[ INFO ] games X titles · private salon</text>
- <text x="40" y="114" fill="#39ff14" clip-path="url(#h6)">[ OK ] mount /lab R&amp;D · prototypes · dry-run</text>
- <text x="40" y="133" fill="#00f0ff" clip-path="url(#h7)">[ NOTE ] lab workspaces R&amp;D / reverse / privacy only</text>
- <text x="40" y="152" fill="#39ff14" clip-path="url(#h8)">[ OK ] mount /vitrine 7 public desktop tools</text>
+ <text x="40" y="114" fill="#39ff14" clip-path="url(#h6)">[ OK ] mount /lab R&amp;D · prototypes · Discordbots</text>
+ <text x="40" y="133" fill="#00f0ff" clip-path="url(#h7)">[ NOTE ] standalones Track | Opti later | Auto-Dox</text>
+ <text x="40" y="152" fill="#39ff14" clip-path="url(#h8)">[ OK ] mount /vitrine 7 Windows desktop .exe</text>
  <text x="40" y="171" fill="#00f0ff" clip-path="url(#h9)">[ NOTE ] DeviseConvert BCE rates + offline cache</text>
- <text x="40" y="190" fill="#00f0ff" clip-path="url(#h10)">[ INFO ] operator=Cursor_AI qa=human Mr-Aurevo-X</text>
- <text x="40" y="209" fill="#9dffc2" clip-path="url(#h11)">[ SYNC ] SoT inject ui-kit · security · host helpers</text>
- <text x="40" y="228" fill="#39ff14" clip-path="url(#h12)">[ EXEC ] WinCleaner traces --ship --await human-signoff</text>
- <text x="40" y="247" fill="#00f0ff" clip-path="url(#h13)">[ BUILD] queue DiskMap · FastFind · ColorPicker</text>
- <text x="40" y="266" fill="#6aff9a" clip-path="url(#h14)">[ LINK ] guns.lol/mr_aurevo_x · discord://user</text>
- <text x="40" y="285" fill="#9dffc2" clip-path="url(#h15)">[ TELE ] telemetry cards refreshed (private · no secrets)</text>
- <text x="40" y="304" fill="#9dffc2" clip-path="url(#h16)">[ DIFF ] +CURSOR_AI architecture · code · ship</text>
- <text x="40" y="323" fill="#9dffc2" clip-path="url(#h17)">[ DIFF ] +HUMAN ideas · break · QA · go/no-go</text>
+ <text x="40" y="190" fill="#39ff14" clip-path="url(#h10)">[ OK ] mount /linux Crypto Tracker · Gest Linux Pro</text>
+ <text x="40" y="209" fill="#00f0ff" clip-path="url(#h11)">[ NOTE ] native tar.gz/.deb + Flatpak · binaries only</text>
+ <text x="40" y="228" fill="#00f0ff" clip-path="url(#h12)">[ INFO ] operator=Cursor_AI qa=human Mr-Aurevo-X</text>
+ <text x="40" y="247" fill="#9dffc2" clip-path="url(#h13)">[ SYNC ] SoT inject ui-kit · security · host helpers</text>
+ <text x="40" y="266" fill="#39ff14" clip-path="url(#h14)">[ EXEC ] ship WIN vitrine --await human-signoff</text>
+ <text x="40" y="285" fill="#00f0ff" clip-path="url(#h15)">[ BUILD] ship LIN linux-releases + flatpak</text>
+ <text x="40" y="304" fill="#6aff9a" clip-path="url(#h16)">[ LINK ] guns.lol/mr_aurevo_x · discord://user</text>
+ <text x="40" y="323" fill="#9dffc2" clip-path="url(#h17)">[ DIFF ] +CURSOR_AI ship · +HUMAN QA go/no-go</text>
  <text x="40" y="342" fill="#6aff9a" clip-path="url(#h18)">[ WAIT ] idle -- next idea from human layer...</text>
  <text x="40" y="361" fill="#00f0ff" clip-path="url(#h19)">mr-aurevo-x@workshop:~$ <tspan fill="#39ff14"><animate attributeName="opacity" values="1;0;1" dur="1.05s" begin="43s" repeatCount="indefinite"/>_</tspan></text>
  <!-- soft scroll so later lines stay in view without crushing -->
