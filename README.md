@@ -64,6 +64,8 @@ Single crafted factory board (dual-split: **BUILD green** / **QA cyan**). Decora
 
 `WIN=7_exe` | `LINUX=3_apps` | `public` | `AI-built` | `human-tested` | sources stay private
 
+**License:** Proprietary · free to use · no rebrand / no source republication (see each repo `LICENSE`)
+
 ### windows — 7 desktop tools
 
 **Gratuits | locaux (sauf DeviseConvert : taux BCE + cache offline) | `.exe` sans installation**
@@ -112,7 +114,8 @@ Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurev
 ### atelier - PC Command (5 hubs)
 
 SoT : `Dev Central Tree\01_Hubs\` | pywebview + WebView2 | UAC admin | lazy DOM | ConfirmGate  
-Ship : `Launch-Hub-*.zip` per hub via Install-Easy (plus de launcher plat / `PCCommand.exe`)
+Ship : `Launch-Hub-*.zip` per hub via Install-Easy (plus de launcher plat / `PCCommand.exe`)  
+**License:** Proprietary · free to use · no rebrand / no source republication
 
 ```text
 01_Hubs/
