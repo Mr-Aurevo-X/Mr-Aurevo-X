@@ -1,10 +1,10 @@
-<div align="center">
+﻿<div align="center">
 
 # `>_ mr-aurevo-x@workshop:~`
 
 **AI-run workshop - Cursor builds | Mr-Aurevo-X QA | Windows + Linux**
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/a2476c7/assets/hero-boot.svg?v=a2476c7" alt="Boot console scrolling" width="100%"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/b9bc305/assets/hero-boot.svg?v=b9bc305" alt="Boot console scrolling" width="100%"/>
 
 <br/>
 
@@ -26,10 +26,10 @@
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/a2476c7/assets/console-build.svg?v=a2476c7" alt="Cursor AI build console (green)" width="100%"/>
+      <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/b9bc305/assets/console-build.svg?v=b9bc305" alt="Cursor AI build console (green)" width="100%"/>
     </td>
     <td width="50%" align="center">
-      <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/a2476c7/assets/console-qa.svg?v=a2476c7" alt="Mr-Aurevo-X QA console (cyan)" width="100%"/>
+      <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/b9bc305/assets/console-qa.svg?v=b9bc305" alt="Mr-Aurevo-X QA console (cyan)" width="100%"/>
     </td>
   </tr>
 </table>
@@ -54,7 +54,7 @@ Single crafted factory board (dual-split: **BUILD green** / **QA cyan**). Decora
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/a2476c7/assets/factory-floor.svg?v=a2476c7" alt="Workshop factory floor status board" width="100%"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/b9bc305/assets/factory-floor.svg?v=b9bc305" alt="Workshop factory floor status board" width="100%"/>
 
 </div>
 
@@ -64,7 +64,7 @@ Single crafted factory board (dual-split: **BUILD green** / **QA cyan**). Decora
 
 `WIN=7_exe` | `LINUX=3_apps` | `public` | `AI-built` | `human-tested` | sources stay private
 
-### windows — 7 desktop tools
+### windows â€” 7 desktop tools
 
 **Gratuits | locaux (sauf DeviseConvert : taux BCE + cache offline) | `.exe` sans installation**
 SoT `Dev Central Tree\Git Vitrine Public\`
@@ -79,14 +79,14 @@ SoT `Dev Central Tree\Git Vitrine Public\`
 | **MetaStrip** | Strip EXIF/GPS/XMP | [repo](https://github.com/Mr-Aurevo-X/MetaStrip) / [releases](https://github.com/Mr-Aurevo-X/MetaStrip/releases/latest) |
 | **QrBatch** | QR en lot -> PNG + ZIP | [repo](https://github.com/Mr-Aurevo-X/QrBatch) / [releases](https://github.com/Mr-Aurevo-X/QrBatch/releases/latest) |
 
-### linux — 3 apps
+### linux â€” 3 apps
 
 **Binaries only (no source) | native + Flatpak**
 
 | App | Role | Version | Native | Flatpak |
 |:--|:--|:--|:--|:--|
 | **Crypto Tracker** | local crypto portfolio | 1.2.14 | [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/crypto-tracker-v1.2.14) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/crypto-tracker-v1.2.14) |
-| **Gest Linux Pro** | GTK system toolkit | 1.4.12 | — (Flatpak only) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/Gest_Linux_Pro-v1.4.12) |
+| **Gest Linux Pro** | GTK system toolkit | 1.4.12 | â€” (Flatpak only) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/Gest_Linux_Pro-v1.4.12) |
 | **MrAurevoX Kit** | local toolkit (search, hash, PDF, disk map) | 1.0.0 | [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/MrAurevoX-Kit-v1.0.0) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/MrAurevoX-Kit-v1.0.0) |
 
 Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases). **Gest : Flatpak uniquement** (plus de native). Flatpak: `.flatpak` via [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases) (Freedesktop 25.08 / GNOME 49).
@@ -138,7 +138,7 @@ standalone : Opti (Dev Central Tree\Opti)
 
 ```text
 Game/
-|-- Salon/                  * game launcher  (private) — 9 originals only
+|-- Salon/                  * game launcher  (private) â€” 9 originals only
 |-- * Original X            Incremental-X | Factory-X | Empire-X | Colony-X
 |                           Deck-X | Battler-X | Tower-X | Puzzle-X | Story-X
 `-- tools                   GameChangelog
@@ -151,7 +151,7 @@ Game/
 ```text
 Opti/                       * gaming optimizer (private)
 |-- Opti.exe | Lancer.cmd
-`-- ship via Install-Easy → Opti.zip (MrAurevoX-Launcher)
+`-- ship via Install-Easy â†’ Opti.zip (MrAurevoX-Launcher)
 ```
 
 <a id="linux"></a>
