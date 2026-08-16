@@ -4,7 +4,7 @@
 
 **AI-run workshop - Cursor builds | Mr-Aurevo-X QA | Windows + Linux**
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/b9bc305/assets/hero-boot.svg?v=b9bc305" alt="Boot console scrolling" width="100%"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/c904b5fe43f3f99676f555737a9890d9f91c9808/assets/hero-boot.svg?v=c904b5fe43f3f99676f555737a9890d9f91c9808" alt="Boot console scrolling" width="100%"/>
 
 <br/>
 
@@ -54,7 +54,7 @@ Single crafted factory board (dual-split: **BUILD green** / **QA cyan**). Decora
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/b9bc305/assets/factory-floor.svg?v=b9bc305" alt="Workshop factory floor status board" width="100%"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/c904b5fe43f3f99676f555737a9890d9f91c9808/assets/factory-floor.svg?v=c904b5fe43f3f99676f555737a9890d9f91c9808" alt="Workshop factory floor status board" width="100%"/>
 
 </div>
 
