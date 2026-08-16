@@ -98,8 +98,8 @@ Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurev
 ```text
 /workshop
 |-- atelier/     PC Command | 5 hubs in-hub (Dashboard + modules) [private]
-|-- salon/       Game launcher + X titles | forks                  [private]
-|-- lab/         Lab launcher + R&D | Discordbots | prototypes     [private]
+|-- salon/       Game launcher | 9 original X titles               [private]
+|-- opti/        standalone gaming optimizer                       [private]
 |-- vitrine/     7 Windows desktop tools                           [public]
 `-- linux/       Crypto Tracker | Gest Linux Pro | MrAurevoX Kit   [public binaries]
 ```
@@ -144,18 +144,14 @@ Game/
 `-- tools                   GameChangelog
 ```
 
-<a id="lab"></a>
+<a id="opti"></a>
 
-### lab - R&D / prototypes / bots
-
-Hub **Lab** — local Private Only (hors GitHub public).
+### opti - standalone
 
 ```text
-Lab/ (Private Only)
-|-- Lancer.cmd | Lab.exe    * Lab launcher  (local only)
-`-- DiscordBots/
-    `-- Mr-X-Sentinel/      * Discord bot platform (local only)
-                            mod | security | eco | XP | tickets | music | AI
+Opti/                       * gaming optimizer (private)
+|-- Opti.exe | Lancer.cmd
+`-- ship via Install-Easy → Opti.zip (MrAurevoX-Launcher)
 ```
 
 <a id="linux"></a>
@@ -217,8 +213,6 @@ linux-flatpak-releases/     * .flatpak
 ![Cursor](https://img.shields.io/badge/-Cursor_AI-050807?style=for-the-badge&logo=cursor&logoColor=00f0ff)
 ![Node.js](https://img.shields.io/badge/-Node.js-050807?style=for-the-badge&logo=nodedotjs&logoColor=39ff14)
 ![pnpm](https://img.shields.io/badge/-pnpm-050807?style=for-the-badge&logo=pnpm&logoColor=00f0ff)
-![discord.js](https://img.shields.io/badge/-discord.js-050807?style=for-the-badge&logo=discord&logoColor=5865F2)
-![Discord](https://img.shields.io/badge/-Discord_Bots-050807?style=for-the-badge&logo=discord&logoColor=00f0ff)
 ![Next.js](https://img.shields.io/badge/-Next.js-050807?style=for-the-badge&logo=nextdotjs&logoColor=39ff14)
 ![React](https://img.shields.io/badge/-React-050807?style=for-the-badge&logo=react&logoColor=00f0ff)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-050807?style=for-the-badge&logo=postgresql&logoColor=39ff14)
@@ -226,7 +220,6 @@ linux-flatpak-releases/     * .flatpak
 ![Redis](https://img.shields.io/badge/-Redis-050807?style=for-the-badge&logo=redis&logoColor=39ff14)
 ![Docker](https://img.shields.io/badge/-Docker-050807?style=for-the-badge&logo=docker&logoColor=00f0ff)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-050807?style=for-the-badge&logo=fastapi&logoColor=39ff14)
-![Lavalink](https://img.shields.io/badge/-Lavalink-050807?style=for-the-badge&logo=discord&logoColor=00f0ff)
 
 </div>
 

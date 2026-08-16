@@ -83,8 +83,8 @@ def factory_svg() -> str:
   <text x="316" y="129" fill="{GREEN}" font-family="Consolas, monospace" font-size="11">atelier ON</text>
   <rect x="422" y="112" width="110" height="26" rx="4" fill="#071410" stroke="{GREEN}"/>
   <text x="440" y="129" fill="{GREEN}" font-family="Consolas, monospace" font-size="11">salon ON</text>
-  <rect x="542" y="112" width="110" height="26" rx="4" fill="#071018" stroke="{CYAN}"/>
-  <text x="564" y="129" fill="{CYAN}" font-family="Consolas, monospace" font-size="11">lab ON</text>
+  <rect x="542" y="112" width="110" height="26" rx="4" fill="#071410" stroke="{GREEN}"/>
+  <text x="564" y="129" fill="{GREEN}" font-family="Consolas, monospace" font-size="11">opti ON</text>
 
   <!-- mount chips row 2 -->
   <rect x="302" y="146" width="150" height="26" rx="4" fill="#071018" stroke="{CYAN}"/>
@@ -93,8 +93,8 @@ def factory_svg() -> str:
   <text x="486" y="163" fill="{CYAN}" font-family="Consolas, monospace" font-size="11">linux PUB</text>
 
   <text x="302" y="192" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="12">ATELIER  | 5 hubs in-hub | UAC</text>
-  <text x="302" y="212" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="12">SALON    | Game launcher + X titles</text>
-  <text x="302" y="232" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="12">LAB      | R&amp;D | Discordbots</text>
+  <text x="302" y="212" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="12">SALON    | 9 original X titles</text>
+  <text x="302" y="232" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="12">OPTI     | standalone gaming opt</text>
   <text x="302" y="252" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="12">WIN      | 7 desktop .exe | free</text>
   <text x="302" y="272" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="12">LINUX    | Crypto Tracker | Gest | Kit</text>
 
@@ -123,17 +123,17 @@ def factory_svg() -> str:
   <text x="302" y="388" fill="{MUTED}" font-family="Consolas, monospace" font-size="11">rule: if it ships, AI wrote it -- Mr-Aurevo-X signed it off</text>
   <text x="302" y="404" fill="{MUTED}" font-family="Consolas, monospace" font-size="11">SoT: Dev Central Tree | binaries public | sources private</text>
 
-  <!-- RIGHT: sentinel + connect -->
+  <!-- RIGHT: ship channel + connect -->
   <rect x="818" y="72" width="258" height="340" rx="8" fill="{DEEP}" stroke="{CYAN}" stroke-width="1.5"/>
-  <text x="834" y="96" fill="{CYAN}" font-family="Consolas, monospace" font-size="13">SIGNAL -- LAB</text>
-  <text x="834" y="122" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="12">Mr-X-Sentinel</text>
-  <text x="834" y="144" fill="{CYAN}" font-family="Consolas, monospace" font-size="11">Discord bot platform</text>
-  <text x="834" y="166" fill="{MUTED}" font-family="Consolas, monospace" font-size="11">mod | eco | XP | AI</text>
-  <text x="834" y="186" fill="{MUTED}" font-family="Consolas, monospace" font-size="11">music | tickets</text>
+  <text x="834" y="96" fill="{CYAN}" font-family="Consolas, monospace" font-size="13">SHIP -- RELEASES</text>
+  <text x="834" y="122" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="12">MrAurevoX-Launcher</text>
+  <text x="834" y="144" fill="{CYAN}" font-family="Consolas, monospace" font-size="11">unique private channel</text>
+  <text x="834" y="166" fill="{MUTED}" font-family="Consolas, monospace" font-size="11">Hubs.zip | Salon | Opti</text>
+  <text x="834" y="186" fill="{MUTED}" font-family="Consolas, monospace" font-size="11">Install-Easy Private</text>
   <circle cx="1000" cy="130" r="5" fill="{CYAN}">
     <animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite"/>
   </circle>
-  <text x="1012" y="134" fill="{CYAN}" font-family="Consolas, monospace" font-size="10">bot</text>
+  <text x="1012" y="134" fill="{CYAN}" font-family="Consolas, monospace" font-size="10">ok</text>
 
   <line x1="834" y1="206" x2="1056" y2="206" stroke="{STROKE_C}"/>
   <text x="834" y="230" fill="{GREEN}" font-family="Consolas, monospace" font-size="12">CONNECT</text>
@@ -166,7 +166,7 @@ README_TEMPLATE = """<div align="center">
 [![Cursor AI](https://img.shields.io/badge/BUILT_BY-CURSOR_AI-39ff14?style=for-the-badge&labelColor=050807&logo=cursor&logoColor=39ff14)](https://cursor.com)
 [![Mr-Aurevo-X QA](https://img.shields.io/badge/IDEAS_%26_QA-MR--AUREVO--X-00f0ff?style=for-the-badge&labelColor=050807)](https://github.com/Mr-Aurevo-X)
 
-`STATUS=ONLINE` | `WIN=7_exe` | `LINUX=3_apps` | `PC_COMMAND=5_HUBS` | `ATELIER+SALON+LAB=private` | `MODE=AI_OPERATED`
+`STATUS=ONLINE` | `WIN=7_exe` | `LINUX=3_apps` | `PC_COMMAND=5_HUBS` | `INSTALL_EASY+RELEASES=private` | `SALON=9_GAMES` | `MODE=AI_OPERATED`
 
 </div>
 
@@ -251,8 +251,8 @@ Native: tar.gz / zip / `.deb` via [linux-releases](https://github.com/Mr-Aurevo-
 ```text
 /workshop
 |-- atelier/     PC Command | 5 hubs in-hub (Dashboard + modules) [private]
-|-- salon/       Game launcher + X titles | forks                  [private]
-|-- lab/         Lab launcher + R&D | Discordbots | prototypes     [private]
+|-- salon/       Game launcher | 9 original X titles               [private]
+|-- opti/        standalone gaming optimizer                       [private]
 |-- vitrine/     7 Windows desktop tools                           [public]
 `-- linux/       Crypto Tracker | Gest Linux Pro | MrAurevoX Kit   [public binaries]
 ```
@@ -279,10 +279,10 @@ Ship : `Launch-Hub-*.exe` / `Hubs.zip` via Install-Easy (plus de launcher plat /
 |-- UI-proprietaire/    pc-command-kit SoT
 |-- SecurityHelpers/    ConfirmGate + security.py
 |-- HostHelpers/        window_chrome | suite_launch
-|-- Install-Easy-Private/  installer (Hubs.zip + Lab + Salon packs)
-`-- MrAurevoX-Releases/ packaging / portable assets
+|-- Install-Easy-Private/  installer (Hubs.zip + Salon + Opti + GameChangelog)
+`-- MrAurevoX-Launcher/   Releases channel unique (private)
 
-standalones (Lab siblings) : Opti (later)
+standalone : Opti (Dev Central Tree\\Opti)
 ```
 
 <a id="salon"></a>
@@ -291,26 +291,20 @@ standalones (Lab siblings) : Opti (later)
 
 ```text
 Game/
-|-- Salon/                  * game launcher  (private)
+|-- Salon/                  * game launcher  (private) — 9 originals only
 |-- * Original X            Incremental-X | Factory-X | Empire-X | Colony-X
 |                           Deck-X | Battler-X | Tower-X | Puzzle-X | Story-X
-|-- forks                   Antimatter-X | Evolve-X | Idle* | IndustryIdle-X | ...
-`-- tools                   GameChangelog | PreviewCars
+`-- tools                   GameChangelog
 ```
 
-<a id="lab"></a>
+<a id="opti"></a>
 
-### lab - R&D / prototypes / bots
-
-Hub **Lab** | `Lancer.cmd` | `Lab.exe` | `launcher.py`
+### opti - standalone
 
 ```text
-Lab/
-|-- Lancer.cmd | Lab.exe    * Lab launcher  (private)
-|-- standalones             Opti (later)
-`-- DiscordBots/
-    `-- Mr-X-Sentinel/      * Discord bot platform (private)
-                            mod | security | eco | XP | tickets | music | AI
+Opti/                       * gaming optimizer (private)
+|-- Opti.exe | Lancer.cmd
+`-- ship via Install-Easy → Opti.zip (MrAurevoX-Launcher)
 ```
 
 <a id="linux"></a>
@@ -372,8 +366,6 @@ linux-flatpak-releases/     * .flatpak
 ![Cursor](https://img.shields.io/badge/-Cursor_AI-050807?style=for-the-badge&logo=cursor&logoColor=00f0ff)
 ![Node.js](https://img.shields.io/badge/-Node.js-050807?style=for-the-badge&logo=nodedotjs&logoColor=39ff14)
 ![pnpm](https://img.shields.io/badge/-pnpm-050807?style=for-the-badge&logo=pnpm&logoColor=00f0ff)
-![discord.js](https://img.shields.io/badge/-discord.js-050807?style=for-the-badge&logo=discord&logoColor=5865F2)
-![Discord](https://img.shields.io/badge/-Discord_Bots-050807?style=for-the-badge&logo=discord&logoColor=00f0ff)
 ![Next.js](https://img.shields.io/badge/-Next.js-050807?style=for-the-badge&logo=nextdotjs&logoColor=39ff14)
 ![React](https://img.shields.io/badge/-React-050807?style=for-the-badge&logo=react&logoColor=00f0ff)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-050807?style=for-the-badge&logo=postgresql&logoColor=39ff14)
@@ -381,7 +373,6 @@ linux-flatpak-releases/     * .flatpak
 ![Redis](https://img.shields.io/badge/-Redis-050807?style=for-the-badge&logo=redis&logoColor=39ff14)
 ![Docker](https://img.shields.io/badge/-Docker-050807?style=for-the-badge&logo=docker&logoColor=00f0ff)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-050807?style=for-the-badge&logo=fastapi&logoColor=39ff14)
-![Lavalink](https://img.shields.io/badge/-Lavalink-050807?style=for-the-badge&logo=discord&logoColor=00f0ff)
 
 </div>
 
@@ -438,8 +429,8 @@ def main() -> None:
         if p.exists():
             p.unlink()
             print("removed", name)
-    write_readme("PENDING")
-    print("wrote factory-floor.svg + README (PENDING sha)")
+    # README.md is SoT — do not overwrite (keeps live WIN/LIN featured versions).
+    print("wrote factory-floor.svg (README unchanged)")
 
 
 if __name__ == "__main__":
