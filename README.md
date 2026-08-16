@@ -126,10 +126,10 @@ Ship : `Launch-Hub-*.exe` / `Hubs.zip` via Install-Easy (plus de launcher plat /
 |-- UI-proprietaire/    pc-command-kit SoT
 |-- SecurityHelpers/    ConfirmGate + security.py
 |-- HostHelpers/        window_chrome | suite_launch
-|-- Install-Easy-Private/  installer (Hubs.zip + Lab + Salon packs)
-`-- MrAurevoX-Releases/ packaging / portable assets
+|-- Install-Easy-Private/  installer (Hubs.zip + Salon + Opti + GameChangelog)
+`-- MrAurevoX-Launcher/   Releases channel unique (private)
 
-standalones (Lab siblings) : Opti (later)
+standalone : Opti (Dev Central Tree\Opti)
 ```
 
 <a id="salon"></a>
@@ -138,25 +138,23 @@ standalones (Lab siblings) : Opti (later)
 
 ```text
 Game/
-|-- Salon/                  * game launcher  (private)
+|-- Salon/                  * game launcher  (private) — 9 originals only
 |-- * Original X            Incremental-X | Factory-X | Empire-X | Colony-X
 |                           Deck-X | Battler-X | Tower-X | Puzzle-X | Story-X
-|-- forks                   Antimatter-X | Evolve-X | Idle* | IndustryIdle-X | ...
-`-- tools                   GameChangelog | PreviewCars
+`-- tools                   GameChangelog
 ```
 
 <a id="lab"></a>
 
 ### lab - R&D / prototypes / bots
 
-Hub **Lab** | `Lancer.cmd` | `Lab.exe` | `launcher.py`
+Hub **Lab** — local Private Only (hors GitHub public).
 
 ```text
-Lab/
-|-- Lancer.cmd | Lab.exe    * Lab launcher  (private)
-|-- standalones             Opti (later)
+Lab/ (Private Only)
+|-- Lancer.cmd | Lab.exe    * Lab launcher  (local only)
 `-- DiscordBots/
-    `-- Mr-X-Sentinel/      * Discord bot platform (private)
+    `-- Mr-X-Sentinel/      * Discord bot platform (local only)
                             mod | security | eco | XP | tickets | music | AI
 ```
 
