@@ -128,7 +128,7 @@ def factory_svg() -> str:
   <text x="834" y="96" fill="{CYAN}" font-family="Consolas, monospace" font-size="13">SHIP -- RELEASES</text>
   <text x="834" y="122" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="12">MrAurevoX-Launcher</text>
   <text x="834" y="144" fill="{CYAN}" font-family="Consolas, monospace" font-size="11">unique private channel</text>
-  <text x="834" y="166" fill="{MUTED}" font-family="Consolas, monospace" font-size="11">Hubs.zip | Salon | Opti</text>
+  <text x="834" y="166" fill="{MUTED}" font-family="Consolas, monospace" font-size="11">Launch-Hub-*.zip | Salon | Opti</text>
   <text x="834" y="186" fill="{MUTED}" font-family="Consolas, monospace" font-size="11">Install-Easy Private</text>
   <circle cx="1000" cy="130" r="5" fill="{CYAN}">
     <animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite"/>
@@ -265,7 +265,7 @@ Native: tar.gz / zip / `.deb` via [linux-releases](https://github.com/Mr-Aurevo-
 ### atelier - PC Command (5 hubs)
 
 SoT : `Dev Central Tree\\01_Hubs\\` | pywebview + WebView2 | UAC admin | lazy DOM | ConfirmGate  
-Ship : `Launch-Hub-*.exe` / `Hubs.zip` via Install-Easy (plus de launcher plat / `PCCommand.exe`)
+Ship : `Launch-Hub-*.zip` per hub via Install-Easy (plus de launcher plat / `PCCommand.exe`)
 
 ```text
 01_Hubs/
@@ -279,7 +279,7 @@ Ship : `Launch-Hub-*.exe` / `Hubs.zip` via Install-Easy (plus de launcher plat /
 |-- UI-proprietaire/    pc-command-kit SoT
 |-- SecurityHelpers/    ConfirmGate + security.py
 |-- HostHelpers/        window_chrome | suite_launch
-|-- Install-Easy-Private/  installer (Hubs.zip + Salon + Opti + GameChangelog)
+|-- Install-Easy-Private/  installer (Launch-Hub-*.zip + Salon + Opti + GameChangelog)
 `-- MrAurevoX-Launcher/   Releases channel unique (private)
 
 standalone : Opti (Dev Central Tree\\Opti)

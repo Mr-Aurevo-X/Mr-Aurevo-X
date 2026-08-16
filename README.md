@@ -112,7 +112,7 @@ Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurev
 ### atelier - PC Command (5 hubs)
 
 SoT : `Dev Central Tree\01_Hubs\` | pywebview + WebView2 | UAC admin | lazy DOM | ConfirmGate  
-Ship : `Launch-Hub-*.exe` / `Hubs.zip` via Install-Easy (plus de launcher plat / `PCCommand.exe`)
+Ship : `Launch-Hub-*.zip` per hub via Install-Easy (plus de launcher plat / `PCCommand.exe`)
 
 ```text
 01_Hubs/
@@ -126,7 +126,7 @@ Ship : `Launch-Hub-*.exe` / `Hubs.zip` via Install-Easy (plus de launcher plat /
 |-- UI-proprietaire/    pc-command-kit SoT
 |-- SecurityHelpers/    ConfirmGate + security.py
 |-- HostHelpers/        window_chrome | suite_launch
-|-- Install-Easy-Private/  installer (Hubs.zip + Salon + Opti + GameChangelog)
+|-- Install-Easy-Private/  installer (Launch-Hub-*.zip + Salon + Opti + GameChangelog)
 `-- MrAurevoX-Launcher/   Releases channel unique (private)
 
 standalone : Opti (Dev Central Tree\Opti)
