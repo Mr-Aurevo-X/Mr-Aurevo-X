@@ -217,6 +217,8 @@ Single crafted factory board (dual-split: **BUILD green** / **QA cyan**). Decora
 
 `WIN=7_exe` | `LINUX=3_apps` | `public` | `AI-built` | `human-tested` | sources stay private
 
+**License:** Proprietary · free to use · no rebrand / no source republication (see each repo `LICENSE`)
+
 ### windows — 7 desktop tools
 
 **Gratuits | locaux (sauf DeviseConvert : taux BCE + cache offline) | `.exe` sans installation**
@@ -238,11 +240,11 @@ SoT `Dev Central Tree\\Git Vitrine Public\\`
 
 | App | Role | Version | Native | Flatpak |
 |:--|:--|:--|:--|:--|
-| **Crypto Tracker** | local crypto portfolio | 1.2.11 | [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/crypto-tracker-v1.2.11) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/crypto-tracker-v1.2.11) |
-| **Gest Linux Pro** | GTK system toolkit | 1.4.10 | [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/Gest_Linux_Pro-v1.4.10) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/Gest_Linux_Pro-v1.4.10) |
-| **MrAurevoX Kit** | local toolkit (search, hash, EXIF, PDF, QR) | 0.2.6 | [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/MrAurevoX-Kit-v0.2.6) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/MrAurevoX-Kit-v0.2.6) |
+| **Crypto Tracker** | local crypto portfolio | 1.2.16 | [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/crypto-tracker-v1.2.16) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/crypto-tracker-v1.2.16) |
+| **Gest Linux Pro** | GTK system toolkit | 1.4.12 | — (Flatpak only) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/Gest_Linux_Pro-v1.4.12) |
+| **MrAurevoX Kit** | local toolkit (search, hash, PDF, disk map) | 1.0.0 | [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/MrAurevoX-Kit-v1.0.0) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/MrAurevoX-Kit-v1.0.0) |
 
-Native: tar.gz / zip / `.deb` via [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases). Flatpak: `.flatpak` via [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases) (Freedesktop 25.08 / GNOME 49).
+Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases). **Gest : Flatpak uniquement** (plus de native). Flatpak: `.flatpak` via [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases) (Freedesktop 25.08 / GNOME 49).
 
 ---
 
@@ -265,7 +267,8 @@ Native: tar.gz / zip / `.deb` via [linux-releases](https://github.com/Mr-Aurevo-
 ### atelier - PC Command (5 hubs)
 
 SoT : `Dev Central Tree\\01_Hubs\\` | pywebview + WebView2 | UAC admin | lazy DOM | ConfirmGate  
-Ship : `Launch-Hub-*.zip` per hub via Install-Easy (plus de launcher plat / `PCCommand.exe`)
+Ship : `Launch-Hub-*.zip` per hub via Install-Easy (plus de launcher plat / `PCCommand.exe`)  
+**License:** Proprietary · free to use · no rebrand / no source republication
 
 ```text
 01_Hubs/
@@ -316,9 +319,9 @@ Sources stay private. Public installables only.
 ```text
 linux-releases/             * native tar.gz | zip | .deb
 linux-flatpak-releases/     * .flatpak
-|-- Crypto Tracker          1.2.11
-|-- Gest Linux Pro          1.4.10
-`-- MrAurevoX Kit           0.2.6
+|-- Crypto Tracker          1.2.16
+|-- Gest Linux Pro          1.4.12
+`-- MrAurevoX Kit           1.0.0
 ```
 
 </details>
@@ -329,15 +332,15 @@ linux-flatpak-releases/     * .flatpak
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/github-stats.svg?v=0ef980b" height="165" alt="GitHub stats"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/github-stats.svg?v=86b8e0d" height="165" alt="GitHub stats"/>
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/github-streak.svg?v=0ef980b" alt="Streak"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/github-streak.svg?v=86b8e0d" alt="Streak"/>
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/output/github-contribution-grid-snake-dark.svg?v=31233886602" alt="Contribution snake" width="100%"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/output/github-contribution-grid-snake-dark.svg?v=32032100087" alt="Contribution snake" width="100%"/>
 
 </div>
 
