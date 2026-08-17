@@ -2,7 +2,7 @@
 
 # `>_ mr-aurevo-x@workshop:~`
 
-**AI-run workshop - Cursor builds | Mr-Aurevo-X QA | Windows + Linux**
+**AI-Run Workshop — Cursor Builds | Mr-Aurevo-X QA | Windows + Linux**
 
 <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/b056e3879ff26adf83926ccdd0cbc94e00c82c3b/assets/hero-boot.svg?v=b056e3879ff26adf83926ccdd0cbc94e00c82c3b" alt="Boot console scrolling" width="100%"/>
 
@@ -19,7 +19,7 @@
 
 ---
 
-## sessions - dual console
+## 💻 Sessions — Dual Console
 
 <div align="center">
 
@@ -48,7 +48,7 @@
 
 ---
 
-## workshop floor
+## 🏭 Workshop Floor
 
 Single crafted factory board (dual-split: **BUILD green** / **QA cyan**). Decorative status only -- not live CI, not live chat.
 
@@ -60,13 +60,13 @@ Single crafted factory board (dual-split: **BUILD green** / **QA cyan**). Decora
 
 ---
 
-## featured - public vitrine
+## ✨ Featured — Public Vitrine
 
 `WIN=7_exe` | `LINUX=3_apps` | `public` | `AI-built` | `human-tested` | sources stay private
 
 **License:** Proprietary · free to use · no rebrand / no source republication (see each repo `LICENSE`)
 
-### windows — 7 desktop tools
+### 🪟 Windows — 7 Desktop Tools
 
 **Gratuits | locaux (sauf DeviseConvert : taux BCE + cache offline) | `.exe` sans installation**
 SoT `Dev Central Tree\Git Vitrine Public\`
@@ -81,7 +81,7 @@ SoT `Dev Central Tree\Git Vitrine Public\`
 | **MetaStrip** | Strip EXIF/GPS/XMP | [repo](https://github.com/Mr-Aurevo-X/MetaStrip) / [releases](https://github.com/Mr-Aurevo-X/MetaStrip/releases/latest) |
 | **QrBatch** | QR en lot -> PNG + ZIP | [repo](https://github.com/Mr-Aurevo-X/QrBatch) / [releases](https://github.com/Mr-Aurevo-X/QrBatch/releases/latest) |
 
-### linux — 3 apps
+### 🐧 Linux — 3 Apps
 
 **Binaries only (no source) | native + Flatpak**
 
@@ -95,7 +95,7 @@ Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurev
 
 ---
 
-## mounts - filesystem
+## 📂 Mounts — Filesystem
 
 ```text
 /workshop
@@ -109,11 +109,11 @@ Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurev
 ```
 
 <details>
-<summary><strong>full workshop map - arborescences</strong></summary>
+<summary><strong>🗺️ Full Workshop Map — Arborescences</strong></summary>
 
 <a id="atelier"></a>
 
-### atelier - PC Command (5 hubs)
+### 🛠️ Atelier — PC Command (5 Hubs)
 
 SoT : `Dev Central Tree\01_Hubs\` | pywebview + WebView2 | UAC admin | lazy DOM | ConfirmGate  
 Ship : `Launch-Hub-*.zip` per hub via Install-Easy (plus de launcher plat / `PCCommand.exe`)  
@@ -139,7 +139,7 @@ standalone : Opti (Dev Central Tree\Opti)
 
 <a id="salon"></a>
 
-### salon - Game hub
+### 🎮 Salon — Game Hub
 
 ```text
 Game/
@@ -151,7 +151,7 @@ Game/
 
 <a id="opti"></a>
 
-### opti - standalone
+### ⚡ Opti — Standalone
 
 ```text
 Opti/                       * gaming optimizer (private)
@@ -161,7 +161,7 @@ Opti/                       * gaming optimizer (private)
 
 <a id="fakevps"></a>
 
-### fakevps - local rehearsal
+### 🖥️ FakeVPS — Local Rehearsal
 
 Local Ubuntu node that behaves like a mid-range VPS. Repo stays private (not a public clone).
 
@@ -174,7 +174,7 @@ FakeVPS/                    * localhost rehearsal (private)
 
 <a id="sentinel"></a>
 
-### sentinel - Discord platform
+### 🛡️ Sentinel — Discord Platform
 
 Unified Discord bot + dashboard. Repo stays private.
 
@@ -187,7 +187,7 @@ Mr-X-Sentinel/              * Discord platform (private)
 
 <a id="linux"></a>
 
-### linux - public binaries
+### 📦 Linux — Public Binaries
 
 Sources stay private. Public installables only.
 
@@ -203,7 +203,7 @@ linux-flatpak-releases/     * .flatpak
 
 ---
 
-## telemetry
+## 📡 Telemetry
 
 <div align="center">
 
@@ -221,7 +221,7 @@ linux-flatpak-releases/     * .flatpak
 
 ---
 
-## stack
+## 🧩 Stack
 
 <div align="center">
 
@@ -256,7 +256,7 @@ linux-flatpak-releases/     * .flatpak
 
 ---
 
-## connect - support
+## 🤝 Connect — Support
 
 <div align="center">
 
@@ -281,7 +281,7 @@ linux-flatpak-releases/     * .flatpak
 <div align="center">
 
 **Built by Cursor AI | Ideas & QA by Mr-Aurevo-X**
-**AI-operated workshop - not a portfolio of vibes, a factory of tools.**
+**AI-Operated Workshop — not a portfolio of vibes, a factory of tools.**
 
 <br/>
 
