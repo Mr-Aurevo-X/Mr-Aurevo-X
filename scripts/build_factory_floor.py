@@ -78,25 +78,31 @@ def factory_svg() -> str:
   <rect x="286" y="72" width="520" height="340" rx="8" fill="{DEEP}" stroke="{STROKE_C}" stroke-width="1.5"/>
   <text x="302" y="96" fill="{CYAN}" font-family="Consolas, monospace" font-size="13">MOUNTS -- Dev Central Tree</text>
 
-  <!-- mount chips row 1 -->
-  <rect x="302" y="112" width="110" height="26" rx="4" fill="#071410" stroke="{GREEN}"/>
-  <text x="316" y="129" fill="{GREEN}" font-family="Consolas, monospace" font-size="11">atelier ON</text>
-  <rect x="422" y="112" width="110" height="26" rx="4" fill="#071410" stroke="{GREEN}"/>
-  <text x="440" y="129" fill="{GREEN}" font-family="Consolas, monospace" font-size="11">salon ON</text>
-  <rect x="542" y="112" width="110" height="26" rx="4" fill="#071410" stroke="{GREEN}"/>
-  <text x="564" y="129" fill="{GREEN}" font-family="Consolas, monospace" font-size="11">opti ON</text>
+  <!-- mount chips row 1 (private) -->
+  <rect x="302" y="112" width="90" height="26" rx="4" fill="#071410" stroke="{GREEN}"/>
+  <text x="310" y="129" fill="{GREEN}" font-family="Consolas, monospace" font-size="10">atelier</text>
+  <rect x="398" y="112" width="90" height="26" rx="4" fill="#071410" stroke="{GREEN}"/>
+  <text x="414" y="129" fill="{GREEN}" font-family="Consolas, monospace" font-size="10">salon</text>
+  <rect x="494" y="112" width="90" height="26" rx="4" fill="#071410" stroke="{GREEN}"/>
+  <text x="516" y="129" fill="{GREEN}" font-family="Consolas, monospace" font-size="10">opti</text>
+  <rect x="590" y="112" width="90" height="26" rx="4" fill="#071410" stroke="{GREEN}"/>
+  <text x="602" y="129" fill="{GREEN}" font-family="Consolas, monospace" font-size="10">fakevps</text>
+  <rect x="686" y="112" width="90" height="26" rx="4" fill="#071410" stroke="{GREEN}"/>
+  <text x="696" y="129" fill="{GREEN}" font-family="Consolas, monospace" font-size="10">sentinel</text>
 
-  <!-- mount chips row 2 -->
+  <!-- mount chips row 2 (public) -->
   <rect x="302" y="146" width="150" height="26" rx="4" fill="#071018" stroke="{CYAN}"/>
   <text x="318" y="163" fill="{CYAN}" font-family="Consolas, monospace" font-size="11">vitrine WIN</text>
   <rect x="462" y="146" width="150" height="26" rx="4" fill="#071018" stroke="{CYAN}"/>
   <text x="486" y="163" fill="{CYAN}" font-family="Consolas, monospace" font-size="11">linux PUB</text>
 
-  <text x="302" y="192" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="12">ATELIER  | 5 hubs in-hub | UAC</text>
-  <text x="302" y="212" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="12">SALON    | 9 original X titles</text>
-  <text x="302" y="232" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="12">OPTI     | standalone gaming opt</text>
-  <text x="302" y="252" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="12">WIN      | 7 desktop .exe | free</text>
-  <text x="302" y="272" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="12">LINUX    | Crypto Tracker | Gest | Kit</text>
+  <text x="302" y="184" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="11">ATELIER  | 5 hubs in-hub | UAC</text>
+  <text x="302" y="200" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="11">SALON    | 9 original X titles</text>
+  <text x="302" y="216" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="11">OPTI     | standalone gaming opt</text>
+  <text x="302" y="232" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="11">FAKEVPS  | local Ubuntu rehearsal</text>
+  <text x="302" y="248" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="11">SENTINEL | Discord platform</text>
+  <text x="302" y="264" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="11">WIN      | 7 desktop .exe | free</text>
+  <text x="302" y="280" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="11">LINUX    | Crypto Tracker | Gest | Kit</text>
 
   <line x1="302" y1="286" x2="786" y2="286" stroke="{STROKE_C}"/>
   <text x="302" y="306" fill="{GREEN}" font-family="Consolas, monospace" font-size="12">WIN TICKER</text>
@@ -166,7 +172,7 @@ README_TEMPLATE = """<div align="center">
 [![Cursor AI](https://img.shields.io/badge/BUILT_BY-CURSOR_AI-39ff14?style=for-the-badge&labelColor=050807&logo=cursor&logoColor=39ff14)](https://cursor.com)
 [![Mr-Aurevo-X QA](https://img.shields.io/badge/IDEAS_%26_QA-MR--AUREVO--X-00f0ff?style=for-the-badge&labelColor=050807)](https://github.com/Mr-Aurevo-X)
 
-`STATUS=ONLINE` | `WIN=7_exe` | `LINUX=3_apps` | `PC_COMMAND=5_HUBS` | `INSTALL_EASY+RELEASES=private` | `SALON=9_GAMES` | `MODE=AI_OPERATED`
+`STATUS=ONLINE` | `WIN=7_exe` | `LINUX=3_apps` | `PC_COMMAND=5_HUBS` | `FAKEVPS+SENTINEL=private` | `INSTALL_EASY+RELEASES=private` | `SALON=9_GAMES` | `MODE=AI_OPERATED`
 
 </div>
 
@@ -255,6 +261,8 @@ Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurev
 |-- atelier/     PC Command | 5 hubs in-hub (Dashboard + modules) [private]
 |-- salon/       Game launcher | 9 original X titles               [private]
 |-- opti/        standalone gaming optimizer                       [private]
+|-- fakevps/     local Ubuntu rehearsal (6G / 4 vCPU / 40G)        [private]
+|-- sentinel/    Discord platform (mod, eco, XP, tickets, music)   [private]
 |-- vitrine/     7 Windows desktop tools                           [public]
 `-- linux/       Crypto Tracker | Gest Linux Pro | MrAurevoX Kit   [public binaries]
 ```
@@ -308,6 +316,32 @@ Game/
 Opti/                       * gaming optimizer (private)
 |-- Opti.exe | Lancer.cmd
 `-- ship via Install-Easy → Opti.zip (MrAurevoX-Launcher)
+```
+
+<a id="fakevps"></a>
+
+### fakevps - local rehearsal
+
+Local Ubuntu node that behaves like a mid-range VPS. Repo stays private (not a public clone).
+
+```text
+FakeVPS/                    * localhost rehearsal (private)
+|-- KVM (`./fakevps up`) or --fast Docker guest (WSL2 default)
+|-- envelope 6 GB / 4 vCPU / 40 GB | SSH 127.0.0.1:2222 | cockpit :8787
+`-- attach any Discord bot (none bundled)
+```
+
+<a id="sentinel"></a>
+
+### sentinel - Discord platform
+
+Unified Discord bot + dashboard. Repo stays private.
+
+```text
+Mr-X-Sentinel/              * Discord platform (private)
+|-- security | moderation | logs | economy | XP | tickets | music
+|-- Node 20 + pnpm | Postgres | Redis | Lavalink
+`-- slash-only | modules per guild
 ```
 
 <a id="linux"></a>

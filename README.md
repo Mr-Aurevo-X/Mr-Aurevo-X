@@ -4,7 +4,7 @@
 
 **AI-run workshop - Cursor builds | Mr-Aurevo-X QA | Windows + Linux**
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/c904b5fe43f3f99676f555737a9890d9f91c9808/assets/hero-boot.svg?v=c904b5fe43f3f99676f555737a9890d9f91c9808" alt="Boot console scrolling" width="100%"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/PENDING/assets/hero-boot.svg?v=PENDING" alt="Boot console scrolling" width="100%"/>
 
 <br/>
 
@@ -13,7 +13,7 @@
 [![Cursor AI](https://img.shields.io/badge/BUILT_BY-CURSOR_AI-39ff14?style=for-the-badge&labelColor=050807&logo=cursor&logoColor=39ff14)](https://cursor.com)
 [![Mr-Aurevo-X QA](https://img.shields.io/badge/IDEAS_%26_QA-MR--AUREVO--X-00f0ff?style=for-the-badge&labelColor=050807)](https://github.com/Mr-Aurevo-X)
 
-`STATUS=ONLINE` | `WIN=7_exe` | `LINUX=3_apps` | `PC_COMMAND=5_HUBS` | `INSTALL_EASY+RELEASES=private` | `SALON=9_GAMES` | `MODE=AI_OPERATED`
+`STATUS=ONLINE` | `WIN=7_exe` | `LINUX=3_apps` | `PC_COMMAND=5_HUBS` | `FAKEVPS+SENTINEL=private` | `INSTALL_EASY+RELEASES=private` | `SALON=9_GAMES` | `MODE=AI_OPERATED`
 
 </div>
 
@@ -26,10 +26,10 @@
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/b9bc305/assets/console-build.svg?v=b9bc305" alt="Cursor AI build console (green)" width="100%"/>
+      <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/PENDING/assets/console-build.svg?v=PENDING" alt="Cursor AI build console (green)" width="100%"/>
     </td>
     <td width="50%" align="center">
-      <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/b9bc305/assets/console-qa.svg?v=b9bc305" alt="Mr-Aurevo-X QA console (cyan)" width="100%"/>
+      <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/PENDING/assets/console-qa.svg?v=PENDING" alt="Mr-Aurevo-X QA console (cyan)" width="100%"/>
     </td>
   </tr>
 </table>
@@ -54,7 +54,7 @@ Single crafted factory board (dual-split: **BUILD green** / **QA cyan**). Decora
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/c904b5fe43f3f99676f555737a9890d9f91c9808/assets/factory-floor.svg?v=c904b5fe43f3f99676f555737a9890d9f91c9808" alt="Workshop factory floor status board" width="100%"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/PENDING/assets/factory-floor.svg?v=PENDING" alt="Workshop factory floor status board" width="100%"/>
 
 </div>
 
@@ -102,6 +102,8 @@ Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurev
 |-- atelier/     PC Command | 5 hubs in-hub (Dashboard + modules) [private]
 |-- salon/       Game launcher | 9 original X titles               [private]
 |-- opti/        standalone gaming optimizer                       [private]
+|-- fakevps/     local Ubuntu rehearsal (6G / 4 vCPU / 40G)        [private]
+|-- sentinel/    Discord platform (mod, eco, XP, tickets, music)   [private]
 |-- vitrine/     7 Windows desktop tools                           [public]
 `-- linux/       Crypto Tracker | Gest Linux Pro | MrAurevoX Kit   [public binaries]
 ```
@@ -155,6 +157,32 @@ Game/
 Opti/                       * gaming optimizer (private)
 |-- Opti.exe | Lancer.cmd
 `-- ship via Install-Easy → Opti.zip (MrAurevoX-Launcher)
+```
+
+<a id="fakevps"></a>
+
+### fakevps - local rehearsal
+
+Local Ubuntu node that behaves like a mid-range VPS. Repo stays private (not a public clone).
+
+```text
+FakeVPS/                    * localhost rehearsal (private)
+|-- KVM (`./fakevps up`) or --fast Docker guest (WSL2 default)
+|-- envelope 6 GB / 4 vCPU / 40 GB | SSH 127.0.0.1:2222 | cockpit :8787
+`-- attach any Discord bot (none bundled)
+```
+
+<a id="sentinel"></a>
+
+### sentinel - Discord platform
+
+Unified Discord bot + dashboard. Repo stays private.
+
+```text
+Mr-X-Sentinel/              * Discord platform (private)
+|-- security | moderation | logs | economy | XP | tickets | music
+|-- Node 20 + pnpm | Postgres | Redis | Lavalink
+`-- slash-only | modules per guild
 ```
 
 <a id="linux"></a>
