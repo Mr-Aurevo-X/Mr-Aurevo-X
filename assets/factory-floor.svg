@@ -51,28 +51,28 @@
   <text x="302" y="96" fill="#00f0ff" font-family="Consolas, monospace" font-size="13">MOUNTS -- Dev Central Tree</text>
 
   <!-- mount chips row 1 (private) -->
-  <rect x="302" y="112" width="90" height="26" rx="4" fill="#071410" stroke="#39ff14"/>
-  <text x="310" y="129" fill="#39ff14" font-family="Consolas, monospace" font-size="10">atelier</text>
-  <rect x="398" y="112" width="90" height="26" rx="4" fill="#071410" stroke="#39ff14"/>
-  <text x="414" y="129" fill="#39ff14" font-family="Consolas, monospace" font-size="10">salon</text>
-  <rect x="494" y="112" width="90" height="26" rx="4" fill="#071410" stroke="#39ff14"/>
-  <text x="516" y="129" fill="#39ff14" font-family="Consolas, monospace" font-size="10">opti</text>
-  <rect x="590" y="112" width="90" height="26" rx="4" fill="#071410" stroke="#39ff14"/>
-  <text x="602" y="129" fill="#39ff14" font-family="Consolas, monospace" font-size="10">fakevps</text>
-  <rect x="686" y="112" width="90" height="26" rx="4" fill="#071410" stroke="#39ff14"/>
-  <text x="696" y="129" fill="#39ff14" font-family="Consolas, monospace" font-size="10">sentinel</text>
+  <rect x="302" y="112" width="110" height="26" rx="4" fill="#071410" stroke="#39ff14"/>
+  <text x="316" y="129" fill="#39ff14" font-family="Consolas, monospace" font-size="11">atelier</text>
+  <rect x="422" y="112" width="110" height="26" rx="4" fill="#071410" stroke="#39ff14"/>
+  <text x="446" y="129" fill="#39ff14" font-family="Consolas, monospace" font-size="11">salon</text>
+  <rect x="542" y="112" width="110" height="26" rx="4" fill="#071410" stroke="#39ff14"/>
+  <text x="570" y="129" fill="#39ff14" font-family="Consolas, monospace" font-size="11">opti</text>
 
   <!-- mount chips row 2 (public) -->
-  <rect x="302" y="146" width="150" height="26" rx="4" fill="#071018" stroke="#00f0ff"/>
-  <text x="318" y="163" fill="#00f0ff" font-family="Consolas, monospace" font-size="11">vitrine WIN</text>
-  <rect x="462" y="146" width="150" height="26" rx="4" fill="#071018" stroke="#00f0ff"/>
-  <text x="486" y="163" fill="#00f0ff" font-family="Consolas, monospace" font-size="11">linux PUB</text>
+  <rect x="302" y="146" width="108" height="26" rx="4" fill="#071018" stroke="#00f0ff"/>
+  <text x="314" y="163" fill="#00f0ff" font-family="Consolas, monospace" font-size="10">vitrine</text>
+  <rect x="418" y="146" width="108" height="26" rx="4" fill="#071018" stroke="#00f0ff"/>
+  <text x="442" y="163" fill="#00f0ff" font-family="Consolas, monospace" font-size="10">linux</text>
+  <rect x="534" y="146" width="108" height="26" rx="4" fill="#071018" stroke="#00f0ff"/>
+  <text x="548" y="163" fill="#00f0ff" font-family="Consolas, monospace" font-size="10">fakevps</text>
+  <rect x="650" y="146" width="108" height="26" rx="4" fill="#071018" stroke="#00f0ff"/>
+  <text x="662" y="163" fill="#00f0ff" font-family="Consolas, monospace" font-size="10">sentinel</text>
 
   <text x="302" y="184" fill="#6aff9a" font-family="Consolas, monospace" font-size="11">ATELIER  | 5 hubs in-hub | UAC</text>
   <text x="302" y="200" fill="#6aff9a" font-family="Consolas, monospace" font-size="11">SALON    | 9 original X titles</text>
   <text x="302" y="216" fill="#6aff9a" font-family="Consolas, monospace" font-size="11">OPTI     | standalone gaming opt</text>
-  <text x="302" y="232" fill="#6aff9a" font-family="Consolas, monospace" font-size="11">FAKEVPS  | local Ubuntu rehearsal</text>
-  <text x="302" y="248" fill="#6aff9a" font-family="Consolas, monospace" font-size="11">SENTINEL | Discord platform</text>
+  <text x="302" y="232" fill="#7ec8ff" font-family="Consolas, monospace" font-size="11">FAKEVPS  | 1.0.0 final | public src</text>
+  <text x="302" y="248" fill="#7ec8ff" font-family="Consolas, monospace" font-size="11">SENTINEL | v2.0.0 | Apache-2.0</text>
   <text x="302" y="264" fill="#7ec8ff" font-family="Consolas, monospace" font-size="11">WIN      | 7 desktop .exe | free</text>
   <text x="302" y="280" fill="#7ec8ff" font-family="Consolas, monospace" font-size="11">LINUX    | Crypto Tracker | Gest | Kit</text>
 

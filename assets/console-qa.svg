@@ -50,7 +50,7 @@
  <text x="28" y="198" fill="#00f0ff" clip-path="url(#q11)">GPS gone | XMP gone | pass</text>
  <!-- set C · 5 hubs + linux + go -->
  <text x="28" y="216" clip-path="url(#q12)">$ stress PC-Command 5-hubs</text>
- <text x="28" y="234" fill="#7ec8ff" clip-path="url(#q13)">ConfirmGate | fakevps cockpit | sentinel modules</text>
+ <text x="28" y="234" fill="#7ec8ff" clip-path="url(#q13)">ConfirmGate | fakevps 1.0.0 | sentinel v2</text>
  <text x="28" y="252" clip-path="url(#q14)">$ go-nogo</text>
  <text x="28" y="270" fill="#00f0ff" clip-path="url(#q15)">GREEN LIGHT | ship authorized</text>
  <text x="28" y="288" clip-path="url(#q16)">$ whoami</text>

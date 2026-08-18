@@ -4,7 +4,7 @@
 
 **AI-Run Workshop — Cursor Builds | Mr-Aurevo-X QA | Windows + Linux**
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/b056e3879ff26adf83926ccdd0cbc94e00c82c3b/assets/hero-boot.svg?v=b056e3879ff26adf83926ccdd0cbc94e00c82c3b" alt="Boot console scrolling" width="100%"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/PENDING/assets/hero-boot.svg?v=PENDING" alt="Boot console scrolling" width="100%"/>
 
 <br/>
 
@@ -13,7 +13,7 @@
 [![Cursor AI](https://img.shields.io/badge/BUILT_BY-CURSOR_AI-39ff14?style=for-the-badge&labelColor=050807&logo=cursor&logoColor=39ff14)](https://cursor.com)
 [![Mr-Aurevo-X QA](https://img.shields.io/badge/IDEAS_%26_QA-MR--AUREVO--X-00f0ff?style=for-the-badge&labelColor=050807)](https://github.com/Mr-Aurevo-X)
 
-`STATUS=ONLINE` | `WIN=7_exe` | `LINUX=3_apps` | `PC_COMMAND=5_HUBS` | `FAKEVPS+SENTINEL=private` | `INSTALL_EASY+RELEASES=private` | `SALON=9_GAMES` | `MODE=AI_OPERATED`
+`STATUS=ONLINE` | `WIN=7_exe` | `LINUX=3_apps` | `PC_COMMAND=5_HUBS` | `FAKEVPS+SENTINEL=public` | `INSTALL_EASY+RELEASES=private` | `SALON=9_GAMES` | `MODE=AI_OPERATED`
 
 </div>
 
@@ -26,10 +26,10 @@
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/b056e3879ff26adf83926ccdd0cbc94e00c82c3b/assets/console-build.svg?v=b056e3879ff26adf83926ccdd0cbc94e00c82c3b" alt="Cursor AI build console (green)" width="100%"/>
+      <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/PENDING/assets/console-build.svg?v=PENDING" alt="Cursor AI build console (green)" width="100%"/>
     </td>
     <td width="50%" align="center">
-      <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/b056e3879ff26adf83926ccdd0cbc94e00c82c3b/assets/console-qa.svg?v=b056e3879ff26adf83926ccdd0cbc94e00c82c3b" alt="Mr-Aurevo-X QA console (cyan)" width="100%"/>
+      <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/PENDING/assets/console-qa.svg?v=PENDING" alt="Mr-Aurevo-X QA console (cyan)" width="100%"/>
     </td>
   </tr>
 </table>
@@ -54,7 +54,7 @@ Single crafted factory board (dual-split: **BUILD green** / **QA cyan**). Decora
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/b056e3879ff26adf83926ccdd0cbc94e00c82c3b/assets/factory-floor.svg?v=b056e3879ff26adf83926ccdd0cbc94e00c82c3b" alt="Workshop factory floor status board" width="100%"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/PENDING/assets/factory-floor.svg?v=PENDING" alt="Workshop factory floor status board" width="100%"/>
 
 </div>
 
@@ -62,9 +62,9 @@ Single crafted factory board (dual-split: **BUILD green** / **QA cyan**). Decora
 
 ## ✨ Featured — Public Vitrine
 
-`WIN=7_exe` | `LINUX=3_apps` | `public` | `AI-built` | `human-tested` | sources stay private
+`WIN=7_exe` | `LINUX=3_apps` | `FAKEVPS+SENTINEL=public` | `AI-built` | `human-tested`
 
-**License:** Proprietary · free to use · no rebrand / no source republication (see each repo `LICENSE`)
+**License:** Windows + Linux binaries = proprietary (no source). **FakeVPS** = custom (source public, 1.0.0 final). **Sentinel** = Apache-2.0 (source public, v2.0.0).
 
 ### 🪟 Windows — 7 Desktop Tools
 
@@ -93,6 +93,15 @@ SoT `Dev Central Tree\Git Vitrine Public\`
 
 Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases). **Gest : Flatpak uniquement** (plus de native). Flatpak: `.flatpak` via [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases) (Freedesktop 25.08 / GNOME 49).
 
+### 🔓 Source — FakeVPS + Sentinel
+
+**Clone OK** | no official hosted instance | origin trees are frozen (fork to continue)
+
+| Project | Role | Version | License | Lien |
+|:--|:--|:--|:--|:--|
+| **FakeVPS** | local Ubuntu rehearsal (6G / 4 vCPU / cockpit :8787) | 1.0.0 final | custom | [repo](https://github.com/Mr-Aurevo-X/FakeVPS) / [releases](https://github.com/Mr-Aurevo-X/FakeVPS/releases/tag/v1.0.0) |
+| **Mr-X Sentinel** | Discord platform (mod, eco, XP, tickets, music) | 2.0.0 | Apache-2.0 | [repo](https://github.com/Mr-Aurevo-X/Mr-X-Sentinel) / [releases](https://github.com/Mr-Aurevo-X/Mr-X-Sentinel/releases/tag/v2.0.0) |
+
 ---
 
 ## 📂 Mounts — Filesystem
@@ -102,8 +111,8 @@ Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurev
 |-- atelier/     PC Command | 5 hubs in-hub (Dashboard + modules) [private]
 |-- salon/       Game launcher | 9 original X titles               [private]
 |-- opti/        standalone gaming optimizer                       [private]
-|-- fakevps/     local Ubuntu rehearsal (6G / 4 vCPU / 40G)        [private]
-|-- sentinel/    Discord platform (mod, eco, XP, tickets, music)   [private]
+|-- fakevps/     local Ubuntu rehearsal (6G / 4 vCPU / 40G)        [public]
+|-- sentinel/    Discord platform (mod, eco, XP, tickets, music)   [public]
 |-- vitrine/     7 Windows desktop tools                           [public]
 `-- linux/       Crypto Tracker | Gest Linux Pro | MrAurevoX Kit   [public binaries]
 ```
@@ -163,11 +172,11 @@ Opti/                       * gaming optimizer (private)
 
 ### 🖥️ FakeVPS — Local Rehearsal
 
-Local Ubuntu node that behaves like a mid-range VPS. Repo stays private (not a public clone).
+Local Ubuntu node that behaves like a mid-range VPS. **Public source** — [Mr-Aurevo-X/FakeVPS](https://github.com/Mr-Aurevo-X/FakeVPS) · **1.0.0 final** (origin frozen; fork to continue).
 
 ```text
-FakeVPS/                    * localhost rehearsal (private)
-|-- KVM (`./fakevps up`) or --fast Docker guest (WSL2 default)
+FakeVPS/                    * localhost rehearsal [public]
+|-- ./fakevps up (Docker --fast default) | ./fakevps up --kvm
 |-- envelope 6 GB / 4 vCPU / 40 GB | SSH 127.0.0.1:2222 | cockpit :8787
 `-- attach any Discord bot (none bundled)
 ```
@@ -176,13 +185,13 @@ FakeVPS/                    * localhost rehearsal (private)
 
 ### 🛡️ Sentinel — Discord Platform
 
-Unified Discord bot + dashboard. Repo stays private.
+Unified Discord bot + dashboard. **Public source** — [Mr-Aurevo-X/Mr-X-Sentinel](https://github.com/Mr-Aurevo-X/Mr-X-Sentinel) · **v2.0.0** Apache-2.0 (origin frozen; fork to continue). No official bot to invite: run **your** instance.
 
 ```text
-Mr-X-Sentinel/              * Discord platform (private)
+Mr-X-Sentinel/              * Discord platform [public]
 |-- security | moderation | logs | economy | XP | tickets | music
-|-- Node 20 + pnpm | Postgres | Redis | Lavalink
-`-- slash-only | modules per guild
+|-- Node 20/22 + pnpm | Postgres | Redis | Lavalink
+`-- slash-only | modules per guild | optional FakeVPS attach
 ```
 
 <a id="linux"></a>

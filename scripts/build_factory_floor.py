@@ -79,28 +79,28 @@ def factory_svg() -> str:
   <text x="302" y="96" fill="{CYAN}" font-family="Consolas, monospace" font-size="13">MOUNTS -- Dev Central Tree</text>
 
   <!-- mount chips row 1 (private) -->
-  <rect x="302" y="112" width="90" height="26" rx="4" fill="#071410" stroke="{GREEN}"/>
-  <text x="310" y="129" fill="{GREEN}" font-family="Consolas, monospace" font-size="10">atelier</text>
-  <rect x="398" y="112" width="90" height="26" rx="4" fill="#071410" stroke="{GREEN}"/>
-  <text x="414" y="129" fill="{GREEN}" font-family="Consolas, monospace" font-size="10">salon</text>
-  <rect x="494" y="112" width="90" height="26" rx="4" fill="#071410" stroke="{GREEN}"/>
-  <text x="516" y="129" fill="{GREEN}" font-family="Consolas, monospace" font-size="10">opti</text>
-  <rect x="590" y="112" width="90" height="26" rx="4" fill="#071410" stroke="{GREEN}"/>
-  <text x="602" y="129" fill="{GREEN}" font-family="Consolas, monospace" font-size="10">fakevps</text>
-  <rect x="686" y="112" width="90" height="26" rx="4" fill="#071410" stroke="{GREEN}"/>
-  <text x="696" y="129" fill="{GREEN}" font-family="Consolas, monospace" font-size="10">sentinel</text>
+  <rect x="302" y="112" width="110" height="26" rx="4" fill="#071410" stroke="{GREEN}"/>
+  <text x="316" y="129" fill="{GREEN}" font-family="Consolas, monospace" font-size="11">atelier</text>
+  <rect x="422" y="112" width="110" height="26" rx="4" fill="#071410" stroke="{GREEN}"/>
+  <text x="446" y="129" fill="{GREEN}" font-family="Consolas, monospace" font-size="11">salon</text>
+  <rect x="542" y="112" width="110" height="26" rx="4" fill="#071410" stroke="{GREEN}"/>
+  <text x="570" y="129" fill="{GREEN}" font-family="Consolas, monospace" font-size="11">opti</text>
 
   <!-- mount chips row 2 (public) -->
-  <rect x="302" y="146" width="150" height="26" rx="4" fill="#071018" stroke="{CYAN}"/>
-  <text x="318" y="163" fill="{CYAN}" font-family="Consolas, monospace" font-size="11">vitrine WIN</text>
-  <rect x="462" y="146" width="150" height="26" rx="4" fill="#071018" stroke="{CYAN}"/>
-  <text x="486" y="163" fill="{CYAN}" font-family="Consolas, monospace" font-size="11">linux PUB</text>
+  <rect x="302" y="146" width="108" height="26" rx="4" fill="#071018" stroke="{CYAN}"/>
+  <text x="314" y="163" fill="{CYAN}" font-family="Consolas, monospace" font-size="10">vitrine</text>
+  <rect x="418" y="146" width="108" height="26" rx="4" fill="#071018" stroke="{CYAN}"/>
+  <text x="442" y="163" fill="{CYAN}" font-family="Consolas, monospace" font-size="10">linux</text>
+  <rect x="534" y="146" width="108" height="26" rx="4" fill="#071018" stroke="{CYAN}"/>
+  <text x="548" y="163" fill="{CYAN}" font-family="Consolas, monospace" font-size="10">fakevps</text>
+  <rect x="650" y="146" width="108" height="26" rx="4" fill="#071018" stroke="{CYAN}"/>
+  <text x="662" y="163" fill="{CYAN}" font-family="Consolas, monospace" font-size="10">sentinel</text>
 
   <text x="302" y="184" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="11">ATELIER  | 5 hubs in-hub | UAC</text>
   <text x="302" y="200" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="11">SALON    | 9 original X titles</text>
   <text x="302" y="216" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="11">OPTI     | standalone gaming opt</text>
-  <text x="302" y="232" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="11">FAKEVPS  | local Ubuntu rehearsal</text>
-  <text x="302" y="248" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="11">SENTINEL | Discord platform</text>
+  <text x="302" y="232" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="11">FAKEVPS  | 1.0.0 final | public src</text>
+  <text x="302" y="248" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="11">SENTINEL | v2.0.0 | Apache-2.0</text>
   <text x="302" y="264" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="11">WIN      | 7 desktop .exe | free</text>
   <text x="302" y="280" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="11">LINUX    | Crypto Tracker | Gest | Kit</text>
 
@@ -172,7 +172,7 @@ README_TEMPLATE = """<div align="center">
 [![Cursor AI](https://img.shields.io/badge/BUILT_BY-CURSOR_AI-39ff14?style=for-the-badge&labelColor=050807&logo=cursor&logoColor=39ff14)](https://cursor.com)
 [![Mr-Aurevo-X QA](https://img.shields.io/badge/IDEAS_%26_QA-MR--AUREVO--X-00f0ff?style=for-the-badge&labelColor=050807)](https://github.com/Mr-Aurevo-X)
 
-`STATUS=ONLINE` | `WIN=7_exe` | `LINUX=3_apps` | `PC_COMMAND=5_HUBS` | `FAKEVPS+SENTINEL=private` | `INSTALL_EASY+RELEASES=private` | `SALON=9_GAMES` | `MODE=AI_OPERATED`
+`STATUS=ONLINE` | `WIN=7_exe` | `LINUX=3_apps` | `PC_COMMAND=5_HUBS` | `FAKEVPS+SENTINEL=public` | `INSTALL_EASY+RELEASES=private` | `SALON=9_GAMES` | `MODE=AI_OPERATED`
 
 </div>
 
@@ -221,9 +221,9 @@ Single crafted factory board (dual-split: **BUILD green** / **QA cyan**). Decora
 
 ## ✨ Featured — Public Vitrine
 
-`WIN=7_exe` | `LINUX=3_apps` | `public` | `AI-built` | `human-tested` | sources stay private
+`WIN=7_exe` | `LINUX=3_apps` | `FAKEVPS+SENTINEL=public` | `AI-built` | `human-tested`
 
-**License:** Proprietary · free to use · no rebrand / no source republication (see each repo `LICENSE`)
+**License:** Windows + Linux binaries = proprietary (no source). **FakeVPS** = custom (source public, 1.0.0 final). **Sentinel** = Apache-2.0 (source public, v2.0.0).
 
 ### 🪟 Windows — 7 Desktop Tools
 
@@ -246,11 +246,20 @@ SoT `Dev Central Tree\\Git Vitrine Public\\`
 
 | App | Role | Version | Native | Flatpak |
 |:--|:--|:--|:--|:--|
-| **Crypto Tracker** | local crypto portfolio | 1.2.16 | [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/crypto-tracker-v1.2.16) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/crypto-tracker-v1.2.16) |
-| **Gest Linux Pro** | GTK system toolkit | 1.4.12 | — (Flatpak only) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/Gest_Linux_Pro-v1.4.12) |
-| **MrAurevoX Kit** | local toolkit (search, hash, PDF, disk map) | 1.0.0 | [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/MrAurevoX-Kit-v1.0.0) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/MrAurevoX-Kit-v1.0.0) |
+| **Crypto Tracker** | local crypto portfolio | 1.2.17 | [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/crypto-tracker-v1.2.17) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/crypto-tracker-v1.2.17) |
+| **Gest Linux Pro** | GTK system toolkit | 2.2.1 | — (Flatpak only) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/Gest_Linux_Pro-v2.2.1) |
+| **MrAurevoX Kit** | local toolkit (search, hash, PDF, disk map) | 2.1.0 | [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/MrAurevoX-Kit-v2.1.0) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/MrAurevoX-Kit-v2.1.0) |
 
 Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases). **Gest : Flatpak uniquement** (plus de native). Flatpak: `.flatpak` via [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases) (Freedesktop 25.08 / GNOME 49).
+
+### 🔓 Source — FakeVPS + Sentinel
+
+**Clone OK** | no official hosted instance | origin trees are frozen (fork to continue)
+
+| Project | Role | Version | License | Lien |
+|:--|:--|:--|:--|:--|
+| **FakeVPS** | local Ubuntu rehearsal (6G / 4 vCPU / cockpit :8787) | 1.0.0 final | custom | [repo](https://github.com/Mr-Aurevo-X/FakeVPS) / [releases](https://github.com/Mr-Aurevo-X/FakeVPS/releases/tag/v1.0.0) |
+| **Mr-X Sentinel** | Discord platform (mod, eco, XP, tickets, music) | 2.0.0 | Apache-2.0 | [repo](https://github.com/Mr-Aurevo-X/Mr-X-Sentinel) / [releases](https://github.com/Mr-Aurevo-X/Mr-X-Sentinel/releases/tag/v2.0.0) |
 
 ---
 
@@ -261,8 +270,8 @@ Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurev
 |-- atelier/     PC Command | 5 hubs in-hub (Dashboard + modules) [private]
 |-- salon/       Game launcher | 9 original X titles               [private]
 |-- opti/        standalone gaming optimizer                       [private]
-|-- fakevps/     local Ubuntu rehearsal (6G / 4 vCPU / 40G)        [private]
-|-- sentinel/    Discord platform (mod, eco, XP, tickets, music)   [private]
+|-- fakevps/     local Ubuntu rehearsal (6G / 4 vCPU / 40G)        [public]
+|-- sentinel/    Discord platform (mod, eco, XP, tickets, music)   [public]
 |-- vitrine/     7 Windows desktop tools                           [public]
 `-- linux/       Crypto Tracker | Gest Linux Pro | MrAurevoX Kit   [public binaries]
 ```
@@ -322,11 +331,11 @@ Opti/                       * gaming optimizer (private)
 
 ### 🖥️ FakeVPS — Local Rehearsal
 
-Local Ubuntu node that behaves like a mid-range VPS. Repo stays private (not a public clone).
+Local Ubuntu node that behaves like a mid-range VPS. **Public source** — [Mr-Aurevo-X/FakeVPS](https://github.com/Mr-Aurevo-X/FakeVPS) · **1.0.0 final** (origin frozen; fork to continue).
 
 ```text
-FakeVPS/                    * localhost rehearsal (private)
-|-- KVM (`./fakevps up`) or --fast Docker guest (WSL2 default)
+FakeVPS/                    * localhost rehearsal [public]
+|-- ./fakevps up (Docker --fast default) | ./fakevps up --kvm
 |-- envelope 6 GB / 4 vCPU / 40 GB | SSH 127.0.0.1:2222 | cockpit :8787
 `-- attach any Discord bot (none bundled)
 ```
@@ -335,13 +344,13 @@ FakeVPS/                    * localhost rehearsal (private)
 
 ### 🛡️ Sentinel — Discord Platform
 
-Unified Discord bot + dashboard. Repo stays private.
+Unified Discord bot + dashboard. **Public source** — [Mr-Aurevo-X/Mr-X-Sentinel](https://github.com/Mr-Aurevo-X/Mr-X-Sentinel) · **v2.0.0** Apache-2.0 (origin frozen; fork to continue). No official bot to invite: run **your** instance.
 
 ```text
-Mr-X-Sentinel/              * Discord platform (private)
+Mr-X-Sentinel/              * Discord platform [public]
 |-- security | moderation | logs | economy | XP | tickets | music
-|-- Node 20 + pnpm | Postgres | Redis | Lavalink
-`-- slash-only | modules per guild
+|-- Node 20/22 + pnpm | Postgres | Redis | Lavalink
+`-- slash-only | modules per guild | optional FakeVPS attach
 ```
 
 <a id="linux"></a>
@@ -353,9 +362,9 @@ Sources stay private. Public installables only.
 ```text
 linux-releases/             * native tar.gz | zip | .deb
 linux-flatpak-releases/     * .flatpak
-|-- Crypto Tracker          1.2.16
-|-- Gest Linux Pro          1.4.12
-`-- MrAurevoX Kit           1.0.0
+|-- Crypto Tracker          1.2.17
+|-- Gest Linux Pro          2.2.1
+`-- MrAurevoX Kit           2.1.0
 ```
 
 </details>
@@ -366,15 +375,15 @@ linux-flatpak-releases/     * .flatpak
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/github-stats.svg?v=86b8e0d" height="165" alt="GitHub stats"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/github-stats.svg?v=fa075ff" height="165" alt="GitHub stats"/>
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/github-streak.svg?v=86b8e0d" alt="Streak"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/github-streak.svg?v=fa075ff" alt="Streak"/>
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/output/github-contribution-grid-snake-dark.svg?v=32032100087" alt="Contribution snake" width="100%"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/output/github-contribution-grid-snake-dark.svg?v=32139446243" alt="Contribution snake" width="100%"/>
 
 </div>
 
