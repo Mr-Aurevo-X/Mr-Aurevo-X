@@ -109,7 +109,7 @@ Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurev
 ```text
 /workshop
 |-- atelier/     PC Command | 5 hubs in-hub (Dashboard + modules) [private]
-|-- salon/       Game launcher | 9 original X titles               [private]
+|-- salon/       Game launcher | 9 original X (100h+) | Tycoon/Arcade soon [private]
 |-- opti/        standalone gaming optimizer                       [private]
 |-- fakevps/     local Ubuntu rehearsal (6G / 4 vCPU / 40G)        [public]
 |-- sentinel/    Discord platform (mod, eco, XP, tickets, music)   [public]
@@ -150,11 +150,15 @@ standalone : Opti (Dev Central Tree\Opti)
 
 ### 🎮 Salon — Game Hub
 
+SoT : `Dev Central Tree\Game\` | launcher pywebview | repo privé [`Mr-Aurevo-X/Salon`](https://github.com/Mr-Aurevo-X/Salon)  
+9 originaux idle, UI / SFX distincts, **≥ 100 h** (hors-ligne 8 h, bonus succès). Bibliothèque : Incremental (live) · Tycoon / Nostalgic (bientôt).
+
 ```text
 Game/
-|-- Salon/                  * game launcher  (private) — 9 originals only
-|-- * Original X            Incremental-X | Factory-X | Empire-X | Colony-X
-|                           Deck-X | Battler-X | Tower-X | Puzzle-X | Story-X
+|-- Salon/games/            * 9 originals (private)
+|   Incremental-X Factory-X Empire-X Colony-X
+|   Deck-X Battler-X Tower-X Puzzle-X Story-X
+|-- upcoming                Tycoon-X | Arcade-X  (launcher cards)
 `-- tools                   GameChangelog
 ```
 
