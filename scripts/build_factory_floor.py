@@ -310,14 +310,14 @@ standalone : Opti (Dev Central Tree\\Opti)
 ### 🎮 Salon — Game Hub
 
 SoT : `Dev Central Tree\\Game\\` | launcher pywebview | repo privé [`Mr-Aurevo-X/Salon`](https://github.com/Mr-Aurevo-X/Salon)  
-9 originaux idle, UI / SFX distincts, **≥ 100 h** (hors-ligne 8 h, bonus succès). Bibliothèque : Incremental (live) · Tycoon / Nostalgic (bientôt).
+Idle Incremental (**≥ 100 h**) + Tycoon-X + Cascade-X / Probe-X (Nostalgic). Hors-ligne idle 8 h, bonus succès.
 
 ```text
 Game/
-|-- Salon/games/            * 9 originals (private)
+|-- Salon/games/            * private, git via Salon (NOF4)
 |   Incremental-X Factory-X Empire-X Colony-X
 |   Deck-X Battler-X Tower-X Puzzle-X Story-X
-|-- upcoming                Tycoon-X | Arcade-X  (launcher cards)
+|   Tycoon-X Cascade-X Probe-X
 `-- tools                   GameChangelog
 ```
 
