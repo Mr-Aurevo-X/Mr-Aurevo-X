@@ -158,7 +158,7 @@ Game/
 |-- Salon/games/            * private, git via Salon (NOF4)
 |   Incremental-X Factory-X Empire-X Colony-X
 |   Deck-X Battler-X Tower-X Puzzle-X Story-X
-|   Tycoon-X Cascade-X Probe-X
+|   Tycoon-X Cascade-X Probe-X Orbit-X
 `-- tools                   GameChangelog
 ```
 
