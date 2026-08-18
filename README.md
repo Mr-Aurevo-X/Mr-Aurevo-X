@@ -87,7 +87,7 @@ SoT `Dev Central Tree\Git Vitrine Public\`
 
 | App | Role | Version | Native | Flatpak |
 |:--|:--|:--|:--|:--|
-| **Crypto Tracker** | local crypto portfolio | 1.2.16 | [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/crypto-tracker-v1.2.16) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/crypto-tracker-v1.2.16) |
+| **Crypto Tracker** | local crypto portfolio | 1.2.17 | [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/crypto-tracker-v1.2.17) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/crypto-tracker-v1.2.17) |
 | **Gest Linux Pro** | GTK system toolkit | 2.2.0 | — (Flatpak only) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/Gest_Linux_Pro-v2.2.0) |
 | **MrAurevoX Kit** | local toolkit (search, hash, PDF, disk map) | 2.1.0 | [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/MrAurevoX-Kit-v2.1.0) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/MrAurevoX-Kit-v2.1.0) |
 
@@ -194,7 +194,7 @@ Sources stay private. Public installables only.
 ```text
 linux-releases/             * native tar.gz | zip | .deb
 linux-flatpak-releases/     * .flatpak
-|-- Crypto Tracker          1.2.16
+|-- Crypto Tracker          1.2.17
 |-- Gest Linux Pro          2.2.0
 `-- MrAurevoX Kit           2.1.0
 ```
