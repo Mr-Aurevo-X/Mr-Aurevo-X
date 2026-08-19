@@ -109,7 +109,7 @@ Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurev
 ```text
 /workshop
 |-- atelier/     PC Command | 5 hubs in-hub (Dashboard + modules) [private]
-|-- salon/       Tauri hub v2.0.0 | 29 *-X on-demand | Game-Vercel SoT [private]
+|-- salon/       Salon web | 29 *-X | Game-Vercel SoT (site statique) [private]
 |-- opti/        standalone gaming optimizer                       [private]
 |-- fakevps/     local Ubuntu rehearsal (6G / 4 vCPU / 40G)        [public]
 |-- sentinel/    Discord platform (mod, eco, XP, tickets, music)   [public]
@@ -150,16 +150,15 @@ standalone : Opti (Dev Central Tree\Opti)
 
 ### 🎮 Salon — Game Hub
 
-SoT jeux : [`Game-Vercel`](https://github.com/Mr-Aurevo-X/Game-Vercel) (web Vercel + builds) · hub desktop **Tauri v2.0.0** · repo privé [`Mr-Aurevo-X/Salon`](https://github.com/Mr-Aurevo-X/Salon/releases/tag/v2.0.0)  
-29 jeux *-X téléchargeables à la carte (GitHub Release). Install local : `%LOCALAPPDATA%\MrAurevoX\Salon\games\`.  
-Idle Incremental (**≥ 100 h**) + Tycoon-X + Cascade-X / Probe-X (Nostalgic). Hors-ligne idle 8 h, bonus succès.
+SoT jeux : [`Game-Vercel`](https://github.com/Mr-Aurevo-X/Game-Vercel) (monorepo web — build `dist-site/` pour hébergement statique)  
+29 jeux *-X jouables dans le navigateur (iframe Salon). Dev local : `Lancer.cmd` → localhost.  
+Idle Incremental (**≥ 100 h**) + Tycoon-X + Cascade-X / Probe-X (Nostalgic).
 
 ```text
-Game-Vercel/                * SoT sources (pnpm sync:salon → zips)
-Dev Game Be Like/           * hub Tauri (Salon.exe + catalogue)
-|-- hub/                    launcher UI + overrides
-|-- release-assets/         manifest (zips → GitHub Release only)
-`-- GameChangelog/          changelog tool (tree sibling)
+Game-Vercel/                * SoT sources (pnpm build → dist-site/)
+apps/launcher/              catalogue Salon + iframe
+games/<slug>/               jeux Vite/React
+docs/WEB-DEPLOY.md          déploiement sur votre hébergement
 ```
 
 <a id="opti"></a>
@@ -250,7 +249,6 @@ linux-flatpak-releases/     * .flatpak
 ![Flatpak](https://img.shields.io/badge/-Flatpak-050807?style=for-the-badge&logo=flatpak&logoColor=00f0ff)
 ![WebView2](https://img.shields.io/badge/-WebView2-050807?style=for-the-badge&logo=microsoftedge&logoColor=00f0ff)
 ![pywebview](https://img.shields.io/badge/-pywebview-050807?style=for-the-badge&logo=python&logoColor=39ff14)
-![Tauri](https://img.shields.io/badge/-Tauri-050807?style=for-the-badge&logo=tauri&logoColor=00f0ff)
 ![PyInstaller](https://img.shields.io/badge/-PyInstaller-050807?style=for-the-badge&logo=python&logoColor=00f0ff)
 ![Chart.js](https://img.shields.io/badge/-Chart.js-050807?style=for-the-badge&logo=chartdotjs&logoColor=39ff14)
 ![Git](https://img.shields.io/badge/-Git-050807?style=for-the-badge&logo=git&logoColor=00f0ff)
