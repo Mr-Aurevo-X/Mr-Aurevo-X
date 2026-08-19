@@ -13,7 +13,7 @@
 [![Cursor AI](https://img.shields.io/badge/BUILT_BY-CURSOR_AI-39ff14?style=for-the-badge&labelColor=050807&logo=cursor&logoColor=39ff14)](https://cursor.com)
 [![Mr-Aurevo-X QA](https://img.shields.io/badge/IDEAS_%26_QA-MR--AUREVO--X-00f0ff?style=for-the-badge&labelColor=050807)](https://github.com/Mr-Aurevo-X)
 
-`STATUS=ONLINE` | `WIN=7_exe` | `LINUX=3_apps` | `PC_COMMAND=5_HUBS` | `FAKEVPS+SENTINEL=public` | `INSTALL_EASY+RELEASES=private` | `SALON=v2.0.0_29_GAMES` | `MODE=AI_OPERATED`
+`STATUS=ONLINE` | `WIN=4_exe` | `LINUX=3_apps` | `PC_COMMAND=5_HUBS` | `FAKEVPS+SENTINEL=public` | `INSTALL_EASY+RELEASES=private` | `SALON=v2.0.0_29_GAMES` | `MODE=AI_OPERATED`
 
 </div>
 
@@ -62,24 +62,21 @@ Single crafted factory board (dual-split: **BUILD green** / **QA cyan**). Decora
 
 ## ✨ Featured — Public Vitrine
 
-`WIN=7_exe` | `LINUX=3_apps` | `FAKEVPS+SENTINEL=public` | `AI-built` | `human-tested`
+`WIN=4_exe` | `LINUX=3_apps` | `FAKEVPS+SENTINEL=public` | `AI-built` | `human-tested`
 
 **License:** Windows + Linux binaries = proprietary (no source). **FakeVPS** = custom (source public, 1.0.0 final). **Sentinel** = Apache-2.0 (source public, v2.0.0).
 
-### 🪟 Windows — 7 Desktop Tools
+### 🪟 Windows — 4 Desktop Tools
 
-**Gratuits | locaux (sauf DeviseConvert : taux BCE + cache offline) | `.exe` sans installation**
+**Gratuits | locaux (UnitConvert Devises : taux BCE + cache offline) | `.exe` sans installation**
 SoT `Dev Central Tree\Git Vitrine Public\`
 
 | Outil | Role | Lien |
 |:--|:--|:--|
-| **QrMake** | QR multi-payloads | [repo](https://github.com/Mr-Aurevo-X/QrMake) / [releases](https://github.com/Mr-Aurevo-X/QrMake/releases/latest) |
-| **UnitConvert** | Convertisseur d'unites | [repo](https://github.com/Mr-Aurevo-X/UnitConvert) / [releases](https://github.com/Mr-Aurevo-X/UnitConvert/releases/latest) |
-| **DeviseConvert** | Devises BCE + cache offline | [repo](https://github.com/Mr-Aurevo-X/DeviseConvert) / [releases](https://github.com/Mr-Aurevo-X/DeviseConvert/releases/latest) |
-| **EpochClock** | Unix <-> date locale/UTC | [repo](https://github.com/Mr-Aurevo-X/EpochClock) / [releases](https://github.com/Mr-Aurevo-X/EpochClock/releases/latest) |
-| **StopwatchPlus** | Chrono / alarmes / Pomodoro | [repo](https://github.com/Mr-Aurevo-X/StopwatchPlus) / [releases](https://github.com/Mr-Aurevo-X/StopwatchPlus/releases/latest) |
-| **MetaStrip** | Strip EXIF/GPS/XMP | [repo](https://github.com/Mr-Aurevo-X/MetaStrip) / [releases](https://github.com/Mr-Aurevo-X/MetaStrip/releases/latest) |
-| **QrBatch** | QR en lot -> PNG + ZIP | [repo](https://github.com/Mr-Aurevo-X/QrBatch) / [releases](https://github.com/Mr-Aurevo-X/QrBatch/releases/latest) |
+| **QrTools** | QR Simple + Lot (QrMake + QrBatch) | [repo](https://github.com/Mr-Aurevo-X/QrTools) / [releases](https://github.com/Mr-Aurevo-X/QrTools/releases/latest) |
+| **UnitConvert** | Unités + Devises (v1.1) | [repo](https://github.com/Mr-Aurevo-X/UnitConvert) / [releases](https://github.com/Mr-Aurevo-X/UnitConvert/releases/latest) |
+| **TimeTools** | Horodatage · chrono · minuteries · Pomodoro | [repo](https://github.com/Mr-Aurevo-X/TimeTools) / [releases](https://github.com/Mr-Aurevo-X/TimeTools/releases/latest) |
+| **PixClean** | Strip EXIF/GPS/XMP (ex-MetaStrip) | [repo](https://github.com/Mr-Aurevo-X/PixClean) / [releases](https://github.com/Mr-Aurevo-X/PixClean/releases/latest) |
 
 ### 🐧 Linux — 3 Apps
 
@@ -113,7 +110,7 @@ Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurev
 |-- opti/        standalone gaming optimizer                       [private]
 |-- fakevps/     local Ubuntu rehearsal (6G / 4 vCPU / 40G)        [public]
 |-- sentinel/    Discord platform (mod, eco, XP, tickets, music)   [public]
-|-- vitrine/     7 Windows desktop tools                           [public]
+|-- vitrine/     4 Windows desktop tools                           [public]
 `-- linux/       Crypto Tracker | Gest Linux Pro | MrAurevoX Kit   [public binaries]
 ```
 

@@ -68,12 +68,12 @@
   <rect x="650" y="146" width="108" height="26" rx="4" fill="#071018" stroke="#00f0ff"/>
   <text x="662" y="163" fill="#00f0ff" font-family="Consolas, monospace" font-size="10">sentinel</text>
 
-  <text x="302" y="184" fill="#6aff9a" font-family="Consolas, monospace" font-size="11">ATELIER  | 5 hubs in-hub | UAC</text>
+  <text x="302" y="184" fill="#6aff9a" font-family="Consolas, monospace" font-size="11">ATELIER  | 4 hubs in-hub | UAC</text>
   <text x="302" y="200" fill="#6aff9a" font-family="Consolas, monospace" font-size="11">SALON    | Tauri v2 | 29 *-X on-demand</text>
   <text x="302" y="216" fill="#6aff9a" font-family="Consolas, monospace" font-size="11">OPTI     | standalone gaming opt</text>
   <text x="302" y="232" fill="#7ec8ff" font-family="Consolas, monospace" font-size="11">FAKEVPS  | 1.0.0 final | public src</text>
   <text x="302" y="248" fill="#7ec8ff" font-family="Consolas, monospace" font-size="11">SENTINEL | v2.0.0 | Apache-2.0</text>
-  <text x="302" y="264" fill="#7ec8ff" font-family="Consolas, monospace" font-size="11">WIN      | 7 desktop .exe | free</text>
+  <text x="302" y="264" fill="#7ec8ff" font-family="Consolas, monospace" font-size="11">WIN      | 4 desktop .exe | free</text>
   <text x="302" y="280" fill="#7ec8ff" font-family="Consolas, monospace" font-size="11">LINUX    | Crypto Tracker | Gest | Kit</text>
 
   <line x1="302" y1="286" x2="786" y2="286" stroke="#0a3a44"/>
@@ -84,7 +84,7 @@
   <rect x="302" y="314" width="484" height="24" rx="4" fill="#030605" stroke="#1a3d2a"/>
   <g clip-path="url(#tickWin)" font-family="Consolas, monospace" font-size="12" fill="#39ff14">
     <text x="310" y="331">
-      QrMake  |  UnitConvert  |  DeviseConvert  |  EpochClock  |  StopwatchPlus  |  MetaStrip  |  QrBatch  |  QrMake  |
+      QrTools  |  UnitConvert  |  TimeTools  |  PixClean  |  QrTools  |
       <animateTransform attributeName="transform" type="translate" from="0 0" to="-520 0" dur="22s" repeatCount="indefinite"/>
     </text>
   </g>
