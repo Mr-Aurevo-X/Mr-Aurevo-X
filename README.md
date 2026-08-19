@@ -109,7 +109,7 @@ Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurev
 ```text
 /workshop
 |-- atelier/     PC Command | 5 hubs in-hub (Dashboard + modules) [private]
-|-- salon/       Salon web | 29 *-X | Salon SoT (site statique) [private]
+|-- game-lounge/  Game Lounge web | 29 *-X | Game-Lounge SoT (site statique) [private]
 |-- opti/        standalone gaming optimizer                       [private]
 |-- fakevps/     local Ubuntu rehearsal (6G / 4 vCPU / 40G)        [public]
 |-- sentinel/    Discord platform (mod, eco, XP, tickets, music)   [public]
@@ -146,17 +146,17 @@ Ship : `Launch-Hub-*.zip` per hub via Install-Easy (plus de launcher plat / `PCC
 standalone : Opti (Dev Central Tree\Opti)
 ```
 
-<a id="salon"></a>
+<a id="game-lounge"></a>
 
-### 🎮 Salon — Game Hub
+### 🎮 Game Lounge — Game Hub
 
-SoT jeux : [`Salon`](https://github.com/Mr-Aurevo-X/Salon) (monorepo web — build `dist-site/` pour hébergement statique)  
-29 jeux *-X jouables dans le navigateur (iframe Salon). Dev local : `Lancer.cmd` → localhost.  
+SoT jeux : [`Game-Lounge`](https://github.com/Mr-Aurevo-X/Game-Lounge) (monorepo web — build `dist-site/` pour hébergement statique)  
+29 jeux *-X jouables dans le navigateur (iframe Game Lounge). Dev local : `Lancer.cmd` → localhost.  
 Idle Incremental (**≥ 100 h**) + Tycoon-X + Cascade-X / Probe-X (Nostalgic).
 
 ```text
-Salon/                      * SoT sources (pnpm build → dist-site/)
-apps/launcher/              catalogue Salon + iframe
+Game-Lounge/                * SoT sources (pnpm build → dist-site/)
+apps/launcher/              catalogue Game Lounge + iframe
 games/<slug>/               jeux Vite/React
 docs/WEB-DEPLOY.md          déploiement sur votre hébergement
 ```
