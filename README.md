@@ -95,7 +95,7 @@ Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurev
 
 ### 🔓 Source — FakeVPS + Sentinel
 
-**Clone OK** | no official hosted instance | origin trees are frozen (fork to continue)
+**Clone OK** | no official hosted instance | upstream frozen (fork to continue)
 
 | Project | Role | Version | License | Lien |
 |:--|:--|:--|:--|:--|
@@ -175,7 +175,7 @@ Opti/                       * gaming optimizer (private)
 
 ### 🖥️ FakeVPS — Local Rehearsal
 
-Local Ubuntu node that behaves like a mid-range VPS. **Public source** — [Mr-Aurevo-X/FakeVPS](https://github.com/Mr-Aurevo-X/FakeVPS) · **1.0.0 final** (origin frozen; fork to continue).
+Local Ubuntu node that behaves like a mid-range VPS. **Public source** — [Mr-Aurevo-X/FakeVPS](https://github.com/Mr-Aurevo-X/FakeVPS) · **1.0.0 final** (upstream frozen; fork to continue).
 
 ```text
 FakeVPS/                    * localhost rehearsal [public]
@@ -188,7 +188,7 @@ FakeVPS/                    * localhost rehearsal [public]
 
 ### 🛡️ Sentinel — Discord Platform
 
-Unified Discord bot + dashboard. **Public source** — [Mr-Aurevo-X/Mr-X-Sentinel](https://github.com/Mr-Aurevo-X/Mr-X-Sentinel) · **v2.0.0** Apache-2.0 (origin frozen; fork to continue). No official bot to invite: run **your** instance.
+Unified Discord bot + dashboard. **Public source** — [Mr-Aurevo-X/Mr-X-Sentinel](https://github.com/Mr-Aurevo-X/Mr-X-Sentinel) · **v2.0.0** Apache-2.0 (upstream frozen; fork to continue). No official bot to invite: run **your** instance.
 
 ```text
 Mr-X-Sentinel/              * Discord platform [public]
@@ -265,6 +265,28 @@ linux-flatpak-releases/     * .flatpak
 ![FastAPI](https://img.shields.io/badge/-FastAPI-050807?style=for-the-badge&logo=fastapi&logoColor=39ff14)
 
 </div>
+
+---
+
+## 🛠️ Sur mesure — Custom Builds
+
+`BY_REQUEST` | `GITHUB_COMPLIANT` | `WIN+LINUX` | `SCOPE_FIRST`
+
+> **FR** — Création de logiciels **à la demande** : utilitaires desktop, petits outils internes, scripts / automatisations, intégrations légères. Chaque demande est cadrée pour rester **conforme** aux [Conditions d'utilisation GitHub](https://docs.github.com/site-policy/github-terms/github-terms-of-service), à la [Politique d'utilisation acceptable](https://docs.github.com/site-policy/acceptable-use-policies/github-acceptable-use-policy) et aux [Directives communautaires](https://docs.github.com/site-policy/github-terms/github-community-guidelines) — pas de malware, pas de contournement de sécurité / DRM, pas de spam ou contenu interdit. La **vitrine publique** reste gratuite ; le sur-mesure se discute en amont (besoin, délais, livrables, repo privé ou public selon le cas).
+>
+> **EN** — **On-demand** software: desktop utilities, internal tools, scripts / automation, light integrations. Every request is scoped to stay **within** GitHub [Terms of Service](https://docs.github.com/site-policy/github-terms/github-terms-of-service), [Acceptable Use Policy](https://docs.github.com/site-policy/acceptable-use-policies/github-acceptable-use-policy), and [Community Guidelines](https://docs.github.com/site-policy/github-terms/github-community-guidelines) — no malware, no security / DRM bypass, no spam or prohibited content. The **public vitrine** stays free; custom work is agreed upfront (scope, timeline, deliverables, private vs public repo as needed).
+
+```diff
++ IN_SCOPE ....... desktop tools | admin helpers | local-first apps | Discord bots (compliant)
++ PROCESS ........ brief → feasibility → estimate → build → handoff
+! OUT_OF_SCOPE ... cheats | cracks | spyware | ToS / AUP violations | undisclosed automation abuse
+```
+
+| | |
+|:--|:--|
+| **Contact** | [Discord DM](https://discord.com/users/406891052516114442) — décrire le besoin / describe the use case |
+| **Typical stack** | Python · pywebview · PowerShell · GTK / Flatpak · Node / React (selon brief) |
+| **Delivery** | sources + build path · repo GitHub privé ou public · pas de engagement sans accord écrit |
 
 ---
 

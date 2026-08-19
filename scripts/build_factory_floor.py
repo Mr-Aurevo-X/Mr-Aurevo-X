@@ -254,7 +254,7 @@ Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurev
 
 ### 🔓 Source — FakeVPS + Sentinel
 
-**Clone OK** | no official hosted instance | origin trees are frozen (fork to continue)
+**Clone OK** | no official hosted instance | upstream frozen (fork to continue)
 
 | Project | Role | Version | License | Lien |
 |:--|:--|:--|:--|:--|
@@ -336,7 +336,7 @@ Opti/                       * gaming optimizer (private)
 
 ### 🖥️ FakeVPS — Local Rehearsal
 
-Local Ubuntu node that behaves like a mid-range VPS. **Public source** — [Mr-Aurevo-X/FakeVPS](https://github.com/Mr-Aurevo-X/FakeVPS) · **1.0.0 final** (origin frozen; fork to continue).
+Local Ubuntu node that behaves like a mid-range VPS. **Public source** — [Mr-Aurevo-X/FakeVPS](https://github.com/Mr-Aurevo-X/FakeVPS) · **1.0.0 final** (upstream frozen; fork to continue).
 
 ```text
 FakeVPS/                    * localhost rehearsal [public]
@@ -349,7 +349,7 @@ FakeVPS/                    * localhost rehearsal [public]
 
 ### 🛡️ Sentinel — Discord Platform
 
-Unified Discord bot + dashboard. **Public source** — [Mr-Aurevo-X/Mr-X-Sentinel](https://github.com/Mr-Aurevo-X/Mr-X-Sentinel) · **v2.0.0** Apache-2.0 (origin frozen; fork to continue). No official bot to invite: run **your** instance.
+Unified Discord bot + dashboard. **Public source** — [Mr-Aurevo-X/Mr-X-Sentinel](https://github.com/Mr-Aurevo-X/Mr-X-Sentinel) · **v2.0.0** Apache-2.0 (upstream frozen; fork to continue). No official bot to invite: run **your** instance.
 
 ```text
 Mr-X-Sentinel/              * Discord platform [public]
