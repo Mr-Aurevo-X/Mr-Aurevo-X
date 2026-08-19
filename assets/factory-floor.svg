@@ -103,11 +103,11 @@
 
   <!-- RIGHT: ship channel + connect -->
   <rect x="818" y="72" width="258" height="340" rx="8" fill="#020403" stroke="#00f0ff" stroke-width="1.5"/>
-  <text x="834" y="96" fill="#00f0ff" font-family="Consolas, monospace" font-size="13">SHIP -- RELEASES</text>
-  <text x="834" y="122" fill="#7ec8ff" font-family="Consolas, monospace" font-size="12">PCCommand-Releases</text>
-  <text x="834" y="144" fill="#00f0ff" font-family="Consolas, monospace" font-size="11">unique private channel</text>
-  <text x="834" y="166" fill="#4d7a5c" font-family="Consolas, monospace" font-size="11">Launch-Hub-*.zip | Salon | Opti</text>
-  <text x="834" y="186" fill="#4d7a5c" font-family="Consolas, monospace" font-size="11">Install-Easy Private</text>
+  <text x="834" y="96" fill="#00f0ff" font-family="Consolas, monospace" font-size="13">SHIP -- PER REPO</text>
+  <text x="834" y="122" fill="#7ec8ff" font-family="Consolas, monospace" font-size="12">Hub-* Releases</text>
+  <text x="834" y="144" fill="#00f0ff" font-family="Consolas, monospace" font-size="11">Launch-Hub-*.zip each remote</text>
+  <text x="834" y="166" fill="#4d7a5c" font-family="Consolas, monospace" font-size="11">Opti.zip | GameChangelog.zip</text>
+  <text x="834" y="186" fill="#4d7a5c" font-family="Consolas, monospace" font-size="11">no central installer</text>
   <circle cx="1000" cy="130" r="5" fill="#00f0ff">
     <animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite"/>
   </circle>

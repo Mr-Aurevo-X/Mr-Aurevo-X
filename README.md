@@ -119,10 +119,10 @@ Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurev
 
 <a id="atelier"></a>
 
-### 🛠️ Atelier — PC Command (5 Hubs)
+### 🛠️ Atelier — PC Command (4 Hubs)
 
 SoT : `Dev Central Tree\01_Hubs\` | pywebview + WebView2 | UAC admin | lazy DOM | ConfirmGate  
-Ship : `Launch-Hub-*.zip` per hub via Install-Easy (plus de launcher plat / `PCCommand.exe`)  
+Ship : `Launch-Hub-*.zip` **par remote** `Mr-Aurevo-X/Hub-*` (plus d’Install-Easy / PCCommand-Releases)  
 **License:** Proprietary · free to use · no rebrand / no source republication
 
 ```text
@@ -135,11 +135,11 @@ Ship : `Launch-Hub-*.zip` per hub via Install-Easy (plus de launcher plat / `PCC
 02_Shared_Infrastructure/
 |-- UI-proprietaire/    pc-command-kit SoT
 |-- SecurityHelpers/    ConfirmGate + security.py
-|-- HostHelpers/        window_chrome | suite_launch
-|-- Install-Easy-Private/  installer (Launch-Hub-*.zip + Opti)
-`-- PCCommand-Releases/   Releases channel unique (private)
+|-- HostHelpers/        window_chrome | suite_launch | hub_update
+|-- LegalHelpers/
+`-- DevTreeTemplates/
 
-standalone : Opti (Dev Central Tree\Opti)
+standalone : Opti (SoftTunes) · GameChangelog → 03_Standalones/ + Releases sur leur remote
 ```
 
 <a id="game-lounge"></a>
@@ -159,12 +159,12 @@ docs/WEB-DEPLOY.md          déploiement sur votre hébergement
 
 <a id="opti"></a>
 
-### ⚡ Opti — Standalone
+### ⚡ SoftTunes (Opti) — Standalone
 
 ```text
-Opti/                       * gaming optimizer (private)
+Opti/                       * SoftTunes (private repo, Releases on Opti)
 |-- Opti.exe | Lancer.cmd
-`-- ship via Install-Easy → Opti.zip (PCCommand-Releases)
+`-- ship → Opti.zip on Mr-Aurevo-X/Opti Releases
 ```
 
 <a id="fakevps"></a>

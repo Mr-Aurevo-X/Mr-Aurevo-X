@@ -131,11 +131,11 @@ def factory_svg() -> str:
 
   <!-- RIGHT: ship channel + connect -->
   <rect x="818" y="72" width="258" height="340" rx="8" fill="{DEEP}" stroke="{CYAN}" stroke-width="1.5"/>
-  <text x="834" y="96" fill="{CYAN}" font-family="Consolas, monospace" font-size="13">SHIP -- RELEASES</text>
-  <text x="834" y="122" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="12">PCCommand-Releases</text>
-  <text x="834" y="144" fill="{CYAN}" font-family="Consolas, monospace" font-size="11">unique private channel</text>
-  <text x="834" y="166" fill="{MUTED}" font-family="Consolas, monospace" font-size="11">Launch-Hub-*.zip | Salon | Opti</text>
-  <text x="834" y="186" fill="{MUTED}" font-family="Consolas, monospace" font-size="11">Install-Easy Private</text>
+  <text x="834" y="96" fill="{CYAN}" font-family="Consolas, monospace" font-size="13">SHIP -- PER REPO</text>
+  <text x="834" y="122" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="12">Hub-* Releases</text>
+  <text x="834" y="144" fill="{CYAN}" font-family="Consolas, monospace" font-size="11">Launch-Hub-*.zip each remote</text>
+  <text x="834" y="166" fill="{MUTED}" font-family="Consolas, monospace" font-size="11">Opti.zip | GameChangelog.zip</text>
+  <text x="834" y="186" fill="{MUTED}" font-family="Consolas, monospace" font-size="11">no central installer</text>
   <circle cx="1000" cy="130" r="5" fill="{CYAN}">
     <animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite"/>
   </circle>
@@ -278,10 +278,10 @@ Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurev
 
 <a id="atelier"></a>
 
-### 🛠️ Atelier — PC Command (5 Hubs)
+### 🛠️ Atelier — PC Command (4 Hubs)
 
 SoT : `Dev Central Tree\\01_Hubs\\` | pywebview + WebView2 | UAC admin | lazy DOM | ConfirmGate  
-Ship : `Launch-Hub-*.zip` per hub via Install-Easy (plus de launcher plat / `PCCommand.exe`)  
+Ship : `Launch-Hub-*.zip` **per** `Mr-Aurevo-X/Hub-*` Releases (no Install-Easy / central channel)  
 **License:** Proprietary · free to use · no rebrand / no source republication
 
 ```text
@@ -294,11 +294,11 @@ Ship : `Launch-Hub-*.zip` per hub via Install-Easy (plus de launcher plat / `PCC
 02_Shared_Infrastructure/
 |-- UI-proprietaire/    pc-command-kit SoT
 |-- SecurityHelpers/    ConfirmGate + security.py
-|-- HostHelpers/        window_chrome | suite_launch
-|-- Install-Easy-Private/  installer (Launch-Hub-*.zip + Salon + Opti + GameChangelog)
-`-- PCCommand-Releases/   Releases channel unique (private)
+|-- HostHelpers/        window_chrome | suite_launch | hub_update
+|-- LegalHelpers/
+`-- DevTreeTemplates/
 
-standalone : Opti (Dev Central Tree\\Opti)
+standalone : Opti (SoftTunes) · GameChangelog → 03_Standalones/ + per-repo Releases
 ```
 
 <a id="salon"></a>
@@ -320,12 +320,12 @@ Dev Game Be Like/
 
 <a id="opti"></a>
 
-### ⚡ Opti — Standalone
+### ⚡ SoftTunes (Opti) — Standalone
 
 ```text
-Opti/                       * gaming optimizer (private)
+Opti/                       * SoftTunes (private repo)
 |-- Opti.exe | Lancer.cmd
-`-- ship via Install-Easy → Opti.zip (PCCommand-Releases)
+`-- ship → Opti.zip on Mr-Aurevo-X/Opti Releases
 ```
 
 <a id="fakevps"></a>
