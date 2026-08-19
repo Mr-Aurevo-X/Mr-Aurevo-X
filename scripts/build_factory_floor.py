@@ -97,7 +97,7 @@ def factory_svg() -> str:
   <text x="662" y="163" fill="{CYAN}" font-family="Consolas, monospace" font-size="10">sentinel</text>
 
   <text x="302" y="184" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="11">ATELIER  | 5 hubs in-hub | UAC</text>
-  <text x="302" y="200" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="11">SALON    | 9 original X titles</text>
+  <text x="302" y="200" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="11">SALON    | Tauri v2 | 29 *-X on-demand</text>
   <text x="302" y="216" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="11">OPTI     | standalone gaming opt</text>
   <text x="302" y="232" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="11">FAKEVPS  | 1.0.0 final | public src</text>
   <text x="302" y="248" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="11">SENTINEL | v2.0.0 | Apache-2.0</text>

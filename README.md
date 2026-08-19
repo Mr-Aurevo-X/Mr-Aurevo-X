@@ -13,7 +13,7 @@
 [![Cursor AI](https://img.shields.io/badge/BUILT_BY-CURSOR_AI-39ff14?style=for-the-badge&labelColor=050807&logo=cursor&logoColor=39ff14)](https://cursor.com)
 [![Mr-Aurevo-X QA](https://img.shields.io/badge/IDEAS_%26_QA-MR--AUREVO--X-00f0ff?style=for-the-badge&labelColor=050807)](https://github.com/Mr-Aurevo-X)
 
-`STATUS=ONLINE` | `WIN=7_exe` | `LINUX=3_apps` | `PC_COMMAND=5_HUBS` | `FAKEVPS+SENTINEL=public` | `INSTALL_EASY+RELEASES=private` | `SALON=9_GAMES` | `MODE=AI_OPERATED`
+`STATUS=ONLINE` | `WIN=7_exe` | `LINUX=3_apps` | `PC_COMMAND=5_HUBS` | `FAKEVPS+SENTINEL=public` | `INSTALL_EASY+RELEASES=private` | `SALON=v2.0.0_29_GAMES` | `MODE=AI_OPERATED`
 
 </div>
 
@@ -109,7 +109,7 @@ Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurev
 ```text
 /workshop
 |-- atelier/     PC Command | 5 hubs in-hub (Dashboard + modules) [private]
-|-- salon/       Game launcher | 9 original X (100h+) | Tycoon/Arcade soon [private]
+|-- salon/       Tauri hub v2.0.0 | 29 *-X on-demand | Game-Vercel SoT [private]
 |-- opti/        standalone gaming optimizer                       [private]
 |-- fakevps/     local Ubuntu rehearsal (6G / 4 vCPU / 40G)        [public]
 |-- sentinel/    Discord platform (mod, eco, XP, tickets, music)   [public]
@@ -150,16 +150,16 @@ standalone : Opti (Dev Central Tree\Opti)
 
 ### 🎮 Salon — Game Hub
 
-SoT : `Dev Central Tree\Game\` | launcher pywebview | repo privé [`Mr-Aurevo-X/Salon`](https://github.com/Mr-Aurevo-X/Salon)  
+SoT jeux : [`Game-Vercel`](https://github.com/Mr-Aurevo-X/Game-Vercel) (web Vercel + builds) · hub desktop **Tauri v2.0.0** · repo privé [`Mr-Aurevo-X/Salon`](https://github.com/Mr-Aurevo-X/Salon/releases/tag/v2.0.0)  
+29 jeux *-X téléchargeables à la carte (GitHub Release). Install local : `%LOCALAPPDATA%\MrAurevoX\Salon\games\`.  
 Idle Incremental (**≥ 100 h**) + Tycoon-X + Cascade-X / Probe-X (Nostalgic). Hors-ligne idle 8 h, bonus succès.
 
 ```text
-Game/
-|-- Salon/games/            * private, git via Salon (NOF4)
-|   Incremental-X Factory-X Empire-X Colony-X
-|   Deck-X Battler-X Tower-X Puzzle-X Story-X
-|   Tycoon-X Cascade-X Probe-X Orbit-X
-`-- tools                   GameChangelog
+Game-Vercel/                * SoT sources (pnpm sync:salon → zips)
+Dev Game Be Like/           * hub Tauri (Salon.exe + catalogue)
+|-- hub/                    launcher UI + overrides
+|-- release-assets/         manifest (zips → GitHub Release only)
+`-- GameChangelog/          changelog tool (tree sibling)
 ```
 
 <a id="opti"></a>
@@ -250,6 +250,7 @@ linux-flatpak-releases/     * .flatpak
 ![Flatpak](https://img.shields.io/badge/-Flatpak-050807?style=for-the-badge&logo=flatpak&logoColor=00f0ff)
 ![WebView2](https://img.shields.io/badge/-WebView2-050807?style=for-the-badge&logo=microsoftedge&logoColor=00f0ff)
 ![pywebview](https://img.shields.io/badge/-pywebview-050807?style=for-the-badge&logo=python&logoColor=39ff14)
+![Tauri](https://img.shields.io/badge/-Tauri-050807?style=for-the-badge&logo=tauri&logoColor=00f0ff)
 ![PyInstaller](https://img.shields.io/badge/-PyInstaller-050807?style=for-the-badge&logo=python&logoColor=00f0ff)
 ![Chart.js](https://img.shields.io/badge/-Chart.js-050807?style=for-the-badge&logo=chartdotjs&logoColor=39ff14)
 ![Git](https://img.shields.io/badge/-Git-050807?style=for-the-badge&logo=git&logoColor=00f0ff)
