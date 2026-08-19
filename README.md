@@ -141,7 +141,7 @@ Ship : `Launch-Hub-*.zip` per hub via Install-Easy (plus de launcher plat / `PCC
 |-- SecurityHelpers/    ConfirmGate + security.py
 |-- HostHelpers/        window_chrome | suite_launch
 |-- Install-Easy-Private/  installer (Launch-Hub-*.zip + Salon + Opti + GameChangelog)
-`-- MrAurevoX-Launcher/   Releases channel unique (private)
+`-- PCCommand-Releases/   Releases channel unique (private)
 
 standalone : Opti (Dev Central Tree\Opti)
 ```
@@ -169,7 +169,7 @@ Game/
 ```text
 Opti/                       * gaming optimizer (private)
 |-- Opti.exe | Lancer.cmd
-`-- ship via Install-Easy → Opti.zip (MrAurevoX-Launcher)
+`-- ship via Install-Easy → Opti.zip (PCCommand-Releases)
 ```
 
 <a id="fakevps"></a>

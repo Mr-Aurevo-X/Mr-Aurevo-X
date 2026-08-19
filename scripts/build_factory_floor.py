@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """Generate factory-floor.svg (dual-split green/cyan) and rewrite README.
 
 README.md is the SoT for the dual Windows/Linux vitrine. This script must
@@ -132,7 +132,7 @@ def factory_svg() -> str:
   <!-- RIGHT: ship channel + connect -->
   <rect x="818" y="72" width="258" height="340" rx="8" fill="{DEEP}" stroke="{CYAN}" stroke-width="1.5"/>
   <text x="834" y="96" fill="{CYAN}" font-family="Consolas, monospace" font-size="13">SHIP -- RELEASES</text>
-  <text x="834" y="122" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="12">MrAurevoX-Launcher</text>
+  <text x="834" y="122" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="12">PCCommand-Releases</text>
   <text x="834" y="144" fill="{CYAN}" font-family="Consolas, monospace" font-size="11">unique private channel</text>
   <text x="834" y="166" fill="{MUTED}" font-family="Consolas, monospace" font-size="11">Launch-Hub-*.zip | Salon | Opti</text>
   <text x="834" y="186" fill="{MUTED}" font-family="Consolas, monospace" font-size="11">Install-Easy Private</text>
@@ -300,7 +300,7 @@ Ship : `Launch-Hub-*.zip` per hub via Install-Easy (plus de launcher plat / `PCC
 |-- SecurityHelpers/    ConfirmGate + security.py
 |-- HostHelpers/        window_chrome | suite_launch
 |-- Install-Easy-Private/  installer (Launch-Hub-*.zip + Salon + Opti + GameChangelog)
-`-- MrAurevoX-Launcher/   Releases channel unique (private)
+`-- PCCommand-Releases/   Releases channel unique (private)
 
 standalone : Opti (Dev Central Tree\\Opti)
 ```
@@ -309,16 +309,17 @@ standalone : Opti (Dev Central Tree\\Opti)
 
 ### 🎮 Salon — Game Hub
 
-SoT : `Dev Central Tree\\Game\\` | launcher pywebview | repo privé [`Mr-Aurevo-X/Salon`](https://github.com/Mr-Aurevo-X/Salon)  
+SoT : `Dev Game Be Like\\` | launcher pywebview | repo privé [`Mr-Aurevo-X/Salon`](https://github.com/Mr-Aurevo-X/Salon)  
 Idle Incremental (**≥ 100 h**) + Tycoon-X + Cascade-X / Probe-X (Nostalgic). Hors-ligne idle 8 h, bonus succès.
 
 ```text
-Game/
+Dev Game Be Like/
 |-- Salon/games/            * private, git via Salon (NOF4)
 |   Incremental-X Factory-X Empire-X Colony-X
 |   Deck-X Battler-X Tower-X Puzzle-X Story-X
-|   Tycoon-X Cascade-X Probe-X
-`-- tools                   GameChangelog
+|   Tycoon-X Cascade-X Probe-X (+ arcade/puzzle/run…)
+Dev Game Be Like/
+`-- GameChangelog/          * reste dans le tree
 ```
 
 <a id="opti"></a>
@@ -328,7 +329,7 @@ Game/
 ```text
 Opti/                       * gaming optimizer (private)
 |-- Opti.exe | Lancer.cmd
-`-- ship via Install-Easy → Opti.zip (MrAurevoX-Launcher)
+`-- ship via Install-Easy → Opti.zip (PCCommand-Releases)
 ```
 
 <a id="fakevps"></a>
