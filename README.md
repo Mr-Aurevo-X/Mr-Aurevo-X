@@ -108,7 +108,7 @@ Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurev
 
 ```text
 /workshop
-|-- atelier/     PC Command | 5 hubs in-hub (Dashboard + modules) [private]
+|-- atelier/     PC Command | 4 hubs publics in-hub (Dashboard + modules) [private]
 |-- game-lounge/  Game Lounge web | 29 *-X | Game-Lounge SoT (site statique) [private]
 |-- opti/        standalone gaming optimizer                       [private]
 |-- fakevps/     local Ubuntu rehearsal (6G / 4 vCPU / 40G)        [public]
@@ -133,7 +133,6 @@ Ship : `Launch-Hub-*.zip` per hub via Install-Easy (plus de launcher plat / `PCC
 |-- Hub-Systeme/        * SystemClean | RamCleaner | ProcessHub | UninstX | SysInspect | ...
 |-- Hub-Reseau/         * NetAdmin | NetMap | RoadWay-X | WifiKey
 |-- Hub-Securite/       * FileGuard | CertView | RepoRadar | WinAudit
-|-- Hub-Dev/            * Lua/Dll/JsonClean | HashCheck | ProtAudit | IdentityReset | EnvEditor
 `-- Hub-Utilitaires/    * UtilKit (+ ShellKit) | MediaKit | Capture | ColorPicker | ...
 
 02_Shared_Infrastructure/

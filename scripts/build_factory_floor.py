@@ -2,7 +2,7 @@
 """Generate factory-floor.svg (dual-split green/cyan) and rewrite README.
 
 README.md is the SoT for the dual Windows/Linux vitrine. This script must
-emit that same structure (5 hubs + WIN/LIN featured) so a re-run cannot
+emit that same structure (4 public hubs + WIN/LIN featured) so a re-run cannot
 regress to the old flat catalogue.
 """
 from __future__ import annotations
@@ -96,7 +96,7 @@ def factory_svg() -> str:
   <rect x="650" y="146" width="108" height="26" rx="4" fill="#071018" stroke="{CYAN}"/>
   <text x="662" y="163" fill="{CYAN}" font-family="Consolas, monospace" font-size="10">sentinel</text>
 
-  <text x="302" y="184" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="11">ATELIER  | 5 hubs in-hub | UAC</text>
+  <text x="302" y="184" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="11">ATELIER  | 4 hubs in-hub | UAC</text>
   <text x="302" y="200" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="11">SALON    | Tauri v2 | 29 *-X on-demand</text>
   <text x="302" y="216" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="11">OPTI     | standalone gaming opt</text>
   <text x="302" y="232" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="11">FAKEVPS  | 1.0.0 final | public src</text>
@@ -267,7 +267,7 @@ Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurev
 
 ```text
 /workshop
-|-- atelier/     PC Command | 5 hubs in-hub (Dashboard + modules) [private]
+|-- atelier/     PC Command | 4 hubs publics in-hub (Dashboard + modules) [private]
 |-- salon/       Game launcher | 9 original X (100h+) | Tycoon/Arcade soon [private]
 |-- opti/        standalone gaming optimizer                       [private]
 |-- fakevps/     local Ubuntu rehearsal (6G / 4 vCPU / 40G)        [public]
@@ -292,7 +292,6 @@ Ship : `Launch-Hub-*.zip` per hub via Install-Easy (plus de launcher plat / `PCC
 |-- Hub-Systeme/        * SystemClean | RamCleaner | ProcessHub | UninstX | SysInspect | ...
 |-- Hub-Reseau/         * NetAdmin | NetMap | RoadWay-X | WifiKey
 |-- Hub-Securite/       * FileGuard | CertView | RepoRadar | WinAudit
-|-- Hub-Dev/            * Lua/Dll/JsonClean | HashCheck | ProtAudit | IdentityReset | EnvEditor
 `-- Hub-Utilitaires/    * UtilKit (+ ShellKit) | MediaKit | Capture | ColorPicker | ...
 
 02_Shared_Infrastructure/
@@ -319,7 +318,7 @@ Dev Game Be Like/
 |   Deck-X Battler-X Tower-X Puzzle-X Story-X
 |   Tycoon-X Cascade-X Probe-X (+ arcade/puzzle/run…)
 Dev Game Be Like/
-`-- GameChangelog/          * reste dans le tree
+`-- GameChangelog/          * standalone racine Dev Central Tree (comme Opti)
 ```
 
 <a id="opti"></a>
