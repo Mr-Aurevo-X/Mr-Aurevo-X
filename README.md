@@ -109,7 +109,7 @@ Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurev
 ```text
 /workshop
 |-- atelier/     PC Command | 5 hubs in-hub (Dashboard + modules) [private]
-|-- salon/       Salon web | 29 *-X | Game-Vercel SoT (site statique) [private]
+|-- salon/       Salon web | 29 *-X | Salon SoT (site statique) [private]
 |-- opti/        standalone gaming optimizer                       [private]
 |-- fakevps/     local Ubuntu rehearsal (6G / 4 vCPU / 40G)        [public]
 |-- sentinel/    Discord platform (mod, eco, XP, tickets, music)   [public]
@@ -150,12 +150,12 @@ standalone : Opti (Dev Central Tree\Opti)
 
 ### 🎮 Salon — Game Hub
 
-SoT jeux : [`Game-Vercel`](https://github.com/Mr-Aurevo-X/Game-Vercel) (monorepo web — build `dist-site/` pour hébergement statique)  
+SoT jeux : [`Salon`](https://github.com/Mr-Aurevo-X/Salon) (monorepo web — build `dist-site/` pour hébergement statique)  
 29 jeux *-X jouables dans le navigateur (iframe Salon). Dev local : `Lancer.cmd` → localhost.  
 Idle Incremental (**≥ 100 h**) + Tycoon-X + Cascade-X / Probe-X (Nostalgic).
 
 ```text
-Game-Vercel/                * SoT sources (pnpm build → dist-site/)
+Salon/                      * SoT sources (pnpm build → dist-site/)
 apps/launcher/              catalogue Salon + iframe
 games/<slug>/               jeux Vite/React
 docs/WEB-DEPLOY.md          déploiement sur votre hébergement
