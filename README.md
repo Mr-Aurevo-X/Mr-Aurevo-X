@@ -140,7 +140,7 @@ Ship : `Launch-Hub-*.zip` per hub via Install-Easy (plus de launcher plat / `PCC
 |-- UI-proprietaire/    pc-command-kit SoT
 |-- SecurityHelpers/    ConfirmGate + security.py
 |-- HostHelpers/        window_chrome | suite_launch
-|-- Install-Easy-Private/  installer (Launch-Hub-*.zip + Salon + Opti + GameChangelog)
+|-- Install-Easy-Private/  installer (Launch-Hub-*.zip + Opti)
 `-- PCCommand-Releases/   Releases channel unique (private)
 
 standalone : Opti (Dev Central Tree\Opti)
