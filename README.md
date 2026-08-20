@@ -159,12 +159,14 @@ docs/WEB-DEPLOY.md          déploiement sur votre hébergement
 
 <a id="opti"></a>
 
-### ⚡ SoftTunes (Opti) — Standalone
+### ⚡ SoftTunes — Standalone
 
 ```text
-Opti/                       * SoftTunes (private repo, Releases on Opti)
-|-- Opti.exe | Lancer.cmd
-`-- ship → Opti.zip on Mr-Aurevo-X/Opti Releases
+SoftTunes/                  * repo Mr-Aurevo-X/SoftTunes (local clone: 03_Standalones/Opti)
+|-- Opti.exe | Lancer.cmd   (exe name legacy until rebuild rename)
+|-- AppData install: %LOCALAPPDATA%\Programs\SoftTunes
+|-- AppData data:    %LOCALAPPDATA%\SoftTunes
+`-- ship → SoftTunes.zip on SoftTunes Releases
 ```
 
 <a id="fakevps"></a>

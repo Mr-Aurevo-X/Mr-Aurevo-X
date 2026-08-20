@@ -134,7 +134,7 @@ def factory_svg() -> str:
   <text x="834" y="96" fill="{CYAN}" font-family="Consolas, monospace" font-size="13">SHIP -- PER REPO</text>
   <text x="834" y="122" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="12">Hub-* Releases</text>
   <text x="834" y="144" fill="{CYAN}" font-family="Consolas, monospace" font-size="11">Launch-Hub-*.zip each remote</text>
-  <text x="834" y="166" fill="{MUTED}" font-family="Consolas, monospace" font-size="11">Opti.zip | GameChangelog.zip</text>
+  <text x="834" y="166" fill="{MUTED}" font-family="Consolas, monospace" font-size="11">SoftTunes.zip | GameChangelog.zip</text>
   <text x="834" y="186" fill="{MUTED}" font-family="Consolas, monospace" font-size="11">no central installer</text>
   <circle cx="1000" cy="130" r="5" fill="{CYAN}">
     <animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite"/>
@@ -320,12 +320,13 @@ Dev Game Be Like/
 
 <a id="opti"></a>
 
-### ⚡ SoftTunes (Opti) — Standalone
+### ⚡ SoftTunes — Standalone
 
 ```text
-Opti/                       * SoftTunes (private repo)
+SoftTunes/                  * repo Mr-Aurevo-X/SoftTunes
 |-- Opti.exe | Lancer.cmd
-`-- ship → Opti.zip on Mr-Aurevo-X/Opti Releases
+|-- %LOCALAPPDATA%\\Programs\\SoftTunes
+`-- ship → SoftTunes.zip on SoftTunes Releases
 ```
 
 <a id="fakevps"></a>
