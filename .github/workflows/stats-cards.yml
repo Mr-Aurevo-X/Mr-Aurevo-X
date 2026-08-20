@@ -1,7 +1,8 @@
 # Generate static neon stats + streak SVGs (private-capable with STATS_GH_TOKEN).
 # Aggregates only - do not add top-langs / repo lists (would expose private stack).
 # Token lives only in repo Actions secrets - never in README or committed files.
-name: Update telemetry cards
+# This is GitHub profile artwork, not application telemetry.
+name: Update stats cards
 
 on:
   schedule:
@@ -53,10 +54,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # Bust GitHub Camo cache in profile README whenever cards change.
           V=$(git rev-parse --short HEAD)
           if [ -f README.md ]; then
-            # Use # delimiter — | would clash with (stats|streak) alternation.
             sed -i -E \
               "s#(https://raw\\.githubusercontent\\.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/github-(stats|streak)\\.svg)\\?v=[A-Za-z0-9]+#\\1?v=${V}#g" \
               README.md
@@ -64,8 +63,8 @@ jobs:
           fi
           git add assets/github-stats.svg assets/github-streak.svg
           if git diff --staged --quiet; then
-            echo "No telemetry card changes."
+            echo "No stats card changes."
             exit 0
           fi
-          git commit --trailer "Co-authored-by: Cursor <cursoragent@cursor.com>" -m "chore: refresh telemetry cards [skip ci]"
+          git commit --trailer "Co-authored-by: Cursor <cursoragent@cursor.com>" -m "chore: refresh profile stats cards [skip ci]"
           git push
