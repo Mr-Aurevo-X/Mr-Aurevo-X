@@ -217,11 +217,11 @@ linux-flatpak-releases/     * .flatpak
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/github-stats.svg?v=eec4b4b" height="165" alt="GitHub stats"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/github-stats.svg?v=f9cdeb0" height="165" alt="GitHub stats"/>
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/github-streak.svg?v=eec4b4b" alt="Streak"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/github-streak.svg?v=f9cdeb0" alt="Streak"/>
 
 <br/>
 
