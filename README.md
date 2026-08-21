@@ -73,10 +73,10 @@ SoT `Dev Central Tree\Git Vitrine Public\`
 
 | Outil | Role | Lien |
 |:--|:--|:--|
-| **QrTools** | QR Simple + Lot (QrMake + QrBatch · v1.2.7 · Filament) | [repo](https://github.com/Mr-Aurevo-X/QrTools) / [releases](https://github.com/Mr-Aurevo-X/QrTools/releases/latest) |
-| **UnitConvert** | Unités + Devises (v1.3.7 · Filament) | [repo](https://github.com/Mr-Aurevo-X/UnitConvert) / [releases](https://github.com/Mr-Aurevo-X/UnitConvert/releases/latest) |
-| **TimeTools** | Horodatage · chrono · minuteries · Pomodoro (v1.2.7 · Filament) | [repo](https://github.com/Mr-Aurevo-X/TimeTools) / [releases](https://github.com/Mr-Aurevo-X/TimeTools/releases/latest) |
-| **PixClean** | Strip EXIF/GPS/XMP (ex-MetaStrip · v1.4.7 · Filament) | [repo](https://github.com/Mr-Aurevo-X/PixClean) / [releases](https://github.com/Mr-Aurevo-X/PixClean/releases/latest) |
+| **QrTools** | QR Simple + Lot (QrMake + QrBatch · v2.0.0 · Filament) | [repo](https://github.com/Mr-Aurevo-X/QrTools) / [releases](https://github.com/Mr-Aurevo-X/QrTools/releases/latest) |
+| **UnitConvert** | Unités + Devises (v2.0.0 · Filament) | [repo](https://github.com/Mr-Aurevo-X/UnitConvert) / [releases](https://github.com/Mr-Aurevo-X/UnitConvert/releases/latest) |
+| **TimeTools** | Horodatage · chrono · minuteries · Pomodoro (v2.0.0 · Filament) | [repo](https://github.com/Mr-Aurevo-X/TimeTools) / [releases](https://github.com/Mr-Aurevo-X/TimeTools/releases/latest) |
+| **PixClean** | Strip EXIF/GPS/XMP (ex-MetaStrip · v2.0.0 · Filament) | [repo](https://github.com/Mr-Aurevo-X/PixClean) / [releases](https://github.com/Mr-Aurevo-X/PixClean/releases/latest) |
 
 ### 🐧 Linux — 3 Apps
 
@@ -128,7 +128,7 @@ Ship : `Launch-Hub-*.zip` **par remote** `Mr-Aurevo-X/Hub-*` (plus d’Install-E
 ```text
 01_Hubs/
 |-- Hub-Systeme/        * SystemClean | RamCleaner | ProcessHub | UninstX | SysInspect | ...
-|-- Hub-Reseau/         * NetAdmin | NetMap | RoadWay-X | WifiKey
+|-- Hub-Reseau/         * NetAdmin | NetMap | Traffic | WifiKey
 |-- Hub-Securite/       * FileGuard | CertView | RepoRadar | WinAudit
 `-- Hub-Utilitaires/    * UtilKit (+ ShellKit) | MediaKit | Capture | ColorPicker | ...
 
