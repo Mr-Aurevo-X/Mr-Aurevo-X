@@ -87,6 +87,15 @@ Ship : `LocalDock.zip` sur [Mr-Aurevo-X/LocalDock](https://github.com/Mr-Aurevo-
 |:--|:--|:--|
 | **LocalDock** | Racines de confiance · scan · ports loopback | [repo](https://github.com/Mr-Aurevo-X/LocalDock) / [v0.1.0](https://github.com/Mr-Aurevo-X/LocalDock/releases/tag/v0.1.0) |
 
+### 🎮 GameChangelog
+
+**Public** · gratuit · local-first · PolyForm NC · zip portable · **v1.0.3**  
+Ship : `GameChangelog.zip` sur [Mr-Aurevo-X/GameChangelog](https://github.com/Mr-Aurevo-X/GameChangelog) (sources + Windows exe)
+
+| Outil | Role | Lien |
+|:--|:--|:--|
+| **GameChangelog** | Patch notes Steam · favoris · bugs · statut | [repo](https://github.com/Mr-Aurevo-X/GameChangelog) / [v1.0.3](https://github.com/Mr-Aurevo-X/GameChangelog/releases/tag/v1.0.3) |
+
 ### 🪟 Windows — 4 Desktop Tools
 
 **Gratuits | locaux (UnitConvert Devises : taux BCE + cache offline) | `.exe` sans installation**
@@ -130,6 +139,7 @@ Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurev
 |-- localdock/   loopback-only dev launcher (Rust / Tauri)         [public]
 |-- game-lounge/  Game Lounge web | 29 *-X | Game-Lounge SoT (site statique) [private]
 |-- opti/        standalone gaming optimizer                       [private]
+|-- gamechangelog/ Steam patch notes (watchlist locale)            [public]
 |-- fakevps/     local Ubuntu rehearsal (6G / 4 vCPU / 40G)        [public]
 |-- sentinel/    Discord platform (mod, eco, XP, tickets, music)   [public]
 |-- vitrine/     4 Windows desktop tools                           [public]
@@ -168,7 +178,7 @@ LocalDock (hors hubs, même licence PolyForm) :
 |-- LegalHelpers/
 `-- DevTreeTemplates/
 
-standalone : Opti (SoftTunes) · GameChangelog → 03_Standalones/ + Releases sur leur remote
+standalone : Opti (SoftTunes, public) · GameChangelog **public** v1.0.3 → 03_Standalones/ + Releases sur leur remote
 ```
 
 <a id="game-lounge"></a>
@@ -199,6 +209,20 @@ SoftTunes/                  * repo Mr-Aurevo-X/SoftTunes (local clone: 03_Standa
 |-- AppData install: %LOCALAPPDATA%\Programs\SoftTunes
 |-- AppData data:    %LOCALAPPDATA%\SoftTunes
 `-- ship → SoftTunes.zip on SoftTunes Releases (v2.0.0)
+```
+
+<a id="gamechangelog"></a>
+
+### 🎮 GameChangelog — Standalone
+
+**Public** · gratuit · local-first · PolyForm NC · **v1.0.3**  
+Ship : `GameChangelog.zip` sur [Mr-Aurevo-X/GameChangelog](https://github.com/Mr-Aurevo-X/GameChangelog) / [v1.0.3](https://github.com/Mr-Aurevo-X/GameChangelog/releases/tag/v1.0.3)
+
+```text
+GameChangelog/              * repo Mr-Aurevo-X/GameChangelog (local clone: 03_Standalones/GameChangelog)
+|-- GameChangelog.exe | Lancer.cmd
+|-- AppData data: %LOCALAPPDATA%\ChangeLog-Central
+`-- ship → GameChangelog.zip on GameChangelog Releases (v1.0.3)
 ```
 
 <a id="fakevps"></a>
