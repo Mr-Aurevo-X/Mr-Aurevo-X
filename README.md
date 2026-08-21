@@ -190,12 +190,15 @@ docs/WEB-DEPLOY.md          déploiement sur votre hébergement
 
 ### ⚡ SoftTunes — Standalone
 
+**Public** · gratuit · local-first · PolyForm NC · **v2.0.0**  
+Ship : `SoftTunes.zip` sur [Mr-Aurevo-X/SoftTunes](https://github.com/Mr-Aurevo-X/SoftTunes) / [v2.0.0](https://github.com/Mr-Aurevo-X/SoftTunes/releases/tag/v2.0.0)
+
 ```text
 SoftTunes/                  * repo Mr-Aurevo-X/SoftTunes (local clone: 03_Standalones/Opti)
-|-- Opti.exe | Lancer.cmd   (exe name legacy until rebuild rename)
+|-- SoftTunes.exe | Lancer.cmd
 |-- AppData install: %LOCALAPPDATA%\Programs\SoftTunes
 |-- AppData data:    %LOCALAPPDATA%\SoftTunes
-`-- ship → SoftTunes.zip on SoftTunes Releases
+`-- ship → SoftTunes.zip on SoftTunes Releases (v2.0.0)
 ```
 
 <a id="fakevps"></a>
