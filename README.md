@@ -284,23 +284,25 @@ linux-flatpak-releases/     * .flatpak
 
 ## 🛠️ Sur mesure — Custom Builds
 
-`BY_REQUEST` | `GITHUB_COMPLIANT` | `WIN+LINUX` | `SCOPE_FIRST`
+`BY_REQUEST` | `AI_BUILT` | `HUMAN_QA` | `GITHUB_COMPLIANT` | `WIN+LINUX` | `SCOPE_FIRST`
 
-> **FR** — Création de logiciels **à la demande** : utilitaires desktop, petits outils internes, scripts / automatisations, intégrations légères. Chaque demande est cadrée pour rester **conforme** aux [Conditions d'utilisation GitHub](https://docs.github.com/site-policy/github-terms/github-terms-of-service), à la [Politique d'utilisation acceptable](https://docs.github.com/site-policy/acceptable-use-policies/github-acceptable-use-policy) et aux [Directives communautaires](https://docs.github.com/site-policy/github-terms/github-community-guidelines) — pas de malware, pas de contournement de sécurité / DRM, pas de spam ou contenu interdit. La **vitrine publique** reste gratuite ; le sur-mesure se discute en amont (besoin, délais, livrables, repo privé ou public selon le cas).
+> **FR** — Logiciels **à la demande**, toujours dans le même mode atelier : **Cursor AI construit** le code · **Mr-Aurevo-X** cadre le brief, teste et **valide** (comme la vitrine et PC Command). Pas de prestation « développeur humain au kilo » : c’est de la **création IA**, avec QA humaine. Périmètre typique : utilitaires desktop, outils locaux, scripts / automatisations, intégrations légères. Chaque demande reste **conforme** aux [Conditions d'utilisation GitHub](https://docs.github.com/site-policy/github-terms/github-terms-of-service), à la [Politique d'utilisation acceptable](https://docs.github.com/site-policy/acceptable-use-policies/github-acceptable-use-policy) et aux [Directives communautaires](https://docs.github.com/site-policy/github-terms/github-community-guidelines) — pas de malware, pas de contournement de sécurité / DRM, pas de spam. La **vitrine publique** reste gratuite ; le sur-mesure se discute en amont (besoin, délais, livrables, repo privé ou public).
 >
-> **EN** — **On-demand** software: desktop utilities, internal tools, scripts / automation, light integrations. Every request is scoped to stay **within** GitHub [Terms of Service](https://docs.github.com/site-policy/github-terms/github-terms-of-service), [Acceptable Use Policy](https://docs.github.com/site-policy/acceptable-use-policies/github-acceptable-use-policy), and [Community Guidelines](https://docs.github.com/site-policy/github-terms/github-community-guidelines) — no malware, no security / DRM bypass, no spam or prohibited content. The **public vitrine** stays free; custom work is agreed upfront (scope, timeline, deliverables, private vs public repo as needed).
+> **EN** — **On-demand** software, same workshop rule: **Cursor AI builds** · **Mr-Aurevo-X** scopes, stress-tests, and **signs off**. This is **AI-operated creation** with human QA — not a classic hired-dev shop. Typical scope: desktop utilities, local-first tools, scripts / automation, light integrations. Every request stays **within** GitHub [Terms of Service](https://docs.github.com/site-policy/github-terms/github-terms-of-service), [Acceptable Use Policy](https://docs.github.com/site-policy/acceptable-use-policies/github-acceptable-use-policy), and [Community Guidelines](https://docs.github.com/site-policy/github-terms/github-community-guidelines) — no malware, no security / DRM bypass, no spam. The **public vitrine** stays free; custom work is agreed upfront (scope, timeline, deliverables, private vs public repo).
 
 ```diff
++ MODEL .......... Cursor AI builds | Mr-Aurevo-X ideas + QA + sign-off
 + IN_SCOPE ....... desktop tools | admin helpers | local-first apps | Discord bots (compliant)
-+ PROCESS ........ brief → feasibility → estimate → build → handoff
-! OUT_OF_SCOPE ... cheats | cracks | spyware | ToS / AUP violations | undisclosed automation abuse
++ PROCESS ........ brief → feasibility → estimate → AI build → human QA → handoff
+! OUT_OF_SCOPE ... cheats | cracks | spyware | ToS / AUP violations | "code only by hand / no AI" requests
 ```
 
 | | |
 |:--|:--|
 | **Contact** | [Discord DM](https://discord.com/users/406891052516114442) — décrire le besoin / describe the use case |
+| **How it ships** | AI-built sources + build path · Mr-Aurevo-X QA · repo GitHub privé ou public |
 | **Typical stack** | Python · pywebview · PowerShell · GTK / Flatpak · Node / React (selon brief) |
-| **Delivery** | sources + build path · repo GitHub privé ou public · pas de engagement sans accord écrit |
+| **Delivery** | pas d’engagement sans accord écrit / no commitment without a written agreement |
 
 ---
 
