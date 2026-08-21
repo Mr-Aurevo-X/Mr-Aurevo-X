@@ -359,9 +359,9 @@ linux-flatpak-releases/     * .flatpak
 
 <div align="center">
 
-> **FR** - Lien social + coups de pouce volontaires (la vitrine publique reste gratuite).
+> **FR** - Lien social + coups de pouce volontaires (tout repo public est et restera gratuit).
 >
-> **EN** - Social link + optional tips (the public vitrine stays free).
+> **EN** - Social link + optional tips (every public repo is and will stay free).
 
 <br/>
 
