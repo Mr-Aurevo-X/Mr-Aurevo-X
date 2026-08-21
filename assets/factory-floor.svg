@@ -50,13 +50,13 @@
   <rect x="286" y="72" width="520" height="340" rx="8" fill="#020403" stroke="#0a3a44" stroke-width="1.5"/>
   <text x="302" y="96" fill="#00f0ff" font-family="Consolas, monospace" font-size="13">MOUNTS -- Dev Central Tree</text>
 
-  <!-- mount chips row 1 (atelier public · salon/opti private) -->
+  <!-- mount chips row 1 (atelier public · salon private · softtunes public) -->
   <rect x="302" y="112" width="110" height="26" rx="4" fill="#071018" stroke="#00f0ff"/>
   <text x="316" y="129" fill="#00f0ff" font-family="Consolas, monospace" font-size="11">atelier</text>
   <rect x="422" y="112" width="110" height="26" rx="4" fill="#071410" stroke="#39ff14"/>
   <text x="446" y="129" fill="#39ff14" font-family="Consolas, monospace" font-size="11">salon</text>
-  <rect x="542" y="112" width="110" height="26" rx="4" fill="#071410" stroke="#39ff14"/>
-  <text x="570" y="129" fill="#39ff14" font-family="Consolas, monospace" font-size="11">opti</text>
+  <rect x="542" y="112" width="110" height="26" rx="4" fill="#071018" stroke="#00f0ff"/>
+  <text x="552" y="129" fill="#00f0ff" font-family="Consolas, monospace" font-size="10">softtunes</text>
 
   <!-- mount chips row 2 (public) -->
   <rect x="302" y="146" width="108" height="26" rx="4" fill="#071018" stroke="#00f0ff"/>
@@ -70,7 +70,7 @@
 
   <text x="302" y="184" fill="#7ec8ff" font-family="Consolas, monospace" font-size="11">ATELIER  | 4 hubs public | UAC | v2.0.0</text>
   <text x="302" y="200" fill="#6aff9a" font-family="Consolas, monospace" font-size="11">SALON    | Tauri v2 | 29 *-X on-demand</text>
-  <text x="302" y="216" fill="#6aff9a" font-family="Consolas, monospace" font-size="11">OPTI     | standalone gaming opt</text>
+  <text x="302" y="216" fill="#7ec8ff" font-family="Consolas, monospace" font-size="11">SOFTTUNES| v2.0.0 public | session</text>
   <text x="302" y="232" fill="#7ec8ff" font-family="Consolas, monospace" font-size="11">FAKEVPS  | 1.0.0 final | public src</text>
   <text x="302" y="248" fill="#7ec8ff" font-family="Consolas, monospace" font-size="11">SENTINEL | v2.0.0 | Apache-2.0</text>
   <text x="302" y="264" fill="#7ec8ff" font-family="Consolas, monospace" font-size="11">WIN      | 4 desktop .exe | free</text>

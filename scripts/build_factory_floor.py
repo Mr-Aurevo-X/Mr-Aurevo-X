@@ -78,13 +78,13 @@ def factory_svg() -> str:
   <rect x="286" y="72" width="520" height="340" rx="8" fill="{DEEP}" stroke="{STROKE_C}" stroke-width="1.5"/>
   <text x="302" y="96" fill="{CYAN}" font-family="Consolas, monospace" font-size="13">MOUNTS -- Dev Central Tree</text>
 
-  <!-- mount chips row 1 (atelier public · salon/opti private) -->
+  <!-- mount chips row 1 (atelier public · salon private · softtunes public) -->
   <rect x="302" y="112" width="110" height="26" rx="4" fill="#071018" stroke="{CYAN}"/>
   <text x="316" y="129" fill="{CYAN}" font-family="Consolas, monospace" font-size="11">atelier</text>
   <rect x="422" y="112" width="110" height="26" rx="4" fill="#071410" stroke="{GREEN}"/>
   <text x="446" y="129" fill="{GREEN}" font-family="Consolas, monospace" font-size="11">salon</text>
-  <rect x="542" y="112" width="110" height="26" rx="4" fill="#071410" stroke="{GREEN}"/>
-  <text x="570" y="129" fill="{GREEN}" font-family="Consolas, monospace" font-size="11">opti</text>
+  <rect x="542" y="112" width="110" height="26" rx="4" fill="#071018" stroke="{CYAN}"/>
+  <text x="552" y="129" fill="{CYAN}" font-family="Consolas, monospace" font-size="10">softtunes</text>
 
   <!-- mount chips row 2 (public) -->
   <rect x="302" y="146" width="108" height="26" rx="4" fill="#071018" stroke="{CYAN}"/>
@@ -98,7 +98,7 @@ def factory_svg() -> str:
 
   <text x="302" y="184" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="11">ATELIER  | 4 hubs public | UAC | v2.0.0</text>
   <text x="302" y="200" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="11">SALON    | Tauri v2 | 29 *-X on-demand</text>
-  <text x="302" y="216" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="11">OPTI     | standalone gaming opt</text>
+  <text x="302" y="216" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="11">SOFTTUNES| v2.0.0 public | session</text>
   <text x="302" y="232" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="11">FAKEVPS  | 1.0.0 final | public src</text>
   <text x="302" y="248" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="11">SENTINEL | v2.0.0 | Apache-2.0</text>
   <text x="302" y="264" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="11">WIN      | 4 desktop .exe | free</text>
@@ -266,7 +266,7 @@ Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurev
 /workshop
 |-- atelier/     PC Command | 4 hubs in-hub (Dashboard + modules)         [public]
 |-- salon/       Game launcher | 9 original X (100h+) | Tycoon/Arcade soon [private]
-|-- opti/        standalone gaming optimizer                       [private]
+|-- softtunes/   SoftTunes | session prep + FPS meter              [public]
 |-- fakevps/     local Ubuntu rehearsal (6G / 4 vCPU / 40G)        [public]
 |-- sentinel/    Discord platform (mod, eco, XP, tickets, music)   [public]
 |-- vitrine/     4 Windows desktop tools                           [public]
@@ -302,7 +302,7 @@ Remotes publics :
 |-- LegalHelpers/
 `-- DevTreeTemplates/
 
-standalone : Opti (SoftTunes) · GameChangelog → 03_Standalones/ + per-repo Releases
+standalone : SoftTunes **public** v2.0.0 · GameChangelog → 03_Standalones/ + per-repo Releases
 ```
 
 <a id="salon"></a>
@@ -319,18 +319,21 @@ Dev Game Be Like/
 |   Deck-X Battler-X Tower-X Puzzle-X Story-X
 |   Tycoon-X Cascade-X Probe-X (+ arcade/puzzle/run…)
 Dev Game Be Like/
-`-- GameChangelog/          * standalone racine Dev Central Tree (comme Opti)
+`-- GameChangelog/          * standalone racine Dev Central Tree (comme SoftTunes)
 ```
 
-<a id="opti"></a>
+<a id="softtunes"></a>
 
 ### ⚡ SoftTunes — Standalone
 
+**Public** · gratuit · local-first · PolyForm NC · **v2.0.0**  
+Ship : `SoftTunes.zip` sur [Mr-Aurevo-X/SoftTunes](https://github.com/Mr-Aurevo-X/SoftTunes) / [v2.0.0](https://github.com/Mr-Aurevo-X/SoftTunes/releases/tag/v2.0.0)
+
 ```text
 SoftTunes/                  * repo Mr-Aurevo-X/SoftTunes
-|-- Opti.exe | Lancer.cmd
+|-- SoftTunes.exe | Lancer.cmd
 |-- %LOCALAPPDATA%\\Programs\\SoftTunes
-`-- ship → SoftTunes.zip on SoftTunes Releases
+`-- ship → SoftTunes.zip on SoftTunes Releases (v2.0.0)
 ```
 
 <a id="fakevps"></a>
