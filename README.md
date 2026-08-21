@@ -1,8 +1,8 @@
-﻿<div align="center">
+<div align="center">
 
 # `>_ mr-aurevo-x@workshop:~`
 
-**AI-Run Workshop â€” Cursor Builds | Mr-Aurevo-X QA | Windows + Linux**
+**AI-Run Workshop ??? Cursor Builds | Mr-Aurevo-X QA | Windows + Linux**
 
 <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/7e7285e72448238fe4b0511cdfbf4e265ecbbc82/assets/hero-boot.svg?v=7e7285e72448238fe4b0511cdfbf4e265ecbbc82" alt="Boot console scrolling" width="100%"/>
 
@@ -19,7 +19,7 @@
 
 ---
 
-## ðŸ’» Sessions â€” Dual Console
+## ???? Sessions ??? Dual Console
 
 <div align="center">
 
@@ -48,7 +48,7 @@
 
 ---
 
-## ðŸ­ Workshop Floor
+## ???? Workshop Floor
 
 Single crafted factory board (dual-split: **BUILD green** / **QA cyan**). Decorative status only -- not live CI, not live chat.
 
@@ -60,49 +60,49 @@ Single crafted factory board (dual-split: **BUILD green** / **QA cyan**). Decora
 
 ---
 
-## âœ¨ Featured â€” Public Vitrine
+## ??? Featured ??? Public Vitrine
 
 `WIN=4_exe` | `LINUX=3_apps` | `PC_COMMAND=4_HUBS` | `FAKEVPS+SENTINEL=public` | `AI-built` | `human-tested`
 
 **License:** Vitrine Windows + Linux binaries = proprietary (no source). **PC Command hubs** = PolyForm Noncommercial 1.0.0 (source + `Launch-Hub-*.zip` public). **FakeVPS** = custom (source public, 1.0.0 final). **Sentinel** = Apache-2.0 (source public, v2.0.0).
 
-### ðŸ–¥ï¸ PC Command â€” 4 Hubs
+### ??????? PC Command ??? 4 Hubs
 
-**Public** Â· gratuit Â· autant local que possible Â· UAC admin Â· zip portable Â· **v2.0.0**  
+**Public** ?? gratuit ?? autant local que possible ?? UAC admin ?? zip portable ?? **v2.0.0**  
 Ship : `Launch-Hub-*.zip` **par remote** (pas de canal Install-Easy / PCCommand-Releases)
 
 | Hub | Role | Lien |
 |:--|:--|:--|
-| **System** | MÃ©nage Â· RAM Â· process Â· dÃ©sinstall | [repo](https://github.com/Mr-Aurevo-X/Hub-Systeme) / [v2.0.0](https://github.com/Mr-Aurevo-X/Hub-Systeme/releases/tag/v2.0.0) |
-| **Network** | Adaptateurs Â· carte Â· Traffic Â· Wiâ€‘Fi | [repo](https://github.com/Mr-Aurevo-X/Hub-Reseau) / [v2.0.0](https://github.com/Mr-Aurevo-X/Hub-Reseau/releases/tag/v2.0.0) |
-| **Security** | FileGuard Â· CertView Â· RepoRadar Â· WinAudit | [repo](https://github.com/Mr-Aurevo-X/Hub-Securite) / [v2.0.0](https://github.com/Mr-Aurevo-X/Hub-Securite/releases/tag/v2.0.0) |
+| **System** | M??nage ?? RAM ?? process ?? d??sinstall | [repo](https://github.com/Mr-Aurevo-X/Hub-Systeme) / [v2.0.0](https://github.com/Mr-Aurevo-X/Hub-Systeme/releases/tag/v2.0.0) |
+| **Network** | Adaptateurs ?? carte ?? Traffic ?? Wi???Fi | [repo](https://github.com/Mr-Aurevo-X/Hub-Reseau) / [v2.0.0](https://github.com/Mr-Aurevo-X/Hub-Reseau/releases/tag/v2.0.0) |
+| **Security** | FileGuard ?? CertView ?? RepoRadar ?? WinAudit | [repo](https://github.com/Mr-Aurevo-X/Hub-Securite) / [v2.0.0](https://github.com/Mr-Aurevo-X/Hub-Securite/releases/tag/v2.0.0) |
 | **Utilities** | UtilKit + MediaKit | [repo](https://github.com/Mr-Aurevo-X/Hub-Utilitaires) / [v2.0.0](https://github.com/Mr-Aurevo-X/Hub-Utilitaires/releases/tag/v2.0.0) |
 
-### ðŸªŸ Windows â€” 4 Desktop Tools
+### ???? Windows ??? 4 Desktop Tools
 
 **Gratuits | locaux (UnitConvert Devises : taux BCE + cache offline) | `.exe` sans installation**
 SoT `Dev Central Tree\Git Vitrine Public\`
 
 | Outil | Role | Lien |
 |:--|:--|:--|
-| **QrTools** | QR Simple + Lot (QrMake + QrBatch Â· v2.0.0 â€” V2 Final Version) | [repo](https://github.com/Mr-Aurevo-X/QrTools) / [releases](https://github.com/Mr-Aurevo-X/QrTools/releases/latest) |
-| **UnitConvert** | UnitÃ©s + Devises (v2.0.0 â€” V2 Final Version) | [repo](https://github.com/Mr-Aurevo-X/UnitConvert) / [releases](https://github.com/Mr-Aurevo-X/UnitConvert/releases/latest) |
-| **TimeTools** | Horodatage Â· chrono Â· minuteries Â· Pomodoro (v2.0.0 â€” V2 Final Version) | [repo](https://github.com/Mr-Aurevo-X/TimeTools) / [releases](https://github.com/Mr-Aurevo-X/TimeTools/releases/latest) |
-| **PixClean** | Strip EXIF/GPS/XMP (ex-MetaStrip Â· v2.0.0 â€” V2 Final Version) | [repo](https://github.com/Mr-Aurevo-X/PixClean) / [releases](https://github.com/Mr-Aurevo-X/PixClean/releases/latest) |
+| **QrTools** | QR Simple + Lot (QrMake + QrBatch ?? v2.0.0 ??? V2 Final Version) | [repo](https://github.com/Mr-Aurevo-X/QrTools) / [releases](https://github.com/Mr-Aurevo-X/QrTools/releases/latest) |
+| **UnitConvert** | Unit??s + Devises (v2.0.0 ??? V2 Final Version) | [repo](https://github.com/Mr-Aurevo-X/UnitConvert) / [releases](https://github.com/Mr-Aurevo-X/UnitConvert/releases/latest) |
+| **TimeTools** | Horodatage ?? chrono ?? minuteries ?? Pomodoro (v2.0.0 ??? V2 Final Version) | [repo](https://github.com/Mr-Aurevo-X/TimeTools) / [releases](https://github.com/Mr-Aurevo-X/TimeTools/releases/latest) |
+| **PixClean** | Strip EXIF/GPS/XMP (ex-MetaStrip ?? v2.0.0 ??? V2 Final Version) | [repo](https://github.com/Mr-Aurevo-X/PixClean) / [releases](https://github.com/Mr-Aurevo-X/PixClean/releases/latest) |
 
-### ðŸ§ Linux â€” 3 Apps
+### ???? Linux ??? 3 Apps
 
 **Binaries only (no source) | native + Flatpak**
 
 | App | Role | Version | Native | Flatpak |
 |:--|:--|:--|:--|:--|
 | **Crypto Tracker** | local crypto portfolio | 1.2.17 | [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/crypto-tracker-v1.2.17) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/crypto-tracker-v1.2.17) |
-| **Gest Linux Pro** | GTK system toolkit | 2.2.1 | â€” (Flatpak only) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/Gest_Linux_Pro-v2.2.1) |
+| **Gest Linux Pro** | GTK system toolkit | 2.2.1 | ??? (Flatpak only) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/Gest_Linux_Pro-v2.2.1) |
 | **MrAurevoX Kit** | local toolkit (search, hash, PDF, disk map) | 2.1.0 | [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/MrAurevoX-Kit-v2.1.0) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/MrAurevoX-Kit-v2.1.0) |
 
 Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases). **Gest : Flatpak uniquement** (plus de native). Flatpak: `.flatpak` via [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases) (Freedesktop 25.08 / GNOME 49).
 
-### ðŸ”“ Source â€” FakeVPS + Sentinel
+### ???? Source ??? FakeVPS + Sentinel
 
 **Clone OK** | no official hosted instance | upstream frozen (fork to continue)
 
@@ -113,7 +113,7 @@ Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurev
 
 ---
 
-## ðŸ“‚ Mounts â€” Filesystem
+## ???? Mounts ??? Filesystem
 
 ```text
 /workshop
@@ -127,15 +127,15 @@ Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurev
 ```
 
 <details>
-<summary><strong>ðŸ—ºï¸ Full Workshop Map â€” Arborescences</strong></summary>
+<summary><strong>??????? Full Workshop Map ??? Arborescences</strong></summary>
 
 <a id="atelier"></a>
 
-### ðŸ› ï¸ Atelier â€” PC Command (4 Hubs)
+### ??????? Atelier ??? PC Command (4 Hubs)
 
 SoT : `Dev Central Tree\01_Hubs\` | pywebview + WebView2 | UAC admin | lazy DOM | ConfirmGate  
-Ship : `Launch-Hub-*.zip` **par remote** `Mr-Aurevo-X/Hub-*` (plus dâ€™Install-Easy / PCCommand-Releases)  
-**Public** Â· **License:** PolyForm Noncommercial 1.0.0 Â· builds officiels = Releases de chaque repo seulement
+Ship : `Launch-Hub-*.zip` **par remote** `Mr-Aurevo-X/Hub-*` (plus d???Install-Easy / PCCommand-Releases)  
+**Public** ?? **License:** PolyForm Noncommercial 1.0.0 ?? builds officiels = Releases de chaque repo seulement
 
 ```text
 01_Hubs/
@@ -146,50 +146,50 @@ Ship : `Launch-Hub-*.zip` **par remote** `Mr-Aurevo-X/Hub-*` (plus dâ€™Inst
 
 Remotes publics :
   github.com/Mr-Aurevo-X/Hub-Systeme | Hub-Reseau | Hub-Securite | Hub-Utilitaires
-  â†’ Releases tag v2.0.0
+  ??? Releases tag v2.0.0
 
-02_Shared_Infrastructure/   (SoT interne â€” pas un produit public)
+02_Shared_Infrastructure/   (SoT interne ??? pas un produit public)
 |-- UI-proprietaire/    pc-command-kit SoT
 |-- SecurityHelpers/    ConfirmGate + security.py
 |-- HostHelpers/        window_chrome | suite_launch | hub_update
 |-- LegalHelpers/
 `-- DevTreeTemplates/
 
-standalone : Opti (SoftTunes) Â· GameChangelog â†’ 03_Standalones/ + Releases sur leur remote
+standalone : Opti (SoftTunes) ?? GameChangelog ??? 03_Standalones/ + Releases sur leur remote
 ```
 
 <a id="game-lounge"></a>
 
-### ðŸŽ® Game Lounge â€” Game Hub
+### ???? Game Lounge ??? Game Hub
 
-SoT jeux : [`Game-Lounge`](https://github.com/Mr-Aurevo-X/Game-Lounge) (monorepo web â€” build `dist-site/` pour hÃ©bergement statique)  
-29 jeux *-X jouables dans le navigateur (iframe Game Lounge). Dev local : `Lancer.cmd` â†’ localhost.  
-Idle Incremental (**â‰¥ 100 h**) + Tycoon-X + Cascade-X / Probe-X (Nostalgic).
+SoT jeux : [`Game-Lounge`](https://github.com/Mr-Aurevo-X/Game-Lounge) (monorepo web ??? build `dist-site/` pour h??bergement statique)  
+29 jeux *-X jouables dans le navigateur (iframe Game Lounge). Dev local : `Lancer.cmd` ??? localhost.  
+Idle Incremental (**??? 100 h**) + Tycoon-X + Cascade-X / Probe-X (Nostalgic).
 
 ```text
-Game-Lounge/                * SoT sources (pnpm build â†’ dist-site/)
+Game-Lounge/                * SoT sources (pnpm build ??? dist-site/)
 apps/launcher/              catalogue Game Lounge + iframe
 games/<slug>/               jeux Vite/React
-docs/WEB-DEPLOY.md          dÃ©ploiement sur votre hÃ©bergement
+docs/WEB-DEPLOY.md          d??ploiement sur votre h??bergement
 ```
 
 <a id="opti"></a>
 
-### âš¡ SoftTunes â€” Standalone
+### ??? SoftTunes ??? Standalone
 
 ```text
 SoftTunes/                  * repo Mr-Aurevo-X/SoftTunes (local clone: 03_Standalones/Opti)
 |-- Opti.exe | Lancer.cmd   (exe name legacy until rebuild rename)
 |-- AppData install: %LOCALAPPDATA%\Programs\SoftTunes
 |-- AppData data:    %LOCALAPPDATA%\SoftTunes
-`-- ship â†’ SoftTunes.zip on SoftTunes Releases
+`-- ship ??? SoftTunes.zip on SoftTunes Releases
 ```
 
 <a id="fakevps"></a>
 
-### ðŸ–¥ï¸ FakeVPS â€” Local Rehearsal
+### ??????? FakeVPS ??? Local Rehearsal
 
-Local Ubuntu node that behaves like a mid-range VPS. **Public source** â€” [Mr-Aurevo-X/FakeVPS](https://github.com/Mr-Aurevo-X/FakeVPS) Â· **1.0.0 final** (upstream frozen; fork to continue).
+Local Ubuntu node that behaves like a mid-range VPS. **Public source** ??? [Mr-Aurevo-X/FakeVPS](https://github.com/Mr-Aurevo-X/FakeVPS) ?? **1.0.0 final** (upstream frozen; fork to continue).
 
 ```text
 FakeVPS/                    * localhost rehearsal [public]
@@ -200,9 +200,9 @@ FakeVPS/                    * localhost rehearsal [public]
 
 <a id="sentinel"></a>
 
-### ðŸ›¡ï¸ Sentinel â€” Discord Platform
+### ??????? Sentinel ??? Discord Platform
 
-Unified Discord bot + dashboard. **Public source** â€” [Mr-Aurevo-X/Mr-X-Sentinel](https://github.com/Mr-Aurevo-X/Mr-X-Sentinel) Â· **v2.0.0** Apache-2.0 (upstream frozen; fork to continue). No official bot to invite: run **your** instance.
+Unified Discord bot + dashboard. **Public source** ??? [Mr-Aurevo-X/Mr-X-Sentinel](https://github.com/Mr-Aurevo-X/Mr-X-Sentinel) ?? **v2.0.0** Apache-2.0 (upstream frozen; fork to continue). No official bot to invite: run **your** instance.
 
 ```text
 Mr-X-Sentinel/              * Discord platform [public]
@@ -213,7 +213,7 @@ Mr-X-Sentinel/              * Discord platform [public]
 
 <a id="linux"></a>
 
-### ðŸ“¦ Linux â€” Public Binaries
+### ???? Linux ??? Public Binaries
 
 Sources stay private. Public installables only.
 
@@ -229,7 +229,7 @@ linux-flatpak-releases/     * .flatpak
 
 ---
 
-## ðŸ“¡ Telemetry
+## ???? Telemetry
 
 <div align="center">
 
@@ -247,7 +247,7 @@ linux-flatpak-releases/     * .flatpak
 
 ---
 
-## ðŸ§© Stack
+## ???? Stack
 
 <div align="center">
 
@@ -282,29 +282,29 @@ linux-flatpak-releases/     * .flatpak
 
 ---
 
-## ðŸ› ï¸ Sur mesure â€” Custom Builds
+## ??????? Sur mesure ??? Custom Builds
 
 `BY_REQUEST` | `GITHUB_COMPLIANT` | `WIN+LINUX` | `SCOPE_FIRST`
 
-> **FR** â€” CrÃ©ation de logiciels **Ã  la demande** : utilitaires desktop, petits outils internes, scripts / automatisations, intÃ©grations lÃ©gÃ¨res. Chaque demande est cadrÃ©e pour rester **conforme** aux [Conditions d'utilisation GitHub](https://docs.github.com/site-policy/github-terms/github-terms-of-service), Ã  la [Politique d'utilisation acceptable](https://docs.github.com/site-policy/acceptable-use-policies/github-acceptable-use-policy) et aux [Directives communautaires](https://docs.github.com/site-policy/github-terms/github-community-guidelines) â€” pas de malware, pas de contournement de sÃ©curitÃ© / DRM, pas de spam ou contenu interdit. La **vitrine publique** reste gratuite ; le sur-mesure se discute en amont (besoin, dÃ©lais, livrables, repo privÃ© ou public selon le cas).
+> **FR** ??? Cr??ation de logiciels **?? la demande** : utilitaires desktop, petits outils internes, scripts / automatisations, int??grations l??g??res. Chaque demande est cadr??e pour rester **conforme** aux [Conditions d'utilisation GitHub](https://docs.github.com/site-policy/github-terms/github-terms-of-service), ?? la [Politique d'utilisation acceptable](https://docs.github.com/site-policy/acceptable-use-policies/github-acceptable-use-policy) et aux [Directives communautaires](https://docs.github.com/site-policy/github-terms/github-community-guidelines) ??? pas de malware, pas de contournement de s??curit?? / DRM, pas de spam ou contenu interdit. La **vitrine publique** reste gratuite ; le sur-mesure se discute en amont (besoin, d??lais, livrables, repo priv?? ou public selon le cas).
 >
-> **EN** â€” **On-demand** software: desktop utilities, internal tools, scripts / automation, light integrations. Every request is scoped to stay **within** GitHub [Terms of Service](https://docs.github.com/site-policy/github-terms/github-terms-of-service), [Acceptable Use Policy](https://docs.github.com/site-policy/acceptable-use-policies/github-acceptable-use-policy), and [Community Guidelines](https://docs.github.com/site-policy/github-terms/github-community-guidelines) â€” no malware, no security / DRM bypass, no spam or prohibited content. The **public vitrine** stays free; custom work is agreed upfront (scope, timeline, deliverables, private vs public repo as needed).
+> **EN** ??? **On-demand** software: desktop utilities, internal tools, scripts / automation, light integrations. Every request is scoped to stay **within** GitHub [Terms of Service](https://docs.github.com/site-policy/github-terms/github-terms-of-service), [Acceptable Use Policy](https://docs.github.com/site-policy/acceptable-use-policies/github-acceptable-use-policy), and [Community Guidelines](https://docs.github.com/site-policy/github-terms/github-community-guidelines) ??? no malware, no security / DRM bypass, no spam or prohibited content. The **public vitrine** stays free; custom work is agreed upfront (scope, timeline, deliverables, private vs public repo as needed).
 
 ```diff
 + IN_SCOPE ....... desktop tools | admin helpers | local-first apps | Discord bots (compliant)
-+ PROCESS ........ brief â†’ feasibility â†’ estimate â†’ build â†’ handoff
++ PROCESS ........ brief ??? feasibility ??? estimate ??? build ??? handoff
 ! OUT_OF_SCOPE ... cheats | cracks | spyware | ToS / AUP violations | undisclosed automation abuse
 ```
 
 | | |
 |:--|:--|
-| **Contact** | [Discord DM](https://discord.com/users/406891052516114442) â€” dÃ©crire le besoin / describe the use case |
-| **Typical stack** | Python Â· pywebview Â· PowerShell Â· GTK / Flatpak Â· Node / React (selon brief) |
-| **Delivery** | sources + build path Â· repo GitHub privÃ© ou public Â· pas de engagement sans accord Ã©crit |
+| **Contact** | [Discord DM](https://discord.com/users/406891052516114442) ??? d??crire le besoin / describe the use case |
+| **Typical stack** | Python ?? pywebview ?? PowerShell ?? GTK / Flatpak ?? Node / React (selon brief) |
+| **Delivery** | sources + build path ?? repo GitHub priv?? ou public ?? pas de engagement sans accord ??crit |
 
 ---
 
-## ðŸ¤ Connect â€” Support
+## ???? Connect ??? Support
 
 <div align="center">
 
@@ -329,7 +329,7 @@ linux-flatpak-releases/     * .flatpak
 <div align="center">
 
 **Built by Cursor AI | Ideas & QA by Mr-Aurevo-X**
-**AI-Operated Workshop â€” not a portfolio of vibes, a factory of tools.**
+**AI-Operated Workshop ??? not a portfolio of vibes, a factory of tools.**
 
 <br/>
 
