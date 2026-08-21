@@ -64,7 +64,7 @@ Single crafted factory board (dual-split: **BUILD green** / **QA cyan**). Decora
 
 `WIN=4_exe` | `LINUX=3_apps` | `PC_COMMAND=4_HUBS` | `FAKEVPS+SENTINEL=public` | `AI-built` | `human-tested`
 
-**License:** Vitrine Windows + Linux binaries = proprietary (no source). **PC Command hubs** = PolyForm Noncommercial 1.0.0 (source + `Launch-Hub-*.zip` public). **FakeVPS** = custom (source public, 1.0.0 final). **Sentinel** = Apache-2.0 (source public, v2.0.0).
+**License:** Vitrine Windows + Linux binaries = proprietary (no source). **PC Command hubs** + **LocalDock** = PolyForm Noncommercial 1.0.0 (source + zip public). **FakeVPS** = custom (source public, 1.0.0 final). **Sentinel** = Apache-2.0 (source public, v2.0.0).
 
 ### 🖥️ PC Command — 4 Hubs
 
@@ -77,6 +77,15 @@ Ship : `Launch-Hub-*.zip` **par remote** (pas de canal Install-Easy / PCCommand-
 | **Network** | Adaptateurs · carte · Traffic · Wi‑Fi | [repo](https://github.com/Mr-Aurevo-X/Hub-Reseau) / [v2.0.0](https://github.com/Mr-Aurevo-X/Hub-Reseau/releases/tag/v2.0.0) |
 | **Security** | FileGuard · CertView · RepoRadar · WinAudit | [repo](https://github.com/Mr-Aurevo-X/Hub-Securite) / [v2.0.0](https://github.com/Mr-Aurevo-X/Hub-Securite/releases/tag/v2.0.0) |
 | **Utilities** | UtilKit + MediaKit | [repo](https://github.com/Mr-Aurevo-X/Hub-Utilitaires) / [v2.0.0](https://github.com/Mr-Aurevo-X/Hub-Utilitaires/releases/tag/v2.0.0) |
+
+### ⚓ LocalDock
+
+**Public** · gratuit · local-first · PolyForm NC · zip portable · **v0.1.0**  
+Ship : `LocalDock.zip` sur [Mr-Aurevo-X/LocalDock](https://github.com/Mr-Aurevo-X/LocalDock) (sources + Windows exe)
+
+| Outil | Role | Lien |
+|:--|:--|:--|
+| **LocalDock** | Racines de confiance · scan · ports loopback | [repo](https://github.com/Mr-Aurevo-X/LocalDock) / [v0.1.0](https://github.com/Mr-Aurevo-X/LocalDock/releases/tag/v0.1.0) |
 
 ### 🪟 Windows — 4 Desktop Tools
 
@@ -118,6 +127,7 @@ Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurev
 ```text
 /workshop
 |-- atelier/     PC Command | 4 hubs in-hub (Dashboard + modules)         [public]
+|-- localdock/   loopback-only dev launcher (Rust / Tauri)         [public]
 |-- game-lounge/  Game Lounge web | 29 *-X | Game-Lounge SoT (site statique) [private]
 |-- opti/        standalone gaming optimizer                       [private]
 |-- fakevps/     local Ubuntu rehearsal (6G / 4 vCPU / 40G)        [public]
@@ -147,6 +157,9 @@ Ship : `Launch-Hub-*.zip` **par remote** `Mr-Aurevo-X/Hub-*` (plus d’Install-E
 Remotes publics :
   github.com/Mr-Aurevo-X/Hub-Systeme | Hub-Reseau | Hub-Securite | Hub-Utilitaires
   → Releases tag v2.0.0
+
+LocalDock (hors hubs, même licence PolyForm) :
+  github.com/Mr-Aurevo-X/LocalDock → Releases tag v0.1.0 (`LocalDock.zip`)
 
 02_Shared_Infrastructure/   (SoT interne — pas un produit public)
 |-- UI-proprietaire/    pc-command-kit SoT
