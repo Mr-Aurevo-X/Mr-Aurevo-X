@@ -13,7 +13,7 @@
 [![Cursor AI](https://img.shields.io/badge/BUILT_BY-CURSOR_AI-39ff14?style=for-the-badge&labelColor=050807&logo=cursor&logoColor=39ff14)](https://cursor.com)
 [![Mr-Aurevo-X QA](https://img.shields.io/badge/IDEAS_%26_QA-MR--AUREVO--X-00f0ff?style=for-the-badge&labelColor=050807)](https://github.com/Mr-Aurevo-X)
 
-`STATUS=ONLINE` | `WIN=4_exe` | `LINUX=3_apps` | `PC_COMMAND=5_HUBS` | `FAKEVPS+SENTINEL=public` | `INSTALL_EASY+RELEASES=private` | `SALON=v2.0.0_29_GAMES` | `MODE=AI_OPERATED`
+`STATUS=ONLINE` | `WIN=4_exe` | `LINUX=3_apps` | `PC_COMMAND=4_HUBS_public` | `FAKEVPS+SENTINEL=public` | `SALON=v2.0.0_29_GAMES` | `MODE=AI_OPERATED`
 
 </div>
 
@@ -62,9 +62,21 @@ Single crafted factory board (dual-split: **BUILD green** / **QA cyan**). Decora
 
 ## ✨ Featured — Public Vitrine
 
-`WIN=4_exe` | `LINUX=3_apps` | `FAKEVPS+SENTINEL=public` | `AI-built` | `human-tested`
+`WIN=4_exe` | `LINUX=3_apps` | `PC_COMMAND=4_HUBS` | `FAKEVPS+SENTINEL=public` | `AI-built` | `human-tested`
 
-**License:** Windows + Linux binaries = proprietary (no source). **FakeVPS** = custom (source public, 1.0.0 final). **Sentinel** = Apache-2.0 (source public, v2.0.0).
+**License:** Vitrine Windows + Linux binaries = proprietary (no source). **PC Command hubs** = PolyForm Noncommercial 1.0.0 (source + `Launch-Hub-*.zip` public). **FakeVPS** = custom (source public, 1.0.0 final). **Sentinel** = Apache-2.0 (source public, v2.0.0).
+
+### 🖥️ PC Command — 4 Hubs
+
+**Public** · gratuit · autant local que possible · UAC admin · zip portable · **v2.0.0**  
+Ship : `Launch-Hub-*.zip` **par remote** (pas de canal Install-Easy / PCCommand-Releases)
+
+| Hub | Role | Lien |
+|:--|:--|:--|
+| **System** | Ménage · RAM · process · désinstall | [repo](https://github.com/Mr-Aurevo-X/Hub-Systeme) / [v2.0.0](https://github.com/Mr-Aurevo-X/Hub-Systeme/releases/tag/v2.0.0) |
+| **Network** | Adaptateurs · carte · Traffic · Wi‑Fi | [repo](https://github.com/Mr-Aurevo-X/Hub-Reseau) / [v2.0.0](https://github.com/Mr-Aurevo-X/Hub-Reseau/releases/tag/v2.0.0) |
+| **Security** | FileGuard · CertView · RepoRadar · WinAudit | [repo](https://github.com/Mr-Aurevo-X/Hub-Securite) / [v2.0.0](https://github.com/Mr-Aurevo-X/Hub-Securite/releases/tag/v2.0.0) |
+| **Utilities** | UtilKit + MediaKit | [repo](https://github.com/Mr-Aurevo-X/Hub-Utilitaires) / [v2.0.0](https://github.com/Mr-Aurevo-X/Hub-Utilitaires/releases/tag/v2.0.0) |
 
 ### 🪟 Windows — 4 Desktop Tools
 
@@ -105,7 +117,7 @@ Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurev
 
 ```text
 /workshop
-|-- atelier/     PC Command | 4 hubs publics in-hub (Dashboard + modules) [private]
+|-- atelier/     PC Command | 4 hubs in-hub (Dashboard + modules)         [public]
 |-- game-lounge/  Game Lounge web | 29 *-X | Game-Lounge SoT (site statique) [private]
 |-- opti/        standalone gaming optimizer                       [private]
 |-- fakevps/     local Ubuntu rehearsal (6G / 4 vCPU / 40G)        [public]
@@ -123,7 +135,7 @@ Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurev
 
 SoT : `Dev Central Tree\01_Hubs\` | pywebview + WebView2 | UAC admin | lazy DOM | ConfirmGate  
 Ship : `Launch-Hub-*.zip` **par remote** `Mr-Aurevo-X/Hub-*` (plus d’Install-Easy / PCCommand-Releases)  
-**License:** Proprietary · free to use · no rebrand / no source republication
+**Public** · **License:** PolyForm Noncommercial 1.0.0 · builds officiels = Releases de chaque repo seulement
 
 ```text
 01_Hubs/
@@ -132,7 +144,11 @@ Ship : `Launch-Hub-*.zip` **par remote** `Mr-Aurevo-X/Hub-*` (plus d’Install-E
 |-- Hub-Securite/       * FileGuard | CertView | RepoRadar | WinAudit
 `-- Hub-Utilitaires/    * UtilKit (+ ShellKit) | MediaKit | Capture | ColorPicker | ...
 
-02_Shared_Infrastructure/
+Remotes publics :
+  github.com/Mr-Aurevo-X/Hub-Systeme | Hub-Reseau | Hub-Securite | Hub-Utilitaires
+  → Releases tag v2.0.0
+
+02_Shared_Infrastructure/   (SoT interne — pas un produit public)
 |-- UI-proprietaire/    pc-command-kit SoT
 |-- SecurityHelpers/    ConfirmGate + security.py
 |-- HostHelpers/        window_chrome | suite_launch | hub_update

@@ -78,9 +78,9 @@ def factory_svg() -> str:
   <rect x="286" y="72" width="520" height="340" rx="8" fill="{DEEP}" stroke="{STROKE_C}" stroke-width="1.5"/>
   <text x="302" y="96" fill="{CYAN}" font-family="Consolas, monospace" font-size="13">MOUNTS -- Dev Central Tree</text>
 
-  <!-- mount chips row 1 (private) -->
-  <rect x="302" y="112" width="110" height="26" rx="4" fill="#071410" stroke="{GREEN}"/>
-  <text x="316" y="129" fill="{GREEN}" font-family="Consolas, monospace" font-size="11">atelier</text>
+  <!-- mount chips row 1 (atelier public · salon/opti private) -->
+  <rect x="302" y="112" width="110" height="26" rx="4" fill="#071018" stroke="{CYAN}"/>
+  <text x="316" y="129" fill="{CYAN}" font-family="Consolas, monospace" font-size="11">atelier</text>
   <rect x="422" y="112" width="110" height="26" rx="4" fill="#071410" stroke="{GREEN}"/>
   <text x="446" y="129" fill="{GREEN}" font-family="Consolas, monospace" font-size="11">salon</text>
   <rect x="542" y="112" width="110" height="26" rx="4" fill="#071410" stroke="{GREEN}"/>
@@ -96,7 +96,7 @@ def factory_svg() -> str:
   <rect x="650" y="146" width="108" height="26" rx="4" fill="#071018" stroke="{CYAN}"/>
   <text x="662" y="163" fill="{CYAN}" font-family="Consolas, monospace" font-size="10">sentinel</text>
 
-  <text x="302" y="184" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="11">ATELIER  | 4 hubs in-hub | UAC</text>
+  <text x="302" y="184" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="11">ATELIER  | 4 hubs public | UAC | v2.0.0</text>
   <text x="302" y="200" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="11">SALON    | Tauri v2 | 29 *-X on-demand</text>
   <text x="302" y="216" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="11">OPTI     | standalone gaming opt</text>
   <text x="302" y="232" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="11">FAKEVPS  | 1.0.0 final | public src</text>
@@ -127,7 +127,7 @@ def factory_svg() -> str:
   </g>
 
   <text x="302" y="388" fill="{MUTED}" font-family="Consolas, monospace" font-size="11">rule: if it ships, AI wrote it -- Mr-Aurevo-X signed it off</text>
-  <text x="302" y="404" fill="{MUTED}" font-family="Consolas, monospace" font-size="11">SoT: Dev Central Tree | binaries public | sources private</text>
+  <text x="302" y="404" fill="{MUTED}" font-family="Consolas, monospace" font-size="11">SoT: Dev Central Tree | PC Command Hub-* public | vitrine binaries</text>
 
   <!-- RIGHT: ship channel + connect -->
   <rect x="818" y="72" width="258" height="340" rx="8" fill="{DEEP}" stroke="{CYAN}" stroke-width="1.5"/>
@@ -172,7 +172,7 @@ README_TEMPLATE = """<div align="center">
 [![Cursor AI](https://img.shields.io/badge/BUILT_BY-CURSOR_AI-39ff14?style=for-the-badge&labelColor=050807&logo=cursor&logoColor=39ff14)](https://cursor.com)
 [![Mr-Aurevo-X QA](https://img.shields.io/badge/IDEAS_%26_QA-MR--AUREVO--X-00f0ff?style=for-the-badge&labelColor=050807)](https://github.com/Mr-Aurevo-X)
 
-`STATUS=ONLINE` | `WIN=4_exe` | `LINUX=3_apps` | `PC_COMMAND=5_HUBS` | `FAKEVPS+SENTINEL=public` | `INSTALL_EASY+RELEASES=private` | `SALON=9_GAMES` | `MODE=AI_OPERATED`
+`STATUS=ONLINE` | `WIN=4_exe` | `LINUX=3_apps` | `PC_COMMAND=4_HUBS_public` | `FAKEVPS+SENTINEL=public` | `SALON=9_GAMES` | `MODE=AI_OPERATED`
 
 </div>
 
@@ -264,7 +264,7 @@ Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurev
 
 ```text
 /workshop
-|-- atelier/     PC Command | 4 hubs publics in-hub (Dashboard + modules) [private]
+|-- atelier/     PC Command | 4 hubs in-hub (Dashboard + modules)         [public]
 |-- salon/       Game launcher | 9 original X (100h+) | Tycoon/Arcade soon [private]
 |-- opti/        standalone gaming optimizer                       [private]
 |-- fakevps/     local Ubuntu rehearsal (6G / 4 vCPU / 40G)        [public]
@@ -282,14 +282,18 @@ Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurev
 
 SoT : `Dev Central Tree\\01_Hubs\\` | pywebview + WebView2 | UAC admin | lazy DOM | ConfirmGate  
 Ship : `Launch-Hub-*.zip` **per** `Mr-Aurevo-X/Hub-*` Releases (no Install-Easy / central channel)  
-**License:** Proprietary · free to use · no rebrand / no source republication
+**Public** · **License:** PolyForm Noncommercial 1.0.0 · official builds = each repo Releases only
 
 ```text
 01_Hubs/
 |-- Hub-Systeme/        * SystemClean | RamCleaner | ProcessHub | UninstX | SysInspect | ...
-|-- Hub-Reseau/         * NetAdmin | NetMap | RoadWay-X | WifiKey
+|-- Hub-Reseau/         * NetAdmin | NetMap | Traffic | WifiKey
 |-- Hub-Securite/       * FileGuard | CertView | RepoRadar | WinAudit
 `-- Hub-Utilitaires/    * UtilKit (+ ShellKit) | MediaKit | Capture | ColorPicker | ...
+
+Remotes publics :
+  github.com/Mr-Aurevo-X/Hub-Systeme | Hub-Reseau | Hub-Securite | Hub-Utilitaires
+  → Releases tag v2.0.0
 
 02_Shared_Infrastructure/
 |-- UI-proprietaire/    pc-command-kit SoT
