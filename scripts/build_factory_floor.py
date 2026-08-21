@@ -78,13 +78,15 @@ def factory_svg() -> str:
   <rect x="286" y="72" width="520" height="340" rx="8" fill="{DEEP}" stroke="{STROKE_C}" stroke-width="1.5"/>
   <text x="302" y="96" fill="{CYAN}" font-family="Consolas, monospace" font-size="13">MOUNTS -- Dev Central Tree</text>
 
-  <!-- mount chips row 1 (atelier public · lounge private · softtunes public) -->
-  <rect x="302" y="112" width="110" height="26" rx="4" fill="#071018" stroke="{CYAN}"/>
+  <!-- mount chips row 1 (atelier public · lounge private · softtunes public · changelog public) -->
+  <rect x="302" y="112" width="100" height="26" rx="4" fill="#071018" stroke="{CYAN}"/>
   <text x="316" y="129" fill="{CYAN}" font-family="Consolas, monospace" font-size="11">atelier</text>
-  <rect x="422" y="112" width="110" height="26" rx="4" fill="#071410" stroke="{GREEN}"/>
-  <text x="440" y="129" fill="{GREEN}" font-family="Consolas, monospace" font-size="11">lounge</text>
-  <rect x="542" y="112" width="110" height="26" rx="4" fill="#071018" stroke="{CYAN}"/>
-  <text x="552" y="129" fill="{CYAN}" font-family="Consolas, monospace" font-size="10">softtunes</text>
+  <rect x="410" y="112" width="100" height="26" rx="4" fill="#071410" stroke="{GREEN}"/>
+  <text x="428" y="129" fill="{GREEN}" font-family="Consolas, monospace" font-size="11">lounge</text>
+  <rect x="518" y="112" width="108" height="26" rx="4" fill="#071018" stroke="{CYAN}"/>
+  <text x="528" y="129" fill="{CYAN}" font-family="Consolas, monospace" font-size="10">softtunes</text>
+  <rect x="634" y="112" width="124" height="26" rx="4" fill="#071018" stroke="{CYAN}"/>
+  <text x="642" y="129" fill="{CYAN}" font-family="Consolas, monospace" font-size="9">changelog</text>
 
   <!-- mount chips row 2 (public) -->
   <rect x="302" y="146" width="108" height="26" rx="4" fill="#071018" stroke="{CYAN}"/>
@@ -96,13 +98,13 @@ def factory_svg() -> str:
   <rect x="650" y="146" width="108" height="26" rx="4" fill="#071018" stroke="{CYAN}"/>
   <text x="662" y="163" fill="{CYAN}" font-family="Consolas, monospace" font-size="10">sentinel</text>
 
-  <text x="302" y="184" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="11">ATELIER  | 4 hubs public | UAC | v2.0.0</text>
-  <text x="302" y="200" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="11">LOUNGE   | Game Lounge web | 29 *-X</text>
+  <text x="302" y="184" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="11">ATELIER  | 4 hubs + LocalDock v0.1.0</text>
+  <text x="302" y="200" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="11">LOUNGE   | Game Lounge web | 28 *-X</text>
   <text x="302" y="216" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="11">SOFTTUNES| v2.0.0 public | session</text>
-  <text x="302" y="232" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="11">FAKEVPS  | 1.0.0 final | public src</text>
-  <text x="302" y="248" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="11">SENTINEL | v2.0.0 | Apache-2.0</text>
-  <text x="302" y="264" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="11">WIN      | 4 desktop .exe | free</text>
-  <text x="302" y="280" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="11">LINUX    | Crypto Tracker | Gest | Kit</text>
+  <text x="302" y="232" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="11">GCHANGELOG| v1.0.3 public | Steam notes</text>
+  <text x="302" y="248" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="11">FAKEVPS  | 1.0.0 final | public src</text>
+  <text x="302" y="264" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="11">WIN      | 4 desktop .exe | PolyForm</text>
+  <text x="302" y="280" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="11">LINUX    | 3 apps | binaries only</text>
 
   <line x1="302" y1="286" x2="786" y2="286" stroke="{STROKE_C}"/>
   <text x="302" y="306" fill="{GREEN}" font-family="Consolas, monospace" font-size="12">WIN TICKER</text>
@@ -127,7 +129,7 @@ def factory_svg() -> str:
   </g>
 
   <text x="302" y="388" fill="{MUTED}" font-family="Consolas, monospace" font-size="11">rule: if it ships, AI wrote it -- Mr-Aurevo-X signed it off</text>
-  <text x="302" y="404" fill="{MUTED}" font-family="Consolas, monospace" font-size="11">SoT: Dev Central Tree | PC Command Hub-* public | vitrine binaries</text>
+  <text x="302" y="404" fill="{MUTED}" font-family="Consolas, monospace" font-size="11">SoT: Dev Central Tree | Hub-* + SoftTunes + GameChangelog public</text>
 
   <!-- RIGHT: ship channel + connect -->
   <rect x="818" y="72" width="258" height="340" rx="8" fill="{DEEP}" stroke="{CYAN}" stroke-width="1.5"/>
@@ -157,324 +159,12 @@ def factory_svg() -> str:
 '''
 
 
-README_TEMPLATE = """<div align="center">
-
-# `>_ mr-aurevo-x@workshop:~`
-
-**AI-Run Workshop — Cursor Builds | Mr-Aurevo-X QA | Windows + Linux**
-
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/PENDING/assets/hero-boot.svg?v=PENDING" alt="Boot console scrolling" width="100%"/>
-
-<br/>
-
-[![GitHub followers](https://img.shields.io/github/followers/Mr-Aurevo-X?style=for-the-badge&logo=github&logoColor=39ff14&color=050807&labelColor=071410)](https://github.com/Mr-Aurevo-X)
-[![Profile views](https://komarev.com/ghpvc/?username=Mr-Aurevo-X&style=for-the-badge&color=00f0ff&label=VISITORS)](https://github.com/Mr-Aurevo-X)
-[![Cursor AI](https://img.shields.io/badge/BUILT_BY-CURSOR_AI-39ff14?style=for-the-badge&labelColor=050807&logo=cursor&logoColor=39ff14)](https://cursor.com)
-[![Mr-Aurevo-X QA](https://img.shields.io/badge/IDEAS_%26_QA-MR--AUREVO--X-00f0ff?style=for-the-badge&labelColor=050807)](https://github.com/Mr-Aurevo-X)
-
-`STATUS=ONLINE` | `WIN=4_exe` | `LINUX=3_apps` | `PC_COMMAND=4_HUBS_public` | `FAKEVPS+SENTINEL=public` | `SALON=9_GAMES` | `MODE=AI_OPERATED`
-
-</div>
-
----
-
-## 💻 Sessions — Dual Console
-
-<div align="center">
-
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/PENDING/assets/console-build.svg?v=PENDING" alt="Cursor AI build console (green)" width="100%"/>
-    </td>
-    <td width="50%" align="center">
-      <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/PENDING/assets/console-qa.svg?v=PENDING" alt="Mr-Aurevo-X QA console (cyan)" width="100%"/>
-    </td>
-  </tr>
-</table>
-
-</div>
-
-```diff
-+ CURSOR AI ........ architecture | code | refactors | tooling | shipping
-+ MR-AUREVO-X ...... product ideas | real-world testing | QA | vision
-! RULE ............. if it ships, AI wrote it - Mr-Aurevo-X signed it off
-```
-
-> **FR** - L'IA construit et opere. Mr-Aurevo-X apporte les idees, casse / teste, et valide.
->
-> **EN** - Cursor AI builds & operates. Mr-Aurevo-X brings ideas, stress-tests, and the green light.
-
----
-
-## 🏭 Workshop Floor
-
-Single crafted factory board (dual-split: **BUILD green** / **QA cyan**). Decorative status only -- not live CI, not live chat.
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/PENDING/assets/factory-floor.svg?v=PENDING" alt="Workshop factory floor status board" width="100%"/>
-
-</div>
-
----
-
-## ✨ Featured — Public Vitrine
-
-`WIN=4_exe` | `LINUX=3_apps` | `FAKEVPS+SENTINEL=public` | `AI-built` | `human-tested`
-
-**License:** Windows + Linux binaries = proprietary (no source). **FakeVPS** = custom (source public, 1.0.0 final). **Sentinel** = Apache-2.0 (source public, v2.0.0).
-
-### 🪟 Windows — 4 Desktop Tools
-
-**Gratuits | locaux (UnitConvert Devises : taux BCE + cache offline) | `.exe` sans installation**
-SoT `Dev Central Tree\\Git Vitrine Public\\`
-
-| Outil | Role | Lien |
-|:--|:--|:--|
-| **QrTools** | QR Simple + Lot (QrMake + QrBatch · v1.2.1 · Filament) | [repo](https://github.com/Mr-Aurevo-X/QrTools) / [releases](https://github.com/Mr-Aurevo-X/QrTools/releases/latest) |
-| **UnitConvert** | Unités + Devises (v1.3.1 · Filament) | [repo](https://github.com/Mr-Aurevo-X/UnitConvert) / [releases](https://github.com/Mr-Aurevo-X/UnitConvert/releases/latest) |
-| **TimeTools** | Horodatage · chrono · minuteries · Pomodoro (v1.2.1 · Filament) | [repo](https://github.com/Mr-Aurevo-X/TimeTools) / [releases](https://github.com/Mr-Aurevo-X/TimeTools/releases/latest) |
-| **PixClean** | Strip EXIF/GPS/XMP (ex-MetaStrip · v1.4.1 · Filament) | [repo](https://github.com/Mr-Aurevo-X/PixClean) / [releases](https://github.com/Mr-Aurevo-X/PixClean/releases/latest) |
-
-### 🐧 Linux — 3 Apps
-
-**Binaries only (no source) | native + Flatpak**
-
-| App | Role | Version | Native | Flatpak |
-|:--|:--|:--|:--|:--|
-| **Crypto Tracker** | local crypto portfolio | 1.2.17 | [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/crypto-tracker-v1.2.17) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/crypto-tracker-v1.2.17) |
-| **Gest Linux Pro** | GTK system toolkit | 2.2.1 | — (Flatpak only) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/Gest_Linux_Pro-v2.2.1) |
-| **MrAurevoX Kit** | local toolkit (search, hash, PDF, disk map) | 2.1.0 | [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/MrAurevoX-Kit-v2.1.0) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/MrAurevoX-Kit-v2.1.0) |
-
-Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases). **Gest : Flatpak uniquement** (plus de native). Flatpak: `.flatpak` via [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases) (Freedesktop 25.08 / GNOME 49).
-
-### 🔓 Source — FakeVPS + Sentinel
-
-**Clone OK** | no official hosted instance | upstream frozen (fork to continue)
-
-| Project | Role | Version | License | Lien |
-|:--|:--|:--|:--|:--|
-| **FakeVPS** | local Ubuntu rehearsal (6G / 4 vCPU / cockpit :8787) | 1.0.0 final | custom | [repo](https://github.com/Mr-Aurevo-X/FakeVPS) / [releases](https://github.com/Mr-Aurevo-X/FakeVPS/releases/tag/v1.0.0) |
-| **Mr-X Sentinel** | Discord platform (mod, eco, XP, tickets, music) | 2.0.0 | Apache-2.0 | [repo](https://github.com/Mr-Aurevo-X/Mr-X-Sentinel) / [releases](https://github.com/Mr-Aurevo-X/Mr-X-Sentinel/releases/tag/v2.0.0) |
-
----
-
-## 📂 Mounts — Filesystem
-
-```text
-/workshop
-|-- atelier/       PC Command | 4 hubs in-hub · v2.0.0                 [public]
-|-- localdock/     LocalDock v0.1.0 | loopback trust roots             [public]
-|-- game-lounge/   Game Lounge web | 29 *-X (site statique)            [private]
-|-- softtunes/     SoftTunes v2.0.0 | session prep + FPS meter         [public]
-|-- gamechangelog/ GameChangelog v1.0.3 | Steam patch notes            [public]
-|-- fakevps/       local Ubuntu rehearsal (6G / 4 vCPU / 40G)          [public]
-|-- sentinel/      Discord platform (mod, eco, XP, tickets, music)     [public]
-|-- vitrine/       4 Windows desktop tools · v2.0.0                    [public]
-`-- linux/         Crypto Tracker | Gest Linux Pro | MrAurevoX Kit     [public binaries]
-```
-
-<details>
-<summary><strong>🗺️ Full Workshop Map — Arborescences</strong></summary>
-
-<a id="atelier"></a>
-
-### 🛠️ Atelier — PC Command (4 Hubs)
-
-SoT : `Dev Central Tree\\01_Hubs\\` | pywebview + WebView2 | UAC admin | lazy DOM | ConfirmGate  
-Ship : `Launch-Hub-*.zip` **per** `Mr-Aurevo-X/Hub-*` Releases (no Install-Easy / central channel)  
-**Public** · **License:** PolyForm Noncommercial 1.0.0 · official builds = each repo Releases only
-
-```text
-01_Hubs/
-|-- Hub-Systeme/        * SystemClean | RamCleaner | ProcessHub | UninstX | SysInspect | ...
-|-- Hub-Reseau/         * NetAdmin | NetMap | Traffic | WifiKey
-|-- Hub-Securite/       * FileGuard | CertView | RepoRadar | WinAudit
-`-- Hub-Utilitaires/    * UtilKit (+ ShellKit) | MediaKit | Capture | ColorPicker | ...
-
-Remotes publics :
-  github.com/Mr-Aurevo-X/Hub-Systeme | Hub-Reseau | Hub-Securite | Hub-Utilitaires
-  → Releases tag v2.0.0
-
-02_Shared_Infrastructure/
-|-- UI-proprietaire/    pc-command-kit SoT
-|-- SecurityHelpers/    ConfirmGate + security.py
-|-- HostHelpers/        window_chrome | suite_launch | hub_update
-|-- LegalHelpers/
-`-- DevTreeTemplates/
-
-standalone : SoftTunes **public** v2.0.0 · GameChangelog → 03_Standalones/ + per-repo Releases
-```
-
-<a id="salon"></a>
-
-### 🎮 Salon — Game Hub
-
-SoT : `Dev Game Be Like\\` | launcher pywebview | repo privé [`Mr-Aurevo-X/Salon`](https://github.com/Mr-Aurevo-X/Salon)  
-Idle Incremental (**≥ 100 h**) + Tycoon-X + Cascade-X / Probe-X (Nostalgic). Hors-ligne idle 8 h, bonus succès.
-
-```text
-Dev Game Be Like/
-|-- Salon/games/            * private, git via Salon (NOF4)
-|   Incremental-X Factory-X Empire-X Colony-X
-|   Deck-X Battler-X Tower-X Puzzle-X Story-X
-|   Tycoon-X Cascade-X Probe-X (+ arcade/puzzle/run…)
-Dev Game Be Like/
-`-- GameChangelog/          * standalone racine Dev Central Tree (comme SoftTunes)
-```
-
-<a id="softtunes"></a>
-
-### ⚡ SoftTunes — Standalone
-
-**Public** · gratuit · local-first · PolyForm NC · **v2.0.0**  
-Ship : `SoftTunes.zip` sur [Mr-Aurevo-X/SoftTunes](https://github.com/Mr-Aurevo-X/SoftTunes) / [v2.0.0](https://github.com/Mr-Aurevo-X/SoftTunes/releases/tag/v2.0.0)
-
-```text
-SoftTunes/                  * repo Mr-Aurevo-X/SoftTunes
-|-- SoftTunes.exe | Lancer.cmd
-|-- %LOCALAPPDATA%\\Programs\\SoftTunes
-`-- ship → SoftTunes.zip on SoftTunes Releases (v2.0.0)
-```
-
-<a id="fakevps"></a>
-
-### 🖥️ FakeVPS — Local Rehearsal
-
-Local Ubuntu node that behaves like a mid-range VPS. **Public source** — [Mr-Aurevo-X/FakeVPS](https://github.com/Mr-Aurevo-X/FakeVPS) · **1.0.0 final** (upstream frozen; fork to continue).
-
-```text
-FakeVPS/                    * localhost rehearsal [public]
-|-- ./fakevps up (Docker --fast default) | ./fakevps up --kvm
-|-- envelope 6 GB / 4 vCPU / 40 GB | SSH 127.0.0.1:2222 | cockpit :8787
-`-- attach any Discord bot (none bundled)
-```
-
-<a id="sentinel"></a>
-
-### 🛡️ Sentinel — Discord Platform
-
-Unified Discord bot + dashboard. **Public source** — [Mr-Aurevo-X/Mr-X-Sentinel](https://github.com/Mr-Aurevo-X/Mr-X-Sentinel) · **v2.0.0** Apache-2.0 (upstream frozen; fork to continue). No official bot to invite: run **your** instance.
-
-```text
-Mr-X-Sentinel/              * Discord platform [public]
-|-- security | moderation | logs | economy | XP | tickets | music
-|-- Node 20/22 + pnpm | Postgres | Redis | Lavalink
-`-- slash-only | modules per guild | optional FakeVPS attach
-```
-
-<a id="linux"></a>
-
-### 📦 Linux — Public Binaries
-
-Sources stay private. Public installables only.
-
-```text
-linux-releases/             * native tar.gz | zip | .deb
-linux-flatpak-releases/     * .flatpak
-|-- Crypto Tracker          1.2.17
-|-- Gest Linux Pro          2.2.1
-`-- MrAurevoX Kit           2.1.0
-```
-
-</details>
-
----
-
-## 📡 Telemetry
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/github-stats.svg?v=fa075ff" height="165" alt="GitHub stats"/>
-
-<br/>
-
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/main/assets/github-streak.svg?v=fa075ff" alt="Streak"/>
-
-<br/>
-
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/output/github-contribution-grid-snake-dark.svg?v=32139446243" alt="Contribution snake" width="100%"/>
-
-</div>
-
----
-
-## 🧩 Stack
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/-Python-050807?style=for-the-badge&logo=python&logoColor=39ff14)
-![PowerShell](https://img.shields.io/badge/-PowerShell-050807?style=for-the-badge&logo=powershell&logoColor=00f0ff)
-![JavaScript](https://img.shields.io/badge/-JavaScript-050807?style=for-the-badge&logo=javascript&logoColor=39ff14)
-![TypeScript](https://img.shields.io/badge/-TypeScript-050807?style=for-the-badge&logo=typescript&logoColor=00f0ff)
-![HTML5](https://img.shields.io/badge/-HTML5-050807?style=for-the-badge&logo=html5&logoColor=39ff14)
-![CSS3](https://img.shields.io/badge/-CSS3-050807?style=for-the-badge&logo=css3&logoColor=00f0ff)
-![Windows](https://img.shields.io/badge/-Windows-050807?style=for-the-badge&logo=windows&logoColor=39ff14)
-![Linux](https://img.shields.io/badge/-Linux-050807?style=for-the-badge&logo=linux&logoColor=00f0ff)
-![GTK](https://img.shields.io/badge/-GTK-050807?style=for-the-badge&logo=gtk&logoColor=39ff14)
-![Flatpak](https://img.shields.io/badge/-Flatpak-050807?style=for-the-badge&logo=flatpak&logoColor=00f0ff)
-![WebView2](https://img.shields.io/badge/-WebView2-050807?style=for-the-badge&logo=microsoftedge&logoColor=00f0ff)
-![pywebview](https://img.shields.io/badge/-pywebview-050807?style=for-the-badge&logo=python&logoColor=39ff14)
-![PyInstaller](https://img.shields.io/badge/-PyInstaller-050807?style=for-the-badge&logo=python&logoColor=00f0ff)
-![Chart.js](https://img.shields.io/badge/-Chart.js-050807?style=for-the-badge&logo=chartdotjs&logoColor=39ff14)
-![Git](https://img.shields.io/badge/-Git-050807?style=for-the-badge&logo=git&logoColor=00f0ff)
-![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-050807?style=for-the-badge&logo=githubactions&logoColor=39ff14)
-![Cursor](https://img.shields.io/badge/-Cursor_AI-050807?style=for-the-badge&logo=cursor&logoColor=00f0ff)
-![Node.js](https://img.shields.io/badge/-Node.js-050807?style=for-the-badge&logo=nodedotjs&logoColor=39ff14)
-![pnpm](https://img.shields.io/badge/-pnpm-050807?style=for-the-badge&logo=pnpm&logoColor=00f0ff)
-![Next.js](https://img.shields.io/badge/-Next.js-050807?style=for-the-badge&logo=nextdotjs&logoColor=39ff14)
-![React](https://img.shields.io/badge/-React-050807?style=for-the-badge&logo=react&logoColor=00f0ff)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-050807?style=for-the-badge&logo=postgresql&logoColor=39ff14)
-![Prisma](https://img.shields.io/badge/-Prisma-050807?style=for-the-badge&logo=prisma&logoColor=00f0ff)
-![Redis](https://img.shields.io/badge/-Redis-050807?style=for-the-badge&logo=redis&logoColor=39ff14)
-![Docker](https://img.shields.io/badge/-Docker-050807?style=for-the-badge&logo=docker&logoColor=00f0ff)
-![FastAPI](https://img.shields.io/badge/-FastAPI-050807?style=for-the-badge&logo=fastapi&logoColor=39ff14)
-
-</div>
-
----
-
-## 🤝 Connect — Support
-
-<div align="center">
-
-> **FR** - Lien social + coups de pouce volontaires (tout repo public est et restera gratuit).
->
-> **EN** - Social link + optional tips (every public repo is and will stay free).
-
-<br/>
-
-[![Discord](https://img.shields.io/badge/Discord-Mr--Aurevo--X-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=050807)](https://discord.com/users/406891052516114442)
-[![guns.lol](https://img.shields.io/badge/guns.lol-mr__aurevo__x-00f0ff?style=for-the-badge&labelColor=050807&color=071410)](https://guns.lol/mr_aurevo_x)
-
-<br/>
-
-[![PayPal](https://img.shields.io/badge/PayPal-Donate-39ff14?style=for-the-badge&logo=paypal&logoColor=00f0ff&labelColor=050807)](https://www.paypal.com/paypalme/aurevo1)
-[![Revolut](https://img.shields.io/badge/Revolut-mr__aurevo__x-00f0ff?style=for-the-badge&logo=revolut&logoColor=39ff14&labelColor=050807)](https://revolut.me/mr_aurevo_x)
-
-</div>
-
----
-
-<div align="center">
-
-**Built by Cursor AI | Ideas & QA by Mr-Aurevo-X**
-**AI-Operated Workshop — not a portfolio of vibes, a factory of tools.**
-
-<br/>
-
-`end_of_transmission // stay curious`
-
-</div>
-"""
-
+# README.md is the SoT. Do not regenerate it from this script
+# (a stale template here previously regressed featured tables / mounts).
 
 def write_readme(placeholder_sha: str = "PENDING") -> None:
-    README.write_text(
-        README_TEMPLATE.replace("PENDING", placeholder_sha),
-        encoding="utf-8",
-        newline="\n",
+    raise RuntimeError(
+        "README.md is SoT — pin SHAs with pin_and_clean.py, do not rewrite the card"
     )
 
 

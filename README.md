@@ -64,7 +64,7 @@ Single crafted factory board (dual-split: **BUILD green** / **QA cyan**). Decora
 
 `WIN=4_exe` | `LINUX=3_apps` | `PC_COMMAND=4_HUBS` | `SOFTTUNES=v2.0.0` | `GAMECHANGELOG=v1.0.3` | `FAKEVPS+SENTINEL=public` | `AI-built` | `human-tested`
 
-**License:** Linux binaries = proprietary (no source). **Vitrine Windows** + **PC Command hubs** + **LocalDock** + **SoftTunes** + **GameChangelog** = PolyForm Noncommercial 1.0.0 (source + zip public). **FakeVPS** = custom (source public, 1.0.0 final). **Sentinel** = Apache-2.0 (source public, v2.0.0).
+**License:** Linux binaries = proprietary (no source). **PC Command hubs** + **LocalDock** + **SoftTunes** + **GameChangelog** + **Vitrine Windows** = PolyForm Noncommercial 1.0.0 (source + zip/exe public). **FakeVPS** = custom (source public, 1.0.0 final). **Sentinel** = Apache-2.0 (source public, v2.0.0).
 
 ### 🖥️ PC Command — 4 Hubs
 

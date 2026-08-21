@@ -50,13 +50,15 @@
   <rect x="286" y="72" width="520" height="340" rx="8" fill="#020403" stroke="#0a3a44" stroke-width="1.5"/>
   <text x="302" y="96" fill="#00f0ff" font-family="Consolas, monospace" font-size="13">MOUNTS -- Dev Central Tree</text>
 
-  <!-- mount chips row 1 (atelier public · lounge private · softtunes public) -->
-  <rect x="302" y="112" width="110" height="26" rx="4" fill="#071018" stroke="#00f0ff"/>
+  <!-- mount chips row 1 (atelier public · lounge private · softtunes public · changelog public) -->
+  <rect x="302" y="112" width="100" height="26" rx="4" fill="#071018" stroke="#00f0ff"/>
   <text x="316" y="129" fill="#00f0ff" font-family="Consolas, monospace" font-size="11">atelier</text>
-  <rect x="422" y="112" width="110" height="26" rx="4" fill="#071410" stroke="#39ff14"/>
-  <text x="440" y="129" fill="#39ff14" font-family="Consolas, monospace" font-size="11">lounge</text>
-  <rect x="542" y="112" width="110" height="26" rx="4" fill="#071018" stroke="#00f0ff"/>
-  <text x="552" y="129" fill="#00f0ff" font-family="Consolas, monospace" font-size="10">softtunes</text>
+  <rect x="410" y="112" width="100" height="26" rx="4" fill="#071410" stroke="#39ff14"/>
+  <text x="428" y="129" fill="#39ff14" font-family="Consolas, monospace" font-size="11">lounge</text>
+  <rect x="518" y="112" width="108" height="26" rx="4" fill="#071018" stroke="#00f0ff"/>
+  <text x="528" y="129" fill="#00f0ff" font-family="Consolas, monospace" font-size="10">softtunes</text>
+  <rect x="634" y="112" width="124" height="26" rx="4" fill="#071018" stroke="#00f0ff"/>
+  <text x="642" y="129" fill="#00f0ff" font-family="Consolas, monospace" font-size="9">changelog</text>
 
   <!-- mount chips row 2 (public) -->
   <rect x="302" y="146" width="108" height="26" rx="4" fill="#071018" stroke="#00f0ff"/>
@@ -68,13 +70,13 @@
   <rect x="650" y="146" width="108" height="26" rx="4" fill="#071018" stroke="#00f0ff"/>
   <text x="662" y="163" fill="#00f0ff" font-family="Consolas, monospace" font-size="10">sentinel</text>
 
-  <text x="302" y="184" fill="#7ec8ff" font-family="Consolas, monospace" font-size="11">ATELIER  | 4 hubs public | UAC | v2.0.0</text>
-  <text x="302" y="200" fill="#6aff9a" font-family="Consolas, monospace" font-size="11">LOUNGE   | Game Lounge web | 29 *-X</text>
+  <text x="302" y="184" fill="#7ec8ff" font-family="Consolas, monospace" font-size="11">ATELIER  | 4 hubs + LocalDock v0.1.0</text>
+  <text x="302" y="200" fill="#6aff9a" font-family="Consolas, monospace" font-size="11">LOUNGE   | Game Lounge web | 28 *-X</text>
   <text x="302" y="216" fill="#7ec8ff" font-family="Consolas, monospace" font-size="11">SOFTTUNES| v2.0.0 public | session</text>
-  <text x="302" y="232" fill="#7ec8ff" font-family="Consolas, monospace" font-size="11">FAKEVPS  | 1.0.0 final | public src</text>
-  <text x="302" y="248" fill="#7ec8ff" font-family="Consolas, monospace" font-size="11">SENTINEL | v2.0.0 | Apache-2.0</text>
-  <text x="302" y="264" fill="#7ec8ff" font-family="Consolas, monospace" font-size="11">WIN      | 4 desktop .exe | free</text>
-  <text x="302" y="280" fill="#7ec8ff" font-family="Consolas, monospace" font-size="11">LINUX    | Crypto Tracker | Gest | Kit</text>
+  <text x="302" y="232" fill="#7ec8ff" font-family="Consolas, monospace" font-size="11">GCHANGELOG| v1.0.3 public | Steam notes</text>
+  <text x="302" y="248" fill="#7ec8ff" font-family="Consolas, monospace" font-size="11">FAKEVPS  | 1.0.0 final | public src</text>
+  <text x="302" y="264" fill="#7ec8ff" font-family="Consolas, monospace" font-size="11">WIN      | 4 desktop .exe | PolyForm</text>
+  <text x="302" y="280" fill="#7ec8ff" font-family="Consolas, monospace" font-size="11">LINUX    | 3 apps | binaries only</text>
 
   <line x1="302" y1="286" x2="786" y2="286" stroke="#0a3a44"/>
   <text x="302" y="306" fill="#39ff14" font-family="Consolas, monospace" font-size="12">WIN TICKER</text>
@@ -99,7 +101,7 @@
   </g>
 
   <text x="302" y="388" fill="#4d7a5c" font-family="Consolas, monospace" font-size="11">rule: if it ships, AI wrote it -- Mr-Aurevo-X signed it off</text>
-  <text x="302" y="404" fill="#4d7a5c" font-family="Consolas, monospace" font-size="11">SoT: Dev Central Tree | PC Command Hub-* public | vitrine binaries</text>
+  <text x="302" y="404" fill="#4d7a5c" font-family="Consolas, monospace" font-size="11">SoT: Dev Central Tree | Hub-* + SoftTunes + GameChangelog public</text>
 
   <!-- RIGHT: ship channel + connect -->
   <rect x="818" y="72" width="258" height="340" rx="8" fill="#020403" stroke="#00f0ff" stroke-width="1.5"/>
