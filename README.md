@@ -13,7 +13,7 @@
 [![Cursor AI](https://img.shields.io/badge/BUILT_BY-CURSOR_AI-39ff14?style=for-the-badge&labelColor=050807&logo=cursor&logoColor=39ff14)](https://cursor.com)
 [![Mr-Aurevo-X QA](https://img.shields.io/badge/IDEAS_%26_QA-MR--AUREVO--X-00f0ff?style=for-the-badge&labelColor=050807)](https://github.com/Mr-Aurevo-X)
 
-`STATUS=ONLINE` | `WIN=4_exe` | `LINUX=3_apps` | `PC_COMMAND=4_HUBS_public` | `SOFTTUNES=v2.0.0` | `GAMECHANGELOG=v1.0.3` | `FAKEVPS+SENTINEL=public` | `GAME_LOUNGE=29_X_private` | `MODE=AI_OPERATED`
+`STATUS=ONLINE` | `WIN=4_exe` | `LINUX=3_apps` | `PC_COMMAND=4_HUBS_public` | `SOFTTUNES=v2.0.0` | `GAMECHANGELOG=v1.0.3` | `FAKEVPS+SENTINEL=public` | `GAME_LOUNGE=28_X_private` | `MODE=AI_OPERATED`
 
 </div>
 
@@ -64,7 +64,7 @@ Single crafted factory board (dual-split: **BUILD green** / **QA cyan**). Decora
 
 `WIN=4_exe` | `LINUX=3_apps` | `PC_COMMAND=4_HUBS` | `SOFTTUNES=v2.0.0` | `GAMECHANGELOG=v1.0.3` | `FAKEVPS+SENTINEL=public` | `AI-built` | `human-tested`
 
-**License:** Vitrine Windows + Linux binaries = proprietary (no source). **PC Command hubs** + **LocalDock** + **SoftTunes** + **GameChangelog** = PolyForm Noncommercial 1.0.0 (source + zip public). **FakeVPS** = custom (source public, 1.0.0 final). **Sentinel** = Apache-2.0 (source public, v2.0.0).
+**License:** Linux binaries = proprietary (no source). **Vitrine Windows** + **PC Command hubs** + **LocalDock** + **SoftTunes** + **GameChangelog** = PolyForm Noncommercial 1.0.0 (source + zip public). **FakeVPS** = custom (source public, 1.0.0 final). **Sentinel** = Apache-2.0 (source public, v2.0.0).
 
 ### 🖥️ PC Command — 4 Hubs
 
@@ -146,7 +146,7 @@ Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurev
 /workshop
 |-- atelier/       PC Command | 4 hubs in-hub · v2.0.0                 [public]
 |-- localdock/     LocalDock v0.1.0 | loopback trust roots             [public]
-|-- game-lounge/   Game Lounge web | 29 *-X (site statique)            [private]
+|-- game-lounge/   Game Lounge web | 28 *-X (site statique)            [private]
 |-- softtunes/     SoftTunes v2.0.0 | session prep + FPS meter         [public]
 |-- gamechangelog/ GameChangelog v1.0.3 | Steam patch notes            [public]
 |-- fakevps/       local Ubuntu rehearsal (6G / 4 vCPU / 40G)          [public]
@@ -195,7 +195,7 @@ standalone : SoftTunes **public** v2.0.0 · GameChangelog **public** v1.0.3 → 
 ### 🎮 Game Lounge — Game Hub
 
 SoT jeux : [`Game-Lounge`](https://github.com/Mr-Aurevo-X/Game-Lounge) (monorepo web — build `dist-site/` pour hébergement statique)  
-29 jeux *-X jouables dans le navigateur (iframe Game Lounge). Dev local : `Lancer.cmd` → localhost.  
+28 jeux *-X jouables dans le navigateur (iframe Game Lounge). Dev local : `Lancer.cmd` → localhost.  
 Idle Incremental (**≥ 100 h**) + Tycoon-X + Cascade-X / Probe-X (Nostalgic).
 
 ```text
@@ -335,9 +335,9 @@ linux-flatpak-releases/     * .flatpak
 
 `BY_REQUEST` | `AI_BUILT` | `HUMAN_QA` | `GITHUB_COMPLIANT` | `WIN+LINUX` | `SCOPE_FIRST`
 
-> **FR** — Logiciels **à la demande**, toujours dans le même mode atelier : **Cursor AI construit** le code · **Mr-Aurevo-X** cadre le brief, teste et **valide** (comme la vitrine et PC Command). Pas de prestation « développeur humain au kilo » : c’est de la **création IA**, avec QA humaine. Périmètre typique : utilitaires desktop, outils locaux, scripts / automatisations, intégrations légères. Chaque demande reste **conforme** aux [Conditions d'utilisation GitHub](https://docs.github.com/site-policy/github-terms/github-terms-of-service), à la [Politique d'utilisation acceptable](https://docs.github.com/site-policy/acceptable-use-policies/github-acceptable-use-policy) et aux [Directives communautaires](https://docs.github.com/site-policy/github-terms/github-community-guidelines) — pas de malware, pas de contournement de sécurité / DRM, pas de spam. La **vitrine publique** reste gratuite ; le sur-mesure se discute en amont (besoin, délais, livrables, repo privé ou public).
+> **FR** — Logiciels **à la demande**, toujours dans le même mode atelier : **Cursor AI construit** le code · **Mr-Aurevo-X** cadre le brief, teste et **valide** (comme la vitrine et PC Command). Pas de prestation « développeur humain au kilo » : c’est de la **création IA**, avec QA humaine. Périmètre typique : utilitaires desktop, outils locaux, scripts / automatisations, intégrations légères. Chaque demande reste **conforme** aux [Conditions d'utilisation GitHub](https://docs.github.com/site-policy/github-terms/github-terms-of-service), à la [Politique d'utilisation acceptable](https://docs.github.com/site-policy/acceptable-use-policies/github-acceptable-use-policy) et aux [Directives communautaires](https://docs.github.com/site-policy/github-terms/github-community-guidelines) — pas de malware, pas de contournement de sécurité / DRM, pas de spam. Tout **repo public** est et restera gratuit ; le sur-mesure se discute en amont (besoin, délais, livrables, repo privé ou public).
 >
-> **EN** — **On-demand** software, same workshop rule: **Cursor AI builds** · **Mr-Aurevo-X** scopes, stress-tests, and **signs off**. This is **AI-operated creation** with human QA — not a classic hired-dev shop. Typical scope: desktop utilities, local-first tools, scripts / automation, light integrations. Every request stays **within** GitHub [Terms of Service](https://docs.github.com/site-policy/github-terms/github-terms-of-service), [Acceptable Use Policy](https://docs.github.com/site-policy/acceptable-use-policies/github-acceptable-use-policy), and [Community Guidelines](https://docs.github.com/site-policy/github-terms/github-community-guidelines) — no malware, no security / DRM bypass, no spam. The **public vitrine** stays free; custom work is agreed upfront (scope, timeline, deliverables, private vs public repo).
+> **EN** — **On-demand** software, same workshop rule: **Cursor AI builds** · **Mr-Aurevo-X** scopes, stress-tests, and **signs off**. This is **AI-operated creation** with human QA — not a classic hired-dev shop. Typical scope: desktop utilities, local-first tools, scripts / automation, light integrations. Every request stays **within** GitHub [Terms of Service](https://docs.github.com/site-policy/github-terms/github-terms-of-service), [Acceptable Use Policy](https://docs.github.com/site-policy/acceptable-use-policies/github-acceptable-use-policy), and [Community Guidelines](https://docs.github.com/site-policy/github-terms/github-community-guidelines) — no malware, no security / DRM bypass, no spam. Every **public repo** is and will stay free; custom work is agreed upfront (scope, timeline, deliverables, private vs public repo).
 
 ```diff
 + MODEL .......... Cursor AI builds | Mr-Aurevo-X ideas + QA + sign-off
