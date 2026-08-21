@@ -4,7 +4,7 @@
 
 **AI-Run Workshop — Cursor Builds | Mr-Aurevo-X QA | Windows + Linux**
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/7e7285e72448238fe4b0511cdfbf4e265ecbbc82/assets/hero-boot.svg?v=7e7285e72448238fe4b0511cdfbf4e265ecbbc82" alt="Boot console scrolling" width="100%"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/03d429f0ca9c4424073ad88ef0d399524539634d/assets/hero-boot.svg?v=03d429f0ca9c4424073ad88ef0d399524539634d" alt="Boot console scrolling" width="100%"/>
 
 <br/>
 
@@ -13,7 +13,7 @@
 [![Cursor AI](https://img.shields.io/badge/BUILT_BY-CURSOR_AI-39ff14?style=for-the-badge&labelColor=050807&logo=cursor&logoColor=39ff14)](https://cursor.com)
 [![Mr-Aurevo-X QA](https://img.shields.io/badge/IDEAS_%26_QA-MR--AUREVO--X-00f0ff?style=for-the-badge&labelColor=050807)](https://github.com/Mr-Aurevo-X)
 
-`STATUS=ONLINE` | `WIN=4_exe` | `LINUX=3_apps` | `PC_COMMAND=4_HUBS_public` | `SOFTTUNES=v2.0.0` | `FAKEVPS+SENTINEL=public` | `SALON=v2.0.0_29_GAMES` | `MODE=AI_OPERATED`
+`STATUS=ONLINE` | `WIN=4_exe` | `LINUX=3_apps` | `PC_COMMAND=4_HUBS_public` | `SOFTTUNES=v2.0.0` | `GAMECHANGELOG=v1.0.3` | `FAKEVPS+SENTINEL=public` | `GAME_LOUNGE=29_X_private` | `MODE=AI_OPERATED`
 
 </div>
 
@@ -54,7 +54,7 @@ Single crafted factory board (dual-split: **BUILD green** / **QA cyan**). Decora
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/26030594f627b0fdb61009364a9f79005770c23b/assets/factory-floor.svg?v=26030594f627b0fdb61009364a9f79005770c23b" alt="Workshop factory floor status board" width="100%"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/03d429f0ca9c4424073ad88ef0d399524539634d/assets/factory-floor.svg?v=03d429f0ca9c4424073ad88ef0d399524539634d" alt="Workshop factory floor status board" width="100%"/>
 
 </div>
 
@@ -62,7 +62,7 @@ Single crafted factory board (dual-split: **BUILD green** / **QA cyan**). Decora
 
 ## ✨ Featured — Public Vitrine
 
-`WIN=4_exe` | `LINUX=3_apps` | `PC_COMMAND=4_HUBS` | `SOFTTUNES=v2.0.0` | `FAKEVPS+SENTINEL=public` | `AI-built` | `human-tested`
+`WIN=4_exe` | `LINUX=3_apps` | `PC_COMMAND=4_HUBS` | `SOFTTUNES=v2.0.0` | `GAMECHANGELOG=v1.0.3` | `FAKEVPS+SENTINEL=public` | `AI-built` | `human-tested`
 
 **License:** Vitrine Windows + Linux binaries = proprietary (no source). **PC Command hubs** + **LocalDock** + **SoftTunes** + **GameChangelog** = PolyForm Noncommercial 1.0.0 (source + zip public). **FakeVPS** = custom (source public, 1.0.0 final). **Sentinel** = Apache-2.0 (source public, v2.0.0).
 
@@ -144,15 +144,15 @@ Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurev
 
 ```text
 /workshop
-|-- atelier/     PC Command | 4 hubs in-hub (Dashboard + modules)         [public]
-|-- localdock/   loopback-only dev launcher (Rust / Tauri)         [public]
-|-- game-lounge/  Game Lounge web | 29 *-X | Game-Lounge SoT (site statique) [private]
-|-- softtunes/   SoftTunes | session prep + FPS meter              [public]
-|-- gamechangelog/ Steam patch notes (watchlist locale)            [public]
-|-- fakevps/     local Ubuntu rehearsal (6G / 4 vCPU / 40G)        [public]
-|-- sentinel/    Discord platform (mod, eco, XP, tickets, music)   [public]
-|-- vitrine/     4 Windows desktop tools                           [public]
-`-- linux/       Crypto Tracker | Gest Linux Pro | MrAurevoX Kit   [public binaries]
+|-- atelier/       PC Command | 4 hubs in-hub · v2.0.0                 [public]
+|-- localdock/     LocalDock v0.1.0 | loopback trust roots             [public]
+|-- game-lounge/   Game Lounge web | 29 *-X (site statique)            [private]
+|-- softtunes/     SoftTunes v2.0.0 | session prep + FPS meter         [public]
+|-- gamechangelog/ GameChangelog v1.0.3 | Steam patch notes            [public]
+|-- fakevps/       local Ubuntu rehearsal (6G / 4 vCPU / 40G)          [public]
+|-- sentinel/      Discord platform (mod, eco, XP, tickets, music)     [public]
+|-- vitrine/       4 Windows desktop tools · v2.0.0                    [public]
+`-- linux/         Crypto Tracker | Gest Linux Pro | MrAurevoX Kit     [public binaries]
 ```
 
 <details>
@@ -213,7 +213,7 @@ docs/WEB-DEPLOY.md          déploiement sur votre hébergement
 Ship : `SoftTunes.zip` sur [Mr-Aurevo-X/SoftTunes](https://github.com/Mr-Aurevo-X/SoftTunes) / [v2.0.0](https://github.com/Mr-Aurevo-X/SoftTunes/releases/tag/v2.0.0)
 
 ```text
-SoftTunes/                  * repo Mr-Aurevo-X/SoftTunes (local clone: 03_Standalones/Opti)
+SoftTunes/                  * repo Mr-Aurevo-X/SoftTunes (local: 03_Standalones/)
 |-- SoftTunes.exe | Lancer.cmd
 |-- AppData install: %LOCALAPPDATA%\Programs\SoftTunes
 |-- AppData data:    %LOCALAPPDATA%\SoftTunes

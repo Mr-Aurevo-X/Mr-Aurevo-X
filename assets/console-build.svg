@@ -38,8 +38,8 @@
  <text x="28" y="0" clip-path="url(#b0)">$ cursor compile 01_Hubs/ --release</text>
  <text x="28" y="18" fill="#39ff14" clip-path="url(#b1)">compiling Hub-Systeme ... done</text>
  <text x="28" y="36" fill="#39ff14" clip-path="url(#b2)">compiling Hub-Reseau ... done</text>
- <text x="28" y="54" fill="#39ff14" clip-path="url(#b3)">Hub-Securite | Hub-Dev | Utilitaires</text>
- <text x="28" y="72" fill="#39ff14" clip-path="url(#b4)">5 hubs in-hub | lazy DOM | ConfirmGate</text>
+ <text x="28" y="54" fill="#39ff14" clip-path="url(#b3)">Hub-Securite | Hub-Utilitaires</text>
+ <text x="28" y="72" fill="#39ff14" clip-path="url(#b4)">4 hubs in-hub | lazy DOM | ConfirmGate</text>
  <!-- set B · SoT sync -->
  <text x="28" y="90" clip-path="url(#b5)">$ refactor ui/vendor/pc-command-kit</text>
  <text x="28" y="108" fill="#6aff9a" clip-path="url(#b6)">patched modules | synced SoT</text>
@@ -47,10 +47,10 @@
  <text x="28" y="144" fill="#6aff9a" clip-path="url(#b8)">vendors OK | no symlink mode</text>
  <!-- set C · vitrine WIN + linux ship -->
  <text x="28" y="162" clip-path="url(#b9)">$ ship win QrTools UnitConvert TimeTools PixClean</text>
- <text x="28" y="180" fill="#39ff14" clip-path="url(#b10)">4 vitrine .exe | v1.0 / v1.1 OK</text>
+ <text x="28" y="180" fill="#39ff14" clip-path="url(#b10)">4 vitrine .exe | v2.0.0 OK</text>
  <text x="28" y="198" clip-path="url(#b11)">$ ship linux CryptoTracker Gest Kit</text>
  <text x="28" y="216" fill="#39ff14" clip-path="url(#b12)">native tar.gz | Flatpak .flatpak</text>
- <text x="28" y="234" fill="#39ff14" clip-path="url(#b13)">fakevps 1.0.0 | sentinel 2.0.0 PUBLIC</text>
+ <text x="28" y="234" fill="#39ff14" clip-path="url(#b13)">SoftTunes 2.0.0 | GameChangelog 1.0.3</text>
  <text x="28" y="252" clip-path="url(#b14)">$ ship --await human-qa</text>
  <text x="28" y="270" fill="#6aff9a" clip-path="url(#b15)">queued | stress-test WIN + LIN</text>
  <text x="28" y="288" clip-path="url(#b16)">$ status</text>

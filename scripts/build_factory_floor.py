@@ -78,11 +78,11 @@ def factory_svg() -> str:
   <rect x="286" y="72" width="520" height="340" rx="8" fill="{DEEP}" stroke="{STROKE_C}" stroke-width="1.5"/>
   <text x="302" y="96" fill="{CYAN}" font-family="Consolas, monospace" font-size="13">MOUNTS -- Dev Central Tree</text>
 
-  <!-- mount chips row 1 (atelier public · salon private · softtunes public) -->
+  <!-- mount chips row 1 (atelier public · lounge private · softtunes public) -->
   <rect x="302" y="112" width="110" height="26" rx="4" fill="#071018" stroke="{CYAN}"/>
   <text x="316" y="129" fill="{CYAN}" font-family="Consolas, monospace" font-size="11">atelier</text>
   <rect x="422" y="112" width="110" height="26" rx="4" fill="#071410" stroke="{GREEN}"/>
-  <text x="446" y="129" fill="{GREEN}" font-family="Consolas, monospace" font-size="11">salon</text>
+  <text x="440" y="129" fill="{GREEN}" font-family="Consolas, monospace" font-size="11">lounge</text>
   <rect x="542" y="112" width="110" height="26" rx="4" fill="#071018" stroke="{CYAN}"/>
   <text x="552" y="129" fill="{CYAN}" font-family="Consolas, monospace" font-size="10">softtunes</text>
 
@@ -97,7 +97,7 @@ def factory_svg() -> str:
   <text x="662" y="163" fill="{CYAN}" font-family="Consolas, monospace" font-size="10">sentinel</text>
 
   <text x="302" y="184" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="11">ATELIER  | 4 hubs public | UAC | v2.0.0</text>
-  <text x="302" y="200" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="11">SALON    | Tauri v2 | 29 *-X on-demand</text>
+  <text x="302" y="200" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="11">LOUNGE   | Game Lounge web | 29 *-X</text>
   <text x="302" y="216" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="11">SOFTTUNES| v2.0.0 public | session</text>
   <text x="302" y="232" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="11">FAKEVPS  | 1.0.0 final | public src</text>
   <text x="302" y="248" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="11">SENTINEL | v2.0.0 | Apache-2.0</text>
@@ -264,13 +264,15 @@ Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurev
 
 ```text
 /workshop
-|-- atelier/     PC Command | 4 hubs in-hub (Dashboard + modules)         [public]
-|-- salon/       Game launcher | 9 original X (100h+) | Tycoon/Arcade soon [private]
-|-- softtunes/   SoftTunes | session prep + FPS meter              [public]
-|-- fakevps/     local Ubuntu rehearsal (6G / 4 vCPU / 40G)        [public]
-|-- sentinel/    Discord platform (mod, eco, XP, tickets, music)   [public]
-|-- vitrine/     4 Windows desktop tools                           [public]
-`-- linux/       Crypto Tracker | Gest Linux Pro | MrAurevoX Kit   [public binaries]
+|-- atelier/       PC Command | 4 hubs in-hub · v2.0.0                 [public]
+|-- localdock/     LocalDock v0.1.0 | loopback trust roots             [public]
+|-- game-lounge/   Game Lounge web | 29 *-X (site statique)            [private]
+|-- softtunes/     SoftTunes v2.0.0 | session prep + FPS meter         [public]
+|-- gamechangelog/ GameChangelog v1.0.3 | Steam patch notes            [public]
+|-- fakevps/       local Ubuntu rehearsal (6G / 4 vCPU / 40G)          [public]
+|-- sentinel/      Discord platform (mod, eco, XP, tickets, music)     [public]
+|-- vitrine/       4 Windows desktop tools · v2.0.0                    [public]
+`-- linux/         Crypto Tracker | Gest Linux Pro | MrAurevoX Kit     [public binaries]
 ```
 
 <details>

@@ -51,14 +51,14 @@
  <g clip-path="url(#screen)" font-family="Consolas, ui-monospace, monospace" font-size="13">
  <g>
  <text x="40" y="0" fill="#6aff9a" clip-path="url(#h0)">[BOOT ] workshop_kernel · suite 1.3.x · AI-operated</text>
- <text x="40" y="19" fill="#39ff14" clip-path="url(#h1)">[ OK ] mount /atelier PC Command · 5 hubs in-hub</text>
- <text x="40" y="38" fill="#9dffc2" clip-path="url(#h2)">[ INFO ] Systeme | Reseau | Securite | Dev | Utilitaires</text>
+ <text x="40" y="19" fill="#39ff14" clip-path="url(#h1)">[ OK ] mount /atelier PC Command · 4 hubs in-hub</text>
+ <text x="40" y="38" fill="#9dffc2" clip-path="url(#h2)">[ INFO ] Systeme | Reseau | Securite | Utilitaires</text>
  <text x="40" y="57" fill="#9dffc2" clip-path="url(#h3)">[ INFO ] lazy DOM · ConfirmGate · UAC admin</text>
- <text x="40" y="76" fill="#39ff14" clip-path="url(#h4)">[ OK ] mount /salon 9 original X titles</text>
+ <text x="40" y="76" fill="#39ff14" clip-path="url(#h4)">[ OK ] mount /game-lounge 29 *-X web private</text>
  <text x="40" y="95" fill="#9dffc2" clip-path="url(#h5)">[ INFO ] per-repo Releases | Launch-Hub-*.zip | SoftTunes | GameChangelog</text>
  <text x="40" y="114" fill="#39ff14" clip-path="url(#h6)">[ OK ] mount /softtunes SoftTunes v2.0.0 public</text>
  <text x="40" y="133" fill="#00f0ff" clip-path="url(#h7)">[ OK ] mount /fakevps PUBLIC · 1.0.0 final</text>
- <text x="40" y="152" fill="#39ff14" clip-path="url(#h8)">[ OK ] mount /vitrine 7 Windows desktop .exe</text>
+ <text x="40" y="152" fill="#39ff14" clip-path="url(#h8)">[ OK ] mount /vitrine 4 Windows desktop .exe</text>
  <text x="40" y="171" fill="#00f0ff" clip-path="url(#h9)">[ OK ] mount /sentinel PUBLIC · v2.0.0</text>
  <text x="40" y="190" fill="#39ff14" clip-path="url(#h10)">[ OK ] mount /linux Crypto Tracker · Gest Linux Pro · Kit</text>
  <text x="40" y="209" fill="#00f0ff" clip-path="url(#h11)">[ NOTE ] native tar.gz/.deb + Flatpak · binaries only</text>
