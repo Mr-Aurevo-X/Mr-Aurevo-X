@@ -73,10 +73,10 @@ SoT `Dev Central Tree\Git Vitrine Public\`
 
 | Outil | Role | Lien |
 |:--|:--|:--|
-| **QrTools** | QR Simple + Lot (QrMake + QrBatch · v1.2.1 · Filament) | [repo](https://github.com/Mr-Aurevo-X/QrTools) / [releases](https://github.com/Mr-Aurevo-X/QrTools/releases/latest) |
-| **UnitConvert** | Unités + Devises (v1.3.1 · Filament) | [repo](https://github.com/Mr-Aurevo-X/UnitConvert) / [releases](https://github.com/Mr-Aurevo-X/UnitConvert/releases/latest) |
-| **TimeTools** | Horodatage · chrono · minuteries · Pomodoro (v1.2.1 · Filament) | [repo](https://github.com/Mr-Aurevo-X/TimeTools) / [releases](https://github.com/Mr-Aurevo-X/TimeTools/releases/latest) |
-| **PixClean** | Strip EXIF/GPS/XMP (ex-MetaStrip · v1.4.1 · Filament) | [repo](https://github.com/Mr-Aurevo-X/PixClean) / [releases](https://github.com/Mr-Aurevo-X/PixClean/releases/latest) |
+| **QrTools** | QR Simple + Lot (QrMake + QrBatch · v1.2.2 · Filament) | [repo](https://github.com/Mr-Aurevo-X/QrTools) / [releases](https://github.com/Mr-Aurevo-X/QrTools/releases/latest) |
+| **UnitConvert** | Unités + Devises (v1.3.2 · Filament) | [repo](https://github.com/Mr-Aurevo-X/UnitConvert) / [releases](https://github.com/Mr-Aurevo-X/UnitConvert/releases/latest) |
+| **TimeTools** | Horodatage · chrono · minuteries · Pomodoro (v1.2.2 · Filament) | [repo](https://github.com/Mr-Aurevo-X/TimeTools) / [releases](https://github.com/Mr-Aurevo-X/TimeTools/releases/latest) |
+| **PixClean** | Strip EXIF/GPS/XMP (ex-MetaStrip · v1.4.2 · Filament) | [repo](https://github.com/Mr-Aurevo-X/PixClean) / [releases](https://github.com/Mr-Aurevo-X/PixClean/releases/latest) |
 
 ### 🐧 Linux — 3 Apps
 
