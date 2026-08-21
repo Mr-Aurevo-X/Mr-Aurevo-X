@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """Generate factory-floor.svg (dual-split green/cyan) and rewrite README.
 
 README.md is the SoT for the dual Windows/Linux vitrine. This script must
@@ -232,10 +232,10 @@ SoT `Dev Central Tree\\Git Vitrine Public\\`
 
 | Outil | Role | Lien |
 |:--|:--|:--|
-| **QrTools** | QR Simple + Lot (QrMake + QrBatch · v1.1 · Void Glow) | [repo](https://github.com/Mr-Aurevo-X/QrTools) / [releases](https://github.com/Mr-Aurevo-X/QrTools/releases/latest) |
-| **UnitConvert** | Unités + Devises (v1.2 · Void Glow) | [repo](https://github.com/Mr-Aurevo-X/UnitConvert) / [releases](https://github.com/Mr-Aurevo-X/UnitConvert/releases/latest) |
-| **TimeTools** | Horodatage · chrono · minuteries · Pomodoro (v1.1 · Void Glow) | [repo](https://github.com/Mr-Aurevo-X/TimeTools) / [releases](https://github.com/Mr-Aurevo-X/TimeTools/releases/latest) |
-| **PixClean** | Strip EXIF/GPS/XMP (ex-MetaStrip · v1.3 · Void Glow) | [repo](https://github.com/Mr-Aurevo-X/PixClean) / [releases](https://github.com/Mr-Aurevo-X/PixClean/releases/latest) |
+| **QrTools** | QR Simple + Lot (QrMake + QrBatch · v1.2 · Filament) | [repo](https://github.com/Mr-Aurevo-X/QrTools) / [releases](https://github.com/Mr-Aurevo-X/QrTools/releases/latest) |
+| **UnitConvert** | Unités + Devises (v1.3 · Filament) | [repo](https://github.com/Mr-Aurevo-X/UnitConvert) / [releases](https://github.com/Mr-Aurevo-X/UnitConvert/releases/latest) |
+| **TimeTools** | Horodatage · chrono · minuteries · Pomodoro (v1.2 · Filament) | [repo](https://github.com/Mr-Aurevo-X/TimeTools) / [releases](https://github.com/Mr-Aurevo-X/TimeTools/releases/latest) |
+| **PixClean** | Strip EXIF/GPS/XMP (ex-MetaStrip · v1.4 · Filament) | [repo](https://github.com/Mr-Aurevo-X/PixClean) / [releases](https://github.com/Mr-Aurevo-X/PixClean/releases/latest) |
 
 ### 🐧 Linux — 3 Apps
 
