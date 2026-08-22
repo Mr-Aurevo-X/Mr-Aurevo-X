@@ -4,7 +4,7 @@
 
 **AI-Run Workshop — Cursor Builds | Mr-Aurevo-X QA | Windows + Linux**
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/21a66e68cd8cc0e16a471e8f7a82bd3486251cec/assets/hero-boot.svg?v=21a66e68cd8cc0e16a471e8f7a82bd3486251cec" alt="Boot console scrolling" width="100%"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/dd6c4129326698f9f437e9ebbb9a2e6d2903a16c/assets/hero-boot.svg?v=dd6c4129326698f9f437e9ebbb9a2e6d2903a16c" alt="Boot console scrolling" width="100%"/>
 
 <br/>
 
@@ -26,10 +26,10 @@
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/21a66e68cd8cc0e16a471e8f7a82bd3486251cec/assets/console-build.svg?v=21a66e68cd8cc0e16a471e8f7a82bd3486251cec" alt="Cursor AI build console (green)" width="100%"/>
+      <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/dd6c4129326698f9f437e9ebbb9a2e6d2903a16c/assets/console-build.svg?v=dd6c4129326698f9f437e9ebbb9a2e6d2903a16c" alt="Cursor AI build console (green)" width="100%"/>
     </td>
     <td width="50%" align="center">
-      <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/21a66e68cd8cc0e16a471e8f7a82bd3486251cec/assets/console-qa.svg?v=21a66e68cd8cc0e16a471e8f7a82bd3486251cec" alt="Mr-Aurevo-X QA console (cyan)" width="100%"/>
+      <img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/dd6c4129326698f9f437e9ebbb9a2e6d2903a16c/assets/console-qa.svg?v=dd6c4129326698f9f437e9ebbb9a2e6d2903a16c" alt="Mr-Aurevo-X QA console (cyan)" width="100%"/>
     </td>
   </tr>
 </table>
@@ -54,7 +54,7 @@ Single crafted factory board (dual-split: **BUILD green** / **QA cyan**). Decora
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/21a66e68cd8cc0e16a471e8f7a82bd3486251cec/assets/factory-floor.svg?v=21a66e68cd8cc0e16a471e8f7a82bd3486251cec" alt="Workshop factory floor status board" width="100%"/>
+<img src="https://raw.githubusercontent.com/Mr-Aurevo-X/Mr-Aurevo-X/dd6c4129326698f9f437e9ebbb9a2e6d2903a16c/assets/factory-floor.svg?v=dd6c4129326698f9f437e9ebbb9a2e6d2903a16c" alt="Workshop factory floor status board" width="100%"/>
 
 </div>
 
