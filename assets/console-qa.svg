@@ -41,7 +41,7 @@
  <text x="28" y="54" fill="#ffb86c" clip-path="url(#q3)">FOUND edge case | icon cache race</text>
  <text x="28" y="72" clip-path="url(#q4)">$ report --to cursor</text>
  <text x="28" y="90" fill="#7ec8ff" clip-path="url(#q5)">patch inbound | retest queued</text>
- <!-- set B · vitrine QA -->
+ <!-- set B · Windows desktop QA -->
  <text x="28" y="108" clip-path="url(#q6)">$ validate QrTools Simple|Lot</text>
  <text x="28" y="126" fill="#00f0ff" clip-path="url(#q7)">wifi | vcard | batch CSV | ok</text>
  <text x="28" y="144" clip-path="url(#q8)">$ check UnitConvert Devises offline</text>

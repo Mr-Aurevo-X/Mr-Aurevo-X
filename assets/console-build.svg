@@ -45,9 +45,9 @@
  <text x="28" y="108" fill="#6aff9a" clip-path="url(#b6)">patched modules | synced SoT</text>
  <text x="28" y="126" clip-path="url(#b7)">$ sync DevTree --unit ui-kit</text>
  <text x="28" y="144" fill="#6aff9a" clip-path="url(#b8)">vendors OK | no symlink mode</text>
- <!-- set C · vitrine WIN + linux ship -->
+ <!-- set C · Windows desktop + linux ship -->
  <text x="28" y="162" clip-path="url(#b9)">$ ship win QrTools UnitConvert TimeTools PixClean</text>
- <text x="28" y="180" fill="#39ff14" clip-path="url(#b10)">4 vitrine .exe | v2.0.0 OK</text>
+ <text x="28" y="180" fill="#39ff14" clip-path="url(#b10)">4 Windows .exe | v2.0.0 OK</text>
  <text x="28" y="198" clip-path="url(#b11)">$ ship linux CryptoTracker Gest Kit</text>
  <text x="28" y="216" fill="#39ff14" clip-path="url(#b12)">native tar.gz | Flatpak .flatpak</text>
  <text x="28" y="234" fill="#39ff14" clip-path="url(#b13)">SoftTunes 2.0.2 | GameChangelog 1.0.3</text>

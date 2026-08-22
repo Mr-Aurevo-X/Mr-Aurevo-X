@@ -60,11 +60,11 @@ Single crafted factory board (dual-split: **BUILD green** / **QA cyan**). Decora
 
 ---
 
-## ✨ Featured — Public Vitrine
+## ✨ Featured — Public Workshop
 
 `WIN=4_exe` | `LINUX=3_apps` | `PC_COMMAND=4_HUBS` | `SOFTTUNES=v2.0.2` | `GAMECHANGELOG=v1.0.3` | `FAKEVPS+SENTINEL=public` | `AI-built` | `human-tested`
 
-**License:** Linux binaries = proprietary (no source). **PC Command hubs** + **LocalDock** + **SoftTunes** + **GameChangelog** + **Vitrine Windows** = PolyForm Noncommercial 1.0.0 (source + zip/exe public). **FakeVPS** = custom (source public, 1.0.0 final). **Sentinel** = Apache-2.0 (source public, v2.0.0).
+**License:** Linux binaries = proprietary (no source). **PC Command hubs** + **LocalDock** + **SoftTunes** + **GameChangelog** + **4 Windows desktop tools** = PolyForm Noncommercial 1.0.0 (source + zip/exe public). **FakeVPS** = custom (source public, 1.0.0 final). **Sentinel** = Apache-2.0 (source public, v2.0.0).
 
 ### 🖥️ PC Command — 4 Hubs
 
@@ -108,7 +108,6 @@ Ship : `GameChangelog.zip` sur [Mr-Aurevo-X/GameChangelog](https://github.com/Mr
 ### 🪟 Windows — 4 Desktop Tools
 
 **Gratuits | locaux (UnitConvert Devises : taux BCE + cache offline) | `.exe` sans installation**
-SoT `Dev Central Tree\Git Vitrine Public\`
 
 | Outil | Role | Lien |
 |:--|:--|:--|
@@ -151,7 +150,7 @@ Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurev
 |-- gamechangelog/ GameChangelog v1.0.3 | Steam patch notes            [public]
 |-- fakevps/       local Ubuntu rehearsal (6G / 4 vCPU / 40G)          [public]
 |-- sentinel/      Discord platform (mod, eco, XP, tickets, music)     [public]
-|-- vitrine/       4 Windows desktop tools · v2.0.0                    [public]
+|-- windows/       4 Windows desktop tools · v2.0.0                    [public]
 `-- linux/         Crypto Tracker | Gest Linux Pro | MrAurevoX Kit     [public binaries]
 ```
 
@@ -335,7 +334,7 @@ linux-flatpak-releases/     * .flatpak
 
 `BY_REQUEST` | `AI_BUILT` | `HUMAN_QA` | `GITHUB_COMPLIANT` | `WIN+LINUX` | `SCOPE_FIRST`
 
-> **FR** — Logiciels **à la demande**, toujours dans le même mode atelier : **Cursor AI construit** le code · **Mr-Aurevo-X** cadre le brief, teste et **valide** (comme la vitrine et PC Command). Pas de prestation « développeur humain au kilo » : c’est de la **création IA**, avec QA humaine. Périmètre typique : utilitaires desktop, outils locaux, scripts / automatisations, intégrations légères. Chaque demande reste **conforme** aux [Conditions d'utilisation GitHub](https://docs.github.com/site-policy/github-terms/github-terms-of-service), à la [Politique d'utilisation acceptable](https://docs.github.com/site-policy/acceptable-use-policies/github-acceptable-use-policy) et aux [Directives communautaires](https://docs.github.com/site-policy/github-terms/github-community-guidelines) — pas de malware, pas de contournement de sécurité / DRM, pas de spam. Tout **repo public** est et restera gratuit ; le sur-mesure se discute en amont (besoin, délais, livrables, repo privé ou public).
+> **FR** — Logiciels **à la demande**, toujours dans le même mode atelier : **Cursor AI construit** le code · **Mr-Aurevo-X** cadre le brief, teste et **valide** (comme les outils Windows et PC Command). Pas de prestation « développeur humain au kilo » : c’est de la **création IA**, avec QA humaine. Périmètre typique : utilitaires desktop, outils locaux, scripts / automatisations, intégrations légères. Chaque demande reste **conforme** aux [Conditions d'utilisation GitHub](https://docs.github.com/site-policy/github-terms/github-terms-of-service), à la [Politique d'utilisation acceptable](https://docs.github.com/site-policy/acceptable-use-policies/github-acceptable-use-policy) et aux [Directives communautaires](https://docs.github.com/site-policy/github-terms/github-community-guidelines) — pas de malware, pas de contournement de sécurité / DRM, pas de spam. Tout **repo public** est et restera gratuit ; le sur-mesure se discute en amont (besoin, délais, livrables, repo privé ou public).
 >
 > **EN** — **On-demand** software, same workshop rule: **Cursor AI builds** · **Mr-Aurevo-X** scopes, stress-tests, and **signs off**. This is **AI-operated creation** with human QA — not a classic hired-dev shop. Typical scope: desktop utilities, local-first tools, scripts / automation, light integrations. Every request stays **within** GitHub [Terms of Service](https://docs.github.com/site-policy/github-terms/github-terms-of-service), [Acceptable Use Policy](https://docs.github.com/site-policy/acceptable-use-policies/github-acceptable-use-policy), and [Community Guidelines](https://docs.github.com/site-policy/github-terms/github-community-guidelines) — no malware, no security / DRM bypass, no spam. Every **public repo** is and will stay free; custom work is agreed upfront (scope, timeline, deliverables, private vs public repo).
 

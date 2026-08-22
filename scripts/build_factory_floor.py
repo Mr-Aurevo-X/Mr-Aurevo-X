@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Generate factory-floor.svg (dual-split green/cyan) and rewrite README.
 
-README.md is the SoT for the dual Windows/Linux vitrine. This script must
+README.md is the SoT for the dual Windows/Linux public card. This script must
 emit that same structure (4 public hubs + WIN/LIN featured) so a re-run cannot
 regress to the old flat catalogue.
 """
@@ -90,7 +90,7 @@ def factory_svg() -> str:
 
   <!-- mount chips row 2 (public) -->
   <rect x="302" y="146" width="108" height="26" rx="4" fill="#071018" stroke="{CYAN}"/>
-  <text x="314" y="163" fill="{CYAN}" font-family="Consolas, monospace" font-size="10">vitrine</text>
+  <text x="314" y="163" fill="{CYAN}" font-family="Consolas, monospace" font-size="10">windows</text>
   <rect x="418" y="146" width="108" height="26" rx="4" fill="#071018" stroke="{CYAN}"/>
   <text x="442" y="163" fill="{CYAN}" font-family="Consolas, monospace" font-size="10">linux</text>
   <rect x="534" y="146" width="108" height="26" rx="4" fill="#071018" stroke="{CYAN}"/>
