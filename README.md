@@ -123,7 +123,7 @@ Ship : `GameChangelog.zip` sur [Mr-Aurevo-X/GameChangelog](https://github.com/Mr
 | App | Role | Version | Native | Flatpak |
 |:--|:--|:--|:--|:--|
 | **Crypto Tracker** | local crypto portfolio | 1.2.18 | [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/crypto-tracker-v1.2.17) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/crypto-tracker-v1.2.18) |
-| **Gest Linux Pro** | GTK system toolkit | 2.2.9 | — (Flatpak only) | [Gest_Linux_Pro](https://github.com/Mr-Aurevo-X/Gest_Linux_Pro/releases/tag/v2.2.2) |
+| **Gest Linux Pro** | GTK system toolkit | 2.2.3 | — (Flatpak only) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/Gest_Linux_Pro-v2.2.3) |
 | **UtilKit** | local toolkit (search, hash, PDF, disk map) | 2.2.9 | — (Flatpak only) | [UtilKit](https://github.com/Mr-Aurevo-X/UtilKit/releases/tag/MrAurevoX-Kit-v2.2.9) |
 
 **Crypto Tracker** : natif sur [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases) · Flatpak sur [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases). **Gest** et **UtilKit** : Flatpak sur [Gest_Linux_Pro](https://github.com/Mr-Aurevo-X/Gest_Linux_Pro) et [UtilKit](https://github.com/Mr-Aurevo-X/UtilKit) (Freedesktop 25.08 / GNOME 49).
@@ -269,7 +269,7 @@ Sources stay private. Public installables only.
 linux-releases/             * native zip (Crypto Tracker 1.2.17)
 linux-flatpak-releases/     * Flatpak (Crypto Tracker 1.2.18)
 UtilKit/                    * UtilKit 2.2.9 (.flatpak)
-Gest_Linux_Pro/             * Gest Linux Pro 2.2.2 (.flatpak)
+Gest_Linux_Pro/             * Gest Linux Pro 2.2.3 (.flatpak)
 ```
 
 </details>
