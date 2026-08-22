@@ -13,7 +13,7 @@
 [![Cursor AI](https://img.shields.io/badge/BUILT_BY-CURSOR_AI-39ff14?style=for-the-badge&labelColor=050807&logo=cursor&logoColor=39ff14)](https://cursor.com)
 [![Mr-Aurevo-X QA](https://img.shields.io/badge/IDEAS_%26_QA-MR--AUREVO--X-00f0ff?style=for-the-badge&labelColor=050807)](https://github.com/Mr-Aurevo-X)
 
-`STATUS=ONLINE` | `WIN=4_exe` | `LINUX=3_apps` | `PC_COMMAND=4_HUBS_public` | `SOFTTUNES=v2.0.0` | `GAMECHANGELOG=v1.0.3` | `FAKEVPS+SENTINEL=public` | `GAME_LOUNGE=28_X_private` | `MODE=AI_OPERATED`
+`STATUS=ONLINE` | `WIN=4_exe` | `LINUX=3_apps` | `PC_COMMAND=4_HUBS_public` | `SOFTTUNES=v2.0.2` | `GAMECHANGELOG=v1.0.3` | `FAKEVPS+SENTINEL=public` | `GAME_LOUNGE=28_X_private` | `MODE=AI_OPERATED`
 
 </div>
 
@@ -62,7 +62,7 @@ Single crafted factory board (dual-split: **BUILD green** / **QA cyan**). Decora
 
 ## ✨ Featured — Public Vitrine
 
-`WIN=4_exe` | `LINUX=3_apps` | `PC_COMMAND=4_HUBS` | `SOFTTUNES=v2.0.0` | `GAMECHANGELOG=v1.0.3` | `FAKEVPS+SENTINEL=public` | `AI-built` | `human-tested`
+`WIN=4_exe` | `LINUX=3_apps` | `PC_COMMAND=4_HUBS` | `SOFTTUNES=v2.0.2` | `GAMECHANGELOG=v1.0.3` | `FAKEVPS+SENTINEL=public` | `AI-built` | `human-tested`
 
 **License:** Linux binaries = proprietary (no source). **PC Command hubs** + **LocalDock** + **SoftTunes** + **GameChangelog** + **Vitrine Windows** = PolyForm Noncommercial 1.0.0 (source + zip/exe public). **FakeVPS** = custom (source public, 1.0.0 final). **Sentinel** = Apache-2.0 (source public, v2.0.0).
 
@@ -94,7 +94,7 @@ Ship : `SoftTunes.zip` sur [Mr-Aurevo-X/SoftTunes](https://github.com/Mr-Aurevo-
 
 | Outil | Role | Lien |
 |:--|:--|:--|
-| **SoftTunes** | Prépa session Windows · power · Soft OC · HUD FPS | [repo](https://github.com/Mr-Aurevo-X/SoftTunes) / [v2.0.0](https://github.com/Mr-Aurevo-X/SoftTunes/releases/tag/v2.0.0) |
+| **SoftTunes** | Prépa session Windows · power · Soft OC · HUD FPS | [repo](https://github.com/Mr-Aurevo-X/SoftTunes) / [v2.0.2](https://github.com/Mr-Aurevo-X/SoftTunes/releases/tag/v2.0.2) |
 
 ### 🎮 GameChangelog
 
@@ -147,7 +147,7 @@ Native (CT / Kit): tar.gz / zip via [linux-releases](https://github.com/Mr-Aurev
 |-- atelier/       PC Command | 4 hubs in-hub · v2.0.0                 [public]
 |-- localdock/     LocalDock v0.1.0 | loopback trust roots             [public]
 |-- game-lounge/   Game Lounge web | 28 *-X (site statique)            [private]
-|-- softtunes/     SoftTunes v2.0.0 | session prep + FPS meter         [public]
+|-- softtunes/     SoftTunes v2.0.2 | session prep + FPS meter         [public]
 |-- gamechangelog/ GameChangelog v1.0.3 | Steam patch notes            [public]
 |-- fakevps/       local Ubuntu rehearsal (6G / 4 vCPU / 40G)          [public]
 |-- sentinel/      Discord platform (mod, eco, XP, tickets, music)     [public]
@@ -187,7 +187,7 @@ LocalDock (hors hubs, même licence PolyForm) :
 |-- LegalHelpers/
 `-- DevTreeTemplates/
 
-standalone : SoftTunes **public** v2.0.0 · GameChangelog **public** v1.0.3 → 03_Standalones/ + Releases sur leur remote
+standalone : SoftTunes **public** v2.0.2 · GameChangelog **public** v1.0.3 → 03_Standalones/ + Releases sur leur remote
 ```
 
 <a id="game-lounge"></a>
@@ -210,14 +210,14 @@ docs/WEB-DEPLOY.md          déploiement sur votre hébergement
 ### ⚡ SoftTunes — Standalone
 
 **Public** · gratuit · local-first · PolyForm NC · **v2.0.0**  
-Ship : `SoftTunes.zip` sur [Mr-Aurevo-X/SoftTunes](https://github.com/Mr-Aurevo-X/SoftTunes) / [v2.0.0](https://github.com/Mr-Aurevo-X/SoftTunes/releases/tag/v2.0.0)
+Ship : `SoftTunes.zip` sur [Mr-Aurevo-X/SoftTunes](https://github.com/Mr-Aurevo-X/SoftTunes) / [v2.0.2](https://github.com/Mr-Aurevo-X/SoftTunes/releases/tag/v2.0.2)
 
 ```text
 SoftTunes/                  * repo Mr-Aurevo-X/SoftTunes (local: 03_Standalones/)
 |-- SoftTunes.exe | Lancer.cmd
 |-- AppData install: %LOCALAPPDATA%\Programs\SoftTunes
 |-- AppData data:    %LOCALAPPDATA%\SoftTunes
-`-- ship → SoftTunes.zip on SoftTunes Releases (v2.0.0)
+`-- ship → SoftTunes.zip on SoftTunes Releases (v2.0.2)
 ```
 
 <a id="gamechangelog"></a>

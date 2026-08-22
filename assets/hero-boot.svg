@@ -56,7 +56,7 @@
  <text x="40" y="57" fill="#9dffc2" clip-path="url(#h3)">[ INFO ] lazy DOM · ConfirmGate · UAC admin</text>
  <text x="40" y="76" fill="#39ff14" clip-path="url(#h4)">[ OK ] mount /game-lounge 28 *-X web private</text>
  <text x="40" y="95" fill="#9dffc2" clip-path="url(#h5)">[ INFO ] per-repo Releases | Launch-Hub-*.zip | SoftTunes | GameChangelog</text>
- <text x="40" y="114" fill="#39ff14" clip-path="url(#h6)">[ OK ] mount /softtunes SoftTunes v2.0.0 · /gamechangelog v1.0.3</text>
+ <text x="40" y="114" fill="#39ff14" clip-path="url(#h6)">[ OK ] mount /softtunes SoftTunes v2.0.2 · /gamechangelog v1.0.3</text>
  <text x="40" y="133" fill="#00f0ff" clip-path="url(#h7)">[ OK ] mount /fakevps PUBLIC · 1.0.0 final</text>
  <text x="40" y="152" fill="#39ff14" clip-path="url(#h8)">[ OK ] mount /vitrine 4 Windows desktop .exe</text>
  <text x="40" y="171" fill="#00f0ff" clip-path="url(#h9)">[ OK ] mount /sentinel PUBLIC · v2.0.0</text>
