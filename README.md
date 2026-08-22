@@ -122,8 +122,152 @@ Ship : `GameChangelog.zip` sur [Mr-Aurevo-X/GameChangelog](https://github.com/Mr
 
 | App | Role | Version | Native | Flatpak |
 |:--|:--|:--|:--|:--|
-| **Crypto Tracker** | local crypto portfolio | 1.2.17 | [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases/             * native zip (Crypto Tracker)
-linux-flatpak-releases/     * Flatpak (Crypto Tracker)
+| **Crypto Tracker** | local crypto portfolio | 1.2.17 | [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/crypto-tracker-v1.2.17) | [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/crypto-tracker-v1.2.17) |
+| **Gest Linux Pro** | GTK system toolkit | 2.2.1 | — (Flatpak only) | [Gest_Linux_Pro](https://github.com/Mr-Aurevo-X/Gest_Linux_Pro/releases/tag/v2.2.1) |
+| **UtilKit** | local toolkit (search, hash, PDF, disk map) | 2.2.2 | — (Flatpak only) | [UtilKit](https://github.com/Mr-Aurevo-X/UtilKit/releases/tag/MrAurevoX-Kit-v2.2.2) |
+
+**Crypto Tracker** : natif sur [linux-releases](https://github.com/Mr-Aurevo-X/linux-releases) · Flatpak sur [linux-flatpak-releases](https://github.com/Mr-Aurevo-X/linux-flatpak-releases). **Gest** et **UtilKit** : Flatpak sur [Gest_Linux_Pro](https://github.com/Mr-Aurevo-X/Gest_Linux_Pro) et [UtilKit](https://github.com/Mr-Aurevo-X/UtilKit) (Freedesktop 25.08 / GNOME 49).
+
+### 🔓 Source — FakeVPS + Sentinel
+
+**Clone OK** | no official hosted instance | upstream frozen (fork to continue)
+
+| Project | Role | Version | License | Lien |
+|:--|:--|:--|:--|:--|
+| **FakeVPS** | local Ubuntu rehearsal (6G / 4 vCPU / cockpit :8787) | 1.0.0 final | custom | [repo](https://github.com/Mr-Aurevo-X/FakeVPS) / [releases](https://github.com/Mr-Aurevo-X/FakeVPS/releases/tag/v1.0.0) |
+| **Mr-X Sentinel** | Discord platform (mod, eco, XP, tickets, music) | 2.0.0 | Apache-2.0 | [repo](https://github.com/Mr-Aurevo-X/Mr-X-Sentinel) / [releases](https://github.com/Mr-Aurevo-X/Mr-X-Sentinel/releases/tag/v2.0.0) |
+
+---
+
+## 📂 Mounts — Filesystem
+
+```text
+/workshop
+|-- atelier/       PC Command | 4 hubs in-hub · v2.0.0                 [public]
+|-- localdock/     LocalDock v0.1.0 | loopback trust roots             [public]
+|-- game-lounge/   Game Lounge web | 28 *-X (site statique)            [private]
+|-- softtunes/     SoftTunes v2.0.2 | session prep + FPS meter         [public]
+|-- gamechangelog/ GameChangelog v1.0.3 | Steam patch notes            [public]
+|-- fakevps/       local Ubuntu rehearsal (6G / 4 vCPU / 40G)          [public]
+|-- sentinel/      Discord platform (mod, eco, XP, tickets, music)     [public]
+|-- windows/       4 Windows desktop tools · v2.0.0                    [public]
+`-- linux/         Crypto Tracker | Gest Linux Pro | UtilKit           [public binaries]
+```
+
+<details>
+<summary><strong>🗺️ Full Workshop Map — Arborescences</strong></summary>
+
+<a id="atelier"></a>
+
+### 🛠️ Atelier — PC Command (4 Hubs)
+
+SoT : `Dev Central Tree\01_Hubs\` | pywebview + WebView2 | UAC admin | lazy DOM | ConfirmGate  
+Ship : `Launch-Hub-*.zip` **par remote** `Mr-Aurevo-X/Hub-*` (plus d’Install-Easy / PCCommand-Releases)  
+**Public** · **License:** PolyForm Noncommercial 1.0.0 · builds officiels = Releases de chaque repo seulement
+
+```text
+01_Hubs/
+|-- Hub-Systeme/        * SystemClean | RamCleaner | ProcessHub | UninstX | SysInspect | ...
+|-- Hub-Reseau/         * NetAdmin | NetMap | Traffic | WifiKey
+|-- Hub-Securite/       * FileGuard | CertView | RepoRadar | WinAudit
+`-- Hub-Utilitaires/    * UtilKit (+ ShellKit) | MediaKit | Capture | ColorPicker | ...
+
+Remotes publics :
+  github.com/Mr-Aurevo-X/Hub-Systeme | Hub-Reseau | Hub-Securite | Hub-Utilitaires
+  → Releases tag v2.0.0
+
+LocalDock (hors hubs, même licence PolyForm) :
+  github.com/Mr-Aurevo-X/LocalDock → Releases tag v0.1.0 (`LocalDock.zip`)
+
+02_Shared_Infrastructure/   (SoT interne — pas un produit public)
+|-- UI-proprietaire/    pc-command-kit SoT
+|-- SecurityHelpers/    ConfirmGate + security.py
+|-- HostHelpers/        window_chrome | suite_launch | hub_update
+|-- LegalHelpers/
+`-- DevTreeTemplates/
+
+standalone : SoftTunes **public** v2.0.2 · GameChangelog **public** v1.0.3 → 03_Standalones/ + Releases sur leur remote
+```
+
+<a id="game-lounge"></a>
+
+### 🎮 Game Lounge — Game Hub
+
+SoT jeux : [`Game-Lounge`](https://github.com/Mr-Aurevo-X/Game-Lounge) (monorepo web — build `dist-site/` pour hébergement statique)  
+28 jeux *-X jouables dans le navigateur (iframe Game Lounge). Dev local : `Lancer.cmd` → localhost.  
+Idle Incremental (**≥ 100 h**) + Tycoon-X + Cascade-X / Probe-X (Nostalgic).
+
+```text
+Game-Lounge/                * SoT sources (pnpm build → dist-site/)
+apps/launcher/              catalogue Game Lounge + iframe
+games/<slug>/               jeux Vite/React
+docs/WEB-DEPLOY.md          déploiement sur votre hébergement
+```
+
+<a id="softtunes"></a>
+
+### ⚡ SoftTunes — Standalone
+
+**Public** · gratuit · local-first · PolyForm NC · **v2.0.0**  
+Ship : `SoftTunes.zip` sur [Mr-Aurevo-X/SoftTunes](https://github.com/Mr-Aurevo-X/SoftTunes) / [v2.0.2](https://github.com/Mr-Aurevo-X/SoftTunes/releases/tag/v2.0.2)
+
+```text
+SoftTunes/                  * repo Mr-Aurevo-X/SoftTunes (local: 03_Standalones/)
+|-- SoftTunes.exe | Lancer.cmd
+|-- AppData install: %LOCALAPPDATA%\Programs\SoftTunes
+|-- AppData data:    %LOCALAPPDATA%\SoftTunes
+`-- ship → SoftTunes.zip on SoftTunes Releases (v2.0.2)
+```
+
+<a id="gamechangelog"></a>
+
+### 🎮 GameChangelog — Standalone
+
+**Public** · gratuit · local-first · PolyForm NC · **v1.0.3**  
+Ship : `GameChangelog.zip` sur [Mr-Aurevo-X/GameChangelog](https://github.com/Mr-Aurevo-X/GameChangelog) / [v1.0.3](https://github.com/Mr-Aurevo-X/GameChangelog/releases/tag/v1.0.3)
+
+```text
+GameChangelog/              * repo Mr-Aurevo-X/GameChangelog (local clone: 03_Standalones/GameChangelog)
+|-- GameChangelog.exe | Lancer.cmd
+|-- AppData data: %LOCALAPPDATA%\ChangeLog-Central
+`-- ship → GameChangelog.zip on GameChangelog Releases (v1.0.3)
+```
+
+<a id="fakevps"></a>
+
+### 🖥️ FakeVPS — Local Rehearsal
+
+Local Ubuntu node that behaves like a mid-range VPS. **Public source** — [Mr-Aurevo-X/FakeVPS](https://github.com/Mr-Aurevo-X/FakeVPS) · **1.0.0 final** (upstream frozen; fork to continue).
+
+```text
+FakeVPS/                    * localhost rehearsal [public]
+|-- ./fakevps up (Docker --fast default) | ./fakevps up --kvm
+|-- envelope 6 GB / 4 vCPU / 40 GB | SSH 127.0.0.1:2222 | cockpit :8787
+`-- attach any Discord bot (none bundled)
+```
+
+<a id="sentinel"></a>
+
+### 🛡️ Sentinel — Discord Platform
+
+Unified Discord bot + dashboard. **Public source** — [Mr-Aurevo-X/Mr-X-Sentinel](https://github.com/Mr-Aurevo-X/Mr-X-Sentinel) · **v2.0.0** Apache-2.0 (upstream frozen; fork to continue). No official bot to invite: run **your** instance.
+
+```text
+Mr-X-Sentinel/              * Discord platform [public]
+|-- security | moderation | logs | economy | XP | tickets | music
+|-- Node 20/22 + pnpm | Postgres | Redis | Lavalink
+`-- slash-only | modules per guild | optional FakeVPS attach
+```
+
+<a id="linux"></a>
+
+### 📦 Linux — Public Binaries
+
+Sources stay private. Public installables only.
+
+```text
+linux-releases/             * native zip (Crypto Tracker 1.2.17)
+linux-flatpak-releases/     * Flatpak (Crypto Tracker 1.2.17)
 UtilKit/                    * UtilKit 2.2.2 (.flatpak)
 Gest_Linux_Pro/             * Gest Linux Pro 2.2.1 (.flatpak)
 ```
