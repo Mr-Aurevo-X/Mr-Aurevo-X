@@ -1,0 +1,466 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1100" height="420" viewBox="0 0 1100 420" role="img" aria-label="Mr-Aurevo-X AI workshop">
+ <defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+   <stop offset="0%" stop-color="#030605"/>
+   <stop offset="100%" stop-color="#071410"/>
+  </linearGradient>
+  <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+   <stop offset="0%" stop-color="#39ff14"/>
+   <stop offset="100%" stop-color="#00f0ff"/>
+  </linearGradient>
+  <clipPath id="face"><circle cx="550" cy="210" r="78"/></clipPath>
+  <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+   <feGaussianBlur stdDeviation="6" result="b"/>
+   <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+   <rect width="4" height="1" fill="#39ff14" opacity="0.05"/>
+  </pattern>
+  <clipPath id="rain"><rect x="24" y="48" width="1052" height="340" rx="6"/></clipPath>
+ </defs>
+ <rect width="1100" height="420" fill="url(#bg)"/>
+ <rect x="12" y="12" width="1076" height="396" rx="14" fill="#050807" stroke="#1a3d2a" stroke-width="2"/>
+ <circle cx="40" cy="32" r="5" fill="#ff5f56"/>
+ <circle cx="58" cy="32" r="5" fill="#ffbd2e"/>
+ <circle cx="76" cy="32" r="5" fill="#27c93f"/>
+ <text x="100" y="37" fill="#6aff9a" font-family="Consolas, ui-monospace, monospace" font-size="13">root@mr-aurevo-x -- ai_session</text>
+ <text x="960" y="37" fill="#00f0ff" font-family="Consolas, ui-monospace, monospace" font-size="12">ONLINE</text>
+ <rect x="24" y="48" width="1052" height="340" rx="6" fill="#020403" stroke="#123222"/>
+ <g clip-path="url(#rain)">
+<text x="18" y="-40" fill="#00f0ff" opacity="0.27" font-family="Consolas, ui-monospace, monospace" font-size="15"><tspan x="18" dy="18" opacity="1.00">ｱ</tspan>
+<tspan x="18" dy="18" opacity="0.93">ﾘ</tspan>
+<tspan x="18" dy="18" opacity="0.86">ﾓ</tspan>
+<tspan x="18" dy="18" opacity="0.79">ｼ</tspan>
+<tspan x="18" dy="18" opacity="0.72">$</tspan>
+<tspan x="18" dy="18" opacity="0.65">ｳ</tspan>
+<tspan x="18" dy="18" opacity="0.58">Ж</tspan>
+<tspan x="18" dy="18" opacity="0.51">ｾ</tspan>
+<tspan x="18" dy="18" opacity="0.44">ﾊ</tspan>
+<tspan x="18" dy="18" opacity="0.37">1</tspan>
+<tspan x="18" dy="18" opacity="0.30">ｳ</tspan>
+<tspan x="18" dy="18" opacity="0.25">ｵ</tspan>
+  <animateTransform attributeName="transform" type="translate" values="0 -80; 0 480" dur="7.18s" begin="-5.12s" repeatCount="indefinite"/>
+</text>
+<text x="57" y="-40" fill="#39ff14" opacity="0.21" font-family="Consolas, ui-monospace, monospace" font-size="15"><tspan x="57" dy="18" opacity="1.00">$</tspan>
+<tspan x="57" dy="18" opacity="0.93">ﾗ</tspan>
+<tspan x="57" dy="18" opacity="0.86">ﾘ</tspan>
+<tspan x="57" dy="18" opacity="0.79">ﾈ</tspan>
+<tspan x="57" dy="18" opacity="0.72">Ж</tspan>
+<tspan x="57" dy="18" opacity="0.65">ﾃ</tspan>
+<tspan x="57" dy="18" opacity="0.58">0</tspan>
+<tspan x="57" dy="18" opacity="0.51">ｻ</tspan>
+<tspan x="57" dy="18" opacity="0.44">ｾ</tspan>
+<tspan x="57" dy="18" opacity="0.37">ｴ</tspan>
+<tspan x="57" dy="18" opacity="0.30">ﾃ</tspan>
+<tspan x="57" dy="18" opacity="0.25">ﾆ</tspan>
+<tspan x="57" dy="18" opacity="0.25">ｵ</tspan>
+<tspan x="57" dy="18" opacity="0.25">ｴ</tspan>
+<tspan x="57" dy="18" opacity="0.25">ｼ</tspan>
+  <animateTransform attributeName="transform" type="translate" values="0 -80; 0 480" dur="10.93s" begin="-4.82s" repeatCount="indefinite"/>
+</text>
+<text x="96" y="-40" fill="#39ff14" opacity="0.42" font-family="Consolas, ui-monospace, monospace" font-size="15"><tspan x="96" dy="18" opacity="1.00">ﾎ</tspan>
+<tspan x="96" dy="18" opacity="0.93">ﾊ</tspan>
+<tspan x="96" dy="18" opacity="0.86">ｽ</tspan>
+<tspan x="96" dy="18" opacity="0.79">$</tspan>
+<tspan x="96" dy="18" opacity="0.72">ﾅ</tspan>
+<tspan x="96" dy="18" opacity="0.65">ﾑ</tspan>
+<tspan x="96" dy="18" opacity="0.58">ｳ</tspan>
+<tspan x="96" dy="18" opacity="0.51">%</tspan>
+<tspan x="96" dy="18" opacity="0.44">ﾏ</tspan>
+<tspan x="96" dy="18" opacity="0.37">ｷ</tspan>
+<tspan x="96" dy="18" opacity="0.30">Ξ</tspan>
+<tspan x="96" dy="18" opacity="0.25">ﾂ</tspan>
+<tspan x="96" dy="18" opacity="0.25">ﾋ</tspan>
+<tspan x="96" dy="18" opacity="0.25">ﾊ</tspan>
+  <animateTransform attributeName="transform" type="translate" values="0 -80; 0 480" dur="12.93s" begin="-0.77s" repeatCount="indefinite"/>
+</text>
+<text x="135" y="-40" fill="#00f0ff" opacity="0.35" font-family="Consolas, ui-monospace, monospace" font-size="15"><tspan x="135" dy="18" opacity="1.00">ﾘ</tspan>
+<tspan x="135" dy="18" opacity="0.93">ｼ</tspan>
+<tspan x="135" dy="18" opacity="0.86">ﾑ</tspan>
+<tspan x="135" dy="18" opacity="0.79">ﾃ</tspan>
+<tspan x="135" dy="18" opacity="0.72">ｽ</tspan>
+<tspan x="135" dy="18" opacity="0.65">ｷ</tspan>
+<tspan x="135" dy="18" opacity="0.58">ｻ</tspan>
+<tspan x="135" dy="18" opacity="0.51">ｷ</tspan>
+<tspan x="135" dy="18" opacity="0.44">ｶ</tspan>
+<tspan x="135" dy="18" opacity="0.37">ｵ</tspan>
+<tspan x="135" dy="18" opacity="0.30">ﾃ</tspan>
+<tspan x="135" dy="18" opacity="0.25">ﾋ</tspan>
+<tspan x="135" dy="18" opacity="0.25">ｻ</tspan>
+<tspan x="135" dy="18" opacity="0.25">$</tspan>
+<tspan x="135" dy="18" opacity="0.25">ｱ</tspan>
+<tspan x="135" dy="18" opacity="0.25">ｻ</tspan>
+  <animateTransform attributeName="transform" type="translate" values="0 -80; 0 480" dur="13.9s" begin="-6.18s" repeatCount="indefinite"/>
+</text>
+<text x="174" y="-40" fill="#39ff14" opacity="0.33" font-family="Consolas, ui-monospace, monospace" font-size="15"><tspan x="174" dy="18" opacity="1.00">%</tspan>
+<tspan x="174" dy="18" opacity="0.93">ﾘ</tspan>
+<tspan x="174" dy="18" opacity="0.86">ﾒ</tspan>
+<tspan x="174" dy="18" opacity="0.79">ﾐ</tspan>
+<tspan x="174" dy="18" opacity="0.72">ﾘ</tspan>
+<tspan x="174" dy="18" opacity="0.65">ﾊ</tspan>
+<tspan x="174" dy="18" opacity="0.58">ﾒ</tspan>
+<tspan x="174" dy="18" opacity="0.51">ﾕ</tspan>
+<tspan x="174" dy="18" opacity="0.44">ﾃ</tspan>
+<tspan x="174" dy="18" opacity="0.37">ﾋ</tspan>
+<tspan x="174" dy="18" opacity="0.30">ｵ</tspan>
+<tspan x="174" dy="18" opacity="0.25">Ξ</tspan>
+<tspan x="174" dy="18" opacity="0.25">ﾒ</tspan>
+<tspan x="174" dy="18" opacity="0.25">ｵ</tspan>
+<tspan x="174" dy="18" opacity="0.25">ﾇ</tspan>
+  <animateTransform attributeName="transform" type="translate" values="0 -80; 0 480" dur="13.48s" begin="-2.16s" repeatCount="indefinite"/>
+</text>
+<text x="213" y="-40" fill="#39ff14" opacity="0.37" font-family="Consolas, ui-monospace, monospace" font-size="15"><tspan x="213" dy="18" opacity="1.00">ﾓ</tspan>
+<tspan x="213" dy="18" opacity="0.93">ｱ</tspan>
+<tspan x="213" dy="18" opacity="0.86">%</tspan>
+<tspan x="213" dy="18" opacity="0.79">$</tspan>
+<tspan x="213" dy="18" opacity="0.72">ﾎ</tspan>
+<tspan x="213" dy="18" opacity="0.65">Ж</tspan>
+<tspan x="213" dy="18" opacity="0.58">ｾ</tspan>
+<tspan x="213" dy="18" opacity="0.51">Ж</tspan>
+<tspan x="213" dy="18" opacity="0.44">ﾕ</tspan>
+<tspan x="213" dy="18" opacity="0.37">ｷ</tspan>
+<tspan x="213" dy="18" opacity="0.30">ﾘ</tspan>
+<tspan x="213" dy="18" opacity="0.25">ﾓ</tspan>
+  <animateTransform attributeName="transform" type="translate" values="0 -80; 0 480" dur="10.21s" begin="-7.32s" repeatCount="indefinite"/>
+</text>
+<text x="252" y="-40" fill="#00f0ff" opacity="0.5" font-family="Consolas, ui-monospace, monospace" font-size="15"><tspan x="252" dy="18" opacity="1.00">ﾆ</tspan>
+<tspan x="252" dy="18" opacity="0.93">ｻ</tspan>
+<tspan x="252" dy="18" opacity="0.86">ｾ</tspan>
+<tspan x="252" dy="18" opacity="0.79">ﾋ</tspan>
+<tspan x="252" dy="18" opacity="0.72">ﾑ</tspan>
+<tspan x="252" dy="18" opacity="0.65">ﾑ</tspan>
+<tspan x="252" dy="18" opacity="0.58">ｽ</tspan>
+<tspan x="252" dy="18" opacity="0.51">#</tspan>
+<tspan x="252" dy="18" opacity="0.44">ﾎ</tspan>
+<tspan x="252" dy="18" opacity="0.37">%</tspan>
+  <animateTransform attributeName="transform" type="translate" values="0 -80; 0 480" dur="7.33s" begin="-0.73s" repeatCount="indefinite"/>
+</text>
+<text x="291" y="-40" fill="#39ff14" opacity="0.49" font-family="Consolas, ui-monospace, monospace" font-size="15"><tspan x="291" dy="18" opacity="1.00">$</tspan>
+<tspan x="291" dy="18" opacity="0.93">ﾃ</tspan>
+<tspan x="291" dy="18" opacity="0.86">ｴ</tspan>
+<tspan x="291" dy="18" opacity="0.79">ﾅ</tspan>
+<tspan x="291" dy="18" opacity="0.72">ﾏ</tspan>
+<tspan x="291" dy="18" opacity="0.65">ｾ</tspan>
+<tspan x="291" dy="18" opacity="0.58">ｻ</tspan>
+<tspan x="291" dy="18" opacity="0.51">ｽ</tspan>
+<tspan x="291" dy="18" opacity="0.44">0</tspan>
+<tspan x="291" dy="18" opacity="0.37">ﾎ</tspan>
+<tspan x="291" dy="18" opacity="0.30">ﾍ</tspan>
+<tspan x="291" dy="18" opacity="0.25">ﾜ</tspan>
+<tspan x="291" dy="18" opacity="0.25">ﾍ</tspan>
+<tspan x="291" dy="18" opacity="0.25">ｼ</tspan>
+<tspan x="291" dy="18" opacity="0.25">ｹ</tspan>
+  <animateTransform attributeName="transform" type="translate" values="0 -80; 0 480" dur="12.05s" begin="-0.09s" repeatCount="indefinite"/>
+</text>
+<text x="330" y="-40" fill="#39ff14" opacity="0.27" font-family="Consolas, ui-monospace, monospace" font-size="15"><tspan x="330" dy="18" opacity="1.00">ｻ</tspan>
+<tspan x="330" dy="18" opacity="0.93">$</tspan>
+<tspan x="330" dy="18" opacity="0.86">#</tspan>
+<tspan x="330" dy="18" opacity="0.79">0</tspan>
+<tspan x="330" dy="18" opacity="0.72">ﾒ</tspan>
+<tspan x="330" dy="18" opacity="0.65">ﾇ</tspan>
+<tspan x="330" dy="18" opacity="0.58">1</tspan>
+<tspan x="330" dy="18" opacity="0.51">ﾅ</tspan>
+<tspan x="330" dy="18" opacity="0.44">ｷ</tspan>
+<tspan x="330" dy="18" opacity="0.37">ｹ</tspan>
+<tspan x="330" dy="18" opacity="0.30">ｱ</tspan>
+<tspan x="330" dy="18" opacity="0.25">ﾐ</tspan>
+  <animateTransform attributeName="transform" type="translate" values="0 -80; 0 480" dur="8.39s" begin="-4.06s" repeatCount="indefinite"/>
+</text>
+<text x="369" y="-40" fill="#00f0ff" opacity="0.33" font-family="Consolas, ui-monospace, monospace" font-size="15"><tspan x="369" dy="18" opacity="1.00">ﾇ</tspan>
+<tspan x="369" dy="18" opacity="0.93">ﾋ</tspan>
+<tspan x="369" dy="18" opacity="0.86">$</tspan>
+<tspan x="369" dy="18" opacity="0.79">ﾓ</tspan>
+<tspan x="369" dy="18" opacity="0.72">ﾓ</tspan>
+<tspan x="369" dy="18" opacity="0.65">ﾀ</tspan>
+<tspan x="369" dy="18" opacity="0.58">%</tspan>
+<tspan x="369" dy="18" opacity="0.51">ｻ</tspan>
+<tspan x="369" dy="18" opacity="0.44">ﾎ</tspan>
+<tspan x="369" dy="18" opacity="0.37">#</tspan>
+<tspan x="369" dy="18" opacity="0.30">ｾ</tspan>
+<tspan x="369" dy="18" opacity="0.25">ｵ</tspan>
+<tspan x="369" dy="18" opacity="0.25">$</tspan>
+<tspan x="369" dy="18" opacity="0.25">ﾂ</tspan>
+<tspan x="369" dy="18" opacity="0.25">ｹ</tspan>
+  <animateTransform attributeName="transform" type="translate" values="0 -80; 0 480" dur="7.55s" begin="-4.54s" repeatCount="indefinite"/>
+</text>
+<text x="408" y="-40" fill="#39ff14" opacity="0.44" font-family="Consolas, ui-monospace, monospace" font-size="15"><tspan x="408" dy="18" opacity="1.00">ﾈ</tspan>
+<tspan x="408" dy="18" opacity="0.93">ﾅ</tspan>
+<tspan x="408" dy="18" opacity="0.86">ｱ</tspan>
+<tspan x="408" dy="18" opacity="0.79">ﾘ</tspan>
+<tspan x="408" dy="18" opacity="0.72">ﾋ</tspan>
+<tspan x="408" dy="18" opacity="0.65">ｴ</tspan>
+<tspan x="408" dy="18" opacity="0.58">1</tspan>
+<tspan x="408" dy="18" opacity="0.51">Ж</tspan>
+<tspan x="408" dy="18" opacity="0.44">%</tspan>
+<tspan x="408" dy="18" opacity="0.37">ﾘ</tspan>
+<tspan x="408" dy="18" opacity="0.30">Ж</tspan>
+<tspan x="408" dy="18" opacity="0.25">ﾘ</tspan>
+<tspan x="408" dy="18" opacity="0.25">0</tspan>
+<tspan x="408" dy="18" opacity="0.25">ﾋ</tspan>
+  <animateTransform attributeName="transform" type="translate" values="0 -80; 0 480" dur="9.61s" begin="-5.37s" repeatCount="indefinite"/>
+</text>
+<text x="447" y="-40" fill="#39ff14" opacity="0.39" font-family="Consolas, ui-monospace, monospace" font-size="15"><tspan x="447" dy="18" opacity="1.00">ｴ</tspan>
+<tspan x="447" dy="18" opacity="0.93">ﾋ</tspan>
+<tspan x="447" dy="18" opacity="0.86">ﾍ</tspan>
+<tspan x="447" dy="18" opacity="0.79">ｱ</tspan>
+<tspan x="447" dy="18" opacity="0.72">ﾃ</tspan>
+<tspan x="447" dy="18" opacity="0.65">ﾇ</tspan>
+<tspan x="447" dy="18" opacity="0.58">ｵ</tspan>
+<tspan x="447" dy="18" opacity="0.51">$</tspan>
+<tspan x="447" dy="18" opacity="0.44">ﾓ</tspan>
+<tspan x="447" dy="18" opacity="0.37">Ξ</tspan>
+  <animateTransform attributeName="transform" type="translate" values="0 -80; 0 480" dur="7.47s" begin="-0.47s" repeatCount="indefinite"/>
+</text>
+<text x="486" y="-40" fill="#00f0ff" opacity="0.48" font-family="Consolas, ui-monospace, monospace" font-size="15"><tspan x="486" dy="18" opacity="1.00">ﾂ</tspan>
+<tspan x="486" dy="18" opacity="0.93">ｼ</tspan>
+<tspan x="486" dy="18" opacity="0.86">ｼ</tspan>
+<tspan x="486" dy="18" opacity="0.79">ｾ</tspan>
+<tspan x="486" dy="18" opacity="0.72">ｶ</tspan>
+<tspan x="486" dy="18" opacity="0.65">ｾ</tspan>
+<tspan x="486" dy="18" opacity="0.58">ﾗ</tspan>
+<tspan x="486" dy="18" opacity="0.51">ｽ</tspan>
+<tspan x="486" dy="18" opacity="0.44">ﾐ</tspan>
+<tspan x="486" dy="18" opacity="0.37">ｼ</tspan>
+<tspan x="486" dy="18" opacity="0.30">ﾐ</tspan>
+<tspan x="486" dy="18" opacity="0.25">ﾕ</tspan>
+<tspan x="486" dy="18" opacity="0.25">ｴ</tspan>
+  <animateTransform attributeName="transform" type="translate" values="0 -80; 0 480" dur="10.31s" begin="-1.94s" repeatCount="indefinite"/>
+</text>
+<text x="525" y="-40" fill="#39ff14" opacity="0.54" font-family="Consolas, ui-monospace, monospace" font-size="15"><tspan x="525" dy="18" opacity="1.00">ﾈ</tspan>
+<tspan x="525" dy="18" opacity="0.93">ﾓ</tspan>
+<tspan x="525" dy="18" opacity="0.86">ｾ</tspan>
+<tspan x="525" dy="18" opacity="0.79">ﾜ</tspan>
+<tspan x="525" dy="18" opacity="0.72">ﾃ</tspan>
+<tspan x="525" dy="18" opacity="0.65">ｽ</tspan>
+<tspan x="525" dy="18" opacity="0.58">ｱ</tspan>
+<tspan x="525" dy="18" opacity="0.51">ﾋ</tspan>
+<tspan x="525" dy="18" opacity="0.44">ﾈ</tspan>
+<tspan x="525" dy="18" opacity="0.37">%</tspan>
+<tspan x="525" dy="18" opacity="0.30">ｼ</tspan>
+<tspan x="525" dy="18" opacity="0.25">ﾐ</tspan>
+<tspan x="525" dy="18" opacity="0.25">$</tspan>
+<tspan x="525" dy="18" opacity="0.25">0</tspan>
+  <animateTransform attributeName="transform" type="translate" values="0 -80; 0 480" dur="8.34s" begin="-0.87s" repeatCount="indefinite"/>
+</text>
+<text x="564" y="-40" fill="#39ff14" opacity="0.52" font-family="Consolas, ui-monospace, monospace" font-size="15"><tspan x="564" dy="18" opacity="1.00">ﾗ</tspan>
+<tspan x="564" dy="18" opacity="0.93">ﾇ</tspan>
+<tspan x="564" dy="18" opacity="0.86">ﾀ</tspan>
+<tspan x="564" dy="18" opacity="0.79">ｵ</tspan>
+<tspan x="564" dy="18" opacity="0.72">ﾕ</tspan>
+<tspan x="564" dy="18" opacity="0.65">ﾐ</tspan>
+<tspan x="564" dy="18" opacity="0.58">ｻ</tspan>
+<tspan x="564" dy="18" opacity="0.51">ﾑ</tspan>
+<tspan x="564" dy="18" opacity="0.44">0</tspan>
+<tspan x="564" dy="18" opacity="0.37">ﾑ</tspan>
+<tspan x="564" dy="18" opacity="0.30">ﾎ</tspan>
+  <animateTransform attributeName="transform" type="translate" values="0 -80; 0 480" dur="12.94s" begin="-7.41s" repeatCount="indefinite"/>
+</text>
+<text x="603" y="-40" fill="#00f0ff" opacity="0.37" font-family="Consolas, ui-monospace, monospace" font-size="15"><tspan x="603" dy="18" opacity="1.00">%</tspan>
+<tspan x="603" dy="18" opacity="0.93">ﾇ</tspan>
+<tspan x="603" dy="18" opacity="0.86">ﾆ</tspan>
+<tspan x="603" dy="18" opacity="0.79">ﾂ</tspan>
+<tspan x="603" dy="18" opacity="0.72">ﾏ</tspan>
+<tspan x="603" dy="18" opacity="0.65">ｵ</tspan>
+<tspan x="603" dy="18" opacity="0.58">ﾐ</tspan>
+<tspan x="603" dy="18" opacity="0.51">Ж</tspan>
+<tspan x="603" dy="18" opacity="0.44">$</tspan>
+<tspan x="603" dy="18" opacity="0.37">ﾐ</tspan>
+<tspan x="603" dy="18" opacity="0.30">ﾒ</tspan>
+<tspan x="603" dy="18" opacity="0.25">ﾐ</tspan>
+<tspan x="603" dy="18" opacity="0.25">ﾐ</tspan>
+<tspan x="603" dy="18" opacity="0.25">Ж</tspan>
+<tspan x="603" dy="18" opacity="0.25">ﾀ</tspan>
+  <animateTransform attributeName="transform" type="translate" values="0 -80; 0 480" dur="9.0s" begin="-6.28s" repeatCount="indefinite"/>
+</text>
+<text x="642" y="-40" fill="#39ff14" opacity="0.39" font-family="Consolas, ui-monospace, monospace" font-size="15"><tspan x="642" dy="18" opacity="1.00">ｳ</tspan>
+<tspan x="642" dy="18" opacity="0.93">ﾜ</tspan>
+<tspan x="642" dy="18" opacity="0.86">ﾋ</tspan>
+<tspan x="642" dy="18" opacity="0.79">ﾋ</tspan>
+<tspan x="642" dy="18" opacity="0.72">ｱ</tspan>
+<tspan x="642" dy="18" opacity="0.65">ﾕ</tspan>
+<tspan x="642" dy="18" opacity="0.58">ﾅ</tspan>
+<tspan x="642" dy="18" opacity="0.51">Ξ</tspan>
+<tspan x="642" dy="18" opacity="0.44">ｱ</tspan>
+<tspan x="642" dy="18" opacity="0.37">Ж</tspan>
+<tspan x="642" dy="18" opacity="0.30">ﾊ</tspan>
+<tspan x="642" dy="18" opacity="0.25">ｳ</tspan>
+<tspan x="642" dy="18" opacity="0.25">ﾗ</tspan>
+<tspan x="642" dy="18" opacity="0.25">Ж</tspan>
+  <animateTransform attributeName="transform" type="translate" values="0 -80; 0 480" dur="8.1s" begin="-6.82s" repeatCount="indefinite"/>
+</text>
+<text x="681" y="-40" fill="#39ff14" opacity="0.26" font-family="Consolas, ui-monospace, monospace" font-size="15"><tspan x="681" dy="18" opacity="1.00">ﾒ</tspan>
+<tspan x="681" dy="18" opacity="0.93">ｱ</tspan>
+<tspan x="681" dy="18" opacity="0.86">ﾎ</tspan>
+<tspan x="681" dy="18" opacity="0.79">ﾕ</tspan>
+<tspan x="681" dy="18" opacity="0.72">ﾓ</tspan>
+<tspan x="681" dy="18" opacity="0.65">ｹ</tspan>
+<tspan x="681" dy="18" opacity="0.58">ｽ</tspan>
+<tspan x="681" dy="18" opacity="0.51">ﾒ</tspan>
+<tspan x="681" dy="18" opacity="0.44">ﾋ</tspan>
+<tspan x="681" dy="18" opacity="0.37">0</tspan>
+<tspan x="681" dy="18" opacity="0.30">ｽ</tspan>
+<tspan x="681" dy="18" opacity="0.25">Ξ</tspan>
+<tspan x="681" dy="18" opacity="0.25">ｼ</tspan>
+<tspan x="681" dy="18" opacity="0.25">ﾋ</tspan>
+<tspan x="681" dy="18" opacity="0.25">$</tspan>
+  <animateTransform attributeName="transform" type="translate" values="0 -80; 0 480" dur="8.83s" begin="-2.53s" repeatCount="indefinite"/>
+</text>
+<text x="720" y="-40" fill="#00f0ff" opacity="0.29" font-family="Consolas, ui-monospace, monospace" font-size="15"><tspan x="720" dy="18" opacity="1.00">ｱ</tspan>
+<tspan x="720" dy="18" opacity="0.93">ｷ</tspan>
+<tspan x="720" dy="18" opacity="0.86">ﾏ</tspan>
+<tspan x="720" dy="18" opacity="0.79">ｻ</tspan>
+<tspan x="720" dy="18" opacity="0.72">ﾈ</tspan>
+<tspan x="720" dy="18" opacity="0.65">$</tspan>
+<tspan x="720" dy="18" opacity="0.58">ｹ</tspan>
+<tspan x="720" dy="18" opacity="0.51">#</tspan>
+<tspan x="720" dy="18" opacity="0.44">0</tspan>
+<tspan x="720" dy="18" opacity="0.37">%</tspan>
+  <animateTransform attributeName="transform" type="translate" values="0 -80; 0 480" dur="13.53s" begin="-2.12s" repeatCount="indefinite"/>
+</text>
+<text x="759" y="-40" fill="#39ff14" opacity="0.37" font-family="Consolas, ui-monospace, monospace" font-size="15"><tspan x="759" dy="18" opacity="1.00">ﾎ</tspan>
+<tspan x="759" dy="18" opacity="0.93">ﾅ</tspan>
+<tspan x="759" dy="18" opacity="0.86">ｼ</tspan>
+<tspan x="759" dy="18" opacity="0.79">%</tspan>
+<tspan x="759" dy="18" opacity="0.72">ﾆ</tspan>
+<tspan x="759" dy="18" opacity="0.65">ﾃ</tspan>
+<tspan x="759" dy="18" opacity="0.58">ﾏ</tspan>
+<tspan x="759" dy="18" opacity="0.51">ｵ</tspan>
+<tspan x="759" dy="18" opacity="0.44">ｴ</tspan>
+<tspan x="759" dy="18" opacity="0.37">ｵ</tspan>
+<tspan x="759" dy="18" opacity="0.30">ﾎ</tspan>
+  <animateTransform attributeName="transform" type="translate" values="0 -80; 0 480" dur="13.57s" begin="-5.31s" repeatCount="indefinite"/>
+</text>
+<text x="798" y="-40" fill="#39ff14" opacity="0.38" font-family="Consolas, ui-monospace, monospace" font-size="15"><tspan x="798" dy="18" opacity="1.00">ｳ</tspan>
+<tspan x="798" dy="18" opacity="0.93">ｾ</tspan>
+<tspan x="798" dy="18" opacity="0.86">ﾃ</tspan>
+<tspan x="798" dy="18" opacity="0.79">ﾊ</tspan>
+<tspan x="798" dy="18" opacity="0.72">0</tspan>
+<tspan x="798" dy="18" opacity="0.65">ｴ</tspan>
+<tspan x="798" dy="18" opacity="0.58">ﾓ</tspan>
+<tspan x="798" dy="18" opacity="0.51">ﾎ</tspan>
+<tspan x="798" dy="18" opacity="0.44">ｻ</tspan>
+<tspan x="798" dy="18" opacity="0.37">ﾈ</tspan>
+  <animateTransform attributeName="transform" type="translate" values="0 -80; 0 480" dur="13.36s" begin="-2.01s" repeatCount="indefinite"/>
+</text>
+<text x="837" y="-40" fill="#00f0ff" opacity="0.29" font-family="Consolas, ui-monospace, monospace" font-size="15"><tspan x="837" dy="18" opacity="1.00">ﾆ</tspan>
+<tspan x="837" dy="18" opacity="0.93">$</tspan>
+<tspan x="837" dy="18" opacity="0.86">ﾊ</tspan>
+<tspan x="837" dy="18" opacity="0.79">ｷ</tspan>
+<tspan x="837" dy="18" opacity="0.72">Ж</tspan>
+<tspan x="837" dy="18" opacity="0.65">%</tspan>
+<tspan x="837" dy="18" opacity="0.58">ﾆ</tspan>
+<tspan x="837" dy="18" opacity="0.51">ｾ</tspan>
+<tspan x="837" dy="18" opacity="0.44">ﾓ</tspan>
+<tspan x="837" dy="18" opacity="0.37">ﾊ</tspan>
+  <animateTransform attributeName="transform" type="translate" values="0 -80; 0 480" dur="7.07s" begin="-3.42s" repeatCount="indefinite"/>
+</text>
+<text x="876" y="-40" fill="#39ff14" opacity="0.47" font-family="Consolas, ui-monospace, monospace" font-size="15"><tspan x="876" dy="18" opacity="1.00">ﾊ</tspan>
+<tspan x="876" dy="18" opacity="0.93">ｶ</tspan>
+<tspan x="876" dy="18" opacity="0.86">ｵ</tspan>
+<tspan x="876" dy="18" opacity="0.79">ｱ</tspan>
+<tspan x="876" dy="18" opacity="0.72">ｼ</tspan>
+<tspan x="876" dy="18" opacity="0.65">ｶ</tspan>
+<tspan x="876" dy="18" opacity="0.58">%</tspan>
+<tspan x="876" dy="18" opacity="0.51">ﾗ</tspan>
+<tspan x="876" dy="18" opacity="0.44">ﾆ</tspan>
+<tspan x="876" dy="18" opacity="0.37">ｱ</tspan>
+<tspan x="876" dy="18" opacity="0.30">ｻ</tspan>
+<tspan x="876" dy="18" opacity="0.25">ﾜ</tspan>
+<tspan x="876" dy="18" opacity="0.25">ﾗ</tspan>
+<tspan x="876" dy="18" opacity="0.25">1</tspan>
+<tspan x="876" dy="18" opacity="0.25">ﾜ</tspan>
+<tspan x="876" dy="18" opacity="0.25">ｴ</tspan>
+  <animateTransform attributeName="transform" type="translate" values="0 -80; 0 480" dur="12.57s" begin="-7.19s" repeatCount="indefinite"/>
+</text>
+<text x="915" y="-40" fill="#39ff14" opacity="0.42" font-family="Consolas, ui-monospace, monospace" font-size="15"><tspan x="915" dy="18" opacity="1.00">ｱ</tspan>
+<tspan x="915" dy="18" opacity="0.93">ﾃ</tspan>
+<tspan x="915" dy="18" opacity="0.86">ｻ</tspan>
+<tspan x="915" dy="18" opacity="0.79">ｼ</tspan>
+<tspan x="915" dy="18" opacity="0.72">ﾑ</tspan>
+<tspan x="915" dy="18" opacity="0.65">ﾊ</tspan>
+<tspan x="915" dy="18" opacity="0.58">ﾀ</tspan>
+<tspan x="915" dy="18" opacity="0.51">ﾘ</tspan>
+<tspan x="915" dy="18" opacity="0.44">ﾂ</tspan>
+<tspan x="915" dy="18" opacity="0.37">ｽ</tspan>
+<tspan x="915" dy="18" opacity="0.30">ｶ</tspan>
+<tspan x="915" dy="18" opacity="0.25">ｹ</tspan>
+<tspan x="915" dy="18" opacity="0.25">ﾘ</tspan>
+<tspan x="915" dy="18" opacity="0.25">ﾘ</tspan>
+<tspan x="915" dy="18" opacity="0.25">1</tspan>
+  <animateTransform attributeName="transform" type="translate" values="0 -80; 0 480" dur="11.69s" begin="-3.29s" repeatCount="indefinite"/>
+</text>
+<text x="954" y="-40" fill="#00f0ff" opacity="0.39" font-family="Consolas, ui-monospace, monospace" font-size="15"><tspan x="954" dy="18" opacity="1.00">ﾃ</tspan>
+<tspan x="954" dy="18" opacity="0.93">ｶ</tspan>
+<tspan x="954" dy="18" opacity="0.86">ﾍ</tspan>
+<tspan x="954" dy="18" opacity="0.79">ﾕ</tspan>
+<tspan x="954" dy="18" opacity="0.72">$</tspan>
+<tspan x="954" dy="18" opacity="0.65">ｴ</tspan>
+<tspan x="954" dy="18" opacity="0.58">1</tspan>
+<tspan x="954" dy="18" opacity="0.51">ﾅ</tspan>
+<tspan x="954" dy="18" opacity="0.44">ﾎ</tspan>
+<tspan x="954" dy="18" opacity="0.37">ﾜ</tspan>
+  <animateTransform attributeName="transform" type="translate" values="0 -80; 0 480" dur="8.95s" begin="-3.19s" repeatCount="indefinite"/>
+</text>
+<text x="993" y="-40" fill="#39ff14" opacity="0.52" font-family="Consolas, ui-monospace, monospace" font-size="15"><tspan x="993" dy="18" opacity="1.00">ｾ</tspan>
+<tspan x="993" dy="18" opacity="0.93">ｶ</tspan>
+<tspan x="993" dy="18" opacity="0.86">ﾒ</tspan>
+<tspan x="993" dy="18" opacity="0.79">ｾ</tspan>
+<tspan x="993" dy="18" opacity="0.72">ﾍ</tspan>
+<tspan x="993" dy="18" opacity="0.65">ﾅ</tspan>
+<tspan x="993" dy="18" opacity="0.58">ﾑ</tspan>
+<tspan x="993" dy="18" opacity="0.51">Ξ</tspan>
+<tspan x="993" dy="18" opacity="0.44">ﾂ</tspan>
+<tspan x="993" dy="18" opacity="0.37">ﾎ</tspan>
+<tspan x="993" dy="18" opacity="0.30">ﾊ</tspan>
+<tspan x="993" dy="18" opacity="0.25">ｾ</tspan>
+<tspan x="993" dy="18" opacity="0.25">0</tspan>
+<tspan x="993" dy="18" opacity="0.25">#</tspan>
+  <animateTransform attributeName="transform" type="translate" values="0 -80; 0 480" dur="7.27s" begin="-7.87s" repeatCount="indefinite"/>
+</text>
+<text x="1032" y="-40" fill="#39ff14" opacity="0.23" font-family="Consolas, ui-monospace, monospace" font-size="15"><tspan x="1032" dy="18" opacity="1.00">ﾂ</tspan>
+<tspan x="1032" dy="18" opacity="0.93">ｷ</tspan>
+<tspan x="1032" dy="18" opacity="0.86">ｾ</tspan>
+<tspan x="1032" dy="18" opacity="0.79">ﾋ</tspan>
+<tspan x="1032" dy="18" opacity="0.72">ｴ</tspan>
+<tspan x="1032" dy="18" opacity="0.65">ﾒ</tspan>
+<tspan x="1032" dy="18" opacity="0.58">ﾅ</tspan>
+<tspan x="1032" dy="18" opacity="0.51">ｹ</tspan>
+<tspan x="1032" dy="18" opacity="0.44">ﾍ</tspan>
+<tspan x="1032" dy="18" opacity="0.37">ｹ</tspan>
+<tspan x="1032" dy="18" opacity="0.30">ﾗ</tspan>
+<tspan x="1032" dy="18" opacity="0.25">ﾒ</tspan>
+<tspan x="1032" dy="18" opacity="0.25">ﾕ</tspan>
+<tspan x="1032" dy="18" opacity="0.25">ﾏ</tspan>
+<tspan x="1032" dy="18" opacity="0.25">%</tspan>
+  <animateTransform attributeName="transform" type="translate" values="0 -80; 0 480" dur="12.04s" begin="-4.31s" repeatCount="indefinite"/>
+</text>
+<text x="1071" y="-40" fill="#00f0ff" opacity="0.43" font-family="Consolas, ui-monospace, monospace" font-size="15"><tspan x="1071" dy="18" opacity="1.00">ﾜ</tspan>
+<tspan x="1071" dy="18" opacity="0.93">Ξ</tspan>
+<tspan x="1071" dy="18" opacity="0.86">ｹ</tspan>
+<tspan x="1071" dy="18" opacity="0.79">ﾕ</tspan>
+<tspan x="1071" dy="18" opacity="0.72">%</tspan>
+<tspan x="1071" dy="18" opacity="0.65">0</tspan>
+<tspan x="1071" dy="18" opacity="0.58">ｹ</tspan>
+<tspan x="1071" dy="18" opacity="0.51">ﾏ</tspan>
+<tspan x="1071" dy="18" opacity="0.44">ｵ</tspan>
+<tspan x="1071" dy="18" opacity="0.37">ｾ</tspan>
+<tspan x="1071" dy="18" opacity="0.30">Ж</tspan>
+<tspan x="1071" dy="18" opacity="0.25">ﾒ</tspan>
+<tspan x="1071" dy="18" opacity="0.25">ｽ</tspan>
+<tspan x="1071" dy="18" opacity="0.25">ﾈ</tspan>
+<tspan x="1071" dy="18" opacity="0.25">ﾈ</tspan>
+  <animateTransform attributeName="transform" type="translate" values="0 -80; 0 480" dur="13.58s" begin="-3.36s" repeatCount="indefinite"/>
+</text>
+ </g>
+ <rect x="24" y="48" width="1052" height="340" rx="6" fill="url(#scan)"/>
+ <circle cx="550" cy="210" r="88" fill="none" stroke="url(#ring)" stroke-width="3" filter="url(#glow)">
+  <animate attributeName="opacity" values="0.55;1;0.55" dur="3.2s" repeatCount="indefinite"/>
+ </circle>
+ <circle cx="550" cy="210" r="82" fill="#050807"/>
+ <image x="472" y="132" width="156" height="156" clip-path="url(#face)" href="data:image/jpeg;base64,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" xlink:href="data:image/jpeg;base64,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"/>
+ <text x="550" y="318" text-anchor="middle" fill="#39ff14" font-family="Consolas, ui-monospace, monospace" font-size="15">MR-AUREVO-X · OPERATOR</text>
+ <text x="550" y="340" text-anchor="middle" fill="#00f0ff" font-family="Consolas, ui-monospace, monospace" font-size="12">CURSOR BUILDS · HUMAN QA · MODE=AI_OPERATED</text>
+ <rect x="24" y="394" width="1052" height="2" fill="url(#ring)" opacity="0.7">
+  <animate attributeName="opacity" values="0.3;0.9;0.3" dur="3.6s" repeatCount="indefinite"/>
+ </rect>
+</svg>
