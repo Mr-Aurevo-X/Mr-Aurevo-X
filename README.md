@@ -2,9 +2,9 @@
 
 # `>_ mr-aurevo-x@workshop:~`
 
-<a href="#windows"><img src="https://img.shields.io/badge/WINDOWS-PC_Command-39ff14?style=for-the-badge&labelColor=050807" alt="Windows"/></a>
-<a href="#linux"><img src="https://img.shields.io/badge/LINUX-Command_+_hubs-00f0ff?style=for-the-badge&labelColor=050807" alt="Linux"/></a>
-<a href="#ia"><img src="https://img.shields.io/badge/IA-atelier-39ff14?style=for-the-badge&labelColor=050807&logo=cursor&logoColor=39ff14" alt="IA"/></a>
+<a href="#windows"><img src="https://img.shields.io/badge/WINDOWS-PC_Command-050807?style=for-the-badge&labelColor=39ff14&color=071410" alt="Windows"/></a>
+<a href="#linux"><img src="https://img.shields.io/badge/Linux-Command-050807?style=for-the-badge&labelColor=00f0ff&color=071410" alt="Linux Command"/></a>
+<a href="#ia"><img src="https://img.shields.io/badge/IA-atelier-050807?style=for-the-badge&labelColor=b8ff5a&color=071410&logo=cursor&logoColor=050807" alt="IA"/></a>
 
 </div>
 
