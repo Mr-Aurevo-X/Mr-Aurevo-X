@@ -110,7 +110,7 @@ Hubs are **standalone GTK 4 apps** — you don’t have to install the launcher.
 
 | App | FR | EN | Visibilité / Visibility | Version |
 |:--|:--|:--|:--|:--|
-| 🎛️ [Linux Command](https://github.com/Mr-Aurevo-X/Linux-Command) | launcher / commander (optionnel) | optional launcher / commander | **privé** / **private** | v0.2.0 |
+| 🎛️ [Linux Command](https://github.com/Mr-Aurevo-X/Linux-Command) | launcher / commander (optionnel) | optional launcher / commander | **privé** / **private** | [v0.2.1](https://github.com/Mr-Aurevo-X/Linux-Command/releases/tag/v0.2.1) |
 | 💻 [Hub Système](https://github.com/Mr-Aurevo-X/Hub-Systeme-Linux) | santé · process · paquets · disques · journaux | health · processes · packages · disks · logs | **privé** / **private** | [v1.1.0](https://github.com/Mr-Aurevo-X/Hub-Systeme-Linux/releases/tag/v1.1.0) |
 | 📡 [Hub Réseau](https://github.com/Mr-Aurevo-X/Hub-Reseau-Linux) | interfaces · flotte · diagnostic | interfaces · fleet · diagnostics | **privé** / **private** | v1.0.0 |
 | 🛡️ [Hub Sécurité](https://github.com/Mr-Aurevo-X/Hub-Securite-Linux) | audit · secrets · permissions | audit · secrets · permissions | **privé** / **private** | v1.0.0 |
