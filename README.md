@@ -2,8 +2,8 @@
 
 # `>_ mr-aurevo-x@workshop:~`
 
-<a href="#windows"><img src="https://img.shields.io/badge/WINDOWS-PC_Command-050807?style=for-the-badge&labelColor=39ff14&color=071410" alt="Windows"/></a>
-<a href="#linux"><img src="https://img.shields.io/badge/Linux-Command-050807?style=for-the-badge&labelColor=00f0ff&color=071410" alt="Linux Command"/></a>
+<a href="#windows"><img src="https://img.shields.io/badge/WINDOWS-PC_Command-050807?style=for-the-badge&labelColor=39ff14&color=071410&logo=windows&logoColor=050807" alt="Windows"/></a>
+<a href="#linux"><img src="https://img.shields.io/badge/Linux-Command-050807?style=for-the-badge&labelColor=00f0ff&color=071410&logo=linux&logoColor=050807" alt="Linux Command"/></a>
 <a href="#ia"><img src="https://img.shields.io/badge/IA-atelier-050807?style=for-the-badge&labelColor=b8ff5a&color=071410&logo=cursor&logoColor=050807" alt="IA"/></a>
 
 </div>
@@ -12,13 +12,13 @@
 <tr>
 <td width="50%" valign="top">
 
-**FR** — Atelier d’outils locaux. Cursor construit. Mr-Aurevo-X teste et valide.  
+🇫🇷 **FR** — Atelier d’outils locaux. Cursor construit. Mr-Aurevo-X teste et valide.  
 Gratuit · autant local que possible · sans compte.
 
 </td>
 <td width="50%" valign="top">
 
-**EN** — Local-first tools workshop. Cursor builds. Mr-Aurevo-X QAs and signs off.  
+🇬🇧 **EN** — Local-first tools workshop. Cursor builds. Mr-Aurevo-X QAs and signs off.  
 Free · as local as possible · no account.
 
 </td>
@@ -29,13 +29,13 @@ Free · as local as possible · no account.
 
 <a id="windows"></a>
 
-## Windows
+## 🪟 Windows
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### PC Command — c’est quoi
+### 🖥️ PC Command — c’est quoi
 
 **PC Command**, c’est **4 hubs** (pas un seul .exe fourre-tout).  
 Chaque hub = une fenêtre admin, modules du même thème, zip portable `Launch-Hub-*.zip`, UAC.  
@@ -47,7 +47,7 @@ SmartScreen possible : binaires **non signés**.
 </td>
 <td width="50%" valign="top">
 
-### PC Command — what it is
+### 🖥️ PC Command — what it is
 
 **PC Command** is **4 hubs** (not one kitchen-sink .exe).  
 Each hub = one admin window, same-theme modules, portable zip `Launch-Hub-*.zip`, UAC.  
@@ -62,35 +62,35 @@ SmartScreen may appear: binaries are **unsigned**.
 
 | Hub | FR | EN | Visibilité / Visibility | Version |
 |:--|:--|:--|:--|:--|
-| [Système](https://github.com/Mr-Aurevo-X/Hub-Systeme) | ménage · RAM · process · désinstall | cleanup · RAM · processes · uninstall | **public** | [v2.0.0](https://github.com/Mr-Aurevo-X/Hub-Systeme/releases/tag/v2.0.0) |
-| [Réseau](https://github.com/Mr-Aurevo-X/Hub-Reseau) | adaptateurs · carte · traffic · Wi‑Fi | adapters · map · traffic · Wi‑Fi | **public** | [v2.0.0](https://github.com/Mr-Aurevo-X/Hub-Reseau/releases/tag/v2.0.0) |
-| [Sécurité](https://github.com/Mr-Aurevo-X/Hub-Securite) | FileGuard · CertView · RepoRadar · WinAudit | FileGuard · CertView · RepoRadar · WinAudit | **public** | [v2.0.0](https://github.com/Mr-Aurevo-X/Hub-Securite/releases/tag/v2.0.0) |
-| [Utilitaires](https://github.com/Mr-Aurevo-X/Hub-Utilitaires) | UtilKit + MediaKit | UtilKit + MediaKit | **public** | [v2.0.0](https://github.com/Mr-Aurevo-X/Hub-Utilitaires/releases/tag/v2.0.0) |
+| 💻 [Système](https://github.com/Mr-Aurevo-X/Hub-Systeme) | ménage · RAM · process · désinstall | cleanup · RAM · processes · uninstall | **public** | [v2.0.0](https://github.com/Mr-Aurevo-X/Hub-Systeme/releases/tag/v2.0.0) |
+| 📡 [Réseau](https://github.com/Mr-Aurevo-X/Hub-Reseau) | adaptateurs · carte · traffic · Wi‑Fi | adapters · map · traffic · Wi‑Fi | **public** | [v2.0.0](https://github.com/Mr-Aurevo-X/Hub-Reseau/releases/tag/v2.0.0) |
+| 🛡️ [Sécurité](https://github.com/Mr-Aurevo-X/Hub-Securite) | FileGuard · CertView · RepoRadar · WinAudit | FileGuard · CertView · RepoRadar · WinAudit | **public** | [v2.0.0](https://github.com/Mr-Aurevo-X/Hub-Securite/releases/tag/v2.0.0) |
+| 🧰 [Utilitaires](https://github.com/Mr-Aurevo-X/Hub-Utilitaires) | UtilKit + MediaKit | UtilKit + MediaKit | **public** | [v2.0.0](https://github.com/Mr-Aurevo-X/Hub-Utilitaires/releases/tag/v2.0.0) |
 
-### Standalones
+### 📦 Standalones
 
 | App | FR | EN | Visibilité / Visibility | Version |
 |:--|:--|:--|:--|:--|
-| [QrTools](https://github.com/Mr-Aurevo-X/QrTools) | QR simple + lot | simple + batch QR | **public** | v2.0.0 |
-| [UnitConvert](https://github.com/Mr-Aurevo-X/UnitConvert) | unités + devises (BCE + cache offline) | units + currencies (ECB + offline cache) | **public** | v2.0.0 |
-| [TimeTools](https://github.com/Mr-Aurevo-X/TimeTools) | horodatage · chrono · Pomodoro | timestamps · stopwatch · Pomodoro | **public** | v2.0.0 |
-| [PixClean](https://github.com/Mr-Aurevo-X/PixClean) | strip EXIF / GPS / XMP | strip EXIF / GPS / XMP | **public** | v2.0.0 |
-| [GameChangelog](https://github.com/Mr-Aurevo-X/GameChangelog) | patch notes Steam | Steam patch notes | **public** | v1.0.3 |
-| [Game Lounge](https://github.com/Mr-Aurevo-X/Game-Lounge) | hub de jeux web (28 \*-X, site statique) | web game hub (28 \*-X, static site) | **privé** / **private** | — |
-| [SoftTunes](https://github.com/Mr-Aurevo-X/SoftTunes) | prépa session + HUD FPS *(pas un booster)* | session prep + FPS HUD *(not a booster)* | **public** | v2.0.2 |
-| [LocalDock](https://github.com/Mr-Aurevo-X/LocalDock) | racines de confiance · scan · loopback | trust roots · scan · loopback | **public** | v0.1.0 |
+| 📱 [QrTools](https://github.com/Mr-Aurevo-X/QrTools) | QR simple + lot | simple + batch QR | **public** | v2.0.0 |
+| 📐 [UnitConvert](https://github.com/Mr-Aurevo-X/UnitConvert) | unités + devises (BCE + cache offline) | units + currencies (ECB + offline cache) | **public** | v2.0.0 |
+| ⏱️ [TimeTools](https://github.com/Mr-Aurevo-X/TimeTools) | horodatage · chrono · Pomodoro | timestamps · stopwatch · Pomodoro | **public** | v2.0.0 |
+| 🖼️ [PixClean](https://github.com/Mr-Aurevo-X/PixClean) | strip EXIF / GPS / XMP | strip EXIF / GPS / XMP | **public** | v2.0.0 |
+| 📋 [GameChangelog](https://github.com/Mr-Aurevo-X/GameChangelog) | patch notes Steam | Steam patch notes | **public** | v1.0.3 |
+| 🎮 [Game Lounge](https://github.com/Mr-Aurevo-X/Game-Lounge) | hub de jeux web (28 \*-X, site statique) | web game hub (28 \*-X, static site) | **privé** / **private** | — |
+| ⚡ [SoftTunes](https://github.com/Mr-Aurevo-X/SoftTunes) | prépa session + HUD FPS *(pas un booster)* | session prep + FPS HUD *(not a booster)* | **public** | v2.0.2 |
+| ⚓ [LocalDock](https://github.com/Mr-Aurevo-X/LocalDock) | racines de confiance · scan · loopback | trust roots · scan · loopback | **public** | v0.1.0 |
 
 ---
 
 <a id="linux"></a>
 
-## Linux
+## 🐧 Linux
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### Linux Command — c’est quoi
+### 🐧 Linux Command — c’est quoi
 
 **Linux Command**, c’est le **commander / launcher optionnel** (Tauri) : grille des hubs, install copier-coller, vérif GitHub en lecture seule.  
 Les hubs sont des **apps GTK 4 autonomes** — tu n’es pas obligé d’installer le launcher.
@@ -98,7 +98,7 @@ Les hubs sont des **apps GTK 4 autonomes** — tu n’es pas obligé d’install
 </td>
 <td width="50%" valign="top">
 
-### Linux Command — what it is
+### 🐧 Linux Command — what it is
 
 **Linux Command** is the **optional commander / launcher** (Tauri): hub grid, copy-paste install, read-only GitHub version check.  
 Hubs are **standalone GTK 4 apps** — you don’t have to install the launcher.
@@ -109,25 +109,25 @@ Hubs are **standalone GTK 4 apps** — you don’t have to install the launcher.
 
 | App | FR | EN | Visibilité / Visibility | Version |
 |:--|:--|:--|:--|:--|
-| [Linux Command](https://github.com/Mr-Aurevo-X/Linux-Command) | launcher / commander (optionnel) | optional launcher / commander | **privé** / **private** | v0.2.0 |
-| [Hub Système](https://github.com/Mr-Aurevo-X/Hub-Systeme-Linux) | santé · process · paquets · disques · journaux | health · processes · packages · disks · logs | **privé** / **private** | v1.0.0 |
-| [Hub Réseau](https://github.com/Mr-Aurevo-X/Hub-Reseau-Linux) | interfaces · flotte · diagnostic | interfaces · fleet · diagnostics | **privé** / **private** | v1.0.0 |
-| [Hub Sécurité](https://github.com/Mr-Aurevo-X/Hub-Securite-Linux) | audit · secrets · permissions | audit · secrets · permissions | **privé** / **private** | v1.0.0 |
-| [Hub Utilitaires](https://github.com/Mr-Aurevo-X/Hub-Utilitaires-Linux) | search · hash · PDF · images · disk map | search · hash · PDF · images · disk map | **privé** / **private** | v1.0.0 |
-| [Hub Dev](https://github.com/Mr-Aurevo-X/Hub-Dev-Linux) | loopback + ports locaux | loopback + local ports | **privé** / **private** | v1.0.0 |
+| 🎛️ [Linux Command](https://github.com/Mr-Aurevo-X/Linux-Command) | launcher / commander (optionnel) | optional launcher / commander | **privé** / **private** | v0.2.0 |
+| 💻 [Hub Système](https://github.com/Mr-Aurevo-X/Hub-Systeme-Linux) | santé · process · paquets · disques · journaux | health · processes · packages · disks · logs | **privé** / **private** | v1.0.0 |
+| 📡 [Hub Réseau](https://github.com/Mr-Aurevo-X/Hub-Reseau-Linux) | interfaces · flotte · diagnostic | interfaces · fleet · diagnostics | **privé** / **private** | v1.0.0 |
+| 🛡️ [Hub Sécurité](https://github.com/Mr-Aurevo-X/Hub-Securite-Linux) | audit · secrets · permissions | audit · secrets · permissions | **privé** / **private** | v1.0.0 |
+| 🧰 [Hub Utilitaires](https://github.com/Mr-Aurevo-X/Hub-Utilitaires-Linux) | search · hash · PDF · images · disk map | search · hash · PDF · images · disk map | **privé** / **private** | v1.0.0 |
+| 🔧 [Hub Dev](https://github.com/Mr-Aurevo-X/Hub-Dev-Linux) | loopback + ports locaux | loopback + local ports | **privé** / **private** | v1.0.0 |
 
-### Standalones
+### 📦 Standalones
 
 | App | FR | EN | Visibilité / Visibility | Version |
 |:--|:--|:--|:--|:--|
-| [Crypto Tracker](https://github.com/Mr-Aurevo-X/crypto-tracker) | surveillance crypto **locale** — pas un exchange, pas d’achat/vente | **local** crypto watch — not an exchange, no buy/sell | **privé** (sources) · **binaires publics** / **private** (source) · **public binaries** | Flatpak [1.2.21](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/crypto-tracker-v1.2.21) · native [1.2.17](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/crypto-tracker-v1.2.17) |
-| [Game Lounge](https://github.com/Mr-Aurevo-X/Game-Lounge) | hub de jeux web (28 \*-X, site statique) | web game hub (28 \*-X, static site) | **privé** / **private** | — |
+| 📊 [Crypto Tracker](https://github.com/Mr-Aurevo-X/crypto-tracker) | surveillance crypto **locale** — pas un exchange, pas d’achat/vente | **local** crypto watch — not an exchange, no buy/sell | **privé** (sources) · **binaires publics** / **private** (source) · **public binaries** | Flatpak [1.2.21](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/crypto-tracker-v1.2.21) · native [1.2.17](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/crypto-tracker-v1.2.17) |
+| 🎮 [Game Lounge](https://github.com/Mr-Aurevo-X/Game-Lounge) | hub de jeux web (28 \*-X, site statique) | web game hub (28 \*-X, static site) | **privé** / **private** | — |
 
 ---
 
 <a id="ia"></a>
 
-## IA
+## ⚡ IA
 
 <div align="center">
 
@@ -158,12 +158,12 @@ Cursor AI builds and operates. Mr-Aurevo-X brings ideas, stress-tests, and the g
 
 | Projet | FR | EN | Visibilité / Visibility | Version |
 |:--|:--|:--|:--|:--|
-| [FakeVPS](https://github.com/Mr-Aurevo-X/FakeVPS) | Ubuntu local style VPS | local Ubuntu VPS rehearsal | **public** | v1.0.0 |
-| [Mr-X Sentinel](https://github.com/Mr-Aurevo-X/Mr-X-Sentinel) | bot Discord self-host | self-hosted Discord bot | **public** · figé / frozen | v2.0.0 |
+| 🖥️ [FakeVPS](https://github.com/Mr-Aurevo-X/FakeVPS) | Ubuntu local style VPS | local Ubuntu VPS rehearsal | **public** | v1.0.0 |
+| 🤖 [Mr-X Sentinel](https://github.com/Mr-Aurevo-X/Mr-X-Sentinel) | bot Discord self-host | self-hosted Discord bot | **public** · figé / frozen | v2.0.0 |
 
 ---
 
-## Sur mesure — Custom builds
+## 🛠️ Sur mesure — Custom builds
 
 `BY_REQUEST` | `AI_BUILT` | `HUMAN_QA` | `GITHUB_COMPLIANT` | `SCOPE_FIRST`
 
@@ -203,7 +203,7 @@ Every **public repo** stays **free**. Custom work is agreed up front.
 
 | | FR | EN |
 |:--|:--|:--|
-| **Contact** | [Discord DM](https://discord.com/users/406891052516114442) — décrire le besoin | [Discord DM](https://discord.com/users/406891052516114442) — describe the use case |
+| 💬 **Contact** | [Discord DM](https://discord.com/users/406891052516114442) — décrire le besoin | [Discord DM](https://discord.com/users/406891052516114442) — describe the use case |
 | **Livraison / Delivery** | sources IA + chemin de build · QA Mr-Aurevo-X · repo privé ou public | AI-built sources + build path · Mr-Aurevo-X QA · private or public repo |
 | **Stack** | Python · pywebview · PowerShell · GTK / Flatpak · Node / React | Python · pywebview · PowerShell · GTK / Flatpak · Node / React |
 | **Engagement / Commitment** | pas d’engagement sans accord écrit | no commitment without a written agreement |
