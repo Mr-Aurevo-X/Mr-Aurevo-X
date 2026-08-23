@@ -111,11 +111,11 @@ Hubs are **standalone GTK 4 apps** — you don’t have to install the launcher.
 | App | FR | EN | Visibilité / Visibility | Version |
 |:--|:--|:--|:--|:--|
 | 🎛️ [Linux Command](https://github.com/Mr-Aurevo-X/Linux-Command) | launcher / commander (optionnel) | optional launcher / commander | **public** | [v0.2.6](https://github.com/Mr-Aurevo-X/Linux-Command/releases/tag/v0.2.6) |
-| 💻 [Hub Système](https://github.com/Mr-Aurevo-X/Hub-Systeme-Linux) | santé · process · paquets · disques · journaux | health · processes · packages · disks · logs | **public** | [v1.1.2](https://github.com/Mr-Aurevo-X/Hub-Systeme-Linux/releases/tag/v1.1.2) |
-| 📡 [Hub Réseau](https://github.com/Mr-Aurevo-X/Hub-Reseau-Linux) | interfaces · flotte · diagnostic | interfaces · fleet · diagnostics | **public** | [v1.3.2](https://github.com/Mr-Aurevo-X/Hub-Reseau-Linux/releases/tag/v1.3.2) |
-| 🛡️ [Hub Sécurité](https://github.com/Mr-Aurevo-X/Hub-Securite-Linux) | audit · secrets · permissions | audit · secrets · permissions | **public** | [v1.3.2](https://github.com/Mr-Aurevo-X/Hub-Securite-Linux/releases/tag/v1.3.2) |
-| 🧰 [Hub Utilitaires](https://github.com/Mr-Aurevo-X/Hub-Utilitaires-Linux) | search · hash · PDF · images · disk map | search · hash · PDF · images · disk map | **public** | [v1.1.3](https://github.com/Mr-Aurevo-X/Hub-Utilitaires-Linux/releases/tag/v1.1.3) |
-| 🔧 [Hub Dev](https://github.com/Mr-Aurevo-X/Hub-Dev-Linux) | loopback + ports locaux | loopback + local ports | **public** | [v1.2.6](https://github.com/Mr-Aurevo-X/Hub-Dev-Linux/releases/tag/v1.2.6) |
+| 💻 [Hub Système](https://github.com/Mr-Aurevo-X/Hub-Systeme-Linux) | santé · process · paquets · disques · journaux | health · processes · packages · disks · logs | **public** | [v1.1.3](https://github.com/Mr-Aurevo-X/Hub-Systeme-Linux/releases/tag/v1.1.3) |
+| 📡 [Hub Réseau](https://github.com/Mr-Aurevo-X/Hub-Reseau-Linux) | interfaces · flotte · diagnostic | interfaces · fleet · diagnostics | **public** | [v1.3.3](https://github.com/Mr-Aurevo-X/Hub-Reseau-Linux/releases/tag/v1.3.3) |
+| 🛡️ [Hub Sécurité](https://github.com/Mr-Aurevo-X/Hub-Securite-Linux) | audit · secrets · permissions | audit · secrets · permissions | **public** | [v1.3.3](https://github.com/Mr-Aurevo-X/Hub-Securite-Linux/releases/tag/v1.3.3) |
+| 🧰 [Hub Utilitaires](https://github.com/Mr-Aurevo-X/Hub-Utilitaires-Linux) | search · hash · PDF · images · disk map | search · hash · PDF · images · disk map | **public** | [v1.1.4](https://github.com/Mr-Aurevo-X/Hub-Utilitaires-Linux/releases/tag/v1.1.4) |
+| 🔧 [Hub Dev](https://github.com/Mr-Aurevo-X/Hub-Dev-Linux) | loopback + ports locaux | loopback + local ports | **public** | [v1.2.7](https://github.com/Mr-Aurevo-X/Hub-Dev-Linux/releases/tag/v1.2.7) |
 
 ### 📦 Standalones
 
