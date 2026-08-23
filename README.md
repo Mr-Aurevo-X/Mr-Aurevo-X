@@ -93,7 +93,7 @@ SmartScreen may appear: binaries are **unsigned**.
 
 ### 🐧 Linux Command — c’est quoi
 
-**Linux Command**, c’est le **commander / launcher optionnel** (Tauri) : grille des hubs, install copier-coller, vérif GitHub en lecture seule.  
+**Linux Command**, c’est le **commander / launcher optionnel** (Tauri) : grille des hubs, lien dépôt GitHub, vérif GitHub en lecture seule.  
 Les hubs sont des **apps GTK 4 autonomes** — tu n’es pas obligé d’installer le launcher.
 
 </td>
@@ -101,7 +101,7 @@ Les hubs sont des **apps GTK 4 autonomes** — tu n’es pas obligé d’install
 
 ### 🐧 Linux Command — what it is
 
-**Linux Command** is the **optional commander / launcher** (Tauri): hub grid, copy-paste install, read-only GitHub version check.  
+**Linux Command** is the **optional commander / launcher** (Tauri): hub grid, GitHub repo link, read-only GitHub version check.  
 Hubs are **standalone GTK 4 apps** — you don’t have to install the launcher.
 
 </td>
@@ -110,7 +110,7 @@ Hubs are **standalone GTK 4 apps** — you don’t have to install the launcher.
 
 | App | FR | EN | Visibilité / Visibility | Version |
 |:--|:--|:--|:--|:--|
-| 🎛️ [Linux Command](https://github.com/Mr-Aurevo-X/Linux-Command) | launcher / commander (optionnel) | optional launcher / commander | **public** | [v0.2.2](https://github.com/Mr-Aurevo-X/Linux-Command/releases/tag/v0.2.2) |
+| 🎛️ [Linux Command](https://github.com/Mr-Aurevo-X/Linux-Command) | launcher / commander (optionnel) | optional launcher / commander | **public** | [v0.2.3](https://github.com/Mr-Aurevo-X/Linux-Command/releases/tag/v0.2.3) |
 | 💻 [Hub Système](https://github.com/Mr-Aurevo-X/Hub-Systeme-Linux) | santé · process · paquets · disques · journaux | health · processes · packages · disks · logs | **public** | [v1.1.1](https://github.com/Mr-Aurevo-X/Hub-Systeme-Linux/releases/tag/v1.1.1) |
 | 📡 [Hub Réseau](https://github.com/Mr-Aurevo-X/Hub-Reseau-Linux) | interfaces · flotte · diagnostic | interfaces · fleet · diagnostics | **public** | [v1.3.1](https://github.com/Mr-Aurevo-X/Hub-Reseau-Linux/releases/tag/v1.3.1) |
 | 🛡️ [Hub Sécurité](https://github.com/Mr-Aurevo-X/Hub-Securite-Linux) | audit · secrets · permissions | audit · secrets · permissions | **public** | [v1.3.1](https://github.com/Mr-Aurevo-X/Hub-Securite-Linux/releases/tag/v1.3.1) |
