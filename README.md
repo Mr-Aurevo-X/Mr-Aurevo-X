@@ -2,6 +2,7 @@
 
 # `>_ mr-aurevo-x@workshop:~`
 
+<a href="https://mr-aurevo-x.github.io"><img src="https://img.shields.io/badge/catalogue-mr--aurevo--x.github.io-050807?style=for-the-badge&labelColor=00f0ff&color=071410" alt="Catalogue"/></a>
 <a href="#windows"><img src="https://img.shields.io/badge/WINDOWS-PC_Command-050807?style=for-the-badge&labelColor=39ff14&color=071410&logo=windows&logoColor=050807" alt="Windows"/></a>
 <a href="#linux"><img src="https://img.shields.io/badge/Linux-Command-050807?style=for-the-badge&labelColor=00f0ff&color=071410&logo=linux&logoColor=050807" alt="Linux Command"/></a>
 <a href="#ia"><img src="https://img.shields.io/badge/IA-atelier-050807?style=for-the-badge&labelColor=b8ff5a&color=071410&logo=cursor&logoColor=050807" alt="IA"/></a>
@@ -212,6 +213,7 @@ Every **public repo** stays **free**. Custom work is agreed up front.
 
 <div align="center">
 
+[![Catalogue](https://img.shields.io/badge/Catalogue-github.io-00f0ff?style=for-the-badge&labelColor=050807)](https://mr-aurevo-x.github.io)
 [![Discord](https://img.shields.io/badge/Discord-Mr--Aurevo--X-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=050807)](https://discord.com/users/406891052516114442)
 [![PayPal](https://img.shields.io/badge/PayPal-Donate-39ff14?style=for-the-badge&logo=paypal&logoColor=00f0ff&labelColor=050807)](https://www.paypal.com/paypalme/aurevo1)
 [![Revolut](https://img.shields.io/badge/Revolut-mr__aurevo__x-00f0ff?style=for-the-badge&logo=revolut&logoColor=39ff14&labelColor=050807)](https://revolut.me/mr_aurevo_x)
