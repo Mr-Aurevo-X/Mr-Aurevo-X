@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Mr-Aurevo-X&#39;s GitHub Stats, Rank: C+</title>
-        <desc id="descId">Total Stars Earned: 6, Total Commits  : 1425, Total PRs: 5, Total Issues: 0, Contributed to (last year): 0</desc>
+        <desc id="descId">Total Stars Earned: 6, Total Commits  : 1440, Total PRs: 5, Total Issues: 0, Contributed to (last year): 0</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 196.57231218702793;
+        stroke-dashoffset: 196.41095741399707;
       }
     }
   
