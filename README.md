@@ -121,7 +121,7 @@ Hubs are **standalone GTK 4 apps** — you don’t have to install the launcher.
 
 | App | FR | EN | Visibilité / Visibility | Version |
 |:--|:--|:--|:--|:--|
-| 📊 [Crypto Tracker](https://github.com/Mr-Aurevo-X/crypto-tracker) | surveillance crypto **locale** — pas un exchange, pas d’achat/vente | **local** crypto watch — not an exchange, no buy/sell | **privé** (sources) · **binaires publics** / **private** (source) · **public binaries** | Flatpak [1.3.0](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/crypto-tracker-v1.3.0) · native [1.2.17](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/crypto-tracker-v1.2.17) |
+| 📊 [Crypto Tracker](https://github.com/Mr-Aurevo-X/crypto-tracker) | surveillance crypto **locale** — pas un exchange, pas d’achat/vente | **local** crypto watch — not an exchange, no buy/sell | **privé** (sources) · **binaires publics** / **private** (source) · **public binaries** | Flatpak [1.4.0](https://github.com/Mr-Aurevo-X/linux-flatpak-releases/releases/tag/crypto-tracker-v1.4.0) · native [1.2.17](https://github.com/Mr-Aurevo-X/linux-releases/releases/tag/crypto-tracker-v1.2.17) |
 | 🎮 [Game Lounge](https://github.com/Mr-Aurevo-X/Game-Lounge) | hub de jeux web (28 \*-X, site statique) | web game hub (28 \*-X, static site) | **privé** / **private** | — |
 
 ---
