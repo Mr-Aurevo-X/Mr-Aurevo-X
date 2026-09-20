@@ -5,6 +5,7 @@
 <a href="https://mr-aurevo-x.github.io"><img src="https://img.shields.io/badge/catalogue-mr--aurevo--x.github.io-050807?style=for-the-badge&labelColor=00f0ff&color=071410" alt="Catalogue"/></a>
 <a href="https://github.com/Mr-Aurevo-X#user-content-windows"><img src="https://img.shields.io/badge/WINDOWS-PC_Command-050807?style=for-the-badge&labelColor=39ff14&color=071410&logo=windows&logoColor=050807" alt="Windows"/></a>
 <a href="https://github.com/Mr-Aurevo-X#user-content-linux"><img src="https://img.shields.io/badge/Linux-Command-050807?style=for-the-badge&labelColor=00f0ff&color=071410&logo=linux&logoColor=050807" alt="Linux Command"/></a>
+<a href="https://github.com/Mr-Aurevo-X#user-content-support"><img src="https://img.shields.io/badge/Crypto-dons_·_tips-050807?style=for-the-badge&labelColor=f7931a&color=071410&logo=bitcoin&logoColor=f7931a" alt="Crypto donations"/></a>
 
 </div>
 
@@ -157,10 +158,64 @@ Cursor AI builds and operates. Mr-Aurevo-X brings ideas, stress-tests, and the g
 
 ---
 
+<h2 id="support" align="center">💰 Crypto donations · Dons crypto</h2>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/⚠️-vérifier_réseau_+_adresse-050807?style=for-the-badge&labelColor=f85149&color=071410" alt="Verify network"/>
+<img src="https://img.shields.io/badge/optional-100%25_facultatif-050807?style=for-the-badge&labelColor=39ff14&color=071410" alt="Optional"/>
+
+</div>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+Dons **facultatifs** pour l’atelier (outils gratuits, infra, temps QA).  
+Copie l’adresse depuis le tableau — **jamais** depuis une capture d’écran.
+
+</td>
+<td width="50%" valign="top">
+
+**Optional** tips for the workshop (free tools, infra, QA time).  
+Copy addresses from the table — **never** from a screenshot.
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="left">Asset</th>
+<th align="left">Network</th>
+<th align="left">Address</th>
+</tr>
+</thead>
+<tbody>
+<tr><td align="center">₿</td><td><strong>BTC</strong></td><td>Bitcoin</td><td><code>bc1ql2wj4spehf2zu40329lspr9a3thzuy9gyy4xm7</code></td></tr>
+<tr><td align="center">Ξ</td><td><strong>ETH</strong></td><td>Ethereum</td><td><code>0x21daa0434976FDA8C4Ce6fA494602e734f051e21</code></td></tr>
+<tr><td align="center">◇</td><td><strong>HYPE</strong></td><td>Hyperliquid (EVM)</td><td><code>0x21daa0434976FDA8C4Ce6fA494602e734f051e21</code></td></tr>
+<tr><td align="center">◎</td><td><strong>SOL</strong></td><td>Solana</td><td><code>E1MoayFrzC6Phe4g17Qfswub8hk1ytnp8Db8qguqPdv1</code></td></tr>
+<tr><td align="center">₮</td><td><strong>USDT</strong></td><td>Tron (TRC-20)</td><td><code>TKVvKinR4Ksrs2f8AN5NuVeysmizmh42Ch</code></td></tr>
+<tr><td align="center">$</td><td><strong>USDC</strong></td><td>Solana</td><td><code>E1MoayFrzC6Phe4g17Qfswub8hk1ytnp8Db8qguqPdv1</code></td></tr>
+<tr><td align="center">Ƀ</td><td><strong>BCH</strong></td><td>Bitcoin Cash</td><td><code>bitcoincash:qrdwzcg372fvahkk0rz7y8mrr0fnaw2ygg5fk6mfke</code></td></tr>
+<tr><td align="center">Ð</td><td><strong>DOGE</strong></td><td>Dogecoin</td><td><code>D7649yHmrYMCGcfFfoKVxyAAot45HCmAVp</code></td></tr>
+<tr><td align="center">✕</td><td><strong>XRP</strong></td><td>XRP Ledger</td><td><code>rEtVrJSb3BTANFKT2aTCS9jUahp74v3U6K</code></td></tr>
+<tr><td align="center">✦</td><td><strong>XLM</strong></td><td>Stellar</td><td><code>GDISSPFVTPNKMVMX5OSNJBLS2DYBMP4ZTBPRSORHWXI4NJHFS5KKSBRN</code></td></tr>
+</tbody>
+</table>
+
+---
+
 <div align="center">
 
 [![Catalogue](https://img.shields.io/badge/Catalogue-github.io-00f0ff?style=for-the-badge&labelColor=050807)](https://mr-aurevo-x.github.io)
 [![Discord](https://img.shields.io/badge/Discord-Mr--Aurevo--X-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=050807)](https://discord.com/users/406891052516114442)
+[![Crypto](https://img.shields.io/badge/Crypto-dons_·_tips-f7931a?style=for-the-badge&logo=bitcoin&logoColor=050807&labelColor=050807)](https://github.com/Mr-Aurevo-X#user-content-support)
 
 **Built by Cursor AI · Ideas & QA by Mr-Aurevo-X**
 
