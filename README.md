@@ -3,9 +3,9 @@
 # `>_ mr-aurevo-x@workshop:~`
 
 <a href="https://mr-aurevo-x.github.io"><img src="https://img.shields.io/badge/catalogue-mr--aurevo--x.github.io-050807?style=for-the-badge&labelColor=00f0ff&color=071410" alt="Catalogue"/></a>
-<a href="#windows"><img src="https://img.shields.io/badge/WINDOWS-PC_Command-050807?style=for-the-badge&labelColor=39ff14&color=071410&logo=windows&logoColor=050807" alt="Windows"/></a>
-<a href="#linux"><img src="https://img.shields.io/badge/Linux-Command-050807?style=for-the-badge&labelColor=00f0ff&color=071410&logo=linux&logoColor=050807" alt="Linux Command"/></a>
-<a href="#support"><img src="https://img.shields.io/badge/Crypto-dons_·_tips-050807?style=for-the-badge&labelColor=f7931a&color=071410&logo=bitcoin&logoColor=f7931a" alt="Crypto donations"/></a>
+<a href="https://github.com/Mr-Aurevo-X#user-content-windows"><img src="https://img.shields.io/badge/WINDOWS-PC_Command-050807?style=for-the-badge&labelColor=39ff14&color=071410&logo=windows&logoColor=050807" alt="Windows"/></a>
+<a href="https://github.com/Mr-Aurevo-X#user-content-linux"><img src="https://img.shields.io/badge/Linux-Command-050807?style=for-the-badge&labelColor=00f0ff&color=071410&logo=linux&logoColor=050807" alt="Linux Command"/></a>
+<a href="https://github.com/Mr-Aurevo-X#user-content-support"><img src="https://img.shields.io/badge/Crypto-dons_·_tips-050807?style=for-the-badge&labelColor=f7931a&color=071410&logo=bitcoin&logoColor=f7931a" alt="Crypto donations"/></a>
 
 </div>
 
@@ -28,9 +28,7 @@ Free · as local as possible · no account.
 
 ---
 
-<a id="windows"></a>
-
-## 🪟 Windows
+<h2 id="windows">🪟 Windows</h2>
 
 <table>
 <tr>
@@ -83,9 +81,7 @@ SmartScreen may appear: binaries are **unsigned**.
 
 ---
 
-<a id="linux"></a>
-
-## 🐧 Linux
+<h2 id="linux">🐧 Linux</h2>
 
 <table>
 <tr>
@@ -126,9 +122,7 @@ Hubs are **standalone GTK 4 apps** — you don’t have to install the launcher.
 
 ---
 
-<a id="ia"></a>
-
-## ⚡ IA
+<h2 id="ia">⚡ IA</h2>
 
 <div align="center">
 
@@ -164,11 +158,9 @@ Cursor AI builds and operates. Mr-Aurevo-X brings ideas, stress-tests, and the g
 
 ---
 
-<a id="support"></a>
+<h2 id="support" align="center">💰 Crypto donations · Dons crypto</h2>
 
 <div align="center">
-
-## 💰 Crypto donations · Dons crypto
 
 <img src="https://img.shields.io/badge/⚠️-vérifier_réseau_+_adresse-050807?style=for-the-badge&labelColor=f85149&color=071410" alt="Verify network"/>
 <img src="https://img.shields.io/badge/optional-100%25_facultatif-050807?style=for-the-badge&labelColor=39ff14&color=071410" alt="Optional"/>
@@ -224,7 +216,7 @@ Copy addresses from the table — **never** from a screenshot.
 
 [![Catalogue](https://img.shields.io/badge/Catalogue-github.io-00f0ff?style=for-the-badge&labelColor=050807)](https://mr-aurevo-x.github.io)
 [![Discord](https://img.shields.io/badge/Discord-Mr--Aurevo--X-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=050807)](https://discord.com/users/406891052516114442)
-[![Crypto](https://img.shields.io/badge/Crypto-dons_·_tips-f7931a?style=for-the-badge&logo=bitcoin&logoColor=050807&labelColor=050807)](#support)
+[![Crypto](https://img.shields.io/badge/Crypto-dons_·_tips-f7931a?style=for-the-badge&logo=bitcoin&logoColor=050807&labelColor=050807)](https://github.com/Mr-Aurevo-X#user-content-support)
 
 **Built by Cursor AI · Ideas & QA by Mr-Aurevo-X**
 
