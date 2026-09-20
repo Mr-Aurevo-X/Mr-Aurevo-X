@@ -164,50 +164,37 @@ Cursor AI builds and operates. Mr-Aurevo-X brings ideas, stress-tests, and the g
 
 ---
 
-## 🛠️ Sur mesure — Custom builds
+<a id="support"></a>
 
-`BY_REQUEST` | `AI_BUILT` | `HUMAN_QA` | `GITHUB_COMPLIANT` | `SCOPE_FIRST`
+## 💰 Crypto donations · Dons crypto
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-Logiciels **à la demande**, **toujours via IA**. Cursor construit · Mr-Aurevo-X cadre, teste et **valide**.  
-Pas une presta « développeur humain au kilo ».
-
-Périmètre : utilitaires desktop, outils locaux, scripts, intégrations légères.  
-Conforme [ToS](https://docs.github.com/site-policy/github-terms/github-terms-of-service) / [AUP](https://docs.github.com/site-policy/acceptable-use-policies/github-acceptable-use-policy) / [Guidelines](https://docs.github.com/site-policy/github-terms/github-community-guidelines) — pas de malware, pas de crack / DRM, pas de spam.
-
-Tout **repo public** reste **gratuit**. Le sur-mesure se discute en amont.
+Dons **facultatifs** — merci de vérifier **réseau et adresse** avant tout envoi.
 
 </td>
 <td width="50%" valign="top">
 
-**On-demand** software, **always AI-built**. Cursor builds · Mr-Aurevo-X scopes, tests, and **signs off**.  
-Not a hired-dev-by-the-hour shop.
-
-Scope: desktop utilities, local-first tools, scripts, light integrations.  
-Stays within GitHub [ToS](https://docs.github.com/site-policy/github-terms/github-terms-of-service) / [AUP](https://docs.github.com/site-policy/acceptable-use-policies/github-acceptable-use-policy) / [Guidelines](https://docs.github.com/site-policy/github-terms/github-community-guidelines) — no malware, no cracks / DRM bypass, no spam.
-
-Every **public repo** stays **free**. Custom work is agreed up front.
+**Optional** tips — please **verify network and address** before sending anything.
 
 </td>
 </tr>
 </table>
 
-```diff
-+ MODEL .......... Cursor AI builds | Mr-Aurevo-X ideas + QA + sign-off
-+ IN_SCOPE ....... desktop tools | admin helpers | local-first apps | Discord bots (compliant)
-+ PROCESS ........ brief → feasibility → estimate → AI build → human QA → handoff
-! OUT_OF_SCOPE ... cheats | cracks | spyware | ToS / AUP violations | "code only by hand / no AI"
-```
-
-| | FR | EN |
+| Asset | Network | Address |
 |:--|:--|:--|
-| 💬 **Contact** | [Discord DM](https://discord.com/users/406891052516114442) — décrire le besoin | [Discord DM](https://discord.com/users/406891052516114442) — describe the use case |
-| **Livraison / Delivery** | sources IA + chemin de build · QA Mr-Aurevo-X · repo privé ou public | AI-built sources + build path · Mr-Aurevo-X QA · private or public repo |
-| **Stack** | Python · pywebview · PowerShell · GTK / Flatpak · Node / React | Python · pywebview · PowerShell · GTK / Flatpak · Node / React |
-| **Engagement / Commitment** | pas d’engagement sans accord écrit | no commitment without a written agreement |
+| **BTC** | Bitcoin | `bc1q9quv7eqlpt4ku5ahqvel8ckqd7yh2wk74au05v` |
+| **ETH** | Ethereum | `0x47edC1e599cf5E8FddAca61D64f0C4E550fB4446` |
+| **SOL** | Solana | `572hQcaX2zBhxwVCwLCDKLQi1Ag1dDpVfMzk58B56DCx` |
+| **USDT** | Tron (TRC-20) | `TYr9RNEqbUvEQXKGi418msZiRfb6xQh4iX` |
+| **USDC** | Solana | `572hQcaX2zBhxwVCwLCDKLQi1Ag1dDpVfMzk58B56DCx` |
+| **XLM** | Stellar | `GDGNEUM6WCKPFLHANDGOR75PXRMFL34QJCGVDTG6HBLSIPOLOAJVKGBJ` |
+| **XRP** | XRP Ledger | `r3Lh1ZxxWjrWUn6xeehfEMH2d3vzxCL3ch` |
+| **LTC** | Litecoin | `ltc1q5p0pnp7scx98pdja989v87nnzs2wdun5eqnldz` |
+| **BCH** | Bitcoin Cash | `bitcoincash:qzffg3w32ew6qekwp95elgh3xnp3457ee5qldq5afy` |
+| **ZEC** | Zcash | `t1TFvGGGaqRi158kuQmzb7khFkjsgfdpY3d` |
 
 ---
 
