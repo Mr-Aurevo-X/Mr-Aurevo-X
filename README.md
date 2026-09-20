@@ -203,6 +203,7 @@ Copy addresses from the table — **never** from a screenshot.
 <tr><td align="center">₮</td><td><strong>USDT</strong></td><td>Tron (TRC-20)</td><td><code>TKVvKinR4Ksrs2f8AN5NuVeysmizmh42Ch</code></td></tr>
 <tr><td align="center">$</td><td><strong>USDC</strong></td><td>Solana</td><td><code>E1MoayFrzC6Phe4g17Qfswub8hk1ytnp8Db8qguqPdv1</code></td></tr>
 <tr><td align="center">Ƀ</td><td><strong>BCH</strong></td><td>Bitcoin Cash</td><td><code>bitcoincash:qrdwzcg372fvahkk0rz7y8mrr0fnaw2ygg5fk6mfke</code></td></tr>
+<tr><td align="center">Ł</td><td><strong>LTC</strong></td><td>Litecoin</td><td><code>ltc1qmnm2j2nn59ycnhk3x0t33c24fpxlxjxrxha2mj</code></td></tr>
 <tr><td align="center">Ð</td><td><strong>DOGE</strong></td><td>Dogecoin</td><td><code>D7649yHmrYMCGcfFfoKVxyAAot45HCmAVp</code></td></tr>
 <tr><td align="center">✕</td><td><strong>XRP</strong></td><td>XRP Ledger</td><td><code>rEtVrJSb3BTANFKT2aTCS9jUahp74v3U6K</code></td></tr>
 <tr><td align="center">✦</td><td><strong>XLM</strong></td><td>Stellar</td><td><code>GDISSPFVTPNKMVMX5OSNJBLS2DYBMP4ZTBPRSORHWXI4NJHFS5KKSBRN</code></td></tr>
