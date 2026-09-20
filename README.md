@@ -187,6 +187,7 @@ Dons **facultatifs** — merci de vérifier **réseau et adresse** avant tout en
 |:--|:--|:--|
 | **BTC** | Bitcoin | `bc1q9quv7eqlpt4ku5ahqvel8ckqd7yh2wk74au05v` |
 | **ETH** | Ethereum | `0x47edC1e599cf5E8FddAca61D64f0C4E550fB4446` |
+| **HYPE** | Hyperliquid (EVM) | `0x47edC1e599cf5E8FddAca61D64f0C4E550fB4446` |
 | **SOL** | Solana | `572hQcaX2zBhxwVCwLCDKLQi1Ag1dDpVfMzk58B56DCx` |
 | **USDT** | Tron (TRC-20) | `TYr9RNEqbUvEQXKGi418msZiRfb6xQh4iX` |
 | **USDC** | Solana | `572hQcaX2zBhxwVCwLCDKLQi1Ag1dDpVfMzk58B56DCx` |
