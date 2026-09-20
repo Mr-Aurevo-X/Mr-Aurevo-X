@@ -5,7 +5,6 @@
 <a href="https://mr-aurevo-x.github.io"><img src="https://img.shields.io/badge/catalogue-mr--aurevo--x.github.io-050807?style=for-the-badge&labelColor=00f0ff&color=071410" alt="Catalogue"/></a>
 <a href="https://github.com/Mr-Aurevo-X#user-content-windows"><img src="https://img.shields.io/badge/WINDOWS-PC_Command-050807?style=for-the-badge&labelColor=39ff14&color=071410&logo=windows&logoColor=050807" alt="Windows"/></a>
 <a href="https://github.com/Mr-Aurevo-X#user-content-linux"><img src="https://img.shields.io/badge/Linux-Command-050807?style=for-the-badge&labelColor=00f0ff&color=071410&logo=linux&logoColor=050807" alt="Linux Command"/></a>
-<a href="https://github.com/Mr-Aurevo-X#user-content-support"><img src="https://img.shields.io/badge/Crypto-dons_·_tips-050807?style=for-the-badge&labelColor=f7931a&color=071410&logo=bitcoin&logoColor=f7931a" alt="Crypto donations"/></a>
 
 </div>
 
@@ -158,65 +157,10 @@ Cursor AI builds and operates. Mr-Aurevo-X brings ideas, stress-tests, and the g
 
 ---
 
-<h2 id="support" align="center">💰 Crypto donations · Dons crypto</h2>
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/⚠️-vérifier_réseau_+_adresse-050807?style=for-the-badge&labelColor=f85149&color=071410" alt="Verify network"/>
-<img src="https://img.shields.io/badge/optional-100%25_facultatif-050807?style=for-the-badge&labelColor=39ff14&color=071410" alt="Optional"/>
-
-</div>
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-Dons **facultatifs** pour l’atelier (outils gratuits, infra, temps QA).  
-Copie l’adresse depuis le tableau — **jamais** depuis une capture d’écran.
-
-</td>
-<td width="50%" valign="top">
-
-**Optional** tips for the workshop (free tools, infra, QA time).  
-Copy addresses from the table — **never** from a screenshot.
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-<th align="left">Asset</th>
-<th align="left">Network</th>
-<th align="left">Address</th>
-</tr>
-</thead>
-<tbody>
-<tr><td align="center">₿</td><td><strong>BTC</strong></td><td>Bitcoin</td><td><code>bc1q9quv7eqlpt4ku5ahqvel8ckqd7yh2wk74au05v</code></td></tr>
-<tr><td align="center">Ξ</td><td><strong>ETH</strong></td><td>Ethereum</td><td><code>0x47edC1e599cf5E8FddAca61D64f0C4E550fB4446</code></td></tr>
-<tr><td align="center">◇</td><td><strong>HYPE</strong></td><td>Hyperliquid (EVM)</td><td><code>0x47edC1e599cf5E8FddAca61D64f0C4E550fB4446</code></td></tr>
-<tr><td align="center">◎</td><td><strong>SOL</strong></td><td>Solana</td><td><code>572hQcaX2zBhxwVCwLCDKLQi1Ag1dDpVfMzk58B56DCx</code></td></tr>
-<tr><td align="center">₮</td><td><strong>USDT</strong></td><td>Tron (TRC-20)</td><td><code>TYr9RNEqbUvEQXKGi418msZiRfb6xQh4iX</code></td></tr>
-<tr><td align="center">$</td><td><strong>USDC</strong></td><td>Solana</td><td><code>572hQcaX2zBhxwVCwLCDKLQi1Ag1dDpVfMzk58B56DCx</code></td></tr>
-<tr><td align="center">✦</td><td><strong>XLM</strong></td><td>Stellar</td><td><code>GDGNEUM6WCKPFLHANDGOR75PXRMFL34QJCGVDTG6HBLSIPOLOAJVKGBJ</code></td></tr>
-<tr><td align="center">✕</td><td><strong>XRP</strong></td><td>XRP Ledger</td><td><code>r3Lh1ZxxWjrWUn6xeehfEMH2d3vzxCL3ch</code></td></tr>
-<tr><td align="center">Ł</td><td><strong>LTC</strong></td><td>Litecoin</td><td><code>ltc1q5p0pnp7scx98pdja989v87nnzs2wdun5eqnldz</code></td></tr>
-<tr><td align="center">Ƀ</td><td><strong>BCH</strong></td><td>Bitcoin Cash</td><td><code>bitcoincash:qzffg3w32ew6qekwp95elgh3xnp3457ee5qldq5afy</code></td></tr>
-<tr><td align="center">🛡</td><td><strong>ZEC</strong></td><td>Zcash</td><td><code>t1TFvGGGaqRi158kuQmzb7khFkjsgfdpY3d</code></td></tr>
-</tbody>
-</table>
-
----
-
 <div align="center">
 
 [![Catalogue](https://img.shields.io/badge/Catalogue-github.io-00f0ff?style=for-the-badge&labelColor=050807)](https://mr-aurevo-x.github.io)
 [![Discord](https://img.shields.io/badge/Discord-Mr--Aurevo--X-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=050807)](https://discord.com/users/406891052516114442)
-[![Crypto](https://img.shields.io/badge/Crypto-dons_·_tips-f7931a?style=for-the-badge&logo=bitcoin&logoColor=050807&labelColor=050807)](https://github.com/Mr-Aurevo-X#user-content-support)
 
 **Built by Cursor AI · Ideas & QA by Mr-Aurevo-X**
 
