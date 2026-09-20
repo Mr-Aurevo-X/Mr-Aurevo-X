@@ -216,7 +216,10 @@ Copy addresses from the table — **never** from a screenshot.
 
 [![Catalogue](https://img.shields.io/badge/Catalogue-github.io-00f0ff?style=for-the-badge&labelColor=050807)](https://mr-aurevo-x.github.io)
 [![Discord](https://img.shields.io/badge/Discord-Mr--Aurevo--X-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=050807)](https://discord.com/users/406891052516114442)
+<<<<<<< HEAD
 [![Crypto](https://img.shields.io/badge/Crypto-dons_·_tips-f7931a?style=for-the-badge&logo=bitcoin&logoColor=050807&labelColor=050807)](https://github.com/Mr-Aurevo-X#user-content-support)
+=======
+>>>>>>> 5014740 (Replace PayPal/Revolut donations with Discord and copyable crypto addresses (Uni-UI).)
 
 **Built by Cursor AI · Ideas & QA by Mr-Aurevo-X**
 
