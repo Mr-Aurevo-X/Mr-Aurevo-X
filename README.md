@@ -77,7 +77,7 @@ SmartScreen may appear: binaries are **unsigned**.
 | 📋 [GameChangelog](https://github.com/Mr-Aurevo-X/GameChangelog) | patch notes Steam | Steam patch notes | **public** | v1.0.3 |
 | 🎮 [Game Lounge](https://github.com/Mr-Aurevo-X/Game-Lounge) | hub de jeux web (28 \*-X, site statique) | web game hub (28 \*-X, static site) | **privé** / **private** | — |
 | ⚡ [SoftTunes](https://github.com/Mr-Aurevo-X/SoftTunes) | prépa session + HUD FPS *(pas un booster)* | session prep + FPS HUD *(not a booster)* | **public** | v2.0.2 |
-| ⚓ [LocalDock](https://github.com/Mr-Aurevo-X/LocalDock) | racines de confiance · scan · loopback | trust roots · scan · loopback | **public** | v0.1.0 |
+| ⚓ [LocalDock](https://github.com/Mr-Aurevo-X/LocalDock) | racines de confiance · scan · loopback | trust roots · scan · loopback | **public** | [v0.1.1](https://github.com/Mr-Aurevo-X/LocalDock/releases/tag/v0.1.1) |
 
 ---
 
@@ -106,12 +106,12 @@ Hubs are **standalone GTK 4 apps** — you don’t have to install the launcher.
 
 | App | FR | EN | Visibilité / Visibility | Version |
 |:--|:--|:--|:--|:--|
-| 🎛️ [Linux Command](https://github.com/Mr-Aurevo-X/Linux-Command) | launcher / commander (optionnel) | optional launcher / commander | **public** | [v0.2.6](https://github.com/Mr-Aurevo-X/Linux-Command/releases/tag/v0.2.6) |
-| 💻 [Hub Système](https://github.com/Mr-Aurevo-X/Hub-Systeme-Linux) | santé · process · paquets · disques · journaux | health · processes · packages · disks · logs | **public** | [v1.1.4](https://github.com/Mr-Aurevo-X/Hub-Systeme-Linux/releases/tag/v1.1.4) |
-| 📡 [Hub Réseau](https://github.com/Mr-Aurevo-X/Hub-Reseau-Linux) | interfaces · flotte · diagnostic | interfaces · fleet · diagnostics | **public** | [v1.3.5](https://github.com/Mr-Aurevo-X/Hub-Reseau-Linux/releases/tag/v1.3.5) |
-| 🛡️ [Hub Sécurité](https://github.com/Mr-Aurevo-X/Hub-Securite-Linux) | audit · secrets · permissions | audit · secrets · permissions | **public** | [v1.3.4](https://github.com/Mr-Aurevo-X/Hub-Securite-Linux/releases/tag/v1.3.4) |
-| 🧰 [Hub Utilitaires](https://github.com/Mr-Aurevo-X/Hub-Utilitaires-Linux) | search · hash · PDF · images · disk map | search · hash · PDF · images · disk map | **public** | [v1.1.5](https://github.com/Mr-Aurevo-X/Hub-Utilitaires-Linux/releases/tag/v1.1.5) |
-| 🔧 [Hub Dev](https://github.com/Mr-Aurevo-X/Hub-Dev-Linux) | loopback + ports locaux | loopback + local ports | **public** | [v1.2.8](https://github.com/Mr-Aurevo-X/Hub-Dev-Linux/releases/tag/v1.2.8) |
+| 🎛️ [Linux Command](https://github.com/Mr-Aurevo-X/Linux-Command) | launcher / commander (optionnel) | optional launcher / commander | **public** | [v0.2.7](https://github.com/Mr-Aurevo-X/Linux-Command/releases/tag/v0.2.7) |
+| 💻 [Hub Système](https://github.com/Mr-Aurevo-X/Hub-Systeme-Linux) | santé · process · paquets · disques · journaux | health · processes · packages · disks · logs | **public** | [v1.1.5](https://github.com/Mr-Aurevo-X/Hub-Systeme-Linux/releases/tag/v1.1.5) |
+| 📡 [Hub Réseau](https://github.com/Mr-Aurevo-X/Hub-Reseau-Linux) | interfaces · flotte · diagnostic | interfaces · fleet · diagnostics | **public** | [v1.3.6](https://github.com/Mr-Aurevo-X/Hub-Reseau-Linux/releases/tag/v1.3.6) |
+| 🛡️ [Hub Sécurité](https://github.com/Mr-Aurevo-X/Hub-Securite-Linux) | audit · secrets · permissions | audit · secrets · permissions | **public** | [v1.3.5](https://github.com/Mr-Aurevo-X/Hub-Securite-Linux/releases/tag/v1.3.5) |
+| 🧰 [Hub Utilitaires](https://github.com/Mr-Aurevo-X/Hub-Utilitaires-Linux) | search · hash · PDF · images · disk map | search · hash · PDF · images · disk map | **public** | [v1.1.6](https://github.com/Mr-Aurevo-X/Hub-Utilitaires-Linux/releases/tag/v1.1.6) |
+| 🔧 [Hub Dev](https://github.com/Mr-Aurevo-X/Hub-Dev-Linux) | loopback + ports locaux | loopback + local ports | **public** | [v1.2.9](https://github.com/Mr-Aurevo-X/Hub-Dev-Linux/releases/tag/v1.2.9) |
 
 ### 📦 Standalones
 
