@@ -147,7 +147,7 @@ def factory_svg() -> str:
   <text x="834" y="230" fill="{GREEN}" font-family="Consolas, monospace" font-size="12">CONNECT</text>
   <text x="834" y="254" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="11">Discord user</text>
   <text x="834" y="274" fill="{SOFT_G}" font-family="Consolas, monospace" font-size="11">guns.lol</text>
-  <text x="834" y="294" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="11">PayPal | Revolut</text>
+  <text x="834" y="294" fill="{SOFT_C}" font-family="Consolas, monospace" font-size="11">Discord | Crypto</text>
 
   <rect x="834" y="330" width="210" height="36" rx="6" fill="#071018" stroke="{GREEN}"/>
   <text x="848" y="352" fill="{GREEN}" font-family="Consolas, monospace" font-size="11">FACTORY = ONLINE</text>
