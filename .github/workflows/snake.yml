@@ -1,12 +1,11 @@
 name: Generate Snake
 
 on:
-  schedule:
-    - cron: "0 */12 * * *"
   workflow_dispatch:
   push:
     branches: [main]
     paths:
+      - "README.md"
       - ".github/workflows/snake.yml"
 
 jobs:
