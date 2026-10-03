@@ -40,7 +40,7 @@ Free · as local as possible · no account.
 Chaque hub = une fenêtre admin, modules du même thème, zip portable `Launch-Hub-*.zip`, UAC.  
 **Autant local que possible** : pas de compte, pas de télémétrie ; la vérif de version GitHub est optionnelle / désactivable.
 
-**Public** · PolyForm Noncommercial 1.0.0 · **v2.0.1**  
+**Public** · PolyForm Noncommercial 1.0.0 · **v2.0.2**  
 SmartScreen possible : binaires **non signés**.
 
 </td>
@@ -52,7 +52,7 @@ SmartScreen possible : binaires **non signés**.
 Each hub = one admin window, same-theme modules, portable zip `Launch-Hub-*.zip`, UAC.  
 **As local as possible**: no account, no telemetry; GitHub version check is optional / can be turned off.
 
-**Public** · PolyForm Noncommercial 1.0.0 · **v2.0.1**  
+**Public** · PolyForm Noncommercial 1.0.0 · **v2.0.2**  
 SmartScreen may appear: binaries are **unsigned**.
 
 </td>
@@ -61,10 +61,10 @@ SmartScreen may appear: binaries are **unsigned**.
 
 | Hub | FR | EN | Visibilité / Visibility | Version |
 |:--|:--|:--|:--|:--|
-| 💻 [Système](https://github.com/Mr-Aurevo-X/Hub-Systeme) | ménage · RAM · process · désinstall | cleanup · RAM · processes · uninstall | **public** | [v2.0.1](https://github.com/Mr-Aurevo-X/Hub-Systeme/releases/tag/v2.0.1) |
-| 📡 [Réseau](https://github.com/Mr-Aurevo-X/Hub-Reseau) | adaptateurs · carte · traffic · Wi‑Fi | adapters · map · traffic · Wi‑Fi | **public** | [v2.0.1](https://github.com/Mr-Aurevo-X/Hub-Reseau/releases/tag/v2.0.1) |
-| 🛡️ [Sécurité](https://github.com/Mr-Aurevo-X/Hub-Securite) | FileGuard · CertView · RepoRadar · WinAudit | FileGuard · CertView · RepoRadar · WinAudit | **public** | [v2.0.1](https://github.com/Mr-Aurevo-X/Hub-Securite/releases/tag/v2.0.1) |
-| 🧰 [Utilitaires](https://github.com/Mr-Aurevo-X/Hub-Utilitaires) | UtilKit + MediaKit | UtilKit + MediaKit | **public** | [v2.0.1](https://github.com/Mr-Aurevo-X/Hub-Utilitaires/releases/tag/v2.0.1) |
+| 💻 [Système](https://github.com/Mr-Aurevo-X/Hub-Systeme) | ménage · RAM · process · désinstall | cleanup · RAM · processes · uninstall | **public** | [v2.0.2](https://github.com/Mr-Aurevo-X/Hub-Systeme/releases/tag/v2.0.2) |
+| 📡 [Réseau](https://github.com/Mr-Aurevo-X/Hub-Reseau) | adaptateurs · carte · traffic · Wi‑Fi | adapters · map · traffic · Wi‑Fi | **public** | [v2.0.2](https://github.com/Mr-Aurevo-X/Hub-Reseau/releases/tag/v2.0.2) |
+| 🛡️ [Sécurité](https://github.com/Mr-Aurevo-X/Hub-Securite) | FileGuard · CertView · RepoRadar · WinAudit | FileGuard · CertView · RepoRadar · WinAudit | **public** | [v2.0.2](https://github.com/Mr-Aurevo-X/Hub-Securite/releases/tag/v2.0.2) |
+| 🧰 [Utilitaires](https://github.com/Mr-Aurevo-X/Hub-Utilitaires) | UtilKit + MediaKit | UtilKit + MediaKit | **public** | [v2.0.2](https://github.com/Mr-Aurevo-X/Hub-Utilitaires/releases/tag/v2.0.2) |
 
 ### 📦 Standalones
 
