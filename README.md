@@ -40,7 +40,7 @@ Free · as local as possible · no account.
 Chaque hub = une fenêtre admin, modules du même thème, zip portable `Launch-Hub-*.zip`, UAC.  
 **Autant local que possible** : pas de compte, pas de télémétrie ; la vérif de version GitHub est optionnelle / désactivable.
 
-**Public** · PolyForm Noncommercial 1.0.0 · **v2.0.2**  
+**Public** · PolyForm Noncommercial 1.0.0 · **v2.0.3**  
 SmartScreen possible : binaires **non signés**.
 
 </td>
@@ -52,7 +52,7 @@ SmartScreen possible : binaires **non signés**.
 Each hub = one admin window, same-theme modules, portable zip `Launch-Hub-*.zip`, UAC.  
 **As local as possible**: no account, no telemetry; GitHub version check is optional / can be turned off.
 
-**Public** · PolyForm Noncommercial 1.0.0 · **v2.0.2**  
+**Public** · PolyForm Noncommercial 1.0.0 · **v2.0.3**  
 SmartScreen may appear: binaries are **unsigned**.
 
 </td>
@@ -61,22 +61,22 @@ SmartScreen may appear: binaries are **unsigned**.
 
 | Hub | FR | EN | Visibilité / Visibility | Version |
 |:--|:--|:--|:--|:--|
-| 💻 [Système](https://github.com/Mr-Aurevo-X/Hub-Systeme) | ménage · RAM · process · désinstall | cleanup · RAM · processes · uninstall | **public** | [v2.0.2](https://github.com/Mr-Aurevo-X/Hub-Systeme/releases/tag/v2.0.2) |
-| 📡 [Réseau](https://github.com/Mr-Aurevo-X/Hub-Reseau) | adaptateurs · carte · traffic · Wi‑Fi | adapters · map · traffic · Wi‑Fi | **public** | [v2.0.2](https://github.com/Mr-Aurevo-X/Hub-Reseau/releases/tag/v2.0.2) |
-| 🛡️ [Sécurité](https://github.com/Mr-Aurevo-X/Hub-Securite) | FileGuard · CertView · RepoRadar · WinAudit | FileGuard · CertView · RepoRadar · WinAudit | **public** | [v2.0.2](https://github.com/Mr-Aurevo-X/Hub-Securite/releases/tag/v2.0.2) |
-| 🧰 [Utilitaires](https://github.com/Mr-Aurevo-X/Hub-Utilitaires) | UtilKit + MediaKit | UtilKit + MediaKit | **public** | [v2.0.2](https://github.com/Mr-Aurevo-X/Hub-Utilitaires/releases/tag/v2.0.2) |
+| 💻 [Système](https://github.com/Mr-Aurevo-X/Hub-Systeme) | ménage · RAM · process · désinstall | cleanup · RAM · processes · uninstall | **public** | [v2.0.3](https://github.com/Mr-Aurevo-X/Hub-Systeme/releases/tag/v2.0.3) |
+| 📡 [Réseau](https://github.com/Mr-Aurevo-X/Hub-Reseau) | adaptateurs · carte · traffic · Wi‑Fi | adapters · map · traffic · Wi‑Fi | **public** | [v2.0.3](https://github.com/Mr-Aurevo-X/Hub-Reseau/releases/tag/v2.0.3) |
+| 🛡️ [Sécurité](https://github.com/Mr-Aurevo-X/Hub-Securite) | FileGuard · CertView · RepoRadar · WinAudit | FileGuard · CertView · RepoRadar · WinAudit | **public** | [v2.0.3](https://github.com/Mr-Aurevo-X/Hub-Securite/releases/tag/v2.0.3) |
+| 🧰 [Utilitaires](https://github.com/Mr-Aurevo-X/Hub-Utilitaires) | UtilKit + MediaKit | UtilKit + MediaKit | **public** | [v2.0.3](https://github.com/Mr-Aurevo-X/Hub-Utilitaires/releases/tag/v2.0.3) |
 
 ### 📦 Standalones
 
 | App | FR | EN | Visibilité / Visibility | Version |
 |:--|:--|:--|:--|:--|
-| 📱 [QrTools](https://github.com/Mr-Aurevo-X/QrTools) | QR simple + lot | simple + batch QR | **public** | v2.0.1 |
-| 📐 [UnitConvert](https://github.com/Mr-Aurevo-X/UnitConvert) | unités + devises (BCE + cache offline) | units + currencies (ECB + offline cache) | **public** | v2.0.1 |
-| ⏱️ [TimeTools](https://github.com/Mr-Aurevo-X/TimeTools) | horodatage · chrono · Pomodoro | timestamps · stopwatch · Pomodoro | **public** | v2.0.1 |
-| 🖼️ [PixClean](https://github.com/Mr-Aurevo-X/PixClean) | strip EXIF / GPS / XMP | strip EXIF / GPS / XMP | **public** | v2.0.1 |
-| 📋 [GameChangelog](https://github.com/Mr-Aurevo-X/GameChangelog) | patch notes Steam | Steam patch notes | **public** | v1.0.4 |
+| 📱 [QrTools](https://github.com/Mr-Aurevo-X/QrTools) | QR simple + lot | simple + batch QR | **public** | v2.0.2 |
+| 📐 [UnitConvert](https://github.com/Mr-Aurevo-X/UnitConvert) | unités + devises (BCE + cache offline) | units + currencies (ECB + offline cache) | **public** | v2.0.2 |
+| ⏱️ [TimeTools](https://github.com/Mr-Aurevo-X/TimeTools) | horodatage · chrono · Pomodoro | timestamps · stopwatch · Pomodoro | **public** | v2.0.2 |
+| 🖼️ [PixClean](https://github.com/Mr-Aurevo-X/PixClean) | strip EXIF / GPS / XMP | strip EXIF / GPS / XMP | **public** | v2.0.2 |
+| 📋 [GameChangelog](https://github.com/Mr-Aurevo-X/GameChangelog) | patch notes Steam | Steam patch notes | **public** | v1.0.5 |
 | 🎮 [Game Lounge](https://github.com/Mr-Aurevo-X/Game-Lounge) | hub de jeux web (28 \*-X, site statique) | web game hub (28 \*-X, static site) | **privé** / **private** | — |
-| ⚡ [SoftTunes](https://github.com/Mr-Aurevo-X/SoftTunes) | prépa session + HUD FPS *(pas un booster)* | session prep + FPS HUD *(not a booster)* | **public** | v2.0.3 |
+| ⚡ [SoftTunes](https://github.com/Mr-Aurevo-X/SoftTunes) | prépa session + HUD FPS *(pas un booster)* | session prep + FPS HUD *(not a booster)* | **public** | v2.0.4 |
 | ⚓ [LocalDock](https://github.com/Mr-Aurevo-X/LocalDock) | racines de confiance · scan · loopback | trust roots · scan · loopback | **public** | [v0.1.2](https://github.com/Mr-Aurevo-X/LocalDock/releases/tag/v0.1.2) |
 
 ---
